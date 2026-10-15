@@ -1,0 +1,282 @@
+{
+  "date": "2026-10-15T11:43:04.527Z",
+  "environment": {
+    "platform": "win32",
+    "node": "v24.19.0",
+    "transport": "direct local HTTP",
+    "timezone": "Asia/Kuala_Lumpur"
+  },
+  "checks": [
+    {
+      "name": "Locked menu: exact 51 names, categories, prices and descriptions",
+      "detail": "PASS"
+    },
+    {
+      "name": "Source, assets, links and metadata /",
+      "detail": "PASS"
+    },
+    {
+      "name": "Source, assets, links and metadata /menu/",
+      "detail": "PASS"
+    },
+    {
+      "name": "Source, assets, links and metadata /story/",
+      "detail": "PASS"
+    },
+    {
+      "name": "Source, assets, links and metadata /gallery/",
+      "detail": "PASS"
+    },
+    {
+      "name": "Source, assets, links and metadata /visit/",
+      "detail": "PASS"
+    },
+    {
+      "name": "Unique page titles and descriptions",
+      "detail": "PASS"
+    },
+    {
+      "name": "HTTP/render/overflow / 320px",
+      "detail": "PASS"
+    },
+    {
+      "name": "HTTP/render/overflow / 375px",
+      "detail": "PASS"
+    },
+    {
+      "name": "HTTP/render/overflow / 390px",
+      "detail": "PASS"
+    },
+    {
+      "name": "HTTP/render/overflow / 568px",
+      "detail": "PASS"
+    },
+    {
+      "name": "HTTP/render/overflow / 768px",
+      "detail": "PASS"
+    },
+    {
+      "name": "HTTP/render/overflow / 860px",
+      "detail": "PASS"
+    },
+    {
+      "name": "HTTP/render/overflow / 1024px",
+      "detail": "PASS"
+    },
+    {
+      "name": "HTTP/render/overflow / 1440px",
+      "detail": "PASS"
+    },
+    {
+      "name": "HTTP/render/overflow / 1920px",
+      "detail": "PASS"
+    },
+    {
+      "name": "HTTP/render/overflow /menu/ 320px",
+      "detail": "PASS"
+    },
+    {
+      "name": "HTTP/render/overflow /menu/ 375px",
+      "detail": "PASS"
+    },
+    {
+      "name": "HTTP/render/overflow /menu/ 390px",
+      "detail": "PASS"
+    },
+    {
+      "name": "HTTP/render/overflow /menu/ 568px",
+      "detail": "PASS"
+    },
+    {
+      "name": "HTTP/render/overflow /menu/ 768px",
+      "detail": "PASS"
+    },
+    {
+      "name": "HTTP/render/overflow /menu/ 860px",
+      "detail": "PASS"
+    },
+    {
+      "name": "HTTP/render/overflow /menu/ 1024px",
+      "detail": "PASS"
+    },
+    {
+      "name": "HTTP/render/overflow /menu/ 1440px",
+      "detail": "PASS"
+    },
+    {
+      "name": "HTTP/render/overflow /menu/ 1920px",
+      "detail": "PASS"
+    },
+    {
+      "name": "HTTP/render/overflow /story/ 320px",
+      "detail": "PASS"
+    },
+    {
+      "name": "HTTP/render/overflow /story/ 375px",
+      "detail": "PASS"
+    },
+    {
+      "name": "HTTP/render/overflow /story/ 390px",
+      "detail": "PASS"
+    },
+    {
+      "name": "HTTP/render/overflow /story/ 568px",
+      "detail": "PASS"
+    },
+    {
+      "name": "HTTP/render/overflow /story/ 768px",
+      "detail": "PASS"
+    },
+    {
+      "name": "HTTP/render/overflow /story/ 860px",
+      "detail": "PASS"
+    },
+    {
+      "name": "HTTP/render/overflow /story/ 1024px",
+      "detail": "PASS"
+    },
+    {
+      "name": "HTTP/render/overflow /story/ 1440px",
+      "detail": "PASS"
+    },
+    {
+      "name": "HTTP/render/overflow /story/ 1920px",
+      "detail": "PASS"
+    },
+    {
+      "name": "HTTP/render/overflow /gallery/ 320px",
+      "detail": "PASS"
+    },
+    {
+      "name": "HTTP/render/overflow /gallery/ 375px",
+      "detail": "PASS"
+    },
+    {
+      "name": "HTTP/render/overflow /gallery/ 390px",
+      "detail": "PASS"
+    },
+    {
+      "name": "HTTP/render/overflow /gallery/ 568px",
+      "detail": "PASS"
+    },
+    {
+      "name": "HTTP/render/overflow /gallery/ 768px",
+      "detail": "PASS"
+    },
+    {
+      "name": "HTTP/render/overflow /gallery/ 860px",
+      "detail": "PASS"
+    },
+    {
+      "name": "HTTP/render/overflow /gallery/ 1024px",
+      "detail": "PASS"
+    },
+    {
+      "name": "HTTP/render/overflow /gallery/ 1440px",
+      "detail": "PASS"
+    },
+    {
+      "name": "HTTP/render/overflow /gallery/ 1920px",
+      "detail": "PASS"
+    },
+    {
+      "name": "HTTP/render/overflow /visit/ 320px",
+      "detail": "PASS"
+    },
+    {
+      "name": "HTTP/render/overflow /visit/ 375px",
+      "detail": "PASS"
+    },
+    {
+      "name": "HTTP/render/overflow /visit/ 390px",
+      "detail": "PASS"
+    },
+    {
+      "name": "HTTP/render/overflow /visit/ 568px",
+      "detail": "PASS"
+    },
+    {
+      "name": "HTTP/render/overflow /visit/ 768px",
+      "detail": "PASS"
+    },
+    {
+      "name": "HTTP/render/overflow /visit/ 860px",
+      "detail": "PASS"
+    },
+    {
+      "name": "HTTP/render/overflow /visit/ 1024px",
+      "detail": "PASS"
+    },
+    {
+      "name": "HTTP/render/overflow /visit/ 1440px",
+      "detail": "PASS"
+    },
+    {
+      "name": "HTTP/render/overflow /visit/ 1920px",
+      "detail": "PASS"
+    },
+    {
+      "name": "Axe WCAG A/AA scans: all five pages desktop and mobile",
+      "detail": "PASS"
+    },
+    {
+      "name": "Actual webfonts loaded",
+      "detail": {
+        "display": true,
+        "body": true,
+        "loaded": [
+          "Cormorant Garamond",
+          "Cormorant Garamond",
+          "DM Sans"
+        ]
+      }
+    },
+    {
+      "name": "All desktop navigation links and ISMAIL destinations",
+      "detail": "PASS"
+    },
+    {
+      "name": "Mobile navigation keyboard, Escape, resize and route selection",
+      "detail": "PASS"
+    },
+    {
+      "name": "Every menu filter, count, announcement, keyboard and deep link",
+      "detail": "PASS"
+    },
+    {
+      "name": "Gallery open, next, previous, arrows, focus containment, Escape and return",
+      "detail": "PASS"
+    },
+    {
+      "name": "Reservation errors, future date, simulation and zero submission/storage",
+      "detail": "PASS"
+    },
+    {
+      "name": "No-JS all routes, navigation, 51 menu entries, image links, disabled demo",
+      "detail": "PASS"
+    },
+    {
+      "name": "Reduced motion, 200% text sizing and image failure layout",
+      "detail": "PASS"
+    },
+    {
+      "name": "No JavaScript exceptions or HTTP asset failures",
+      "detail": "PASS"
+    },
+    {
+      "name": "WebKit: direct routes, menu and modal smoke",
+      "detail": "27.2"
+    },
+    {
+      "name": "Browser version",
+      "detail": "156.0.8078.4"
+    }
+  ],
+  "failures": [],
+  "limitations": [
+    {
+      "name": "Firefox: direct routes, menu and modal smoke",
+      "reason": "browserType.launch: spawn UNKNOWN"
+    }
+  ]
+}

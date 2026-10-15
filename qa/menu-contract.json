@@ -1,0 +1,257 @@
+[
+  {
+    "category": "Starters",
+    "name": "Fire-Roasted Mushroom Soup",
+    "price": "RM22"
+  },
+  {
+    "category": "Starters",
+    "name": "Charred Sourdough & Herb Butter",
+    "price": "RM18"
+  },
+  {
+    "category": "Starters",
+    "name": "Crispy Calamari",
+    "price": "RM29"
+  },
+  {
+    "category": "Starters",
+    "name": "Beef Satay Skewers",
+    "price": "RM36"
+  },
+  {
+    "category": "Starters",
+    "name": "Kerabu Mango Salad",
+    "price": "RM24"
+  },
+  {
+    "category": "Starters",
+    "name": "Chilli Garlic Prawns",
+    "price": "RM38"
+  },
+  {
+    "category": "Starters",
+    "name": "Smoky Chicken Wings",
+    "price": "RM30"
+  },
+  {
+    "category": "Steaks",
+    "name": "Chargrilled Ribeye",
+    "price": "RM118"
+  },
+  {
+    "category": "Steaks",
+    "name": "Peppercorn Sirloin",
+    "price": "RM98"
+  },
+  {
+    "category": "Steaks",
+    "name": "Brown Butter Tenderloin",
+    "price": "RM158"
+  },
+  {
+    "category": "Steaks",
+    "name": "House Striploin",
+    "price": "RM108"
+  },
+  {
+    "category": "Steaks",
+    "name": "Bone-In Ribeye to Share",
+    "price": "RM238"
+  },
+  {
+    "category": "Steaks",
+    "name": "Steak Frites",
+    "price": "RM92"
+  },
+  {
+    "category": "From the Grill",
+    "name": "Percik Grilled Chicken",
+    "price": "RM44"
+  },
+  {
+    "category": "From the Grill",
+    "name": "Charcoal Lamb Shoulder",
+    "price": "RM84"
+  },
+  {
+    "category": "From the Grill",
+    "name": "Sticky Beef Short Ribs",
+    "price": "RM98"
+  },
+  {
+    "category": "From the Grill",
+    "name": "Sambal Butter Tiger Prawns",
+    "price": "RM72"
+  },
+  {
+    "category": "From the Grill",
+    "name": "Sambal Hijau Seabass",
+    "price": "RM64"
+  },
+  {
+    "category": "From the Grill",
+    "name": "Crispy Chicken Chop",
+    "price": "RM42"
+  },
+  {
+    "category": "From the Grill",
+    "name": "Garlic Herb Salmon",
+    "price": "RM76"
+  },
+  {
+    "category": "From the Grill",
+    "name": "Chargrilled Oyster Mushrooms",
+    "price": "RM39"
+  },
+  {
+    "category": "Malaysian Favourites",
+    "name": "Nasi Lemak with Percik Chicken",
+    "price": "RM39"
+  },
+  {
+    "category": "Malaysian Favourites",
+    "name": "Beef Rendang Rice",
+    "price": "RM46"
+  },
+  {
+    "category": "Malaysian Favourites",
+    "name": "Nasi Kerabu with Grilled Fish",
+    "price": "RM46"
+  },
+  {
+    "category": "Malaysian Favourites",
+    "name": "Char Kuey Teow (No Pork or Lard)",
+    "price": "RM32"
+  },
+  {
+    "category": "Malaysian Favourites",
+    "name": "Kampung Fried Rice",
+    "price": "RM30"
+  },
+  {
+    "category": "Malaysian Favourites",
+    "name": "Mee Goreng Mamak",
+    "price": "RM30"
+  },
+  {
+    "category": "Malaysian Favourites",
+    "name": "Salted Egg Chicken Rice",
+    "price": "RM38"
+  },
+  {
+    "category": "Malaysian Favourites",
+    "name": "Masak Lemak Cili Api Beef",
+    "price": "RM48"
+  },
+  {
+    "category": "Malaysian Favourites",
+    "name": "Nasi Goreng Pattaya",
+    "price": "RM34"
+  },
+  {
+    "category": "Malaysian Favourites",
+    "name": "Chicken Curry Laksa",
+    "price": "RM36"
+  },
+  {
+    "category": "Sides",
+    "name": "Truffle Fries",
+    "price": "RM18"
+  },
+  {
+    "category": "Sides",
+    "name": "Garlic Mashed Potatoes",
+    "price": "RM16"
+  },
+  {
+    "category": "Sides",
+    "name": "Charred Kailan",
+    "price": "RM16"
+  },
+  {
+    "category": "Sides",
+    "name": "Butter-Grilled Corn",
+    "price": "RM15"
+  },
+  {
+    "category": "Sides",
+    "name": "Nasi Minyak",
+    "price": "RM12"
+  },
+  {
+    "category": "Sides",
+    "name": "House Sambal Belacan",
+    "price": "RM7"
+  },
+  {
+    "category": "Sides",
+    "name": "Sautéed Mushrooms",
+    "price": "RM18"
+  },
+  {
+    "category": "Desserts",
+    "name": "Gula Melaka Crème Brûlée",
+    "price": "RM24"
+  },
+  {
+    "category": "Desserts",
+    "name": "Burnt Cheesecake",
+    "price": "RM25"
+  },
+  {
+    "category": "Desserts",
+    "name": "Pandan Coconut Panna Cotta",
+    "price": "RM24"
+  },
+  {
+    "category": "Desserts",
+    "name": "Dark Chocolate Fondant",
+    "price": "RM29"
+  },
+  {
+    "category": "Desserts",
+    "name": "Cendol Parfait",
+    "price": "RM23"
+  },
+  {
+    "category": "Non-Alcoholic Drinks",
+    "name": "Teh Tarik",
+    "price": "RM12"
+  },
+  {
+    "category": "Non-Alcoholic Drinks",
+    "name": "Iced Kopi Gula Melaka",
+    "price": "RM16"
+  },
+  {
+    "category": "Non-Alcoholic Drinks",
+    "name": "Bandung Lychee Fizz",
+    "price": "RM17"
+  },
+  {
+    "category": "Non-Alcoholic Drinks",
+    "name": "Calamansi Soda",
+    "price": "RM16"
+  },
+  {
+    "category": "Non-Alcoholic Drinks",
+    "name": "Lemongrass Iced Tea",
+    "price": "RM15"
+  },
+  {
+    "category": "Non-Alcoholic Drinks",
+    "name": "Passionfruit Spritz",
+    "price": "RM18"
+  },
+  {
+    "category": "Non-Alcoholic Drinks",
+    "name": "Still Water",
+    "price": "RM8"
+  },
+  {
+    "category": "Non-Alcoholic Drinks",
+    "name": "Long Black",
+    "price": "RM13"
+  }
+]

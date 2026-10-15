@@ -1,0 +1,125 @@
+{
+  "note": "Three unchanged sequential Lighthouse mobile runs, same settings as five-page audit; no score filtering",
+  "runs": [
+    {
+      "run": 1,
+      "date": "2026-10-15T11:45:29.416Z",
+      "performance": 53,
+      "lcp": 3814.4399999999996,
+      "tbt": 3563.56,
+      "cls": 0,
+      "mainThread": [
+        {
+          "group": "styleLayout",
+          "groupLabel": "Style & Layout",
+          "duration": 6846.635999999999
+        },
+        {
+          "group": "other",
+          "groupLabel": "Other",
+          "duration": 1338.7359999999949
+        },
+        {
+          "group": "scriptEvaluation",
+          "groupLabel": "Script Evaluation",
+          "duration": 216.17600000000002
+        },
+        {
+          "group": "parseHTML",
+          "groupLabel": "Parse HTML & CSS",
+          "duration": 161.80400000000003
+        },
+        {
+          "group": "paintCompositeRender",
+          "groupLabel": "Rendering",
+          "duration": 135.68
+        },
+        {
+          "group": "scriptParseCompile",
+          "groupLabel": "Script Parsing & Compilation",
+          "duration": 10.296000000000001
+        }
+      ]
+    },
+    {
+      "run": 2,
+      "date": "2026-10-15T11:45:54.332Z",
+      "performance": 94,
+      "lcp": 2590.1142,
+      "tbt": 171,
+      "cls": 0,
+      "mainThread": [
+        {
+          "group": "styleLayout",
+          "groupLabel": "Style & Layout",
+          "duration": 1379.7960000000003
+        },
+        {
+          "group": "other",
+          "groupLabel": "Other",
+          "duration": 459.1160000000009
+        },
+        {
+          "group": "paintCompositeRender",
+          "groupLabel": "Rendering",
+          "duration": 80.18800000000002
+        },
+        {
+          "group": "scriptEvaluation",
+          "groupLabel": "Script Evaluation",
+          "duration": 45.247999999999976
+        },
+        {
+          "group": "parseHTML",
+          "groupLabel": "Parse HTML & CSS",
+          "duration": 33.94000000000001
+        },
+        {
+          "group": "scriptParseCompile",
+          "groupLabel": "Script Parsing & Compilation",
+          "duration": 2.348
+        }
+      ]
+    },
+    {
+      "run": 3,
+      "date": "2026-10-15T11:46:05.814Z",
+      "performance": 88,
+      "lcp": 2594.0604,
+      "tbt": 379.6264000000001,
+      "cls": 0,
+      "mainThread": [
+        {
+          "group": "styleLayout",
+          "groupLabel": "Style & Layout",
+          "duration": 1632.8240000000003
+        },
+        {
+          "group": "other",
+          "groupLabel": "Other",
+          "duration": 494.22400000000096
+        },
+        {
+          "group": "paintCompositeRender",
+          "groupLabel": "Rendering",
+          "duration": 60.09599999999999
+        },
+        {
+          "group": "scriptEvaluation",
+          "groupLabel": "Script Evaluation",
+          "duration": 45.31199999999999
+        },
+        {
+          "group": "parseHTML",
+          "groupLabel": "Parse HTML & CSS",
+          "duration": 27.095999999999993
+        },
+        {
+          "group": "scriptParseCompile",
+          "groupLabel": "Script Parsing & Compilation",
+          "duration": 3.24
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "method": "OpenAI built-in image generation, 2026-10-15",
+  "direction": "Photorealistic editorial, warm directional amber light, charcoal shadows, brass and walnut, landscape 3:2. No text, logos, pork or alcohol. All scenes fictional.",
+  "hero": "Sliced chargrilled ribeye with sambal butter, garlic, rosemary; steak on right and dark negative space on left.",
+  "assets": [
+    {
+      "name": "dining-room",
+      "prompt": "Wide architectural photograph of an imagined sophisticated Kuala Lumpur steakhouse dining room at dusk. Dark walnut wall panels, brass pendant lamps, warm cognac leather booths, beautifully set dark timber tables, ivory linen napkins, water tumblers only, tropical greenery, floor to ceiling windows. No people, no alcohol bottles or wine glasses. Symmetrical architectural composition with real spatial depth."
+    },
+    {
+      "name": "grill-fire",
+      "prompt": "Close low angle of thick beef steaks grilling over glowing charcoal with dramatic orange flames licking black iron grill bars, a few sparks, smoke curling into dark background. Realistic culinary action, no hands or people. Wide composition."
+    },
+    {
+      "name": "percik-chicken",
+      "prompt": "Beautiful plate of Malaysian ayam percik: a chargrilled chicken leg quarter coated with warm golden coconut percik sauce and dark char marks, lemongrass, fresh herbs, cucumber and a lime half, on ivory ceramic. Three-quarter food close-up. No rice."
+    },
+    {
+      "name": "grilled-prawns",
+      "prompt": "Six large shell-on tiger prawns, fire grilled with orange sambal butter, bright calamansi, fresh herbs, black ceramic shallow platter. Premium Malaysian steakhouse food styling, accurate crustacean anatomy."
+    },
+    {
+      "name": "nasi-lemak",
+      "prompt": "Authentic Malaysian nasi lemak on a round ivory plate lined with banana leaf: coconut rice mound, percik chicken leg, red sambal, fried anchovies, peanuts, boiled egg half and cucumber slices. Each component distinct and beautifully arranged. Elevated but authentic Malaysian food photography."
+    },
+    {
+      "name": "dessert-brulee",
+      "prompt": "Gula Melaka creme brulee in a shallow dark ceramic ramekin, glossy caramelized golden sugar crust with a small broken section showing creamy custard, antique brass dessert spoon, warm ivory folded linen, no berries or fruit garnish. Macro editorial food photograph."
+    },
+    {
+      "name": "fresh-ingredients",
+      "prompt": "Overhead still life of fresh Malaysian aromatics: red chillies, lemongrass, kaffir lime leaves, turmeric roots, ginger, shallots, garlic, calamansi and black peppercorns, on a dark worn stone worktop with an old brass spice bowl. Beautifully balanced natural arrangement."
+    },
+    {
+      "name": "evening-tables",
+      "prompt": "Intimate close architectural scene in the same imagined upscale Malaysian steakhouse: walnut table for two in a cognac leather booth, softly lit brass wall sconces, one small glowing table lamp, ivory plates and folded linen, clear water tumblers, lush greenery beyond. No people, no bottles or wine glasses. Warm amber evening glow."
+    },
+    {
+      "name": "beef-rendang",
+      "prompt": "Authentic Malaysian beef rendang: dark slow-cooked beef chunks coated with thick dry caramelized coconut spice paste, kaffir lime leaves and toasted coconut, ivory plate with white rice mound and cucumber on the side. Natural texture, no soupy sauce."
+    },
+    {
+      "name": "pandan-dessert",
+      "prompt": "Elegant pandan coconut panna cotta, small pale green cylinder, silky surface, coconut cream, toasted coconut curls, tiny tropical mango garnish on a dark ceramic dessert plate. Close editorial food photograph."
+    },
+    {
+      "name": "kopi-gula-melaka",
+      "prompt": "One short clear tumbler of iced kopi gula melaka on a walnut table, coffee, milk and palm sugar in softly marbled layers, visible ice cubes, condensation, brass teaspoon, small ceramic jug in background. No writing."
+    },
+    {
+      "name": "signature-ribeye",
+      "prompt": "Chargrilled ribeye steak plated whole with dark seared crust, a small ramekin of black pepper sauce, charred shallots, rosemary and a pat of melting butter. Warm ivory ceramic plate on walnut. Close three-quarter view, entire plate visible, generous framing."
+    },
+    {
+      "name": "pepper-sirloin",
+      "prompt": "Sliced medium grilled beef sirloin on charcoal ceramic, glossy black peppercorn sauce, roasted carrots and charred shallots, a few thyme sprigs. Food composed at center, plate fully visible, three-quarter angle."
+    },
+    {
+      "name": "charcoal-lamb",
+      "prompt": "Slow-tender charcoal-grilled lamb shoulder with a smoky char crust, aubergine puree, rosemary and dark jus, plated with restrained elegance on warm ivory ceramic. No bones resembling pork, clearly a lamb roast."
+    },
+    {
+      "name": "mushroom-soup",
+      "prompt": "Fire-roasted mushroom soup in a wide shallow matte charcoal bowl, creamy taupe soup with sauteed mushroom slices, thyme and small swirl of cream. Charred sourdough on a side plate. Close three-quarter angle."
+    },
+    {
+      "name": "burnt-cheesecake",
+      "prompt": "One generous slice of Basque burnt cheesecake with a deeply toasted dark caramel top and creamy ivory centre, on small ivory ceramic, brass dessert fork, dark linen napkin. Elegant close-up, no berries."
+    },
+    {
+      "name": "bandung-lychee",
+      "prompt": "A tall clear tumbler of pale pink bandung rose milk and lychee fizz, small bubbles at top, ice, two peeled lychees, delicate mint sprig, condensation on glass, walnut tabletop and soft amber lamp bokeh. Clearly a soft drink, no bottles or alcohol."
+    }
+  ]
+}

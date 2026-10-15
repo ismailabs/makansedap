@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-15T11:10:35.541Z",
+  "environment": {
+    "platform": "win32",
+    "node": "v24.19.0",
+    "transport": "direct local HTTP",
+    "timezone": "Asia/Kuala_Lumpur"
+  },
+  "checks": [
+    {
+      "name": "Source, assets, links and metadata /",
+      "detail": "PASS"
+    },
+    {
+      "name": "Source, assets, links and metadata /menu/",
+      "detail": "PASS"
+    },
+    {
+      "name": "Source, assets, links and metadata /story/",
+      "detail": "PASS"
+    },
+    {
+      "name": "Source, assets, links and metadata /gallery/",
+      "detail": "PASS"
+    },
+    {
+      "name": "Source, assets, links and metadata /visit/",
+      "detail": "PASS"
+    },
+    {
+      "name": "Unique page titles and descriptions",
+      "detail": "PASS"
+    }
+  ],
+  "failures": [
+    {
+      "name": "Locked menu: exact 51 names, categories, prices and descriptions",
+      "error": "Expected values to be strictly deep-equal:\n+ actual - expected\n... Skipped lines\n\n  [\n    {\n      category: 'Starters',\n      name: 'Fire-Roasted Mushroom Soup',\n      price: 'RM22'\n...\n    {\n+     category: 'Drinks',\n-     category: 'Non-Alcoholic Drinks',\n      name: 'Teh Tarik',\n      price: 'RM12'\n    },\n    {\n+     category: 'Drinks',\n-     category: 'Non-Alcoholic Drinks',\n      name: 'Iced Kopi Gula Melaka',\n      price: 'RM16'\n    },\n    {\n+     category: 'Drinks',\n-     category: 'Non-Alcoholic Drinks',\n      name: 'Bandung Lychee Fizz',\n      price: 'RM17'\n    },\n    {\n+     category: 'Drinks',\n-     category: 'Non-Alcoholic Drinks',\n      name: 'Calamansi Soda',\n      price: 'RM16'\n    },\n    {\n+     category: 'Drinks',\n-     category: 'Non-Alcoholic Drinks',\n      name: 'Lemongrass Iced Tea',\n      price: 'RM15'\n    },\n    {\n+     category: 'Drinks',\n-     category: 'Non-Alcoholic Drinks',\n      name: 'Passionfruit Spritz',\n      price: 'RM18'\n    },\n    {\n+     category: 'Drinks',\n-     category: 'Non-Alcoholic Drinks',\n      name: 'Still Water',\n      price: 'RM8'\n    },\n    {\n+     category: 'Drinks',\n-     category: 'Non-Alcoholic Drinks',\n      name: 'Long Black',\n      price: 'RM13'\n    }\n  ]\n"
+    }
+  ]
+}

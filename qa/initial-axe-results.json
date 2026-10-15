@@ -1,0 +1,170 @@
+[
+  {
+    "route": "/menu/",
+    "width": 390,
+    "violations": []
+  },
+  {
+    "route": "/menu/",
+    "width": 1440,
+    "violations": []
+  },
+  {
+    "route": "/story/",
+    "width": 390,
+    "violations": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "nodes": [
+          {
+            "target": [
+              ".narrow-story > .section-kicker > span:nth-child(1)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.24 (foreground color: #97655a, background color: #f5efe5, font size: 8.8pt (11.68px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".narrow-story > .section-kicker > span:nth-child(3)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.24 (foreground color: #97655a, background color: #f5efe5, font size: 8.8pt (11.68px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".philosophy-list > .shell > .section-kicker > span:nth-child(1)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.24 (foreground color: #97655a, background color: #f5efe5, font size: 8.8pt (11.68px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".philosophy-list > .shell > .section-kicker > span:nth-child(3)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.24 (foreground color: #97655a, background color: #f5efe5, font size: 8.8pt (11.68px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "route": "/story/",
+    "width": 1440,
+    "violations": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "nodes": [
+          {
+            "target": [
+              ".narrow-story > .section-kicker > span:nth-child(1)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.24 (foreground color: #97655a, background color: #f5efe5, font size: 8.8pt (11.68px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".narrow-story > .section-kicker > span:nth-child(3)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.24 (foreground color: #97655a, background color: #f5efe5, font size: 8.8pt (11.68px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".philosophy-list > .shell > .section-kicker > span:nth-child(1)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.24 (foreground color: #97655a, background color: #f5efe5, font size: 8.8pt (11.68px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".philosophy-list > .shell > .section-kicker > span:nth-child(3)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.24 (foreground color: #97655a, background color: #f5efe5, font size: 8.8pt (11.68px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "route": "/gallery/",
+    "width": 390,
+    "violations": []
+  },
+  {
+    "route": "/gallery/",
+    "width": 1440,
+    "violations": []
+  },
+  {
+    "route": "/visit/",
+    "width": 390,
+    "violations": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "nodes": [
+          {
+            "target": [
+              ".reservation-copy > .section-kicker > span:nth-child(1)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.52 (foreground color: #97655a, background color: #e7dac5, font size: 8.8pt (11.68px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".reservation-copy > .section-kicker > span:nth-child(3)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.52 (foreground color: #97655a, background color: #e7dac5, font size: 8.8pt (11.68px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".faq-grid > div:nth-child(1) > .section-kicker > span:nth-child(1)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.24 (foreground color: #97655a, background color: #f5efe5, font size: 8.8pt (11.68px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".faq-grid > div:nth-child(1) > .section-kicker > span:nth-child(3)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.24 (foreground color: #97655a, background color: #f5efe5, font size: 8.8pt (11.68px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "route": "/visit/",
+    "width": 1440,
+    "violations": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "nodes": [
+          {
+            "target": [
+              ".reservation-copy > .section-kicker > span:nth-child(1)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.52 (foreground color: #97655a, background color: #e7dac5, font size: 8.8pt (11.68px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".reservation-copy > .section-kicker > span:nth-child(3)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.52 (foreground color: #97655a, background color: #e7dac5, font size: 8.8pt (11.68px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".faq-grid > div:nth-child(1) > .section-kicker > span:nth-child(1)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.24 (foreground color: #97655a, background color: #f5efe5, font size: 8.8pt (11.68px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".faq-grid > div:nth-child(1) > .section-kicker > span:nth-child(3)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.24 (foreground color: #97655a, background color: #f5efe5, font size: 8.8pt (11.68px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,326 @@
+[
+  {
+    "file": "site/assets/images/hero-ribeye-640.webp",
+    "width": 640,
+    "height": 427,
+    "bytes": 40770
+  },
+  {
+    "file": "site/assets/images/hero-ribeye-960.webp",
+    "width": 960,
+    "height": 640,
+    "bytes": 81210
+  },
+  {
+    "file": "site/assets/images/hero-ribeye.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 207706
+  },
+  {
+    "file": "site/assets/images/dining-room-640.webp",
+    "width": 640,
+    "height": 427,
+    "bytes": 36468
+  },
+  {
+    "file": "site/assets/images/dining-room-960.webp",
+    "width": 960,
+    "height": 640,
+    "bytes": 75704
+  },
+  {
+    "file": "site/assets/images/dining-room.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 209356
+  },
+  {
+    "file": "site/assets/images/grill-fire-640.webp",
+    "width": 640,
+    "height": 427,
+    "bytes": 49150
+  },
+  {
+    "file": "site/assets/images/grill-fire-960.webp",
+    "width": 960,
+    "height": 640,
+    "bytes": 91080
+  },
+  {
+    "file": "site/assets/images/grill-fire.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 217382
+  },
+  {
+    "file": "site/assets/images/percik-chicken-640.webp",
+    "width": 640,
+    "height": 427,
+    "bytes": 36700
+  },
+  {
+    "file": "site/assets/images/percik-chicken-960.webp",
+    "width": 960,
+    "height": 640,
+    "bytes": 69974
+  },
+  {
+    "file": "site/assets/images/percik-chicken.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 173754
+  },
+  {
+    "file": "site/assets/images/grilled-prawns-640.webp",
+    "width": 640,
+    "height": 427,
+    "bytes": 39634
+  },
+  {
+    "file": "site/assets/images/grilled-prawns-960.webp",
+    "width": 960,
+    "height": 640,
+    "bytes": 76794
+  },
+  {
+    "file": "site/assets/images/grilled-prawns.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 194616
+  },
+  {
+    "file": "site/assets/images/nasi-lemak-640.webp",
+    "width": 640,
+    "height": 427,
+    "bytes": 40230
+  },
+  {
+    "file": "site/assets/images/nasi-lemak-960.webp",
+    "width": 960,
+    "height": 640,
+    "bytes": 73674
+  },
+  {
+    "file": "site/assets/images/nasi-lemak.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 173524
+  },
+  {
+    "file": "site/assets/images/dessert-brulee-640.webp",
+    "width": 640,
+    "height": 427,
+    "bytes": 38000
+  },
+  {
+    "file": "site/assets/images/dessert-brulee-960.webp",
+    "width": 960,
+    "height": 640,
+    "bytes": 72698
+  },
+  {
+    "file": "site/assets/images/dessert-brulee.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 181698
+  },
+  {
+    "file": "site/assets/images/fresh-ingredients-640.webp",
+    "width": 640,
+    "height": 427,
+    "bytes": 46922
+  },
+  {
+    "file": "site/assets/images/fresh-ingredients-960.webp",
+    "width": 960,
+    "height": 640,
+    "bytes": 91160
+  },
+  {
+    "file": "site/assets/images/fresh-ingredients.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 247454
+  },
+  {
+    "file": "site/assets/images/evening-tables-640.webp",
+    "width": 640,
+    "height": 427,
+    "bytes": 30218
+  },
+  {
+    "file": "site/assets/images/evening-tables-960.webp",
+    "width": 960,
+    "height": 640,
+    "bytes": 53716
+  },
+  {
+    "file": "site/assets/images/evening-tables.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 129094
+  },
+  {
+    "file": "site/assets/images/beef-rendang-640.webp",
+    "width": 640,
+    "height": 427,
+    "bytes": 43470
+  },
+  {
+    "file": "site/assets/images/beef-rendang-960.webp",
+    "width": 960,
+    "height": 640,
+    "bytes": 83860
+  },
+  {
+    "file": "site/assets/images/beef-rendang.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 212498
+  },
+  {
+    "file": "site/assets/images/pandan-dessert-640.webp",
+    "width": 640,
+    "height": 427,
+    "bytes": 26572
+  },
+  {
+    "file": "site/assets/images/pandan-dessert-960.webp",
+    "width": 960,
+    "height": 640,
+    "bytes": 48644
+  },
+  {
+    "file": "site/assets/images/pandan-dessert.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 124772
+  },
+  {
+    "file": "site/assets/images/kopi-gula-melaka-640.webp",
+    "width": 640,
+    "height": 427,
+    "bytes": 26042
+  },
+  {
+    "file": "site/assets/images/kopi-gula-melaka-960.webp",
+    "width": 960,
+    "height": 640,
+    "bytes": 49032
+  },
+  {
+    "file": "site/assets/images/kopi-gula-melaka.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 126852
+  },
+  {
+    "file": "site/assets/images/signature-ribeye-640.webp",
+    "width": 640,
+    "height": 427,
+    "bytes": 38582
+  },
+  {
+    "file": "site/assets/images/signature-ribeye-960.webp",
+    "width": 960,
+    "height": 640,
+    "bytes": 74288
+  },
+  {
+    "file": "site/assets/images/signature-ribeye.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 191202
+  },
+  {
+    "file": "site/assets/images/pepper-sirloin-640.webp",
+    "width": 640,
+    "height": 427,
+    "bytes": 40414
+  },
+  {
+    "file": "site/assets/images/pepper-sirloin-960.webp",
+    "width": 960,
+    "height": 640,
+    "bytes": 77748
+  },
+  {
+    "file": "site/assets/images/pepper-sirloin.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 197464
+  },
+  {
+    "file": "site/assets/images/charcoal-lamb-640.webp",
+    "width": 640,
+    "height": 427,
+    "bytes": 40426
+  },
+  {
+    "file": "site/assets/images/charcoal-lamb-960.webp",
+    "width": 960,
+    "height": 640,
+    "bytes": 76800
+  },
+  {
+    "file": "site/assets/images/charcoal-lamb.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 193906
+  },
+  {
+    "file": "site/assets/images/mushroom-soup-640.webp",
+    "width": 640,
+    "height": 427,
+    "bytes": 39386
+  },
+  {
+    "file": "site/assets/images/mushroom-soup-960.webp",
+    "width": 960,
+    "height": 640,
+    "bytes": 75928
+  },
+  {
+    "file": "site/assets/images/mushroom-soup.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 188614
+  },
+  {
+    "file": "site/assets/images/burnt-cheesecake-640.webp",
+    "width": 640,
+    "height": 427,
+    "bytes": 26916
+  },
+  {
+    "file": "site/assets/images/burnt-cheesecake-960.webp",
+    "width": 960,
+    "height": 640,
+    "bytes": 52314
+  },
+  {
+    "file": "site/assets/images/burnt-cheesecake.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 135582
+  },
+  {
+    "file": "site/assets/images/bandung-lychee-640.webp",
+    "width": 640,
+    "height": 427,
+    "bytes": 23460
+  },
+  {
+    "file": "site/assets/images/bandung-lychee-960.webp",
+    "width": 960,
+    "height": 640,
+    "bytes": 43814
+  },
+  {
+    "file": "site/assets/images/bandung-lychee.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 112650
+  }
+]

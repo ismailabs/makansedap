@@ -1,0 +1,24 @@
+{
+  "h1": [
+    {
+      "familyName": "Cormorant Garamond Light",
+      "postScriptName": "Cormorant-Garamond-Light-Italic",
+      "isCustomFont": true,
+      "glyphCount": 16
+    },
+    {
+      "familyName": "Cormorant Garamond Light",
+      "postScriptName": "Cormorant-Garamond-Light-Medium",
+      "isCustomFont": true,
+      "glyphCount": 16
+    }
+  ],
+  ".hero-lede": [
+    {
+      "familyName": "DM Sans 9pt",
+      "postScriptName": "DM-Sans-9pt-14pt",
+      "isCustomFont": true,
+      "glyphCount": 78
+    }
+  ]
+}

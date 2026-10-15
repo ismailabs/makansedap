@@ -1,0 +1,12 @@
+{
+  "result": "PASS",
+  "scope": "Local browser responses with the exact configured Cloudflare CSP applied via Playwright routing; not hosted verification",
+  "routes": 5,
+  "checks": [
+    "styles and fonts load",
+    "reservation simulation works",
+    "gallery modal works",
+    "zero browser console errors"
+  ],
+  "csp": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'none'; form-action 'none'; base-uri 'none'; frame-ancestors 'none'"
+}
