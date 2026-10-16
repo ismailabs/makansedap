@@ -21,24 +21,25 @@ try{
  await test('Locked menu: exact 51 names, categories, prices and descriptions',async()=>{
   assert.deepEqual(actual,JSON.parse(await readFile('qa/menu-contract.json','utf8')));
   assert.equal(menu('[data-menu-item]').length,51);
-  for(const el of menu('[data-menu-item]').toArray())assert.ok(menu(el).find('p').text().length>10);
+  const baseline=JSON.parse(await readFile('qa/menu-descriptions-baseline.json','utf8'));
+  assert.deepEqual(menu('[data-menu-item]').toArray().map((el,i)=>({...actual[i],description:menu(el).find('p').text()})),baseline.items);
  });
  const titles=new Set(),descs=new Set();
  for(const route of routes)await test(`Source, assets, links and metadata ${route}`,async()=>{
   const file=path.join(root,route,'index.html'),$=load(await readFile(file,'utf8'));
   assert.equal($('h1').length,1);assert.equal($('main').length,1);assert.equal($('nav[aria-label="Primary navigation"]').length,1);
-  assert.equal($('meta[name="robots"]').attr('content'),'noindex, follow');
+  assert.equal($('meta[name="robots"]').attr('content'),'index, follow');
   assert.match($('.demo-bar').text(),/fictional restaurant/i);
   assert.match($('.demo-bar').text(),/No real restaurant, orders or reservations/);
   titles.add($('title').text());descs.add($('meta[name="description"]').attr('content'));
   assert.ok($('meta[property="og:image"]').attr('content'));assert.ok($('meta[property="og:title"]').attr('content'));
-  assert.equal($('link[rel="canonical"]').length,0,'Unverified canonical host');
+  assert.equal($('link[rel="canonical"]').attr('href'),'https://makansedap.ismailstudio.my'+route);
   for(const el of $('[href],[src],[srcset],[data-full]').toArray()){
    for(const attr of ['href','src','data-full','srcset']){
     const value=$(el).attr(attr);if(!value)continue;
     for(const entry of attr==='srcset'?value.split(',').map(s=>s.trim().split(' ')[0]):[value]){
      const url=new URL(entry,base+route);
-     if(url.origin!==base){assert.equal(url.origin,'https://www.ismailstudio.my');continue;}
+     if(url.origin!==base){assert.ok(['https://ismailstudio.my','https://makansedap.ismailstudio.my'].includes(url.origin));continue;}
      let local=path.join(root,decodeURIComponent(url.pathname));if(url.pathname.endsWith('/'))local=path.join(local,'index.html');
      await access(local);
      if(url.hash){const target=load(await readFile(local,'utf8'));assert.ok(target(`[id="${decodeURIComponent(url.hash.slice(1))}"]`).length,`Broken fragment ${entry}`);}
@@ -56,7 +57,7 @@ try{
  for(const route of routes){
   for(const width of widths)await test(`HTTP/render/overflow ${route} ${width}px`,async()=>{
    await page.setViewportSize({width,height:width===568?320:900});
-   const response=await page.goto(base+route);assert.equal(response.status(),200);assert.match(response.headers()['x-robots-tag'],/noindex/);
+   const response=await page.goto(base+route);assert.equal(response.status(),200);assert.ok(!/noindex/.test(response.headers()['x-robots-tag'] || ''));
    await page.evaluate(()=>document.fonts.ready);
    const dimensions=await page.evaluate(()=>({scroll:document.documentElement.scrollWidth,client:document.documentElement.clientWidth}));
    assert.ok(dimensions.scroll<=dimensions.client,JSON.stringify(dimensions));
@@ -84,7 +85,7 @@ try{
   for(const [label,route] of [['Menu','/menu/'],['Our Story','/story/'],['Gallery','/gallery/'],['Visit','/visit/'],['Home','/']]){
    await page.getByRole('navigation',{name:'Primary navigation'}).getByRole('link',{name:label,exact:true}).click();assert.equal(new URL(page.url()).pathname,route);
   }
-  const links=await page.locator('a[href^="https:"]').evaluateAll(es=>es.map(e=>e.href));assert.ok(links.length>=3);assert.ok(links.every(x=>x==='https://www.ismailstudio.my/'));
+  const links=await page.locator('a[href^="https:"]').evaluateAll(es=>es.map(e=>e.href));assert.ok(links.length>=3);assert.ok(links.every(x=>x==='https://ismailstudio.my/'));
  });
  await test('Mobile navigation keyboard, Escape, resize and route selection',async()=>{
   await page.setViewportSize({width:320,height:780});await page.goto(base);
@@ -101,6 +102,15 @@ try{
   }
   await page.goto(base+'/menu/#steaks');assert.equal(await page.locator('[data-menu-item]:visible').count(),6);
   await page.goto(base+'/menu/#item-beef-rendang-rice');assert.ok(await page.locator('#item-beef-rendang-rice').isVisible());
+ });
+ await test('Gallery category filters preserve all images',async()=>{
+  await page.goto(base+'/gallery/');
+  for(const category of ['food','interior','details','all']){
+    await page.locator('[data-gallery-filter="'+category+'"]').click();
+    const visible=page.locator('[data-gallery-index]:visible');assert.ok(await visible.count()>0);
+    if(category==='all')assert.equal(await visible.count(),17);
+    else assert.ok((await visible.evaluateAll(es=>es.map(e=>e.dataset.galleryCategory))).every(x=>x===category));
+  }
  });
  await test('Gallery open, next, previous, arrows, focus containment, Escape and return',async()=>{
   await page.goto(base+'/gallery/');const opener=page.locator('[data-gallery-index="2"]');await opener.focus();await page.keyboard.press('Enter');

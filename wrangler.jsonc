@@ -1,0 +1,9 @@
+{
+  "name": "makansedap",
+  "account_id": "44214a829e2337ca50cf40e4cd827cba",
+  "main": "scripts/worker.mjs",
+  "compatibility_date": "2026-10-16",
+  "assets": {"directory": "./site", "binding": "ASSETS", "run_worker_first": true, "html_handling": "auto-trailing-slash", "not_found_handling": "none"},
+  "observability": {"enabled": true},
+  "workers_dev": true
+}

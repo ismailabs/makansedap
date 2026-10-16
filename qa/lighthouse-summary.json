@@ -1,22 +1,22 @@
 [
   {
     "route": "/",
-    "fetchTime": "2026-10-15T11:43:43.808Z",
+    "fetchTime": "2026-10-16T18:47:48.829Z",
     "version": "13.5.0",
     "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36",
     "mode": "Lighthouse default mobile simulated throttling, local HTTP",
     "scores": {
-      "performance": 52,
+      "performance": 71,
       "accessibility": 100,
       "best-practices": 100,
-      "seo": 66
+      "seo": 100
     },
     "metrics": {
-      "first-contentful-paint": 1426.6860000000001,
-      "largest-contentful-paint": 4085.124,
-      "total-blocking-time": 4684.376,
+      "first-contentful-paint": 1394.0430000000001,
+      "largest-contentful-paint": 2669.043,
+      "total-blocking-time": 1430.138,
       "cumulative-layout-shift": 0,
-      "speed-index": 5330.581094436318
+      "speed-index": 1537.970786445076
     },
     "failedAudits": [
       {
@@ -28,49 +28,44 @@
       {
         "id": "largest-contentful-paint",
         "title": "Largest Contentful Paint",
-        "score": 0.47,
-        "displayValue": "4.1 s"
-      },
-      {
-        "id": "speed-index",
-        "title": "Speed Index",
-        "score": 0.57,
-        "displayValue": "5.3 s"
+        "score": 0.86,
+        "displayValue": "2.7 s"
       },
       {
         "id": "total-blocking-time",
         "title": "Total Blocking Time",
-        "score": 0,
-        "displayValue": "4,680 ms"
+        "score": 0.15,
+        "displayValue": "1,430 ms"
       },
       {
         "id": "max-potential-fid",
         "title": "Max Potential First Input Delay",
         "score": 0,
-        "displayValue": "3,220 ms"
+        "displayValue": "1,180 ms"
       },
       {
         "id": "interactive",
         "title": "Time to Interactive",
-        "score": 0.56,
-        "displayValue": "6.7 s"
+        "score": 0.95,
+        "displayValue": "3.1 s"
       },
       {
         "id": "mainthread-work-breakdown",
         "title": "Minimize main-thread work",
         "score": 0,
-        "displayValue": "11.1 s"
+        "displayValue": "3.5 s"
+      },
+      {
+        "id": "unminified-javascript",
+        "title": "Minify JavaScript",
+        "score": 0.5,
+        "displayValue": "Est savings of 2 KiB"
       },
       {
         "id": "unused-css-rules",
         "title": "Reduce unused CSS",
         "score": 0,
-        "displayValue": "Est savings of 26 KiB"
-      },
-      {
-        "id": "is-crawlable",
-        "title": "Page is blocked from indexing",
-        "score": 0
+        "displayValue": "Est savings of 31 KiB"
       },
       {
         "id": "document-latency-insight",
@@ -82,12 +77,7 @@
         "id": "image-delivery-insight",
         "title": "Improve image delivery",
         "score": 0,
-        "displayValue": "Est savings of 61 KiB"
-      },
-      {
-        "id": "lcp-breakdown-insight",
-        "title": "LCP breakdown",
-        "score": 0
+        "displayValue": "Est savings of 14 KiB"
       },
       {
         "id": "network-dependency-tree-insight",
@@ -98,28 +88,28 @@
         "id": "render-blocking-insight",
         "title": "Render-blocking requests",
         "score": 0,
-        "displayValue": "Est savings of 480 ms"
+        "displayValue": "Est savings of 580 ms"
       }
     ]
   },
   {
     "route": "/menu/",
-    "fetchTime": "2026-10-15T11:44:02.394Z",
+    "fetchTime": "2026-10-16T18:48:04.631Z",
     "version": "13.5.0",
     "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36",
     "mode": "Lighthouse default mobile simulated throttling, local HTTP",
     "scores": {
-      "performance": 88,
+      "performance": 92,
       "accessibility": 100,
       "best-practices": 100,
-      "seo": 66
+      "seo": 100
     },
     "metrics": {
-      "first-contentful-paint": 1440.588005450719,
-      "largest-contentful-paint": 3165.588005450719,
-      "total-blocking-time": 244.6079963661873,
+      "first-contentful-paint": 1397.5874999999999,
+      "largest-contentful-paint": 3197.5875,
+      "total-blocking-time": 68.27500000000055,
       "cumulative-layout-shift": 0,
-      "speed-index": 1440.588005450719
+      "speed-index": 1397.5874999999999
     },
     "failedAudits": [
       {
@@ -131,43 +121,38 @@
       {
         "id": "largest-contentful-paint",
         "title": "Largest Contentful Paint",
-        "score": 0.73,
+        "score": 0.72,
         "displayValue": "3.2 s"
       },
       {
         "id": "total-blocking-time",
         "title": "Total Blocking Time",
-        "score": 0.85,
-        "displayValue": "240 ms"
+        "score": 0.99,
+        "displayValue": "70 ms"
       },
       {
         "id": "max-potential-fid",
         "title": "Max Potential First Input Delay",
-        "score": 0.03,
-        "displayValue": "620 ms"
+        "score": 0.32,
+        "displayValue": "320 ms"
       },
       {
         "id": "interactive",
         "title": "Time to Interactive",
-        "score": 0.95,
+        "score": 0.94,
         "displayValue": "3.2 s"
       },
       {
-        "id": "mainthread-work-breakdown",
-        "title": "Minimize main-thread work",
-        "score": 0,
-        "displayValue": "2.4 s"
+        "id": "unminified-javascript",
+        "title": "Minify JavaScript",
+        "score": 0.5,
+        "displayValue": "Est savings of 2 KiB"
       },
       {
         "id": "unused-css-rules",
         "title": "Reduce unused CSS",
         "score": 0,
-        "displayValue": "Est savings of 30 KiB"
-      },
-      {
-        "id": "is-crawlable",
-        "title": "Page is blocked from indexing",
-        "score": 0
+        "displayValue": "Est savings of 36 KiB"
       },
       {
         "id": "document-latency-insight",
@@ -179,7 +164,7 @@
         "id": "image-delivery-insight",
         "title": "Improve image delivery",
         "score": 0,
-        "displayValue": "Est savings of 145 KiB"
+        "displayValue": "Est savings of 144 KiB"
       },
       {
         "id": "network-dependency-tree-insight",
@@ -190,87 +175,13 @@
         "id": "render-blocking-insight",
         "title": "Render-blocking requests",
         "score": 0,
-        "displayValue": "Est savings of 620 ms"
+        "displayValue": "Est savings of 610 ms"
       }
     ]
   },
   {
     "route": "/story/",
-    "fetchTime": "2026-10-15T11:44:14.726Z",
-    "version": "13.5.0",
-    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36",
-    "mode": "Lighthouse default mobile simulated throttling, local HTTP",
-    "scores": {
-      "performance": 95,
-      "accessibility": 100,
-      "best-practices": 100,
-      "seo": 66
-    },
-    "metrics": {
-      "first-contentful-paint": 1373.8139999999999,
-      "largest-contentful-paint": 2794.8450000000003,
-      "total-blocking-time": 0,
-      "cumulative-layout-shift": 0,
-      "speed-index": 1373.8139999999999
-    },
-    "failedAudits": [
-      {
-        "id": "first-contentful-paint",
-        "title": "First Contentful Paint",
-        "score": 0.97,
-        "displayValue": "1.4 s"
-      },
-      {
-        "id": "largest-contentful-paint",
-        "title": "Largest Contentful Paint",
-        "score": 0.83,
-        "displayValue": "2.8 s"
-      },
-      {
-        "id": "interactive",
-        "title": "Time to Interactive",
-        "score": 0.97,
-        "displayValue": "2.8 s"
-      },
-      {
-        "id": "unused-css-rules",
-        "title": "Reduce unused CSS",
-        "score": 0,
-        "displayValue": "Est savings of 31 KiB"
-      },
-      {
-        "id": "is-crawlable",
-        "title": "Page is blocked from indexing",
-        "score": 0
-      },
-      {
-        "id": "document-latency-insight",
-        "title": "Document request latency",
-        "score": 0.5,
-        "displayValue": "Est savings of 7 KiB"
-      },
-      {
-        "id": "image-delivery-insight",
-        "title": "Improve image delivery",
-        "score": 0,
-        "displayValue": "Est savings of 87 KiB"
-      },
-      {
-        "id": "network-dependency-tree-insight",
-        "title": "Network dependency tree",
-        "score": 0
-      },
-      {
-        "id": "render-blocking-insight",
-        "title": "Render-blocking requests",
-        "score": 0,
-        "displayValue": "Est savings of 750 ms"
-      }
-    ]
-  },
-  {
-    "route": "/gallery/",
-    "fetchTime": "2026-10-15T11:44:23.679Z",
+    "fetchTime": "2026-10-16T18:48:16.564Z",
     "version": "13.5.0",
     "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36",
     "mode": "Lighthouse default mobile simulated throttling, local HTTP",
@@ -278,14 +189,14 @@
       "performance": 97,
       "accessibility": 100,
       "best-practices": 100,
-      "seo": 66
+      "seo": 100
     },
     "metrics": {
-      "first-contentful-paint": 1405.8690000000001,
-      "largest-contentful-paint": 2455.869,
+      "first-contentful-paint": 1390.8270000000002,
+      "largest-contentful-paint": 2440.8269999999998,
       "total-blocking-time": 0,
-      "cumulative-layout-shift": 0.003089548919501582,
-      "speed-index": 1405.8690000000001
+      "cumulative-layout-shift": 0.02145773852002369,
+      "speed-index": 1390.8270000000002
     },
     "failedAudits": [
       {
@@ -297,111 +208,26 @@
       {
         "id": "largest-contentful-paint",
         "title": "Largest Contentful Paint",
-        "score": 0.9,
-        "displayValue": "2.5 s"
+        "score": 0.91,
+        "displayValue": "2.4 s"
       },
       {
         "id": "interactive",
         "title": "Time to Interactive",
         "score": 0.98,
-        "displayValue": "2.5 s"
+        "displayValue": "2.4 s"
+      },
+      {
+        "id": "unminified-javascript",
+        "title": "Minify JavaScript",
+        "score": 0.5,
+        "displayValue": "Est savings of 2 KiB"
       },
       {
         "id": "unused-css-rules",
         "title": "Reduce unused CSS",
         "score": 0,
-        "displayValue": "Est savings of 32 KiB"
-      },
-      {
-        "id": "is-crawlable",
-        "title": "Page is blocked from indexing",
-        "score": 0
-      },
-      {
-        "id": "document-latency-insight",
-        "title": "Document request latency",
-        "score": 0.5,
-        "displayValue": "Est savings of 14 KiB"
-      },
-      {
-        "id": "image-delivery-insight",
-        "title": "Improve image delivery",
-        "score": 0.5,
-        "displayValue": "Est savings of 148 KiB"
-      },
-      {
-        "id": "network-dependency-tree-insight",
-        "title": "Network dependency tree",
-        "score": 0
-      },
-      {
-        "id": "render-blocking-insight",
-        "title": "Render-blocking requests",
-        "score": 0,
-        "displayValue": "Est savings of 590 ms"
-      }
-    ]
-  },
-  {
-    "route": "/visit/",
-    "fetchTime": "2026-10-15T11:44:34.654Z",
-    "version": "13.5.0",
-    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36",
-    "mode": "Lighthouse default mobile simulated throttling, local HTTP",
-    "scores": {
-      "performance": 94,
-      "accessibility": 100,
-      "best-practices": 100,
-      "seo": 66
-    },
-    "metrics": {
-      "first-contentful-paint": 1375.5039000000002,
-      "largest-contentful-paint": 2125.5039,
-      "total-blocking-time": 249.49869999999964,
-      "cumulative-layout-shift": 0.021312044257665037,
-      "speed-index": 1375.5039000000002
-    },
-    "failedAudits": [
-      {
-        "id": "first-contentful-paint",
-        "title": "First Contentful Paint",
-        "score": 0.97,
-        "displayValue": "1.4 s"
-      },
-      {
-        "id": "largest-contentful-paint",
-        "title": "Largest Contentful Paint",
-        "score": 0.96,
-        "displayValue": "2.1 s"
-      },
-      {
-        "id": "total-blocking-time",
-        "title": "Total Blocking Time",
-        "score": 0.84,
-        "displayValue": "250 ms"
-      },
-      {
-        "id": "max-potential-fid",
-        "title": "Max Potential First Input Delay",
-        "score": 0.26,
-        "displayValue": "350 ms"
-      },
-      {
-        "id": "interactive",
-        "title": "Time to Interactive",
-        "score": 0.99,
-        "displayValue": "2.1 s"
-      },
-      {
-        "id": "unused-css-rules",
-        "title": "Reduce unused CSS",
-        "score": 0,
-        "displayValue": "Est savings of 30 KiB"
-      },
-      {
-        "id": "is-crawlable",
-        "title": "Page is blocked from indexing",
-        "score": 0
+        "displayValue": "Est savings of 38 KiB"
       },
       {
         "id": "document-latency-insight",
@@ -412,8 +238,8 @@
       {
         "id": "image-delivery-insight",
         "title": "Improve image delivery",
-        "score": 0.5,
-        "displayValue": "Est savings of 12 KiB"
+        "score": 0,
+        "displayValue": "Est savings of 90 KiB"
       },
       {
         "id": "network-dependency-tree-insight",
@@ -424,7 +250,169 @@
         "id": "render-blocking-insight",
         "title": "Render-blocking requests",
         "score": 0,
-        "displayValue": "Est savings of 710 ms"
+        "displayValue": "Est savings of 760 ms"
+      }
+    ]
+  },
+  {
+    "route": "/gallery/",
+    "fetchTime": "2026-10-16T18:48:25.167Z",
+    "version": "13.5.0",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36",
+    "mode": "Lighthouse default mobile simulated throttling, local HTTP",
+    "scores": {
+      "performance": 97,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "first-contentful-paint": 1384.2869999999998,
+      "largest-contentful-paint": 2584.2870000000003,
+      "total-blocking-time": 0,
+      "cumulative-layout-shift": 0.01355653310239003,
+      "speed-index": 1384.2869999999998
+    },
+    "failedAudits": [
+      {
+        "id": "first-contentful-paint",
+        "title": "First Contentful Paint",
+        "score": 0.97,
+        "displayValue": "1.4 s"
+      },
+      {
+        "id": "largest-contentful-paint",
+        "title": "Largest Contentful Paint",
+        "score": 0.88,
+        "displayValue": "2.6 s"
+      },
+      {
+        "id": "interactive",
+        "title": "Time to Interactive",
+        "score": 0.98,
+        "displayValue": "2.6 s"
+      },
+      {
+        "id": "unminified-javascript",
+        "title": "Minify JavaScript",
+        "score": 0.5,
+        "displayValue": "Est savings of 2 KiB"
+      },
+      {
+        "id": "unused-css-rules",
+        "title": "Reduce unused CSS",
+        "score": 0,
+        "displayValue": "Est savings of 38 KiB"
+      },
+      {
+        "id": "document-latency-insight",
+        "title": "Document request latency",
+        "score": 0.5,
+        "displayValue": "Est savings of 15 KiB"
+      },
+      {
+        "id": "image-delivery-insight",
+        "title": "Improve image delivery",
+        "score": 0,
+        "displayValue": "Est savings of 196 KiB"
+      },
+      {
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree",
+        "score": 0
+      },
+      {
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests",
+        "score": 0,
+        "displayValue": "Est savings of 600 ms"
+      }
+    ]
+  },
+  {
+    "route": "/visit/",
+    "fetchTime": "2026-10-16T18:48:34.099Z",
+    "version": "13.5.0",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36",
+    "mode": "Lighthouse default mobile simulated throttling, local HTTP",
+    "scores": {
+      "performance": 95,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "first-contentful-paint": 1446.948,
+      "largest-contentful-paint": 1961.948,
+      "total-blocking-time": 211,
+      "cumulative-layout-shift": 0.0001227641205811743,
+      "speed-index": 1446.948
+    },
+    "failedAudits": [
+      {
+        "id": "first-contentful-paint",
+        "title": "First Contentful Paint",
+        "score": 0.96,
+        "displayValue": "1.4 s"
+      },
+      {
+        "id": "largest-contentful-paint",
+        "title": "Largest Contentful Paint",
+        "score": 0.97,
+        "displayValue": "2.0 s"
+      },
+      {
+        "id": "total-blocking-time",
+        "title": "Total Blocking Time",
+        "score": 0.88,
+        "displayValue": "210 ms"
+      },
+      {
+        "id": "max-potential-fid",
+        "title": "Max Potential First Input Delay",
+        "score": 0.09,
+        "displayValue": "480 ms"
+      },
+      {
+        "id": "interactive",
+        "title": "Time to Interactive",
+        "score": 0.99,
+        "displayValue": "2.0 s"
+      },
+      {
+        "id": "unminified-javascript",
+        "title": "Minify JavaScript",
+        "score": 0.5,
+        "displayValue": "Est savings of 2 KiB"
+      },
+      {
+        "id": "unused-css-rules",
+        "title": "Reduce unused CSS",
+        "score": 0,
+        "displayValue": "Est savings of 37 KiB"
+      },
+      {
+        "id": "document-latency-insight",
+        "title": "Document request latency",
+        "score": 0.5,
+        "displayValue": "Est savings of 7 KiB"
+      },
+      {
+        "id": "image-delivery-insight",
+        "title": "Improve image delivery",
+        "score": 0,
+        "displayValue": "Est savings of 8 KiB"
+      },
+      {
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree",
+        "score": 0
+      },
+      {
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests",
+        "score": 0,
+        "displayValue": "Est savings of 440 ms"
       }
     ]
   }

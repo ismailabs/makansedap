@@ -1,0 +1,54 @@
+[
+  {
+    "url": "https://rasairon.ismailstudio.my/",
+    "status": 200,
+    "headers": {
+      "alt-svc": "h3=\":443\"; ma=86400",
+      "cache-control": "public, max-age=0, must-revalidate",
+      "cf-cache-status": "HIT",
+      "cf-ray": "a4b93c777813a12f-SIN",
+      "connection": "keep-alive",
+      "content-encoding": "br",
+      "content-security-policy": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'none'; form-action 'none'; base-uri 'none'; frame-ancestors 'none'",
+      "content-type": "text/html",
+      "date": "Fri, 16 Oct 2026 18:48:10 GMT",
+      "etag": "W/\"4f6ed562e80b56efe7afed79a7a0c0a4\"",
+      "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+      "permissions-policy": "camera=(), microphone=(), geolocation=(), payment=()",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=nfx%2FFc%2BMbE6H5u0QOn3W0yYWklM8oi0o8aCQVhQOO9dMIP7cEfv6EQvCseOq03mcp2Mw9uKqwxq%2FAbJd%2B9EBRuURRM4xOAP%2BZp5Y7caAoBv9wCBX1gVr8saSbOqU3q2k%2FigquZ0stmQsc3Pnr1ZHREBp9KPljjg%3D\"}]}",
+      "server": "cloudflare",
+      "transfer-encoding": "chunked",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "DENY",
+      "x-robots-tag": "noindex, follow"
+    },
+    "title": "Steakhouse Soul. Malaysian Heart. | RASA &amp; IRON"
+  },
+  {
+    "url": "https://rasairon.ismailstudio.my/menu/",
+    "status": 200,
+    "headers": {
+      "alt-svc": "h3=\":443\"; ma=86400",
+      "cache-control": "public, max-age=0, must-revalidate",
+      "cf-cache-status": "MISS",
+      "cf-ray": "a4b93c781887a12f-SIN",
+      "connection": "keep-alive",
+      "content-encoding": "br",
+      "content-security-policy": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'none'; form-action 'none'; base-uri 'none'; frame-ancestors 'none'",
+      "content-type": "text/html",
+      "date": "Fri, 16 Oct 2026 18:48:10 GMT",
+      "etag": "W/\"27e814cb71811742d3b621c7add4fa0b\"",
+      "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+      "permissions-policy": "camera=(), microphone=(), geolocation=(), payment=()",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=%2B7DvEemu102Gmiz8BCcbz5UsNsWpe9%2FqJgMb9tyZImL9aQ1AE9FobKJMH9rUH622h7w0dZrjv0XW4S8xTPGhfQ11xPXM9FmY6svqruAuUNDRHHbuhz0oXgYUt999a6hhy0KVscgnf4b%2Fc30UhK7GrySzuY%2BM%2BIM%3D\"}]}",
+      "server": "cloudflare",
+      "transfer-encoding": "chunked",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "DENY",
+      "x-robots-tag": "noindex, follow"
+    },
+    "title": "The Menu | RASA &amp; IRON"
+  }
+]

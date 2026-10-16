@@ -1,3 +1,3 @@
-# Fictional portfolio concept. Crawlers may view noindex metadata and response headers.
 User-agent: *
 Allow: /
+Sitemap: https://makansedap.ismailstudio.my/sitemap.xml

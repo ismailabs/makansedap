@@ -1,4 +1,4 @@
-/* RASA & IRON — vanilla JavaScript; progressive enhancement only. */
+/* MakanSedap — vanilla JavaScript; progressive enhancement only. */
 (() => {
   'use strict';
   document.documentElement.classList.add('js');
@@ -69,6 +69,17 @@
     window.addEventListener('hashchange', followHash);
   }
 
+  const galleryFilters = [...document.querySelectorAll('[data-gallery-filter]')];
+  galleryFilters.forEach(button => button.addEventListener('click', () => {
+    galleryFilters.forEach(b => b.setAttribute('aria-pressed', String(b === button)));
+    let count = 0;
+    document.querySelectorAll('[data-gallery-category]').forEach(tile => {
+      tile.hidden = button.dataset.galleryFilter !== 'all' && tile.dataset.galleryCategory !== button.dataset.galleryFilter;
+      if (!tile.hidden) count++;
+    });
+    document.getElementById('gallery-status').textContent = 'Showing ' + count + ' concept images.';
+  }));
+
   // Accessible <dialog> image lightbox. With JS disabled, gallery images remain normal links.
   const dialog = document.getElementById('gallery-lightbox');
   const entries = [...document.querySelectorAll('[data-gallery-index]')];
@@ -82,7 +93,9 @@
     let index = 0;
     let opener = null;
     const update = number => {
+      const step = number < index ? -1 : 1;
       index = (number + entries.length) % entries.length;
+      while (entries[index].hidden) index = (index + step + entries.length) % entries.length;
       const entry = entries[index];
       image.src = entry.dataset.full;
       image.alt = entry.querySelector('img').alt;

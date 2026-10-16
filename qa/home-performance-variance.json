@@ -3,121 +3,121 @@
   "runs": [
     {
       "run": 1,
-      "date": "2026-10-15T11:45:29.416Z",
-      "performance": 53,
-      "lcp": 3814.4399999999996,
-      "tbt": 3563.56,
+      "date": "2026-10-16T18:49:55.213Z",
+      "performance": 69,
+      "lcp": 3336.1500000000005,
+      "tbt": 1094.9000000000003,
       "cls": 0,
       "mainThread": [
         {
-          "group": "styleLayout",
-          "groupLabel": "Style & Layout",
-          "duration": 6846.635999999999
-        },
-        {
           "group": "other",
           "groupLabel": "Other",
-          "duration": 1338.7359999999949
+          "duration": 1405.9559999999958
+        },
+        {
+          "group": "styleLayout",
+          "groupLabel": "Style & Layout",
+          "duration": 1237.804
         },
         {
           "group": "scriptEvaluation",
           "groupLabel": "Script Evaluation",
-          "duration": 216.17600000000002
-        },
-        {
-          "group": "parseHTML",
-          "groupLabel": "Parse HTML & CSS",
-          "duration": 161.80400000000003
+          "duration": 461.42000000000013
         },
         {
           "group": "paintCompositeRender",
           "groupLabel": "Rendering",
-          "duration": 135.68
+          "duration": 111.47200000000005
+        },
+        {
+          "group": "parseHTML",
+          "groupLabel": "Parse HTML & CSS",
+          "duration": 100.404
         },
         {
           "group": "scriptParseCompile",
           "groupLabel": "Script Parsing & Compilation",
-          "duration": 10.296000000000001
+          "duration": 3.2960000000000003
         }
       ]
     },
     {
       "run": 2,
-      "date": "2026-10-15T11:45:54.332Z",
+      "date": "2026-10-16T18:50:04.974Z",
       "performance": 94,
-      "lcp": 2590.1142,
-      "tbt": 171,
+      "lcp": 3024.41835,
+      "tbt": 0,
       "cls": 0,
       "mainThread": [
         {
           "group": "styleLayout",
           "groupLabel": "Style & Layout",
-          "duration": 1379.7960000000003
+          "duration": 435.772
         },
         {
           "group": "other",
           "groupLabel": "Other",
-          "duration": 459.1160000000009
-        },
-        {
-          "group": "paintCompositeRender",
-          "groupLabel": "Rendering",
-          "duration": 80.18800000000002
+          "duration": 314.26400000000075
         },
         {
           "group": "scriptEvaluation",
           "groupLabel": "Script Evaluation",
-          "duration": 45.247999999999976
+          "duration": 40.259999999999984
+        },
+        {
+          "group": "paintCompositeRender",
+          "groupLabel": "Rendering",
+          "duration": 38.58799999999999
         },
         {
           "group": "parseHTML",
           "groupLabel": "Parse HTML & CSS",
-          "duration": 33.94000000000001
+          "duration": 21.528
         },
         {
           "group": "scriptParseCompile",
           "groupLabel": "Script Parsing & Compilation",
-          "duration": 2.348
+          "duration": 3.5520000000000005
         }
       ]
     },
     {
       "run": 3,
-      "date": "2026-10-15T11:46:05.814Z",
-      "performance": 88,
-      "lcp": 2594.0604,
-      "tbt": 379.6264000000001,
+      "date": "2026-10-16T18:50:14.151Z",
+      "performance": 96,
+      "lcp": 2657.1492,
+      "tbt": 0,
       "cls": 0,
       "mainThread": [
         {
           "group": "styleLayout",
           "groupLabel": "Style & Layout",
-          "duration": 1632.8240000000003
+          "duration": 490.47999999999996
         },
         {
           "group": "other",
           "groupLabel": "Other",
-          "duration": 494.22400000000096
+          "duration": 268.2080000000002
         },
         {
           "group": "paintCompositeRender",
           "groupLabel": "Rendering",
-          "duration": 60.09599999999999
+          "duration": 36.115999999999985
         },
         {
           "group": "scriptEvaluation",
           "groupLabel": "Script Evaluation",
-          "duration": 45.31199999999999
+          "duration": 34.08
         },
         {
           "group": "parseHTML",
           "groupLabel": "Parse HTML & CSS",
-          "duration": 27.095999999999993
+          "duration": 18.507999999999996
         },
         {
           "group": "scriptParseCompile",
           "groupLabel": "Script Parsing & Compilation",
-          "duration": 3.24
+          "duration": 2.84
         }
       ]
     }

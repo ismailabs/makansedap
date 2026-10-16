@@ -1,0 +1,312 @@
+{
+  "sourceCommit": "65baebd38ed82e9f42d04eb3c639ffff41dc625d",
+  "sourceSHA256": "967f8a70860120b13eac63e0d58aca807f6ee63024a85b1d943090a696a0174e",
+  "items": [
+    {
+      "category": "Starters",
+      "name": "Fire-Roasted Mushroom Soup",
+      "price": "RM22",
+      "description": "Silky roasted mushroom broth, thyme oil and a swirl of cultured cream."
+    },
+    {
+      "category": "Starters",
+      "name": "Charred Sourdough & Herb Butter",
+      "price": "RM18",
+      "description": "Warm toasted sourdough with whipped garlic and garden-herb butter."
+    },
+    {
+      "category": "Starters",
+      "name": "Crispy Calamari",
+      "price": "RM29",
+      "description": "Lightly crisp squid, chilli-lime salt and a bright citrus dip."
+    },
+    {
+      "category": "Starters",
+      "name": "Beef Satay Skewers",
+      "price": "RM36",
+      "description": "Charred beef skewers with cucumber, shallot and warm peanut sauce."
+    },
+    {
+      "category": "Starters",
+      "name": "Kerabu Mango Salad",
+      "price": "RM24",
+      "description": "Green mango, herbs, toasted coconut and a lively lime dressing."
+    },
+    {
+      "category": "Starters",
+      "name": "Chilli Garlic Prawns",
+      "price": "RM38",
+      "description": "Sizzling prawns tossed with roasted garlic, fresh chilli and lemon."
+    },
+    {
+      "category": "Starters",
+      "name": "Smoky Chicken Wings",
+      "price": "RM30",
+      "description": "Flame-kissed wings in a sticky, gently spiced tamarind glaze."
+    },
+    {
+      "category": "Steaks",
+      "name": "Chargrilled Ribeye",
+      "price": "RM118",
+      "description": "Beautifully marbled ribeye, flame-finished and paired with Sarawak black pepper jus."
+    },
+    {
+      "category": "Steaks",
+      "name": "Peppercorn Sirloin",
+      "price": "RM98",
+      "description": "Robust sirloin with cracked pepper crust and silky peppercorn sauce."
+    },
+    {
+      "category": "Steaks",
+      "name": "Brown Butter Tenderloin",
+      "price": "RM158",
+      "description": "Tender centre-cut beef with nutty browned butter and herb-roasted garlic."
+    },
+    {
+      "category": "Steaks",
+      "name": "House Striploin",
+      "price": "RM108",
+      "description": "Richly seared striploin, smoked sea salt and our house pan jus."
+    },
+    {
+      "category": "Steaks",
+      "name": "Bone-In Ribeye to Share",
+      "price": "RM238",
+      "description": "A generous bone-in cut, carefully charred and served for the table."
+    },
+    {
+      "category": "Steaks",
+      "name": "Steak Frites",
+      "price": "RM92",
+      "description": "Grilled steak and golden shoestring fries with creamy mustard sauce."
+    },
+    {
+      "category": "From the Grill",
+      "name": "Percik Grilled Chicken",
+      "price": "RM44",
+      "description": "Charcoal-grilled chicken glazed with fragrant coconut and percik spices."
+    },
+    {
+      "category": "From the Grill",
+      "name": "Charcoal Lamb Shoulder",
+      "price": "RM84",
+      "description": "Slow-tender lamb shoulder with smoked aubergine and rosemary jus."
+    },
+    {
+      "category": "From the Grill",
+      "name": "Sticky Beef Short Ribs",
+      "price": "RM98",
+      "description": "Slow-braised beef ribs finished on the grill with tamarind glaze."
+    },
+    {
+      "category": "From the Grill",
+      "name": "Sambal Butter Tiger Prawns",
+      "price": "RM72",
+      "description": "Plump grilled prawns with warm sambal butter and fresh calamansi."
+    },
+    {
+      "category": "From the Grill",
+      "name": "Sambal Hijau Seabass",
+      "price": "RM64",
+      "description": "Crisp-skinned seabass with fragrant green chilli sambal and herbs."
+    },
+    {
+      "category": "From the Grill",
+      "name": "Crispy Chicken Chop",
+      "price": "RM42",
+      "description": "Golden chicken chop, pepper gravy and a bright house slaw."
+    },
+    {
+      "category": "From the Grill",
+      "name": "Garlic Herb Salmon",
+      "price": "RM76",
+      "description": "Pan-seared salmon with roasted garlic, lemon and garden herbs."
+    },
+    {
+      "category": "From the Grill",
+      "name": "Chargrilled Oyster Mushrooms",
+      "price": "RM39",
+      "description": "Meaty oyster mushrooms with smoky glaze and pickled shallots."
+    },
+    {
+      "category": "Malaysian Favourites",
+      "name": "Nasi Lemak with Percik Chicken",
+      "price": "RM39",
+      "description": "Fragrant coconut rice, percik chicken, sambal, peanuts, egg and cucumber."
+    },
+    {
+      "category": "Malaysian Favourites",
+      "name": "Beef Rendang Rice",
+      "price": "RM46",
+      "description": "Slow-cooked beef rendang beside steamed rice and crisp cucumber."
+    },
+    {
+      "category": "Malaysian Favourites",
+      "name": "Nasi Kerabu with Grilled Fish",
+      "price": "RM46",
+      "description": "Herb-tinted rice, grilled fish, fresh ulam and savoury coconut flakes."
+    },
+    {
+      "category": "Malaysian Favourites",
+      "name": "Char Kuey Teow (No Pork or Lard)",
+      "price": "RM32",
+      "description": "Wok-seared flat rice noodles with prawns, egg, sprouts and chives."
+    },
+    {
+      "category": "Malaysian Favourites",
+      "name": "Kampung Fried Rice",
+      "price": "RM30",
+      "description": "Smoky wok-fried rice with anchovies, vegetables and fresh chilli."
+    },
+    {
+      "category": "Malaysian Favourites",
+      "name": "Mee Goreng Mamak",
+      "price": "RM30",
+      "description": "Wok-tossed yellow noodles, tofu, potato and a tangy spice sauce."
+    },
+    {
+      "category": "Malaysian Favourites",
+      "name": "Salted Egg Chicken Rice",
+      "price": "RM38",
+      "description": "Crisp chicken in a rich salted-egg sauce, served with steamed rice."
+    },
+    {
+      "category": "Malaysian Favourites",
+      "name": "Masak Lemak Cili Api Beef",
+      "price": "RM48",
+      "description": "Tender beef in turmeric-coconut gravy with bird’s eye chilli."
+    },
+    {
+      "category": "Malaysian Favourites",
+      "name": "Nasi Goreng Pattaya",
+      "price": "RM34",
+      "description": "A folded omelette wrapped around fragrant wok-fried rice."
+    },
+    {
+      "category": "Malaysian Favourites",
+      "name": "Chicken Curry Laksa",
+      "price": "RM36",
+      "description": "Aromatic coconut curry broth, noodles, chicken, tofu and fresh herbs."
+    },
+    {
+      "category": "Sides",
+      "name": "Truffle Fries",
+      "price": "RM18",
+      "description": "Crisp fries with earthy truffle aroma and grated hard cheese."
+    },
+    {
+      "category": "Sides",
+      "name": "Garlic Mashed Potatoes",
+      "price": "RM16",
+      "description": "Velvety mashed potatoes with roasted garlic and butter."
+    },
+    {
+      "category": "Sides",
+      "name": "Charred Kailan",
+      "price": "RM16",
+      "description": "Wok-charred greens with garlic and a squeeze of lime."
+    },
+    {
+      "category": "Sides",
+      "name": "Butter-Grilled Corn",
+      "price": "RM15",
+      "description": "Sweet corn, flame-kissed and brushed with chilli-lime butter."
+    },
+    {
+      "category": "Sides",
+      "name": "Nasi Minyak",
+      "price": "RM12",
+      "description": "Fragrant rice gently spiced with ghee, cardamom and aromatics."
+    },
+    {
+      "category": "Sides",
+      "name": "House Sambal Belacan",
+      "price": "RM7",
+      "description": "A punchy chilli and toasted shrimp-paste condiment with calamansi."
+    },
+    {
+      "category": "Sides",
+      "name": "Sautéed Mushrooms",
+      "price": "RM18",
+      "description": "Mixed mushrooms tossed with butter, thyme and black pepper."
+    },
+    {
+      "category": "Desserts",
+      "name": "Gula Melaka Crème Brûlée",
+      "price": "RM24",
+      "description": "Silky custard perfumed with palm sugar under a caramelised top."
+    },
+    {
+      "category": "Desserts",
+      "name": "Burnt Cheesecake",
+      "price": "RM25",
+      "description": "Creamy Basque-style cheesecake with a deeply toasted surface."
+    },
+    {
+      "category": "Desserts",
+      "name": "Pandan Coconut Panna Cotta",
+      "price": "RM24",
+      "description": "Delicate pandan cream with coconut and tropical fruit."
+    },
+    {
+      "category": "Desserts",
+      "name": "Dark Chocolate Fondant",
+      "price": "RM29",
+      "description": "Warm chocolate centre with vanilla ice cream and cocoa crumble."
+    },
+    {
+      "category": "Desserts",
+      "name": "Cendol Parfait",
+      "price": "RM23",
+      "description": "Layered shaved-ice-inspired dessert with gula melaka and pandan jelly."
+    },
+    {
+      "category": "Non-Alcoholic Drinks",
+      "name": "Teh Tarik",
+      "price": "RM12",
+      "description": "Classic Malaysian pulled milk tea, warmly comforting."
+    },
+    {
+      "category": "Non-Alcoholic Drinks",
+      "name": "Iced Kopi Gula Melaka",
+      "price": "RM16",
+      "description": "Bold chilled coffee softened with aromatic palm sugar."
+    },
+    {
+      "category": "Non-Alcoholic Drinks",
+      "name": "Bandung Lychee Fizz",
+      "price": "RM17",
+      "description": "Rose milk, lychee and a gentle sparkling finish."
+    },
+    {
+      "category": "Non-Alcoholic Drinks",
+      "name": "Calamansi Soda",
+      "price": "RM16",
+      "description": "Bright calamansi citrus lifted with sparkling water."
+    },
+    {
+      "category": "Non-Alcoholic Drinks",
+      "name": "Lemongrass Iced Tea",
+      "price": "RM15",
+      "description": "Fresh-brewed tea with fragrant lemongrass and citrus."
+    },
+    {
+      "category": "Non-Alcoholic Drinks",
+      "name": "Passionfruit Spritz",
+      "price": "RM18",
+      "description": "Tart passionfruit, mint and sparkling soda. No alcohol."
+    },
+    {
+      "category": "Non-Alcoholic Drinks",
+      "name": "Still Water",
+      "price": "RM8",
+      "description": "Chilled still water."
+    },
+    {
+      "category": "Non-Alcoholic Drinks",
+      "name": "Long Black",
+      "price": "RM13",
+      "description": "Fresh espresso lengthened with hot water."
+    }
+  ]
+}

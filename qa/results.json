@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-15T11:43:04.527Z",
+  "date": "2026-10-16T18:47:58.772Z",
   "environment": {
     "platform": "win32",
     "node": "v24.19.0",
@@ -241,6 +241,10 @@
     },
     {
       "name": "Every menu filter, count, announcement, keyboard and deep link",
+      "detail": "PASS"
+    },
+    {
+      "name": "Gallery category filters preserve all images",
       "detail": "PASS"
     },
     {

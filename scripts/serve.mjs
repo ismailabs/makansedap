@@ -15,7 +15,7 @@ export function startServer(port = 8000) {
         target = path.join(target, 'index.html');
       }
       const body = await readFile(target);
-      res.writeHead(200, {'Content-Type':types[path.extname(target)] || 'application/octet-stream','X-Robots-Tag':'noindex, follow','X-Content-Type-Options':'nosniff','Cache-Control':'no-cache'});
+      res.writeHead(200, {'Content-Type':types[path.extname(target)] || 'application/octet-stream','X-Robots-Tag':'index, follow','X-Content-Type-Options':'nosniff','Cache-Control':'no-cache'});
       res.end(body);
     } catch { res.writeHead(404, {'Content-Type':'text/plain'}).end('Not found'); }
   });
@@ -23,5 +23,5 @@ export function startServer(port = 8000) {
 }
 if (process.argv[1] === fileURLToPath(import.meta.url)) {
   await startServer(Number(process.env.PORT || 8000));
-  console.log(`RASA & IRON preview: http://127.0.0.1:${process.env.PORT || 8000}/`);
+  console.log(`MakanSedap preview: http://127.0.0.1:${process.env.PORT || 8000}/`);
 }

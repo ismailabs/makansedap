@@ -1,3 +1,5 @@
+> Historical original-release provenance. Current MakanSedap implementation and release evidence are documented in docs/MAKANSEDAP-IMPLEMENTATION.md and docs/RELEASE-REPORT.md.
+
 # Asset credits
 
 ## Original AI concept imagery

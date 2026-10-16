@@ -1,3 +1,5 @@
+> Historical original-release provenance. Current MakanSedap implementation and release evidence are documented in docs/MAKANSEDAP-IMPLEMENTATION.md and docs/RELEASE-REPORT.md.
+
 # Reference reconstruction
 
 The available approved reference is `reference/approved-concept.png`, a 438 × 291 conceptual composite showing five desktop pages and five mobile panels. It was inspected before reconstruction. It is a generated design, not proof of an implemented website; its small type cannot reliably be read. Locked text and menu requirements take precedence.

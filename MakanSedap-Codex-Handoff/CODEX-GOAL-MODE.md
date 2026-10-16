@@ -1,0 +1,7 @@
+# Codex Goal Mode — autonomous execution contract
+
+You are operating inside the local clone of the user's `ismailabs/rasa-iron` repository with this handoff folder at repository root. Read all handoff files. Your task is to implement the MakanSedap redesign, preserve the exact 51-item menu including descriptions, validate the work, rename the GitHub repo to `ismailabs/makansedap`, configure and verify the new Cloudflare production domain and permanent redirect from the old domain, and provide an evidence-based release report.
+
+The user explicitly authorizes all operations **within this named project and these named domains**, including commits, GitHub rename, DNS and deployment changes. Proceed without routine approval requests. Use available tools and permissions, do not bypass authentication, and do not change unrelated resources. Do not force-push, remove other sites, or destroy rollback paths. Inspect before acting. For ambiguous reversible design decisions, choose and document. For external blockers, keep working on safe tasks and report exactly what cannot be completed.
+
+Order: baseline/audit → design selection → preserve menu snapshot → implement → repeat visual and functional QA → staging/preview → GitHub rename/push → production domain → redirect → post-release verification → report. Iterate until achievable acceptance gates pass. Never claim an operation succeeded unless verified. Do not substitute planning for implementation.
