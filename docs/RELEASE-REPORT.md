@@ -24,9 +24,21 @@ The old public root and menu returned 200 with the original RASA & IRON content 
 
 Local Wrangler is not logged in. Release uses the authorized Cloudflare connector and documented static-asset upload API. Short-lived upload/completion tokens are held in process/session memory, not evidence files. The first upload returned Cloudflare HTTP 500; multipart upload was retried with the documented field format and all three buckets completed.
 
-## Production verification
+## Production verification — passed
 
-Live preview verified at https://makansedap.mohamad-ismail-mohd-izwan.workers.dev: five routes match local HTML byte for byte; 51 menu records exact; ten live browser/axe scans; gallery filtering/navigation/focus and booking preview pass with zero runtime/network errors. See qa/preview-verification.json. GitHub publication, custom-domain and redirect verification remain pending this candidate report.
+Live website: https://makansedap.ismailstudio.my/ . Original repository renamed in place to https://github.com/ismailabs/makansedap with stable GitHub repository ID 1420535711, public visibility, main branch and original history preserved. Source release commit is 656d42ed315de9f96bde042c725ed8012f941bd2. Local HEAD, origin/main and advertised remote main matched this SHA after the source push. The final evidence commit adds deployment receipts, report/configuration details and verification helpers; it does not change deployed site content.
+
+Cloudflare Worker makansedap version c3ae4573-1b31-452b-b929-3db6536ea0b8, deployment e7fd8c66-3543-4933-b826-b7b4ced05f0a at 100 percent. Managed custom domain enabled with certificate ID 828cfc34-876c-4f38-ab84-e6a2db8a3997. HTTPS requests passed normal certificate validation. X-Release-Commit reports the source SHA above. All five production HTML bodies match local release source byte for byte; the 51 menu records match the locked baseline exactly. Ten production browser/axe checks passed at 390px and 1440px, with no overflow, broken assets, page exceptions or HTTP asset errors. Menu filtering, filtered gallery next/focus return and reservation preview work under production CSP. Production robots, sitemap, favicon and social card match source; canonical/OG metadata points to the new domain and neither HTML nor HTTP responses block indexing.
+
+The exact-host Single Redirect rule 3d27793c06ee42c29b0f68965b48c1bc in ruleset c786f5605c6342cebe1e12ffa18a99ca returns 301 for rasairon.ismailstudio.my only, targeting the new HTTPS host with original path and query. Verified root, all four inner pages, a multi-parameter menu URL, HTTP old-host URL, image path and encoded-query unknown path. Valid routes follow to 200 without loops; unknown new routes return 404. No old Worker/DNS replacement was needed. Original rasairon deployment remains unchanged and ready for rollback by disabling this one redirect rule.
+
+All 85 manifest asset endpoints verified: 80 served files match expected byte length and content hash; five explicit index.html URLs correctly redirect to clean routes whose full HTML was independently matched. See qa/production-assets.json. Production evidence is in qa/production-verification.json, qa/cloudflare-release.json and ten qa/production/ screenshots. Source-stage Gitleaks scan found no leaks; final evidence-stage scan is recorded separately.
+
+Rollback: disable only the migration rule identified above to restore old-host content immediately. Original Worker version 67ffe593-936a-4d64-96f9-d9c9d53d9965 remains active. The recovery branch and original HTML/menu/QA snapshots remain available. New hostname can stay online during investigation; no deletion or force push is needed.
+
+## Changed files
+
+Changes cover the five HTML routes, authored/compiled CSS, vanilla interaction script, icons/social artwork, robots/sitemap/security headers, package identity, QA/production verification and comparison scripts, Cloudflare Worker/config, README, implementation/release guides, and committed handoff/evidence assets. The original qa/menu-contract.json is unchanged. A complete changed-path list is in qa/makansedap-changed-files.txt.
 
 ## Scope and limits
 

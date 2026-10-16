@@ -1,0 +1,78 @@
+{
+  "dns": {
+    "result": [
+      {
+        "id": "0b3d79928e8956b6abade64e5e7c156a",
+        "name": "*.rasairon.ismailstudio.my",
+        "type": "AAAA",
+        "content": "100::",
+        "proxiable": true,
+        "proxied": true,
+        "ttl": 1,
+        "settings": {},
+        "meta": {
+          "origin_worker_id": "a80558580483938de512d7fed1b72100a3207e0f",
+          "read_only": true
+        },
+        "comment": null,
+        "tags": [],
+        "created_on": "2026-10-15T15:47:41.363891Z",
+        "modified_on": "2026-10-15T15:47:41.363891Z"
+      },
+      {
+        "id": "1855cd4ca49858b6f9bd7c97470ba507",
+        "name": "rasairon.ismailstudio.my",
+        "type": "AAAA",
+        "content": "100::",
+        "proxiable": true,
+        "proxied": true,
+        "ttl": 1,
+        "settings": {},
+        "meta": {
+          "origin_worker_id": "a80558580483938de512d7fed1b72100a3207e0f",
+          "read_only": true
+        },
+        "comment": null,
+        "tags": [],
+        "created_on": "2026-10-15T15:47:41.351876Z",
+        "modified_on": "2026-10-15T15:47:41.351876Z"
+      }
+    ],
+    "success": true,
+    "errors": [],
+    "messages": [],
+    "result_info": {
+      "page": 1,
+      "per_page": 100,
+      "count": 14,
+      "total_count": 14,
+      "total_pages": 1
+    },
+    "status": 200
+  },
+  "domains": {
+    "result": [
+      {
+        "id": "a80558580483938de512d7fed1b72100a3207e0f",
+        "zone_id": "dc2bee92d5853929394633d0a4165093",
+        "zone_name": "ismailstudio.my",
+        "hostname": "rasairon.ismailstudio.my",
+        "service": "rasairon",
+        "environment": "production",
+        "cert_id": "2118e6b2-cf0a-4476-b183-26cfa0de0702",
+        "previews_enabled": true,
+        "enabled": true
+      }
+    ],
+    "success": true,
+    "errors": null,
+    "messages": null,
+    "result_info": {
+      "page": 1,
+      "per_page": 4,
+      "count": 4,
+      "total_count": 4
+    },
+    "status": 200
+  }
+}

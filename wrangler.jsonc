@@ -3,7 +3,24 @@
   "account_id": "44214a829e2337ca50cf40e4cd827cba",
   "main": "scripts/worker.mjs",
   "compatibility_date": "2026-10-16",
-  "assets": {"directory": "./site", "binding": "ASSETS", "run_worker_first": true, "html_handling": "auto-trailing-slash", "not_found_handling": "none"},
-  "observability": {"enabled": true},
-  "workers_dev": true
+  "assets": {
+    "directory": "./site",
+    "binding": "ASSETS",
+    "run_worker_first": true,
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "none"
+  },
+  "observability": {
+    "enabled": true
+  },
+  "workers_dev": true,
+  "routes": [
+    {
+      "pattern": "makansedap.ismailstudio.my",
+      "custom_domain": true
+    }
+  ],
+  "vars": {
+    "RELEASE_COMMIT": "656d42ed315de9f96bde042c725ed8012f941bd2"
+  }
 }

@@ -1,0 +1,533 @@
+{
+  "checkedAt": "2026-10-16T18:59:56.634Z",
+  "assets": [
+    {
+      "path": "/apple-touch-icon.png",
+      "status": 200,
+      "bytes": 5193,
+      "hashMatches": true
+    },
+    {
+      "path": "/assets/css/editorial.css",
+      "status": 200,
+      "bytes": 15713,
+      "hashMatches": true
+    },
+    {
+      "path": "/assets/css/fonts.css",
+      "status": 200,
+      "bytes": 1097,
+      "hashMatches": true
+    },
+    {
+      "path": "/assets/css/makansedap.css",
+      "status": 200,
+      "bytes": 9019,
+      "hashMatches": true
+    },
+    {
+      "path": "/assets/css/site.css",
+      "status": 200,
+      "bytes": 53489,
+      "hashMatches": true
+    },
+    {
+      "path": "/assets/css/styles.css",
+      "status": 200,
+      "bytes": 27975,
+      "hashMatches": true
+    },
+    {
+      "path": "/assets/fonts/Cormorant-Garamond-OFL.txt",
+      "status": 200,
+      "bytes": 4386,
+      "hashMatches": true
+    },
+    {
+      "path": "/assets/fonts/cormorant-italic.woff2",
+      "status": 200,
+      "bytes": 39260,
+      "hashMatches": true
+    },
+    {
+      "path": "/assets/fonts/cormorant-normal.woff2",
+      "status": 200,
+      "bytes": 37640,
+      "hashMatches": true
+    },
+    {
+      "path": "/assets/fonts/dm-sans-normal.woff2",
+      "status": 200,
+      "bytes": 36932,
+      "hashMatches": true
+    },
+    {
+      "path": "/assets/fonts/DM-Sans-OFL.txt",
+      "status": 200,
+      "bytes": 4481,
+      "hashMatches": true
+    },
+    {
+      "path": "/assets/icons/desserts.svg",
+      "status": 200,
+      "bytes": 210,
+      "hashMatches": true
+    },
+    {
+      "path": "/assets/icons/drinks.svg",
+      "status": 200,
+      "bytes": 224,
+      "hashMatches": true
+    },
+    {
+      "path": "/assets/icons/grill.svg",
+      "status": 200,
+      "bytes": 227,
+      "hashMatches": true
+    },
+    {
+      "path": "/assets/icons/logo.svg",
+      "status": 200,
+      "bytes": 510,
+      "hashMatches": true
+    },
+    {
+      "path": "/assets/icons/malaysian.svg",
+      "status": 200,
+      "bytes": 220,
+      "hashMatches": true
+    },
+    {
+      "path": "/assets/icons/monogram.svg",
+      "status": 200,
+      "bytes": 388,
+      "hashMatches": true
+    },
+    {
+      "path": "/assets/icons/sides.svg",
+      "status": 200,
+      "bytes": 225,
+      "hashMatches": true
+    },
+    {
+      "path": "/assets/icons/starters.svg",
+      "status": 200,
+      "bytes": 213,
+      "hashMatches": true
+    },
+    {
+      "path": "/assets/icons/steaks.svg",
+      "status": 200,
+      "bytes": 232,
+      "hashMatches": true
+    },
+    {
+      "path": "/assets/images/bandung-lychee-640.webp",
+      "status": 200,
+      "bytes": 23460,
+      "hashMatches": true
+    },
+    {
+      "path": "/assets/images/bandung-lychee-960.webp",
+      "status": 200,
+      "bytes": 43814,
+      "hashMatches": true
+    },
+    {
+      "path": "/assets/images/bandung-lychee.webp",
+      "status": 200,
+      "bytes": 112650,
+      "hashMatches": true
+    },
+    {
+      "path": "/assets/images/beef-rendang-640.webp",
+      "status": 200,
+      "bytes": 43470,
+      "hashMatches": true
+    },
+    {
+      "path": "/assets/images/beef-rendang-960.webp",
+      "status": 200,
+      "bytes": 83860,
+      "hashMatches": true
+    },
+    {
+      "path": "/assets/images/beef-rendang.webp",
+      "status": 200,
+      "bytes": 212498,
+      "hashMatches": true
+    },
+    {
+      "path": "/assets/images/burnt-cheesecake-640.webp",
+      "status": 200,
+      "bytes": 26916,
+      "hashMatches": true
+    },
+    {
+      "path": "/assets/images/burnt-cheesecake-960.webp",
+      "status": 200,
+      "bytes": 52314,
+      "hashMatches": true
+    },
+    {
+      "path": "/assets/images/burnt-cheesecake.webp",
+      "status": 200,
+      "bytes": 135582,
+      "hashMatches": true
+    },
+    {
+      "path": "/assets/images/charcoal-lamb-640.webp",
+      "status": 200,
+      "bytes": 40426,
+      "hashMatches": true
+    },
+    {
+      "path": "/assets/images/charcoal-lamb-960.webp",
+      "status": 200,
+      "bytes": 76800,
+      "hashMatches": true
+    },
+    {
+      "path": "/assets/images/charcoal-lamb.webp",
+      "status": 200,
+      "bytes": 193906,
+      "hashMatches": true
+    },
+    {
+      "path": "/assets/images/dessert-brulee-640.webp",
+      "status": 200,
+      "bytes": 38000,
+      "hashMatches": true
+    },
+    {
+      "path": "/assets/images/dessert-brulee-960.webp",
+      "status": 200,
+      "bytes": 72698,
+      "hashMatches": true
+    },
+    {
+      "path": "/assets/images/dessert-brulee.webp",
+      "status": 200,
+      "bytes": 181698,
+      "hashMatches": true
+    },
+    {
+      "path": "/assets/images/dining-room-640.webp",
+      "status": 200,
+      "bytes": 36468,
+      "hashMatches": true
+    },
+    {
+      "path": "/assets/images/dining-room-960.webp",
+      "status": 200,
+      "bytes": 75704,
+      "hashMatches": true
+    },
+    {
+      "path": "/assets/images/dining-room.webp",
+      "status": 200,
+      "bytes": 209356,
+      "hashMatches": true
+    },
+    {
+      "path": "/assets/images/evening-tables-640.webp",
+      "status": 200,
+      "bytes": 30218,
+      "hashMatches": true
+    },
+    {
+      "path": "/assets/images/evening-tables-960.webp",
+      "status": 200,
+      "bytes": 53716,
+      "hashMatches": true
+    },
+    {
+      "path": "/assets/images/evening-tables.webp",
+      "status": 200,
+      "bytes": 129094,
+      "hashMatches": true
+    },
+    {
+      "path": "/assets/images/fresh-ingredients-640.webp",
+      "status": 200,
+      "bytes": 46922,
+      "hashMatches": true
+    },
+    {
+      "path": "/assets/images/fresh-ingredients-960.webp",
+      "status": 200,
+      "bytes": 91160,
+      "hashMatches": true
+    },
+    {
+      "path": "/assets/images/fresh-ingredients.webp",
+      "status": 200,
+      "bytes": 247454,
+      "hashMatches": true
+    },
+    {
+      "path": "/assets/images/grill-fire-640.webp",
+      "status": 200,
+      "bytes": 49150,
+      "hashMatches": true
+    },
+    {
+      "path": "/assets/images/grill-fire-960.webp",
+      "status": 200,
+      "bytes": 91080,
+      "hashMatches": true
+    },
+    {
+      "path": "/assets/images/grill-fire.webp",
+      "status": 200,
+      "bytes": 217382,
+      "hashMatches": true
+    },
+    {
+      "path": "/assets/images/grilled-prawns-640.webp",
+      "status": 200,
+      "bytes": 39634,
+      "hashMatches": true
+    },
+    {
+      "path": "/assets/images/grilled-prawns-960.webp",
+      "status": 200,
+      "bytes": 76794,
+      "hashMatches": true
+    },
+    {
+      "path": "/assets/images/grilled-prawns.webp",
+      "status": 200,
+      "bytes": 194616,
+      "hashMatches": true
+    },
+    {
+      "path": "/assets/images/hero-ribeye-640.webp",
+      "status": 200,
+      "bytes": 40770,
+      "hashMatches": true
+    },
+    {
+      "path": "/assets/images/hero-ribeye-960.webp",
+      "status": 200,
+      "bytes": 81210,
+      "hashMatches": true
+    },
+    {
+      "path": "/assets/images/hero-ribeye.webp",
+      "status": 200,
+      "bytes": 207706,
+      "hashMatches": true
+    },
+    {
+      "path": "/assets/images/kopi-gula-melaka-640.webp",
+      "status": 200,
+      "bytes": 26042,
+      "hashMatches": true
+    },
+    {
+      "path": "/assets/images/kopi-gula-melaka-960.webp",
+      "status": 200,
+      "bytes": 49032,
+      "hashMatches": true
+    },
+    {
+      "path": "/assets/images/kopi-gula-melaka.webp",
+      "status": 200,
+      "bytes": 126852,
+      "hashMatches": true
+    },
+    {
+      "path": "/assets/images/mushroom-soup-640.webp",
+      "status": 200,
+      "bytes": 39386,
+      "hashMatches": true
+    },
+    {
+      "path": "/assets/images/mushroom-soup-960.webp",
+      "status": 200,
+      "bytes": 75928,
+      "hashMatches": true
+    },
+    {
+      "path": "/assets/images/mushroom-soup.webp",
+      "status": 200,
+      "bytes": 188614,
+      "hashMatches": true
+    },
+    {
+      "path": "/assets/images/nasi-lemak-640.webp",
+      "status": 200,
+      "bytes": 40230,
+      "hashMatches": true
+    },
+    {
+      "path": "/assets/images/nasi-lemak-960.webp",
+      "status": 200,
+      "bytes": 73674,
+      "hashMatches": true
+    },
+    {
+      "path": "/assets/images/nasi-lemak.webp",
+      "status": 200,
+      "bytes": 173524,
+      "hashMatches": true
+    },
+    {
+      "path": "/assets/images/pandan-dessert-640.webp",
+      "status": 200,
+      "bytes": 26572,
+      "hashMatches": true
+    },
+    {
+      "path": "/assets/images/pandan-dessert-960.webp",
+      "status": 200,
+      "bytes": 48644,
+      "hashMatches": true
+    },
+    {
+      "path": "/assets/images/pandan-dessert.webp",
+      "status": 200,
+      "bytes": 124772,
+      "hashMatches": true
+    },
+    {
+      "path": "/assets/images/pepper-sirloin-640.webp",
+      "status": 200,
+      "bytes": 40414,
+      "hashMatches": true
+    },
+    {
+      "path": "/assets/images/pepper-sirloin-960.webp",
+      "status": 200,
+      "bytes": 77748,
+      "hashMatches": true
+    },
+    {
+      "path": "/assets/images/pepper-sirloin.webp",
+      "status": 200,
+      "bytes": 197464,
+      "hashMatches": true
+    },
+    {
+      "path": "/assets/images/percik-chicken-640.webp",
+      "status": 200,
+      "bytes": 36700,
+      "hashMatches": true
+    },
+    {
+      "path": "/assets/images/percik-chicken-960.webp",
+      "status": 200,
+      "bytes": 69974,
+      "hashMatches": true
+    },
+    {
+      "path": "/assets/images/percik-chicken.webp",
+      "status": 200,
+      "bytes": 173754,
+      "hashMatches": true
+    },
+    {
+      "path": "/assets/images/signature-ribeye-640.webp",
+      "status": 200,
+      "bytes": 38582,
+      "hashMatches": true
+    },
+    {
+      "path": "/assets/images/signature-ribeye-960.webp",
+      "status": 200,
+      "bytes": 74288,
+      "hashMatches": true
+    },
+    {
+      "path": "/assets/images/signature-ribeye.webp",
+      "status": 200,
+      "bytes": 191202,
+      "hashMatches": true
+    },
+    {
+      "path": "/assets/images/social-preview.png",
+      "status": 200,
+      "bytes": 1011419,
+      "hashMatches": true
+    },
+    {
+      "path": "/assets/js/main.js",
+      "status": 200,
+      "bytes": 9415,
+      "hashMatches": true
+    },
+    {
+      "path": "/favicon-32.png",
+      "status": 200,
+      "bytes": 765,
+      "hashMatches": true
+    },
+    {
+      "path": "/favicon.svg",
+      "status": 200,
+      "bytes": 388,
+      "hashMatches": true
+    },
+    {
+      "path": "/gallery/index.html",
+      "status": 307,
+      "location": "/gallery/",
+      "canonicalHtmlRedirect": true
+    },
+    {
+      "path": "/index.html",
+      "status": 307,
+      "location": "/",
+      "canonicalHtmlRedirect": true
+    },
+    {
+      "path": "/menu/index.html",
+      "status": 307,
+      "location": "/menu/",
+      "canonicalHtmlRedirect": true
+    },
+    {
+      "path": "/robots.txt",
+      "status": 200,
+      "bytes": 79,
+      "hashMatches": true
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "bytes": 419,
+      "hashMatches": true
+    },
+    {
+      "path": "/story/index.html",
+      "status": 307,
+      "location": "/story/",
+      "canonicalHtmlRedirect": true
+    },
+    {
+      "path": "/visit/index.html",
+      "status": 307,
+      "location": "/visit/",
+      "canonicalHtmlRedirect": true
+    }
+  ],
+  "redirects": [
+    {
+      "url": "http://rasairon.ismailstudio.my/menu/?from=legacy",
+      "status": 301,
+      "location": "https://makansedap.ismailstudio.my/menu/?from=legacy"
+    },
+    {
+      "url": "https://rasairon.ismailstudio.my/assets/images/hero-ribeye.webp?from=old",
+      "status": 301,
+      "location": "https://makansedap.ismailstudio.my/assets/images/hero-ribeye.webp?from=old"
+    },
+    {
+      "url": "https://rasairon.ismailstudio.my/missing-route/?x=one%20two",
+      "status": 301,
+      "location": "https://makansedap.ismailstudio.my/missing-route/?x=one%20two"
+    }
+  ],
+  "unknownRoute": 404
+}

@@ -1,0 +1,236 @@
+{
+  "newDeployments": {
+    "result": {
+      "deployments": [
+        {
+          "id": "e7fd8c66-3543-4933-b826-b7b4ced05f0a",
+          "source": "api",
+          "strategy": "percentage",
+          "author_email": "mohamad.ismail.mohd.izwan@gmail.com",
+          "annotations": {
+            "workers/message": "Automatic deployment on upload.",
+            "workers/triggered_by": "upload"
+          },
+          "versions": [
+            {
+              "version_id": "c3ae4573-1b31-452b-b929-3db6536ea0b8",
+              "percentage": 100
+            }
+          ],
+          "created_on": "2026-10-16T18:57:07.119433Z"
+        },
+        {
+          "id": "81b2bb96-0407-484c-ab90-7c060ddb9c8c",
+          "source": "api",
+          "strategy": "percentage",
+          "author_email": "mohamad.ismail.mohd.izwan@gmail.com",
+          "annotations": {
+            "workers/message": "Automatic deployment on upload.",
+            "workers/triggered_by": "upload"
+          },
+          "versions": [
+            {
+              "version_id": "daaf2aa9-6d23-4410-9c54-e30135e5d9d4",
+              "percentage": 100
+            }
+          ],
+          "created_on": "2026-10-16T18:53:11.624474Z"
+        }
+      ]
+    },
+    "success": true,
+    "errors": [],
+    "messages": [],
+    "result_info": {
+      "page": 1,
+      "per_page": 10,
+      "count": 2,
+      "total_count": 2,
+      "total_pages": 1
+    },
+    "status": 200
+  },
+  "oldDeployments": {
+    "result": {
+      "deployments": [
+        {
+          "id": "9b06e465-8895-4ab1-82dd-1ee1d82f5480",
+          "source": "wrangler",
+          "strategy": "percentage",
+          "author_email": "mohamad.ismail.mohd.izwan@gmail.com",
+          "annotations": {
+            "workers/triggered_by": "deployment"
+          },
+          "versions": [
+            {
+              "version_id": "67ffe593-936a-4d64-96f9-d9c9d53d9965",
+              "percentage": 100
+            }
+          ],
+          "created_on": "2026-10-15T11:53:30.940252Z"
+        },
+        {
+          "id": "2c809ca7-71cf-4d5e-958a-35db266bf110",
+          "source": "dash_template",
+          "strategy": "percentage",
+          "author_email": "mohamad.ismail.mohd.izwan@gmail.com",
+          "annotations": {
+            "workers/message": "Automatic deployment on upload.",
+            "workers/triggered_by": "upload"
+          },
+          "versions": [
+            {
+              "version_id": "b4abbc46-a8d2-4095-a364-ecc84e087692",
+              "percentage": 100
+            }
+          ],
+          "created_on": "2026-10-15T11:52:46.880769Z"
+        },
+        {
+          "id": "37c59cc3-b47d-4f52-a4f3-c8d9bf2539b1",
+          "source": "dash_template",
+          "strategy": "percentage",
+          "author_email": "mohamad.ismail.mohd.izwan@gmail.com",
+          "annotations": {
+            "workers/message": "Automatic deployment on upload.",
+            "workers/triggered_by": "upload"
+          },
+          "versions": [
+            {
+              "version_id": "7c08ce0d-8e5c-4709-8d82-093795acd459",
+              "percentage": 100
+            }
+          ],
+          "created_on": "2026-10-15T11:52:46.073663Z"
+        }
+      ]
+    },
+    "success": true,
+    "errors": [],
+    "messages": [],
+    "result_info": {
+      "page": 1,
+      "per_page": 10,
+      "count": 3,
+      "total_count": 3,
+      "total_pages": 1
+    },
+    "status": 200
+  },
+  "domains": [
+    {
+      "id": "a80558580483938de512d7fed1b72100a3207e0f",
+      "zone_id": "dc2bee92d5853929394633d0a4165093",
+      "zone_name": "ismailstudio.my",
+      "hostname": "rasairon.ismailstudio.my",
+      "service": "rasairon",
+      "environment": "production",
+      "cert_id": "2118e6b2-cf0a-4476-b183-26cfa0de0702",
+      "previews_enabled": true,
+      "enabled": true
+    },
+    {
+      "id": "af2f3407e5e90702f45854ff6981188f36929e7a",
+      "zone_id": "dc2bee92d5853929394633d0a4165093",
+      "zone_name": "ismailstudio.my",
+      "hostname": "makansedap.ismailstudio.my",
+      "service": "makansedap",
+      "environment": "production",
+      "cert_id": "828cfc34-876c-4f38-ab84-e6a2db8a3997",
+      "previews_enabled": false,
+      "enabled": true
+    }
+  ],
+  "dns": [
+    {
+      "id": "b5f67be6ae125c76f4aaf2e9a0df99f9",
+      "name": "makansedap.ismailstudio.my",
+      "type": "AAAA",
+      "content": "100::",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {},
+      "meta": {
+        "origin_worker_id": "af2f3407e5e90702f45854ff6981188f36929e7a",
+        "read_only": true
+      },
+      "comment": null,
+      "tags": [],
+      "created_on": "2026-10-16T18:56:53.014709Z",
+      "modified_on": "2026-10-16T18:56:53.014709Z"
+    },
+    {
+      "id": "0b3d79928e8956b6abade64e5e7c156a",
+      "name": "*.rasairon.ismailstudio.my",
+      "type": "AAAA",
+      "content": "100::",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {},
+      "meta": {
+        "origin_worker_id": "a80558580483938de512d7fed1b72100a3207e0f",
+        "read_only": true
+      },
+      "comment": null,
+      "tags": [],
+      "created_on": "2026-10-15T15:47:41.363891Z",
+      "modified_on": "2026-10-15T15:47:41.363891Z"
+    },
+    {
+      "id": "1855cd4ca49858b6f9bd7c97470ba507",
+      "name": "rasairon.ismailstudio.my",
+      "type": "AAAA",
+      "content": "100::",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {},
+      "meta": {
+        "origin_worker_id": "a80558580483938de512d7fed1b72100a3207e0f",
+        "read_only": true
+      },
+      "comment": null,
+      "tags": [],
+      "created_on": "2026-10-15T15:47:41.351876Z",
+      "modified_on": "2026-10-15T15:47:41.351876Z"
+    }
+  ],
+  "redirect": {
+    "result": {
+      "description": "",
+      "id": "c786f5605c6342cebe1e12ffa18a99ca",
+      "kind": "zone",
+      "last_updated": "2026-10-16T18:58:09.750046Z",
+      "name": "MakanSedap old-host migration",
+      "phase": "http_request_dynamic_redirect",
+      "rules": [
+        {
+          "action": "redirect",
+          "action_parameters": {
+            "from_value": {
+              "preserve_query_string": true,
+              "status_code": 301,
+              "target_url": {
+                "expression": "concat(\"https://makansedap.ismailstudio.my\", http.request.uri.path)"
+              }
+            }
+          },
+          "description": "Permanently redirect only rasairon to verified MakanSedap host",
+          "enabled": true,
+          "expression": "http.host eq \"rasairon.ismailstudio.my\"",
+          "id": "3d27793c06ee42c29b0f68965b48c1bc",
+          "last_updated": "2026-10-16T18:58:09.750046Z",
+          "ref": "rasairon_to_makansedap",
+          "version": "1"
+        }
+      ],
+      "version": "1"
+    },
+    "success": true,
+    "errors": [],
+    "messages": [],
+    "status": 200
+  }
+}

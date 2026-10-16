@@ -20,9 +20,9 @@ The concept board in `MakanSedap-Codex-Handoff/assets/` supplies visual inspirat
 
 ## Hosting
 
-The existing old host uses Cloudflare Worker `rasairon`, not Pages. The new site uses Worker `makansedap` with static assets and security headers (`scripts/worker.mjs`, `wrangler.jsonc`). `site/_headers` also supports static hosting. Cloudflare custom domains manage DNS and TLS. `scripts/redirect-worker.mjs` is the narrowly scoped old-host redirect. It preserves path and query and runs only after the new production host passes verification.
+The existing old host uses Cloudflare Worker `rasairon`, not Pages. The new site uses Worker `makansedap` with static assets and security headers (`scripts/worker.mjs`, `wrangler.jsonc`). `site/_headers` also supports static hosting. Cloudflare custom domains manage DNS and TLS. A Cloudflare Single Redirect rule matches only `rasairon.ismailstudio.my` and preserves path and query. It was enabled after the new host passed verification. The old Worker and its DNS remain intact; `scripts/redirect-worker.mjs` is a tested fallback, not the deployed redirect.
 
-`node scripts/upload-assets.mjs` accepts a short-lived Cloudflare asset session over hidden stdin; it does not store credentials. Normal CLI releases can use authenticated Wrangler. Do not commit credentials or API session tokens. The connector-driven release uses the documented static-asset upload API because this host has no Wrangler login.
+`node scripts/upload-assets.mjs` accepts a short-lived Cloudflare asset session over hidden stdin; it does not store credentials. Run `node scripts/asset-manifest.mjs` before the connector upload flow. `node scripts/verify-assets.mjs` checks every manifest endpoint against production. Normal CLI releases can use authenticated Wrangler; set RELEASE_COMMIT to the source commit for each release (the config records this release). Do not commit credentials or API session tokens. The connector-driven release uses the documented static-asset upload API because this host has no Wrangler login.
 
 Indexability is deliberate in this approved rebrand: index/follow metadata, per-route canonical/OG URLs, sitemap and robots. No business schema, fabricated address, opening hours, certification, reviews or real bookings. Fictional disclosures are visible on every page.
 
