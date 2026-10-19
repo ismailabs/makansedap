@@ -19,7 +19,28 @@ Source baseline: `bfbb3dedaffa6adbe6725ceda63a3d795a0ec854`, retained on `codex/
 
 Lighthouse 13.5 used default mobile simulated throttling against local HTTP. Initial performance scores were Home 67, Menu 51, Story 97, Gallery 75, Visit 71; accessibility/best practices/SEO were 100 throughout, with CLS 0. Controlled unchanged repeats produced Home 77/99/96, Menu 98/96/99, Gallery 98/90/89, Visit 91/99/96. Repeat LCP was at most 2.636s and CLS at most 0.032. All initial and repeat reports are retained in `qa/v2/lighthouse/` and `qa/v2/performance-diagnosis/`, without score filtering. Fifteen raw local cold-context navigations reproduced startup/native-layout timing variation; ordinary app script durations were around 1.5–2.9ms, with cold outliers around 18–22ms. The severe initial multi-second menu blocking was not repeatable. This is a lab limitation, not proof of field Core Web Vitals or consistent performance on physical devices. No speculative CSS rewrite was justified by the measurements.
 
-Source publication, deployment and final HTTPS verification are pending at this candidate-document checkpoint. Actual release receipts will follow below.
+## Published release and live verification
+
+The V2 source is published on `main` at `695daaa31b57b6d3af261696644db2f80ef2e7ab` (`fix: strengthen keyboard focus contrast on dark sections`). Its parent implementation commit is `e16cbc08ba95a378792fb265852fe15a7cd9978e`. The five production pages and assets match the final source commit. The evidence-only report update is published separately so the Cloudflare release identity continues to point at the exact tested source.
+
+On 19 October 2026, authenticated Wrangler 4.151.1 confirmed Cloudflare Worker `makansedap` at `makansedap.ismailstudio.my` is serving deployment `759647e6-78d1-49ca-91ed-1ed7c0541f4a`, version `4866e79b-64af-45fa-bacc-6f2ea3c3e216`, with 100% traffic. The version annotation names source `695daaa3`. Before deployment, the local source, GitHub `main` and advertised remote SHA matched. The active deployment was checked again after release, and the deployment history still identifies this V2 version as current.
+
+The final serialized HTTPS verification passed on the production hostname. All five canonical routes returned HTTP 200 and byte-for-byte matched the committed HTML; each exposed the expected `X-Release-Commit`, configured CSP/security headers, indexable metadata, and both verified Studio conversion links. The menu matched all 51 locked categories, names, prices and descriptions. All 86 asset and canonical-route endpoint checks passed their expected status and byte/hash comparisons; the five canonical `index.html` paths redirected to their slash routes and an unknown path returned 404.
+
+Chromium 156 checked all five routes at 390px and 1440px: ten page/viewport results, zero axe violations, zero horizontal overflow, and no browser or failed-request errors. The menu filter, browser-history category state, gallery filtering/lightbox navigation/focus return, and reservation preview passed. The reservation preview created no request beyond same-origin static assets and wrote no browser storage or cookies. A JavaScript-disabled pass confirmed all five pages retain navigation and content, the menu shows 51 entries, and booking controls stay disabled. Hosted extended QA passed all 17 checks, including 200% text sizing across seven widths (35 route/width combinations), reduced motion and failed-image handling, CSP, booking validation/privacy and real 404 behavior. Seven representative browser-computed keyboard focus outlines measured 4.88:1 or higher; butter outlines on plum measured 9.80:1.
+
+The first combined browser run hit a 30-second `load` timeout while the hosted suites were running together. Its partial receipts are retained in `qa/v2/iterations/final-verification-first-attempt.json`; rerunning the production verifier alone passed all ten route/viewport checks. This was a transient verification-run timeout, not a page or route failure.
+
+Release receipts and screenshot locations:
+
+- `qa/v2/cloudflare-release.json`: deployment/version IDs, rollout state, source commit and rollback target.
+- `qa/v2/production-verification.json` and `qa/v2/production/`: final HTTP, browser, interaction and screenshot results.
+- `qa/v2/production-assets.json`: 86 asset/route endpoint checks.
+- `qa/v2/extended-hosted-results.json`: 17 hosted extended checks and selected interaction screenshots.
+- `qa/v2/focus-contrast-production.json`: seven hosted focus-outline contrast results.
+- `qa/v2/visual-review-contact-sheet.png` and `qa/v2/visual-review-*`: five-route visual review.
+
+The earlier focus outline issue was fixed and the resulting CSS asset URL was versioned before this production verification. No deployment or source change occurred during the final verification.
 
 ## Reversible production path
 
