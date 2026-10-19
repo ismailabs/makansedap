@@ -1,0 +1,64 @@
+{
+  "checkedAt": "2026-10-19T03:53:29.545Z",
+  "base": "http://127.0.0.1:53562",
+  "result": "PASS",
+  "checks": [
+    {
+      "route": "/",
+      "selector": ".demo-bar a[href=\"https://ismailstudio.my/\"]",
+      "outline": "rgb(244, 217, 133)",
+      "outlineWidth": "3px",
+      "background": "rgb(48, 34, 57)",
+      "contrast": 10.69
+    },
+    {
+      "route": "/",
+      "selector": ".studio-note a[href=\"https://ismailstudio.my/\"]",
+      "outline": "rgb(244, 217, 133)",
+      "outlineWidth": "3px",
+      "background": "rgb(56, 40, 62)",
+      "contrast": 9.8
+    },
+    {
+      "route": "/",
+      "selector": ".opening-copy .btn-dark",
+      "outline": "rgb(128, 96, 22)",
+      "outlineWidth": "3px",
+      "background": "rgb(232, 237, 220)",
+      "contrast": 4.88
+    },
+    {
+      "route": "/gallery/",
+      "selector": ".nav [aria-current]",
+      "outline": "rgb(244, 217, 133)",
+      "outlineWidth": "3px",
+      "background": "rgb(56, 40, 62)",
+      "contrast": 9.8
+    },
+    {
+      "route": "/gallery/",
+      "selector": "[data-gallery-filter=\"food\"]",
+      "outline": "rgb(244, 217, 133)",
+      "outlineWidth": "3px",
+      "background": "rgb(56, 40, 62)",
+      "contrast": 9.8
+    },
+    {
+      "route": "/gallery/",
+      "selector": "[data-gallery-index=\"0\"]",
+      "outline": "rgb(244, 217, 133)",
+      "outlineWidth": "3px",
+      "background": "rgb(56, 40, 62)",
+      "contrast": 9.8
+    },
+    {
+      "route": "/gallery/",
+      "selector": ".lightbox-next",
+      "outline": "rgb(244, 217, 133)",
+      "outlineWidth": "3px",
+      "background": "rgb(56, 40, 62)",
+      "contrast": 9.8
+    }
+  ],
+  "scope": "Browser-computed focus outline against adjacent parent background for seven representative controls; complements keyboard tests, not full accessibility certification."
+}

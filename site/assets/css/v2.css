@@ -29,5 +29,7 @@ h1,h2,.footer-brand{overflow-wrap:anywhere}.shell>*,.opening-grid>*,.table-story
 @media(max-width:400px){.footer-top{grid-template-columns:minmax(0,1fr)}}
 @media(max-width:700px){.dish-grid{grid-template-columns:minmax(0,1fr)}}
 @media(max-width:700px){.reservation-panel{order:-1}}
+/* Keyboard focus must remain distinct on the dark page and author regions. */
+.demo-bar a:focus-visible,.studio-note a:focus-visible,.gallery-section a:focus-visible,.gallery-section button:focus-visible,.lightbox button:focus-visible,body[data-page='/gallery/'] .site-header a:focus-visible,body[data-page='/gallery/'] .site-header button:focus-visible{outline-color:var(--butter)}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}}
 @media print{.demo-bar,.nav,.nav-toggle,.studio-note,.site-footer,.menu-sidebar{display:none}.menu-layout,.menu-items{display:block}.menu-section{padding:0}.menu-group{break-inside:avoid}.menu-group[hidden]{display:block!important}.menu-item{break-inside:avoid}.category-feature{display:none}}

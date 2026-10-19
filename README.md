@@ -14,6 +14,8 @@ The current five-route design uses pandan, aubergine and lilac, with distinct pa
 
 Author V2 styles in `site/assets/css/v2.css`, then run `node scripts/prepare-css.mjs`. The compile includes the existing font definitions and V2 styles only. `node scripts/artwork-v2.mjs` regenerates the social card from existing licensed/project imagery.
 
+`node scripts/focus-contrast-qa.mjs` supplements axe with browser-computed focus-indicator contrast on representative light/dark controls. Set `FOCUS_BASE` to the production origin for the hosted check.
+
 Release only the tested Git commit: use authenticated Wrangler with `deploy --var RELEASE_COMMIT:<full-source-SHA>`, then run `verify-production.mjs` with `VERIFY_COMMIT` set to that SHA, plus `asset-manifest.mjs` and `verify-assets.mjs`. The release binding is deliberately supplied at deployment rather than retaining an obsolete SHA in configuration. Capture the active deployment before a release and use an explicit prior version for rollback. `qa/v2/cloudflare-version-before.json` preserves the V2 rollback version and settings. The release report records actual source/deployment identities and results.
 
 Inherited exception: the old `rasairon.ismailstudio.my` hostname returned authoritative NXDOMAIN before V2. This release does not alter old DNS, redirects or Workers. Legacy redirect tests remain opt-in using `CHECK_REDIRECT=1`; primary production tests do not misreport that inherited DNS failure as a V2 regression.

@@ -1,0 +1,39 @@
+{
+  "checkedAt": "2026-10-19T03:50:39.856Z",
+  "worker": "makansedap",
+  "hostname": "makansedap.ismailstudio.my",
+  "sourceBranch": "main",
+  "sourceCommit": "e16cbc08ba95a378792fb265852fe15a7cd9978e",
+  "deployment": {
+    "id": "3a747b03-732b-4529-a6d5-977ca9b4f9d9",
+    "source": "wrangler",
+    "strategy": "percentage",
+    "annotations": {
+      "workers/message": "MakanSedap V2 verified source e16cbc08",
+      "workers/triggered_by": "deployment"
+    },
+    "versions": [
+      {
+        "version_id": "28017f35-057b-4466-bfd5-a4d3f26e2268",
+        "percentage": 100
+      }
+    ],
+    "created_on": "2026-10-19T03:49:28.888497Z"
+  },
+  "rollback": {
+    "deploymentId": "e7fd8c66-3543-4933-b826-b7b4ced05f0a",
+    "versionId": "c3ae4573-1b31-452b-b929-3db6536ea0b8",
+    "sourceCommit": "656d42ed315de9f96bde042c725ed8012f941bd2"
+  },
+  "attempts": [
+    {
+      "strict": true,
+      "result": "Aborted before upload",
+      "reason": "Prior release was uploaded through script API; guard requires reconciliation"
+    },
+    {
+      "strict": false,
+      "result": "Wrangler deployment succeeded after comparing captured runtime/assets/bindings against repository config"
+    }
+  ]
+}
