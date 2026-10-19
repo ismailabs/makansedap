@@ -19,8 +19,5 @@
       "pattern": "makansedap.ismailstudio.my",
       "custom_domain": true
     }
-  ],
-  "vars": {
-    "RELEASE_COMMIT": "656d42ed315de9f96bde042c725ed8012f941bd2"
-  }
+  ]
 }

@@ -1,0 +1,441 @@
+{
+  "scope": "15 unchanged cold browser-context local navigations at390px, unthrottled. Raw PerformanceObserver longtasks and CDP durations; lab diagnostics only, not field INP or Lighthouse scores.",
+  "results": [
+    {
+      "route": "/",
+      "run": 1,
+      "loadAndFontsMs": 4077.5589,
+      "longTasks": [
+        {
+          "startTime": 1719.0999999996275,
+          "duration": 896,
+          "name": "self"
+        },
+        {
+          "startTime": 2708.399999999441,
+          "duration": 67,
+          "name": "self"
+        },
+        {
+          "startTime": 3269.2999999998137,
+          "duration": 304,
+          "name": "self"
+        }
+      ],
+      "lcp": {
+        "startTime": 3044,
+        "size": 62244,
+        "url": "http://127.0.0.1:58523/assets/images/dining-room-640.webp"
+      },
+      "navigation": {
+        "domContentLoadedMs": 2722.0999999996275,
+        "loadMs": 2946.199999999255
+      },
+      "mainThreadMs": {
+        "TaskDuration": 2431.151,
+        "ScriptDuration": 21.65,
+        "LayoutDuration": 131.435,
+        "RecalcStyleDuration": 91.02300000000001
+      }
+    },
+    {
+      "route": "/",
+      "run": 2,
+      "loadAndFontsMs": 1077.6454000000012,
+      "longTasks": [
+        {
+          "startTime": 81.70000000018626,
+          "duration": 87,
+          "name": "self"
+        },
+        {
+          "startTime": 540.7000000001863,
+          "duration": 124,
+          "name": "self"
+        }
+      ],
+      "lcp": {
+        "startTime": 600,
+        "size": 62244,
+        "url": "http://127.0.0.1:58523/assets/images/dining-room-640.webp"
+      },
+      "navigation": {
+        "domContentLoadedMs": 82.90000000037253,
+        "loadMs": 541.0999999996275
+      },
+      "mainThreadMs": {
+        "TaskDuration": 657.809,
+        "ScriptDuration": 1.572,
+        "LayoutDuration": 408.856,
+        "RecalcStyleDuration": 121.779
+      }
+    },
+    {
+      "route": "/",
+      "run": 3,
+      "loadAndFontsMs": 566.793099999999,
+      "longTasks": [
+        {
+          "startTime": 120.79999999981374,
+          "duration": 106,
+          "name": "self"
+        },
+        {
+          "startTime": 259.59999999962747,
+          "duration": 94,
+          "name": "self"
+        }
+      ],
+      "lcp": {
+        "startTime": 360,
+        "size": 62244,
+        "url": "http://127.0.0.1:58523/assets/images/dining-room-640.webp"
+      },
+      "navigation": {
+        "domContentLoadedMs": 70.59999999962747,
+        "loadMs": 121.20000000018626
+      },
+      "mainThreadMs": {
+        "TaskDuration": 271.254,
+        "ScriptDuration": 1.5130000000000001,
+        "LayoutDuration": 94.666,
+        "RecalcStyleDuration": 44.411
+      }
+    },
+    {
+      "route": "/menu/",
+      "run": 1,
+      "loadAndFontsMs": 552.0869000000021,
+      "longTasks": [
+        {
+          "startTime": 206.70000000018626,
+          "duration": 126,
+          "name": "self"
+        }
+      ],
+      "lcp": {
+        "startTime": 388,
+        "size": 19800,
+        "url": ""
+      },
+      "navigation": {
+        "domContentLoadedMs": 160.70000000018626,
+        "loadMs": 207.29999999981374
+      },
+      "mainThreadMs": {
+        "TaskDuration": 223.218,
+        "ScriptDuration": 2.871,
+        "LayoutDuration": 115.101,
+        "RecalcStyleDuration": 38.275000000000006
+      }
+    },
+    {
+      "route": "/menu/",
+      "run": 2,
+      "loadAndFontsMs": 278.8074000000015,
+      "longTasks": [
+        {
+          "startTime": 122.1000000005588,
+          "duration": 104,
+          "name": "self"
+        }
+      ],
+      "lcp": null,
+      "navigation": {
+        "domContentLoadedMs": 75,
+        "loadMs": 122.6000000005588
+      },
+      "mainThreadMs": {
+        "TaskDuration": 182.692,
+        "ScriptDuration": 1.906,
+        "LayoutDuration": 93.202,
+        "RecalcStyleDuration": 34.074
+      }
+    },
+    {
+      "route": "/menu/",
+      "run": 3,
+      "loadAndFontsMs": 306.5073000000011,
+      "longTasks": [
+        {
+          "startTime": 141.79999999981374,
+          "duration": 95,
+          "name": "self"
+        }
+      ],
+      "lcp": {
+        "startTime": 280,
+        "size": 19800,
+        "url": ""
+      },
+      "navigation": {
+        "domContentLoadedMs": 98.70000000018626,
+        "loadMs": 142.29999999981374
+      },
+      "mainThreadMs": {
+        "TaskDuration": 180.029,
+        "ScriptDuration": 1.891,
+        "LayoutDuration": 85.941,
+        "RecalcStyleDuration": 34.644
+      }
+    },
+    {
+      "route": "/story/",
+      "run": 1,
+      "loadAndFontsMs": 235.79060000000027,
+      "longTasks": [
+        {
+          "startTime": 88.59999999962747,
+          "duration": 85,
+          "name": "self"
+        }
+      ],
+      "lcp": {
+        "startTime": 216,
+        "size": 78750,
+        "url": "http://127.0.0.1:58523/assets/images/fresh-ingredients-640.webp"
+      },
+      "navigation": {
+        "domContentLoadedMs": 43.299999999813735,
+        "loadMs": 89
+      },
+      "mainThreadMs": {
+        "TaskDuration": 157.569,
+        "ScriptDuration": 1.6119999999999999,
+        "LayoutDuration": 74.936,
+        "RecalcStyleDuration": 38.012
+      }
+    },
+    {
+      "route": "/story/",
+      "run": 2,
+      "loadAndFontsMs": 211.38260000000082,
+      "longTasks": [
+        {
+          "startTime": 74.69999999925494,
+          "duration": 78,
+          "name": "self"
+        }
+      ],
+      "lcp": {
+        "startTime": 196,
+        "size": 78750,
+        "url": "http://127.0.0.1:58523/assets/images/fresh-ingredients-640.webp"
+      },
+      "navigation": {
+        "domContentLoadedMs": 37.19999999925494,
+        "loadMs": 75
+      },
+      "mainThreadMs": {
+        "TaskDuration": 151.85100000000003,
+        "ScriptDuration": 1.619,
+        "LayoutDuration": 72.355,
+        "RecalcStyleDuration": 31.875
+      }
+    },
+    {
+      "route": "/story/",
+      "run": 3,
+      "loadAndFontsMs": 320.4199000000008,
+      "longTasks": [
+        {
+          "startTime": 110.90000000037253,
+          "duration": 134,
+          "name": "self"
+        }
+      ],
+      "lcp": {
+        "startTime": 300,
+        "size": 78750,
+        "url": "http://127.0.0.1:58523/assets/images/fresh-ingredients-640.webp"
+      },
+      "navigation": {
+        "domContentLoadedMs": 41.200000000186265,
+        "loadMs": 111.29999999981374
+      },
+      "mainThreadMs": {
+        "TaskDuration": 225.928,
+        "ScriptDuration": 1.893,
+        "LayoutDuration": 120.681,
+        "RecalcStyleDuration": 46.212
+      }
+    },
+    {
+      "route": "/gallery/",
+      "run": 1,
+      "loadAndFontsMs": 252.78240000000005,
+      "longTasks": [
+        {
+          "startTime": 87.90000000037253,
+          "duration": 81,
+          "name": "self"
+        }
+      ],
+      "lcp": {
+        "startTime": 236,
+        "size": 38850,
+        "url": "http://127.0.0.1:58523/assets/images/hero-ribeye-640.webp"
+      },
+      "navigation": {
+        "domContentLoadedMs": 41.60000000055879,
+        "loadMs": 88.40000000037253
+      },
+      "mainThreadMs": {
+        "TaskDuration": 195.244,
+        "ScriptDuration": 2.6029999999999998,
+        "LayoutDuration": 71.915,
+        "RecalcStyleDuration": 36.727999999999994
+      }
+    },
+    {
+      "route": "/gallery/",
+      "run": 2,
+      "loadAndFontsMs": 216.13029999999708,
+      "longTasks": [
+        {
+          "startTime": 82.6000000005588,
+          "duration": 76,
+          "name": "self"
+        }
+      ],
+      "lcp": {
+        "startTime": 196,
+        "size": 38850,
+        "url": "http://127.0.0.1:58523/assets/images/hero-ribeye-640.webp"
+      },
+      "navigation": {
+        "domContentLoadedMs": 43.80000000074506,
+        "loadMs": 83
+      },
+      "mainThreadMs": {
+        "TaskDuration": 139.883,
+        "ScriptDuration": 1.545,
+        "LayoutDuration": 67.268,
+        "RecalcStyleDuration": 30.339000000000002
+      }
+    },
+    {
+      "route": "/gallery/",
+      "run": 3,
+      "loadAndFontsMs": 290.2495999999992,
+      "longTasks": [
+        {
+          "startTime": 113.79999999981374,
+          "duration": 86,
+          "name": "self"
+        }
+      ],
+      "lcp": {
+        "startTime": 232,
+        "size": 38850,
+        "url": "http://127.0.0.1:58523/assets/images/hero-ribeye-640.webp"
+      },
+      "navigation": {
+        "domContentLoadedMs": 64.20000000018626,
+        "loadMs": 114.5
+      },
+      "mainThreadMs": {
+        "TaskDuration": 165.896,
+        "ScriptDuration": 2.473,
+        "LayoutDuration": 77.354,
+        "RecalcStyleDuration": 37.518
+      }
+    },
+    {
+      "route": "/visit/",
+      "run": 1,
+      "loadAndFontsMs": 1401.057499999999,
+      "longTasks": [
+        {
+          "startTime": 411.20000000018626,
+          "duration": 189,
+          "name": "self"
+        },
+        {
+          "startTime": 1147.7000000001863,
+          "duration": 112,
+          "name": "self"
+        }
+      ],
+      "lcp": {
+        "startTime": 1268,
+        "size": 29952,
+        "url": ""
+      },
+      "navigation": {
+        "domContentLoadedMs": 429.40000000037253,
+        "loadMs": 1148.2000000001863
+      },
+      "mainThreadMs": {
+        "TaskDuration": 1143.361,
+        "ScriptDuration": 18.476,
+        "LayoutDuration": 381.517,
+        "RecalcStyleDuration": 85.441
+      }
+    },
+    {
+      "route": "/visit/",
+      "run": 2,
+      "loadAndFontsMs": 797.2436999999991,
+      "longTasks": [
+        {
+          "startTime": 70.1000000005588,
+          "duration": 529,
+          "name": "self"
+        },
+        {
+          "startTime": 641.9000000003725,
+          "duration": 80,
+          "name": "self"
+        }
+      ],
+      "lcp": {
+        "startTime": 636,
+        "size": 29952,
+        "url": ""
+      },
+      "navigation": {
+        "domContentLoadedMs": 72.6000000005588,
+        "loadMs": 643.1000000005588
+      },
+      "mainThreadMs": {
+        "TaskDuration": 683.374,
+        "ScriptDuration": 2.755,
+        "LayoutDuration": 519.905,
+        "RecalcStyleDuration": 98.30999999999999
+      }
+    },
+    {
+      "route": "/visit/",
+      "run": 3,
+      "loadAndFontsMs": 535.2776999999987,
+      "longTasks": [
+        {
+          "startTime": 73,
+          "duration": 258,
+          "name": "self"
+        },
+        {
+          "startTime": 367.8999999994412,
+          "duration": 69,
+          "name": "self"
+        }
+      ],
+      "lcp": {
+        "startTime": 364,
+        "size": 29952,
+        "url": ""
+      },
+      "navigation": {
+        "domContentLoadedMs": 75.09999999962747,
+        "loadMs": 369.19999999925494
+      },
+      "mainThreadMs": {
+        "TaskDuration": 408.77599999999995,
+        "ScriptDuration": 2.473,
+        "LayoutDuration": 291.099,
+        "RecalcStyleDuration": 42.455
+      }
+    }
+  ]
+}

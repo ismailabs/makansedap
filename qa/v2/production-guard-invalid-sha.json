@@ -1,0 +1,12 @@
+{
+  "checkedAt": "2026-10-19T03:42:25.780Z",
+  "base": "https://makansedap.ismailstudio.my",
+  "routes": [],
+  "browser": [],
+  "redirects": [],
+  "result": "FAIL",
+  "failure": {
+    "message": "Production verification requires VERIFY_COMMIT with the exact 40-character source SHA",
+    "stack": "AssertionError [ERR_ASSERTION]: Production verification requires VERIFY_COMMIT with the exact 40-character source SHA\n    at file:///C:/Users/moham/OneDrive/Desktop/makan%20sedap/scripts/verify-production.mjs:6:31"
+  }
+}

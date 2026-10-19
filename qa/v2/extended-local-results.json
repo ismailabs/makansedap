@@ -1,0 +1,111 @@
+{
+  "date": "2026-10-19T03:33:16.410Z",
+  "base": "http://127.0.0.1:50830",
+  "mode": "local",
+  "checks": [
+    {
+      "name": "Every route exposes only the two verified Studio conversion destinations",
+      "detail": {
+        "destinations": [
+          "https://ismailstudio.my/",
+          "https://wa.me/601163265610"
+        ],
+        "sourceEvidence": "qa/v2/before/studio-source.html; exact WhatsApp link appears on the verified Studio site"
+      }
+    },
+    {
+      "name": "Mobile navigation and keyboard skip link remain usable",
+      "detail": "PASS"
+    },
+    {
+      "name": "Menu clicks create shareable categories and browser Back/Forward restores filters",
+      "detail": "PASS"
+    },
+    {
+      "name": "All category deep links, dish deep links after filtering and unknown fragments",
+      "detail": "PASS"
+    },
+    {
+      "name": "Every filtered gallery wraps within the visible set and restores keyboard focus",
+      "detail": "PASS"
+    },
+    {
+      "name": "Reservation demo validates party/date/time boundaries without transmitting or storing data",
+      "detail": {
+        "bounds": {
+          "min": "2026-10-20",
+          "max": "2027-04-17",
+          "today": "2026-10-19"
+        },
+        "requests": []
+      }
+    },
+    {
+      "name": "All five routes at 200% text: 320px",
+      "detail": "PASS"
+    },
+    {
+      "name": "All five routes at 200% text: 375px",
+      "detail": "PASS"
+    },
+    {
+      "name": "All five routes at 200% text: 390px",
+      "detail": "PASS"
+    },
+    {
+      "name": "All five routes at 200% text: 768px",
+      "detail": "PASS"
+    },
+    {
+      "name": "All five routes at 200% text: 1024px",
+      "detail": "PASS"
+    },
+    {
+      "name": "All five routes at 200% text: 1440px",
+      "detail": "PASS"
+    },
+    {
+      "name": "All five routes at 200% text: 1920px",
+      "detail": "PASS"
+    },
+    {
+      "name": "No-JavaScript content, useful links and explicitly disabled booking controls",
+      "detail": "PASS"
+    },
+    {
+      "name": "Reduced motion and failed images preserve navigation and meal discovery",
+      "detail": "PASS"
+    },
+    {
+      "name": "Missing routes return a real HTTP 404 rather than the homepage",
+      "detail": "PASS"
+    },
+    {
+      "name": "CSP retains same-origin assets and blocks connections, forms and embedding",
+      "detail": "PASS"
+    }
+  ],
+  "failures": [],
+  "screenshots": [
+    "qa/v2/extended-local/navigation-open-320.png",
+    "qa/v2/extended-local/menu-filter-drinks-320.png",
+    "qa/v2/extended-local/gallery-food-dialog-390.png",
+    "qa/v2/extended-local/gallery-interior-dialog-390.png",
+    "qa/v2/extended-local/gallery-details-dialog-390.png",
+    "qa/v2/extended-local/gallery-all-dialog-390.png",
+    "qa/v2/extended-local/reservation-demo-result-390.png",
+    "qa/v2/extended-local/home-text200-320.png",
+    "qa/v2/extended-local/menu-text200-320.png",
+    "qa/v2/extended-local/story-text200-320.png",
+    "qa/v2/extended-local/gallery-text200-320.png",
+    "qa/v2/extended-local/visit-text200-320.png",
+    "qa/v2/extended-local/home-text200-768.png",
+    "qa/v2/extended-local/menu-text200-768.png",
+    "qa/v2/extended-local/story-text200-768.png",
+    "qa/v2/extended-local/gallery-text200-768.png",
+    "qa/v2/extended-local/visit-text200-768.png",
+    "qa/v2/extended-local/home-images-blocked-390.png"
+  ],
+  "scope": "Automated browser checks; 200% text is CSS text enlargement, not a claim of OS/browser zoom or full accessibility compliance.",
+  "browser": "156.0.8078.4"
+}

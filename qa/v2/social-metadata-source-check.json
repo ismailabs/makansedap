@@ -1,0 +1,38 @@
+{
+  "checkedAt": "2026-10-19T03:37:12.194Z",
+  "result": "PASS",
+  "scope": "Local source declarations and image dimensions; live URL/bytes are separately enforced by production verifier.",
+  "checks": [
+    {
+      "route": "/",
+      "og": "https://makansedap.ismailstudio.my/assets/images/social-preview.png?v=2-20261019",
+      "twitter": "https://makansedap.ismailstudio.my/assets/images/social-preview.png?v=2-20261019"
+    },
+    {
+      "route": "/menu/",
+      "og": "https://makansedap.ismailstudio.my/assets/images/social-preview.png?v=2-20261019",
+      "twitter": "https://makansedap.ismailstudio.my/assets/images/social-preview.png?v=2-20261019"
+    },
+    {
+      "route": "/story/",
+      "og": "https://makansedap.ismailstudio.my/assets/images/social-preview.png?v=2-20261019",
+      "twitter": "https://makansedap.ismailstudio.my/assets/images/social-preview.png?v=2-20261019"
+    },
+    {
+      "route": "/gallery/",
+      "og": "https://makansedap.ismailstudio.my/assets/images/social-preview.png?v=2-20261019",
+      "twitter": "https://makansedap.ismailstudio.my/assets/images/social-preview.png?v=2-20261019"
+    },
+    {
+      "route": "/visit/",
+      "og": "https://makansedap.ismailstudio.my/assets/images/social-preview.png?v=2-20261019",
+      "twitter": "https://makansedap.ismailstudio.my/assets/images/social-preview.png?v=2-20261019"
+    }
+  ],
+  "image": {
+    "path": "site/assets/images/social-preview.png",
+    "width": 1200,
+    "height": 630,
+    "sha256": "ebe39a9aaabc447f581e66995847326d09c82d0fc1e0311e8b40731b3b73f2e0"
+  }
+}

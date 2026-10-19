@@ -1,0 +1,13 @@
+ D MakanSedap-Codex-Handoff/00-START-HERE.md
+ D MakanSedap-Codex-Handoff/01-REQUIREMENTS.md
+ D MakanSedap-Codex-Handoff/02-REPOSITORY-AUDIT.md
+ D MakanSedap-Codex-Handoff/03-ART-DIRECTION.md
+ D MakanSedap-Codex-Handoff/04-IMPLEMENTATION.md
+ D MakanSedap-Codex-Handoff/05-GITHUB-CLOUDFLARE.md
+ D MakanSedap-Codex-Handoff/06-DEFINITION-OF-DONE.md
+ D MakanSedap-Codex-Handoff/07-PROVENANCE-AND-LIMITATIONS.md
+ D MakanSedap-Codex-Handoff/CODEX-GOAL-MODE.md
+ D MakanSedap-Codex-Handoff/assets/concept-board.png
+?? .agents/
+?? MakanSedap-V2-Handoff/
+?? qa/v2/

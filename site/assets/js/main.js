@@ -57,16 +57,19 @@
     };
     filters.forEach(button => button.addEventListener('click', () => {
       applyFilter(button.dataset.filter, { moveFocus: true });
+      const hash = button.dataset.filter === 'all' ? '' : '#' + button.dataset.filter;
+      if (window.location.hash !== hash) history.pushState(null, '', window.location.pathname + window.location.search + hash);
     }));
     const followHash = () => {
       const hash = window.location.hash.slice(1);
       // A dish link must also work after a visitor has selected another category.
       if (groups.some(group => group.id === hash)) applyFilter(hash);
       else if (hash.startsWith('item-') || !hash) applyFilter('all');
-      if (hash) document.getElementById(hash)?.scrollIntoView({ block: 'start' });
+      if (hash) document.getElementById(hash)?.scrollIntoView({ block: 'start', behavior: 'instant' });
     };
     followHash();
     window.addEventListener('hashchange', followHash);
+    window.addEventListener('popstate', followHash);
   }
 
   const galleryFilters = [...document.querySelectorAll('[data-gallery-filter]')];

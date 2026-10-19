@@ -1,0 +1,126 @@
+{
+  "checkedAt": "2026-10-19T03:28:09Z",
+  "scope": "Read-only discovery and documentation review; no deployment, upload, rollback, login, infrastructure change or dependency installation performed by this audit.",
+  "worker": "makansedap",
+  "accountId": "44214a829e2337ca50cf40e4cd827cba",
+  "customDomain": "makansedap.ismailstudio.my",
+  "cli": {
+    "onPath": false,
+    "repositoryDependency": false,
+    "globalInstallation": false,
+    "cachedInstallation": "C:/Users/moham/AppData/Local/npm-cache/_npx/32026684e21afda6/node_modules/wrangler",
+    "executable": "C:/Users/moham/AppData/Local/npm-cache/_npx/32026684e21afda6/node_modules/wrangler/bin/wrangler.js",
+    "nodeExecutable": "C:/Program Files/nodejs/node.exe",
+    "reportedVersion": "4.151.1",
+    "versionExitCode": 0,
+    "repositoryMetadata": "https://github.com/cloudflare/workers-sdk.git#packages/wrangler",
+    "cacheLock": "C:/Users/moham/AppData/Local/npm-cache/_npx/32026684e21afda6/package-lock.json",
+    "cacheLockResolved": "https://registry.npmjs.org/wrangler/-/wrangler-4.151.1.tgz",
+    "cacheLockIntegrity": "sha512-OAsa9UAHZshM6mq2PXcVoyxXgWThAanZMBc/IirtqEWd/BauRtmUKzAniOu/pU0pd3pxKuMZ2vsbF4eo6RiNDA==",
+    "executableSha256": "780661a508810f3b65786895b1ca9aacbc4f55d329ae6b8c1e49ec8433569f77",
+    "schemaSha256": "6002683c70faa4b5dbb2954d3c150600cd856b33bf1a3d7f94ff7ee63ef2d88f",
+    "provenanceLimit": "Existing package and cache-lock metadata plus local file hashes inspected; registry tarball contents were not independently redownloaded or compared.",
+    "telemetry": "WRANGLER_SEND_METRICS=false set only for audited CLI processes"
+  },
+  "authentication": {
+    "command": "node <cached-wrangler>/bin/wrangler.js whoami --json --account 44214a829e2337ca50cf40e4cd827cba",
+    "exitCode": 0,
+    "loggedIn": true,
+    "authType": "OAuth Token",
+    "configuredAccountMatched": true,
+    "relevantReportedPermissions": [
+      "account:read",
+      "workers_scripts:write",
+      "workers_routes:write",
+      "workers:write",
+      "zone:read"
+    ],
+    "credentialsInspectedOrExported": false,
+    "identityPersonalDataPersisted": false,
+    "limit": "A successful whoami establishes current CLI identity and reported permissions, not a successful future deployment or a fresh Cloudflare connector session."
+  },
+  "localHelpVerified": {
+    "whoami": [
+      "--json",
+      "--account"
+    ],
+    "deploy": [
+      "--config",
+      "--name",
+      "--dry-run",
+      "--outdir",
+      "--var",
+      "--message",
+      "--strict",
+      "--keep-vars"
+    ],
+    "versions upload": [
+      "--config",
+      "--name",
+      "--dry-run",
+      "--outdir",
+      "--message",
+      "--strict",
+      "--keep-vars"
+    ],
+    "rollback": [
+      "version-id positional argument",
+      "--config",
+      "--name",
+      "--message",
+      "--yes"
+    ],
+    "schemaAssetsFieldsVerified": [
+      "directory",
+      "binding",
+      "run_worker_first",
+      "html_handling",
+      "not_found_handling"
+    ]
+  },
+  "recommendedAlternative": {
+    "method": "Invoke the existing cached Wrangler directly through Node; no npx invocation, installation, token extraction or connector reauthentication is needed for this available CLI path.",
+    "dryRun": "node <cached-wrangler>/bin/wrangler.js deploy --config wrangler.jsonc --name makansedap --dry-run --outdir qa/v2/worker-dry-run",
+    "release": "node <cached-wrangler>/bin/wrangler.js deploy --config wrangler.jsonc --name makansedap --strict --var RELEASE_COMMIT:<reviewed-source-SHA> --message <reviewed-release-message>",
+    "rollback": "node <cached-wrangler>/bin/wrangler.js rollback <verified-pre-release-version-id> --config wrangler.jsonc --name makansedap --message <rollback-reason> --yes",
+    "prerequisites": [
+      "Capture the current remote deployment and version before the production write; do not use historical report identity without live verification.",
+      "Review remote settings against wrangler.jsonc and ensure RELEASE_COMMIT identifies the reviewed source release.",
+      "Dry run verifies local packaging, then production deployment must be followed by live route, asset, behavior, header and release-identity checks.",
+      "Rollback immediately activates the specified version; linked resource data and trigger changes are not restored by code rollback."
+    ],
+    "commandsExecutedByAudit": [
+      "--version",
+      "whoami --help",
+      "whoami --json --account <configured-account>",
+      "deploy --help",
+      "versions upload --help",
+      "rollback --help"
+    ]
+  },
+  "apiAlternative": {
+    "status": "Supported by current official docs but unnecessary while the authenticated cached CLI works; no API mutation attempted.",
+    "steps": [
+      "POST /accounts/{account_id}/workers/scripts/{script_name}/assets-upload-session with a path-to-hash-and-size manifest.",
+      "POST /accounts/{account_id}/workers/assets/upload?base64=true with required multipart asset batches and the session upload authorization.",
+      "Use the resulting completion token in multipart metadata to upload a Worker version through POST /accounts/{account_id}/workers/scripts/{script_name}/versions, which does not deploy it.",
+      "Activate the chosen version through a separate deployment operation, or use the script upload endpoint when an immediate deployment is intended."
+    ],
+    "cautions": [
+      "The direct-upload guide prefers Wrangler for normal site delivery.",
+      "Asset upload and completion JWT values are sensitive and must stay out of logs and evidence artifacts.",
+      "The keep_assets option reuses existing assets; it is unsuitable when publishing changed site assets.",
+      "Rollback supports only the 100 most recently published versions and can be blocked by incompatible resource changes."
+    ]
+  },
+  "officialSources": [
+    "https://developers.cloudflare.com/workers/wrangler/commands/general/",
+    "https://developers.cloudflare.com/workers/wrangler/commands/workers/",
+    "https://developers.cloudflare.com/workers/versions-and-deployments/",
+    "https://developers.cloudflare.com/workers/versions-and-deployments/rollbacks/",
+    "https://developers.cloudflare.com/workers/static-assets/direct-upload/",
+    "https://developers.cloudflare.com/api/resources/workers/subresources/scripts/subresources/versions/methods/create/",
+    "https://developers.cloudflare.com/api/resources/workers/subresources/scripts/subresources/assets/subresources/upload/methods/create/",
+    "https://developers.cloudflare.com/api/resources/workers/subresources/assets/subresources/upload/methods/create/"
+  ]
+}

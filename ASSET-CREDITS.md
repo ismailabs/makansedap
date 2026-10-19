@@ -2,6 +2,10 @@
 
 # Asset credits
 
+## V2, 19 October 2026
+
+The V2 layout reuses the original project-generated images and self-hosted OFL fonts below. No additional stock, external imagery, generation services or icon packages were introduced. The redesigned 1200 × 630 social preview is typeset locally by `scripts/artwork-v2.mjs` using the dining-room and nasi-lemak imagery, DM Sans and Cormorant Garamond. All crops remain illustrative; the site labels the restaurant and imagery as fictional.
+
 ## Original AI concept imagery
 
 18 distinct images were generated for this project with OpenAI's built-in image-generation tool on 15 October 2026. They depict imagined dishes and interiors, not real premises or meals served to customers. No stock photographs, scraped commercial photos, stock purchases, external generation API keys or third-party generation services were used.

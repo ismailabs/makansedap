@@ -1,0 +1,498 @@
+{
+  "checkedAt": "2026-10-19T03:18:20.925Z",
+  "kind": "V2 pre-edit baseline",
+  "routes": [
+    {
+      "route": "/",
+      "status": 200,
+      "url": "https://makansedap.ismailstudio.my/",
+      "headers": {
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "cache-control": "public, max-age=0, must-revalidate",
+        "cf-cache-status": "HIT",
+        "cf-ray": "a4cca28fb85ed3de-KIX",
+        "connection": "keep-alive",
+        "content-encoding": "br",
+        "content-security-policy": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'none'; form-action 'none'; base-uri 'none'; frame-ancestors 'none'",
+        "content-type": "text/html",
+        "date": "Mon, 19 Oct 2026 03:18:21 GMT",
+        "etag": "W/\"37a7467c0afb00f432113fa98ad32fee\"",
+        "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+        "permissions-policy": "camera=(), microphone=(), geolocation=(), payment=()",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=%2F4FkLXe3vVzAHT30GCtVbs0V%2FpbSlwJHbxpOvTaOZsJEc%2FRHHUj75ZywFQWodgm%2BsAomEGMSOAFcmtJ3qrpy4JGTqk5VtmsNBciqXQHWwSeVhwKRldRUDXMqHbnzkNrEJNRl4rXm8U28gUrCzJTF7PH8wvyRso3hJA%3D%3D\"}]}",
+        "server": "cloudflare",
+        "transfer-encoding": "chunked",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY",
+        "x-release-commit": "656d42ed315de9f96bde042c725ed8012f941bd2"
+      },
+      "bytes": 15755,
+      "sha256": "4c44d7f5b3634b6f56b06711a729f699352e59af669713c447eed4dfc59efd97",
+      "sourceSha256": "4c44d7f5b3634b6f56b06711a729f699352e59af669713c447eed4dfc59efd97",
+      "sourceMatches": true,
+      "title": "MakanSedap | Good Food Brings Us Closer",
+      "h1": "Good FoodBrings Us Closer.",
+      "canonical": "https://makansedap.ismailstudio.my/",
+      "fictionDisclosure": "Portfolio concept. Fictional restaurant by ISMAIL. No real restaurant, orders or reservations."
+    },
+    {
+      "route": "/menu/",
+      "status": 200,
+      "url": "https://makansedap.ismailstudio.my/menu/",
+      "headers": {
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "cache-control": "public, max-age=0, must-revalidate",
+        "cf-cache-status": "HIT",
+        "cf-ray": "a4cca2915f1fd3de-KIX",
+        "connection": "keep-alive",
+        "content-encoding": "br",
+        "content-security-policy": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'none'; form-action 'none'; base-uri 'none'; frame-ancestors 'none'",
+        "content-type": "text/html",
+        "date": "Mon, 19 Oct 2026 03:18:21 GMT",
+        "etag": "W/\"a788c106826271f22be997df0a2382da\"",
+        "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+        "permissions-policy": "camera=(), microphone=(), geolocation=(), payment=()",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=FaM4tdelFOllJidnHMNUCIlQQ%2BFlXOGb3khhWWXbqQrDO44JM6khtvsHCaqyHtKU%2Fj9e8ZwQxrGvRWCzuRIdBQyl5SZEz9tEHnNOWTetUd6H%2BMyZf2LKeW9nREmOA6CVWGZT5qy1gs5fyQXT8XXcwJuiHkChdgZH2Q%3D%3D\"}]}",
+        "server": "cloudflare",
+        "transfer-encoding": "chunked",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY",
+        "x-release-commit": "656d42ed315de9f96bde042c725ed8012f941bd2"
+      },
+      "bytes": 30722,
+      "sha256": "2c35c64028bc52ef6564e72c12c7f17c80161d80c8161d9deb0477dc1f4fce70",
+      "sourceSha256": "2c35c64028bc52ef6564e72c12c7f17c80161d80c8161d9deb0477dc1f4fce70",
+      "sourceMatches": true,
+      "title": "The Menu | MakanSedap",
+      "h1": "Our Menu.A little fire. A lot of feeling.",
+      "canonical": "https://makansedap.ismailstudio.my/menu/",
+      "fictionDisclosure": "Portfolio concept. Fictional restaurant by ISMAIL. No real restaurant, orders or reservations."
+    },
+    {
+      "route": "/story/",
+      "status": 200,
+      "url": "https://makansedap.ismailstudio.my/story/",
+      "headers": {
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "cache-control": "public, max-age=0, must-revalidate",
+        "cf-cache-status": "HIT",
+        "cf-ray": "a4cca292abdcd3de-KIX",
+        "connection": "keep-alive",
+        "content-encoding": "br",
+        "content-security-policy": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'none'; form-action 'none'; base-uri 'none'; frame-ancestors 'none'",
+        "content-type": "text/html",
+        "date": "Mon, 19 Oct 2026 03:18:21 GMT",
+        "etag": "W/\"361be604c7f7f708d8184369e04d2d4f\"",
+        "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+        "permissions-policy": "camera=(), microphone=(), geolocation=(), payment=()",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=gCMzCJKU%2F1GuKBwvtnLjNL%2F%2BC6a2VxPGbC7%2BGNEJPLymCWa3Y%2FsvwneZBRiABFLyNeZ83%2FJiU6i0mAaO0HxMFUYfWVmKxfBpZPsl3zfuvRmAn4ouaYfCVUJmptrV%2FG0huytqymmqVnffJwuPTlfbiOlcukZ4Lw2GYg%3D%3D\"}]}",
+        "server": "cloudflare",
+        "transfer-encoding": "chunked",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY",
+        "x-release-commit": "656d42ed315de9f96bde042c725ed8012f941bd2"
+      },
+      "bytes": 10033,
+      "sha256": "1b6a24e33e1b85b83146e63da3f260bd158de88d02c7bd0dbbbfa109be7b3be3",
+      "sourceSha256": "1b6a24e33e1b85b83146e63da3f260bd158de88d02c7bd0dbbbfa109be7b3be3",
+      "sourceMatches": true,
+      "title": "Our Story | MakanSedap",
+      "h1": "Familiar Flavours.Fresh Possibilities.",
+      "canonical": "https://makansedap.ismailstudio.my/story/",
+      "fictionDisclosure": "Portfolio concept. Fictional restaurant by ISMAIL. No real restaurant, orders or reservations."
+    },
+    {
+      "route": "/gallery/",
+      "status": 200,
+      "url": "https://makansedap.ismailstudio.my/gallery/",
+      "headers": {
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "cache-control": "public, max-age=0, must-revalidate",
+        "cf-cache-status": "HIT",
+        "cf-ray": "a4cca293bf85d3de-KIX",
+        "connection": "keep-alive",
+        "content-encoding": "br",
+        "content-security-policy": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'none'; form-action 'none'; base-uri 'none'; frame-ancestors 'none'",
+        "content-type": "text/html",
+        "date": "Mon, 19 Oct 2026 03:18:22 GMT",
+        "etag": "W/\"4f916f06c495dd81cef52661471f3a32\"",
+        "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+        "permissions-policy": "camera=(), microphone=(), geolocation=(), payment=()",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=FHrmhVCIARZb9m0OGAU2zQTgxvDQHWBb8ebDsTEm4UuVgt0q80lwohnZMNkdBsWn8OsDR0Z1LIB0Bcp6ZFt53asbAF3cBdJYUfZ%2B%2FlouL%2B1ifdKCBG%2BaFK3cCmpmz%2BzGZeMWRgrbKFLgesQEmY0PDmJOsVBYiV6NGQ%3D%3D\"}]}",
+        "server": "cloudflare",
+        "transfer-encoding": "chunked",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY",
+        "x-release-commit": "656d42ed315de9f96bde042c725ed8012f941bd2"
+      },
+      "bytes": 22775,
+      "sha256": "d7f10a1b39bda9fae86d879b50403229624288dc5b91ee1f16050d1081686c09",
+      "sourceSha256": "d7f10a1b39bda9fae86d879b50403229624288dc5b91ee1f16050d1081686c09",
+      "sourceMatches": true,
+      "title": "Gallery & Experience | MakanSedap",
+      "h1": "A Feast for the Senses.",
+      "canonical": "https://makansedap.ismailstudio.my/gallery/",
+      "fictionDisclosure": "Portfolio concept. Fictional restaurant by ISMAIL. No real restaurant, orders or reservations."
+    },
+    {
+      "route": "/visit/",
+      "status": 200,
+      "url": "https://makansedap.ismailstudio.my/visit/",
+      "headers": {
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "cache-control": "public, max-age=0, must-revalidate",
+        "cf-cache-status": "HIT",
+        "cf-ray": "a4cca294bb50d3de-KIX",
+        "connection": "keep-alive",
+        "content-encoding": "br",
+        "content-security-policy": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'none'; form-action 'none'; base-uri 'none'; frame-ancestors 'none'",
+        "content-type": "text/html",
+        "date": "Mon, 19 Oct 2026 03:18:22 GMT",
+        "etag": "W/\"ff327fc0d14812786c0613b7581ae24c\"",
+        "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+        "permissions-policy": "camera=(), microphone=(), geolocation=(), payment=()",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=SbuIAxg3tckMEK1EyrP9q7RP0oEdlmnxbOD47T3rM1Io%2F6Ppop28Y2FzPjXWCu97RwUFInqcg%2FvIii2MfVq8DWa47wipCVdJCACuieZ4sMJmiDek1HefqorOyECYP%2BYq8ODkBgHBafyc0Lsu4pQZc%2BrtIiyf38OqhA%3D%3D\"}]}",
+        "server": "cloudflare",
+        "transfer-encoding": "chunked",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY",
+        "x-release-commit": "656d42ed315de9f96bde042c725ed8012f941bd2"
+      },
+      "bytes": 10800,
+      "sha256": "58f043c34c94126cc0a3b7c44f733ef4b476daef27ca1c5d4246fef2400585cf",
+      "sourceSha256": "58f043c34c94126cc0a3b7c44f733ef4b476daef27ca1c5d4246fef2400585cf",
+      "sourceMatches": true,
+      "title": "Visit & Contact — Reservation Demo | MakanSedap",
+      "h1": "Good Food.Great Company.",
+      "canonical": "https://makansedap.ismailstudio.my/visit/",
+      "fictionDisclosure": "Portfolio concept. Fictional restaurant by ISMAIL. No real restaurant, orders or reservations."
+    }
+  ],
+  "studio": {
+    "url": "https://www.ismailstudio.my/",
+    "status": 200,
+    "sha256": "a8e0e8b1b846564d8da59dcc1549f224a285696ee6ae20617a384b0381a3e9dd",
+    "title": "ISMAIL — Web Developer for Malaysian SMEs",
+    "links": [
+      {
+        "text": "Skip to content",
+        "href": "#main"
+      },
+      {
+        "text": "I—M",
+        "href": "#hero"
+      },
+      {
+        "text": "01Home",
+        "href": "#hero"
+      },
+      {
+        "text": "02Work",
+        "href": "#work"
+      },
+      {
+        "text": "03About",
+        "href": "#about"
+      },
+      {
+        "text": "04Capabilities",
+        "href": "#capabilities"
+      },
+      {
+        "text": "05Process",
+        "href": "#process"
+      },
+      {
+        "text": "06Contact",
+        "href": "#contact"
+      },
+      {
+        "text": "Let’s talk",
+        "href": "https://wa.me/601163265610"
+      },
+      {
+        "text": "START A PROJECT",
+        "href": "https://wa.me/601163265610"
+      },
+      {
+        "text": "SELECTED WORK",
+        "href": "#work"
+      },
+      {
+        "text": "Live site",
+        "href": "https://prism-finance-tracker.vercel.app/"
+      },
+      {
+        "text": "Source",
+        "href": "https://github.com/ismailabs/prism-finance-tracker"
+      },
+      {
+        "text": "Live site",
+        "href": "https://prime-auto-detail.vercel.app/"
+      },
+      {
+        "text": "Source",
+        "href": "https://github.com/ismailabs/prime-auto-detail"
+      },
+      {
+        "text": "Live site",
+        "href": "https://klimora-aircare.vercel.app/"
+      },
+      {
+        "text": "Source",
+        "href": "https://github.com/ismailabs/klimora-aircare"
+      },
+      {
+        "text": "Live site",
+        "href": "https://ember-ash-steakhouse.vercel.app/"
+      },
+      {
+        "text": "Source",
+        "href": "https://github.com/ismailabs/ember-ash-steakhouse"
+      },
+      {
+        "text": "Live site",
+        "href": "https://vela-grain-cafe.vercel.app/"
+      },
+      {
+        "text": "Source",
+        "href": "https://github.com/ismailabs/vela-grain-cafe"
+      },
+      {
+        "text": "TALK ONWHATSAPP",
+        "href": "https://wa.me/601163265610"
+      },
+      {
+        "text": "WhatsApp",
+        "href": "https://wa.me/601163265610"
+      },
+      {
+        "text": "GitHub",
+        "href": "https://github.com/ismailabs"
+      },
+      {
+        "text": "Work",
+        "href": "#work"
+      },
+      {
+        "text": "Top",
+        "href": "#hero"
+      }
+    ],
+    "contact": {
+      "url": "https://wa.me/601163265610",
+      "sourceAnchors": [
+        {
+          "text": "Let’s talk",
+          "href": "https://wa.me/601163265610"
+        },
+        {
+          "text": "START A PROJECT",
+          "href": "https://wa.me/601163265610"
+        },
+        {
+          "text": "TALK ONWHATSAPP",
+          "href": "https://wa.me/601163265610"
+        },
+        {
+          "text": "WhatsApp",
+          "href": "https://wa.me/601163265610"
+        }
+      ],
+      "status": 302,
+      "location": "https://api.whatsapp.com/send/?phone=601163265610&text&type=phone_number&app_absent=0",
+      "scope": "Read-only HTTP request; no message sent."
+    }
+  },
+  "redirects": [
+    {
+      "url": "https://rasairon.ismailstudio.my/",
+      "error": "TypeError: fetch failed",
+      "cause": "Error: getaddrinfo ENOTFOUND rasairon.ismailstudio.my"
+    },
+    {
+      "url": "https://rasairon.ismailstudio.my/menu/",
+      "error": "TypeError: fetch failed",
+      "cause": "Error: getaddrinfo ENOTFOUND rasairon.ismailstudio.my"
+    },
+    {
+      "url": "https://rasairon.ismailstudio.my/story/",
+      "error": "TypeError: fetch failed",
+      "cause": "Error: getaddrinfo ENOTFOUND rasairon.ismailstudio.my"
+    },
+    {
+      "url": "https://rasairon.ismailstudio.my/gallery/",
+      "error": "TypeError: fetch failed",
+      "cause": "Error: getaddrinfo ENOTFOUND rasairon.ismailstudio.my"
+    },
+    {
+      "url": "https://rasairon.ismailstudio.my/visit/",
+      "error": "TypeError: fetch failed",
+      "cause": "Error: getaddrinfo ENOTFOUND rasairon.ismailstudio.my"
+    },
+    {
+      "url": "https://rasairon.ismailstudio.my/menu/?category=steaks&from=v2-baseline",
+      "error": "TypeError: fetch failed",
+      "cause": "Error: getaddrinfo ENOTFOUND rasairon.ismailstudio.my"
+    },
+    {
+      "url": "https://rasairon.ismailstudio.my/unknown-v2-baseline/?q=one%20two",
+      "error": "TypeError: fetch failed",
+      "cause": "Error: getaddrinfo ENOTFOUND rasairon.ismailstudio.my"
+    }
+  ],
+  "browser": [
+    {
+      "route": "/",
+      "width": 390,
+      "status": 200,
+      "screenshot": "qa/v2/before/home-390.png",
+      "overflow": false,
+      "errors": [],
+      "brokenImages": []
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "status": 200,
+      "screenshot": "qa/v2/before/home-1440.png",
+      "overflow": false,
+      "errors": [],
+      "brokenImages": []
+    },
+    {
+      "route": "/menu/",
+      "width": 390,
+      "status": 200,
+      "screenshot": "qa/v2/before/menu-390.png",
+      "overflow": false,
+      "errors": [],
+      "brokenImages": []
+    },
+    {
+      "route": "/menu/",
+      "width": 1440,
+      "status": 200,
+      "screenshot": "qa/v2/before/menu-1440.png",
+      "overflow": false,
+      "errors": [],
+      "brokenImages": []
+    },
+    {
+      "route": "/story/",
+      "width": 390,
+      "status": 200,
+      "screenshot": "qa/v2/before/story-390.png",
+      "overflow": false,
+      "errors": [],
+      "brokenImages": []
+    },
+    {
+      "route": "/story/",
+      "width": 1440,
+      "status": 200,
+      "screenshot": "qa/v2/before/story-1440.png",
+      "overflow": false,
+      "errors": [],
+      "brokenImages": []
+    },
+    {
+      "route": "/gallery/",
+      "width": 390,
+      "status": 200,
+      "screenshot": "qa/v2/before/gallery-390.png",
+      "overflow": false,
+      "errors": [],
+      "brokenImages": []
+    },
+    {
+      "route": "/gallery/",
+      "width": 1440,
+      "status": 200,
+      "screenshot": "qa/v2/before/gallery-1440.png",
+      "overflow": false,
+      "errors": [],
+      "brokenImages": []
+    },
+    {
+      "route": "/visit/",
+      "width": 390,
+      "status": 200,
+      "screenshot": "qa/v2/before/visit-390.png",
+      "overflow": false,
+      "errors": [],
+      "brokenImages": []
+    },
+    {
+      "route": "/visit/",
+      "width": 1440,
+      "status": 200,
+      "screenshot": "qa/v2/before/visit-1440.png",
+      "overflow": false,
+      "errors": [],
+      "brokenImages": []
+    }
+  ],
+  "menuRecords": 51,
+  "browserVersion": "156.0.8078.4",
+  "oldHostPublicDNS": [
+    {
+      "endpoint": "https://cloudflare-dns.com/dns-query?name=rasairon.ismailstudio.my&type=A",
+      "status": 200,
+      "result": {
+        "Status": 3,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "rasairon.ismailstudio.my",
+            "type": 1
+          }
+        ],
+        "Authority": [
+          {
+            "name": "ismailstudio.my",
+            "type": 6,
+            "TTL": 1800,
+            "data": "rayne.ns.cloudflare.com. dns.cloudflare.com. 2417708621 10000 2400 604800 1800"
+          }
+        ]
+      }
+    },
+    {
+      "endpoint": "https://dns.google/resolve?name=rasairon.ismailstudio.my&type=A",
+      "status": 200,
+      "result": {
+        "Status": 3,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "rasairon.ismailstudio.my.",
+            "type": 1
+          }
+        ],
+        "Authority": [
+          {
+            "name": "ismailstudio.my.",
+            "type": 6,
+            "TTL": 1800,
+            "data": "rayne.ns.cloudflare.com. dns.cloudflare.com. 2417708621 10000 2400 604800 1800"
+          }
+        ],
+        "Comment": "Response from 172.64.34.11."
+      }
+    }
+  ]
+}

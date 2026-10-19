@@ -1,0 +1,357 @@
+{
+  "checkedAt": "2026-10-19T03:32:36.226Z",
+  "scope": "Independent visual review; localhost:8000; all lazy images made eager and decoded before capture",
+  "browserVersion": "156.0.8078.4",
+  "sourceHashes": {
+    "stylesheet": "f46e3eb15c4665cd5c5aff4712e38f1246b8e1406dd734da194498fd4586e430",
+    "routes": {
+      "/": "483270fa7319f703ed3541f68933558d185901459dc3f2c226e36548cf3f49ea",
+      "/menu/": "15d8a22f2e41992622997a87f60597d883983931416cf1c2e9373d2e7f3d7317",
+      "/story/": "b24eb0cf862175e5de53cee4470a62ddd7c053863c235dce1594116f394b2b3d",
+      "/gallery/": "7cd1f8b2f4be07e4e8b6010424349400f00dca4de65199783b2843b19bd860c5",
+      "/visit/": "0658384b36b5e0b2b016f73988e44da7b3d96b156e8768f72b90bd323588f023"
+    }
+  },
+  "observations": [
+    {
+      "route": "/",
+      "width": 390,
+      "status": 200,
+      "first": "qa/v2/visual-review-home-390-viewport.png",
+      "full": "qa/v2/visual-review-home-390-full.png",
+      "h1": "Good food.Better company.",
+      "documentHeight": 5426,
+      "overflow": false,
+      "brokenImages": [],
+      "fontFamily": "\"DM Sans\", Arial, sans-serif",
+      "studioLinks": [
+        {
+          "text": "A concept by ISMAIL Studio ↗",
+          "href": "https://ismailstudio.my/"
+        },
+        {
+          "text": "Studio website enquiry ↗",
+          "href": "https://wa.me/601163265610"
+        },
+        {
+          "text": "Explore ISMAIL Studio ↗",
+          "href": "https://ismailstudio.my/"
+        },
+        {
+          "text": "Website enquiry on WhatsApp ↗",
+          "href": "https://wa.me/601163265610"
+        },
+        {
+          "text": "Meet the creator",
+          "href": "https://ismailstudio.my/"
+        }
+      ]
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "status": 200,
+      "first": "qa/v2/visual-review-home-1440-viewport.png",
+      "full": "qa/v2/visual-review-home-1440-full.png",
+      "h1": "Good food.Better company.",
+      "documentHeight": 4303,
+      "overflow": false,
+      "brokenImages": [],
+      "fontFamily": "\"DM Sans\", Arial, sans-serif",
+      "studioLinks": [
+        {
+          "text": "A concept by ISMAIL Studio ↗",
+          "href": "https://ismailstudio.my/"
+        },
+        {
+          "text": "Studio website enquiry ↗",
+          "href": "https://wa.me/601163265610"
+        },
+        {
+          "text": "Explore ISMAIL Studio ↗",
+          "href": "https://ismailstudio.my/"
+        },
+        {
+          "text": "Website enquiry on WhatsApp ↗",
+          "href": "https://wa.me/601163265610"
+        },
+        {
+          "text": "Meet the creator",
+          "href": "https://ismailstudio.my/"
+        }
+      ]
+    },
+    {
+      "route": "/menu/",
+      "width": 390,
+      "status": 200,
+      "first": "qa/v2/visual-review-menu-390-viewport.png",
+      "full": "qa/v2/visual-review-menu-390-full.png",
+      "h1": "Follow your appetite.",
+      "documentHeight": 9514,
+      "overflow": false,
+      "brokenImages": [],
+      "fontFamily": "\"DM Sans\", Arial, sans-serif",
+      "studioLinks": [
+        {
+          "text": "A concept by ISMAIL Studio ↗",
+          "href": "https://ismailstudio.my/"
+        },
+        {
+          "text": "Studio website enquiry ↗",
+          "href": "https://wa.me/601163265610"
+        },
+        {
+          "text": "Explore ISMAIL Studio ↗",
+          "href": "https://ismailstudio.my/"
+        },
+        {
+          "text": "Website enquiry on WhatsApp ↗",
+          "href": "https://wa.me/601163265610"
+        },
+        {
+          "text": "Meet the creator",
+          "href": "https://ismailstudio.my/"
+        }
+      ]
+    },
+    {
+      "route": "/menu/",
+      "width": 1440,
+      "status": 200,
+      "first": "qa/v2/visual-review-menu-1440-viewport.png",
+      "full": "qa/v2/visual-review-menu-1440-full.png",
+      "h1": "Follow your appetite.",
+      "documentHeight": 5675,
+      "overflow": false,
+      "brokenImages": [],
+      "fontFamily": "\"DM Sans\", Arial, sans-serif",
+      "studioLinks": [
+        {
+          "text": "A concept by ISMAIL Studio ↗",
+          "href": "https://ismailstudio.my/"
+        },
+        {
+          "text": "Studio website enquiry ↗",
+          "href": "https://wa.me/601163265610"
+        },
+        {
+          "text": "Explore ISMAIL Studio ↗",
+          "href": "https://ismailstudio.my/"
+        },
+        {
+          "text": "Website enquiry on WhatsApp ↗",
+          "href": "https://wa.me/601163265610"
+        },
+        {
+          "text": "Meet the creator",
+          "href": "https://ismailstudio.my/"
+        }
+      ]
+    },
+    {
+      "route": "/story/",
+      "width": 390,
+      "status": 200,
+      "first": "qa/v2/visual-review-story-390-viewport.png",
+      "full": "qa/v2/visual-review-story-390-full.png",
+      "h1": "A familiar feeling.A fresh perspective.",
+      "documentHeight": 3880,
+      "overflow": false,
+      "brokenImages": [],
+      "fontFamily": "\"DM Sans\", Arial, sans-serif",
+      "studioLinks": [
+        {
+          "text": "A concept by ISMAIL Studio ↗",
+          "href": "https://ismailstudio.my/"
+        },
+        {
+          "text": "Studio website enquiry ↗",
+          "href": "https://wa.me/601163265610"
+        },
+        {
+          "text": "Explore ISMAIL Studio ↗",
+          "href": "https://ismailstudio.my/"
+        },
+        {
+          "text": "Website enquiry on WhatsApp ↗",
+          "href": "https://wa.me/601163265610"
+        },
+        {
+          "text": "Meet the creator",
+          "href": "https://ismailstudio.my/"
+        }
+      ]
+    },
+    {
+      "route": "/story/",
+      "width": 1440,
+      "status": 200,
+      "first": "qa/v2/visual-review-story-1440-viewport.png",
+      "full": "qa/v2/visual-review-story-1440-full.png",
+      "h1": "A familiar feeling.A fresh perspective.",
+      "documentHeight": 3480,
+      "overflow": false,
+      "brokenImages": [],
+      "fontFamily": "\"DM Sans\", Arial, sans-serif",
+      "studioLinks": [
+        {
+          "text": "A concept by ISMAIL Studio ↗",
+          "href": "https://ismailstudio.my/"
+        },
+        {
+          "text": "Studio website enquiry ↗",
+          "href": "https://wa.me/601163265610"
+        },
+        {
+          "text": "Explore ISMAIL Studio ↗",
+          "href": "https://ismailstudio.my/"
+        },
+        {
+          "text": "Website enquiry on WhatsApp ↗",
+          "href": "https://wa.me/601163265610"
+        },
+        {
+          "text": "Meet the creator",
+          "href": "https://ismailstudio.my/"
+        }
+      ]
+    },
+    {
+      "route": "/gallery/",
+      "width": 390,
+      "status": 200,
+      "first": "qa/v2/visual-review-gallery-390-viewport.png",
+      "full": "qa/v2/visual-review-gallery-390-full.png",
+      "h1": "Food. Feeling.Everything in between.",
+      "documentHeight": 8009,
+      "overflow": false,
+      "brokenImages": [],
+      "fontFamily": "\"DM Sans\", Arial, sans-serif",
+      "studioLinks": [
+        {
+          "text": "A concept by ISMAIL Studio ↗",
+          "href": "https://ismailstudio.my/"
+        },
+        {
+          "text": "Studio website enquiry ↗",
+          "href": "https://wa.me/601163265610"
+        },
+        {
+          "text": "Explore ISMAIL Studio ↗",
+          "href": "https://ismailstudio.my/"
+        },
+        {
+          "text": "Website enquiry on WhatsApp ↗",
+          "href": "https://wa.me/601163265610"
+        },
+        {
+          "text": "Meet the creator",
+          "href": "https://ismailstudio.my/"
+        }
+      ]
+    },
+    {
+      "route": "/gallery/",
+      "width": 1440,
+      "status": 200,
+      "first": "qa/v2/visual-review-gallery-1440-viewport.png",
+      "full": "qa/v2/visual-review-gallery-1440-full.png",
+      "h1": "Food. Feeling.Everything in between.",
+      "documentHeight": 5775,
+      "overflow": false,
+      "brokenImages": [],
+      "fontFamily": "\"DM Sans\", Arial, sans-serif",
+      "studioLinks": [
+        {
+          "text": "A concept by ISMAIL Studio ↗",
+          "href": "https://ismailstudio.my/"
+        },
+        {
+          "text": "Studio website enquiry ↗",
+          "href": "https://wa.me/601163265610"
+        },
+        {
+          "text": "Explore ISMAIL Studio ↗",
+          "href": "https://ismailstudio.my/"
+        },
+        {
+          "text": "Website enquiry on WhatsApp ↗",
+          "href": "https://wa.me/601163265610"
+        },
+        {
+          "text": "Meet the creator",
+          "href": "https://ismailstudio.my/"
+        }
+      ]
+    },
+    {
+      "route": "/visit/",
+      "width": 390,
+      "status": 200,
+      "first": "qa/v2/visual-review-visit-390-viewport.png",
+      "full": "qa/v2/visual-review-visit-390-full.png",
+      "h1": "Your table.In our imagination.",
+      "documentHeight": 3331,
+      "overflow": false,
+      "brokenImages": [],
+      "fontFamily": "\"DM Sans\", Arial, sans-serif",
+      "studioLinks": [
+        {
+          "text": "A concept by ISMAIL Studio ↗",
+          "href": "https://ismailstudio.my/"
+        },
+        {
+          "text": "Studio website enquiry ↗",
+          "href": "https://wa.me/601163265610"
+        },
+        {
+          "text": "Explore ISMAIL Studio ↗",
+          "href": "https://ismailstudio.my/"
+        },
+        {
+          "text": "Website enquiry on WhatsApp ↗",
+          "href": "https://wa.me/601163265610"
+        },
+        {
+          "text": "Meet the creator",
+          "href": "https://ismailstudio.my/"
+        }
+      ]
+    },
+    {
+      "route": "/visit/",
+      "width": 1440,
+      "status": 200,
+      "first": "qa/v2/visual-review-visit-1440-viewport.png",
+      "full": "qa/v2/visual-review-visit-1440-full.png",
+      "h1": "Your table.In our imagination.",
+      "documentHeight": 2479,
+      "overflow": false,
+      "brokenImages": [],
+      "fontFamily": "\"DM Sans\", Arial, sans-serif",
+      "studioLinks": [
+        {
+          "text": "A concept by ISMAIL Studio ↗",
+          "href": "https://ismailstudio.my/"
+        },
+        {
+          "text": "Studio website enquiry ↗",
+          "href": "https://wa.me/601163265610"
+        },
+        {
+          "text": "Explore ISMAIL Studio ↗",
+          "href": "https://ismailstudio.my/"
+        },
+        {
+          "text": "Website enquiry on WhatsApp ↗",
+          "href": "https://wa.me/601163265610"
+        },
+        {
+          "text": "Meet the creator",
+          "href": "https://ismailstudio.my/"
+        }
+      ]
+    }
+  ]
+}

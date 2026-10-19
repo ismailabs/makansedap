@@ -1,0 +1,43 @@
+{
+  "id": "c3ae4573-1b31-452b-b929-3db6536ea0b8",
+  "number": 2,
+  "metadata": {
+    "created_on": "2026-10-16T18:57:07.119433Z",
+    "source": "api",
+    "has_preview": true
+  },
+  "annotations": {
+    "workers/triggered_by": "upload"
+  },
+  "resources": {
+    "script": {
+      "etag": "2ce42c8192713961ffeee403267f67b8a679c69c5e211f02e5839427230feca1",
+      "handlers": [
+        "fetch"
+      ],
+      "last_deployed_from": "api"
+    },
+    "script_runtime": {
+      "assets": {
+        "html_handling": "auto-trailing-slash",
+        "not_found_handling": "none",
+        "serve_directly": false,
+        "raw_run_worker_first": true,
+        "base_path": "/"
+      },
+      "compatibility_date": "2026-10-16",
+      "usage_model": "standard"
+    },
+    "bindings": [
+      {
+        "name": "ASSETS",
+        "type": "assets"
+      },
+      {
+        "name": "RELEASE_COMMIT",
+        "text": "656d42ed315de9f96bde042c725ed8012f941bd2",
+        "type": "plain_text"
+      }
+    ]
+  }
+}

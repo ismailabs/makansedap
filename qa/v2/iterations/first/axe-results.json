@@ -1,0 +1,192 @@
+[
+  {
+    "route": "/",
+    "width": 390,
+    "violations": [
+      {
+        "id": "label-content-name-mismatch",
+        "impact": "serious",
+        "description": "Ensure that elements labelled through their content must have their visible text as part of their accessible name",
+        "nodes": [
+          {
+            "target": [
+              ".brand"
+            ],
+            "summary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "route": "/",
+    "width": 1440,
+    "violations": [
+      {
+        "id": "label-content-name-mismatch",
+        "impact": "serious",
+        "description": "Ensure that elements labelled through their content must have their visible text as part of their accessible name",
+        "nodes": [
+          {
+            "target": [
+              ".brand"
+            ],
+            "summary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "route": "/menu/",
+    "width": 390,
+    "violations": [
+      {
+        "id": "label-content-name-mismatch",
+        "impact": "serious",
+        "description": "Ensure that elements labelled through their content must have their visible text as part of their accessible name",
+        "nodes": [
+          {
+            "target": [
+              ".brand"
+            ],
+            "summary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "route": "/menu/",
+    "width": 1440,
+    "violations": [
+      {
+        "id": "label-content-name-mismatch",
+        "impact": "serious",
+        "description": "Ensure that elements labelled through their content must have their visible text as part of their accessible name",
+        "nodes": [
+          {
+            "target": [
+              ".brand"
+            ],
+            "summary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "route": "/story/",
+    "width": 390,
+    "violations": [
+      {
+        "id": "label-content-name-mismatch",
+        "impact": "serious",
+        "description": "Ensure that elements labelled through their content must have their visible text as part of their accessible name",
+        "nodes": [
+          {
+            "target": [
+              ".brand"
+            ],
+            "summary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "route": "/story/",
+    "width": 1440,
+    "violations": [
+      {
+        "id": "label-content-name-mismatch",
+        "impact": "serious",
+        "description": "Ensure that elements labelled through their content must have their visible text as part of their accessible name",
+        "nodes": [
+          {
+            "target": [
+              ".brand"
+            ],
+            "summary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "route": "/gallery/",
+    "width": 390,
+    "violations": [
+      {
+        "id": "label-content-name-mismatch",
+        "impact": "serious",
+        "description": "Ensure that elements labelled through their content must have their visible text as part of their accessible name",
+        "nodes": [
+          {
+            "target": [
+              ".brand"
+            ],
+            "summary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "route": "/gallery/",
+    "width": 1440,
+    "violations": [
+      {
+        "id": "label-content-name-mismatch",
+        "impact": "serious",
+        "description": "Ensure that elements labelled through their content must have their visible text as part of their accessible name",
+        "nodes": [
+          {
+            "target": [
+              ".brand"
+            ],
+            "summary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "route": "/visit/",
+    "width": 390,
+    "violations": [
+      {
+        "id": "label-content-name-mismatch",
+        "impact": "serious",
+        "description": "Ensure that elements labelled through their content must have their visible text as part of their accessible name",
+        "nodes": [
+          {
+            "target": [
+              ".brand"
+            ],
+            "summary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "route": "/visit/",
+    "width": 1440,
+    "violations": [
+      {
+        "id": "label-content-name-mismatch",
+        "impact": "serious",
+        "description": "Ensure that elements labelled through their content must have their visible text as part of their accessible name",
+        "nodes": [
+          {
+            "target": [
+              ".brand"
+            ],
+            "summary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          }
+        ]
+      }
+    ]
+  }
+]

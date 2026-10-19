@@ -1,0 +1,18 @@
+{
+  "checkedAt": "2026-10-19T03:42:25.832Z",
+  "result": "PASS",
+  "checks": [
+    {
+      "case": "missing-sha",
+      "exitCode": 1,
+      "networkRoutesChecked": 0,
+      "result": "PASS: rejected before network verification"
+    },
+    {
+      "case": "invalid-sha",
+      "exitCode": 1,
+      "networkRoutesChecked": 0,
+      "result": "PASS: rejected before network verification"
+    }
+  ]
+}

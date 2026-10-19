@@ -6,11 +6,12 @@ import assert from 'node:assert/strict';
 import path from 'node:path';
 import {startServer} from './serve.mjs';
 const routes=['/','/menu/','/story/','/gallery/','/visit/'];
+const studioDestinations=['https://ismailstudio.my/','https://wa.me/601163265610'];
 const widths=[320,375,390,568,768,860,1024,1440,1920];
 const checks=[],failures=[],limitations=[],consoleErrors=[],networkFailures=[];
 const record=(name,detail)=>checks.push({name,detail});
 const root=path.resolve('site');
-await mkdir('qa/screenshots',{recursive:true});
+await mkdir('qa/v2/screenshots',{recursive:true});
 const server=await startServer(0);
 const base=`http://127.0.0.1:${server.address().port}`;
 let browser;
@@ -39,7 +40,7 @@ try{
     const value=$(el).attr(attr);if(!value)continue;
     for(const entry of attr==='srcset'?value.split(',').map(s=>s.trim().split(' ')[0]):[value]){
      const url=new URL(entry,base+route);
-     if(url.origin!==base){assert.ok(['https://ismailstudio.my','https://makansedap.ismailstudio.my'].includes(url.origin));continue;}
+     if(url.origin!==base){assert.ok(studioDestinations.includes(url.href)||url.origin==='https://makansedap.ismailstudio.my',`Unverified external destination ${entry}`);continue;}
      let local=path.join(root,decodeURIComponent(url.pathname));if(url.pathname.endsWith('/'))local=path.join(local,'index.html');
      await access(local);
      if(url.hash){const target=load(await readFile(local,'utf8'));assert.ok(target(`[id="${decodeURIComponent(url.hash.slice(1))}"]`).length,`Broken fragment ${entry}`);}
@@ -65,7 +66,7 @@ try{
    if(width===390||width===1440){
     await page.evaluate(async()=>{for(const img of document.images){if(img.loading==='lazy')img.loading='eager';}await Promise.all([...document.images].filter(i=>i.src).map(i=>i.decode().catch(()=>{})));});
     const broken=await page.locator('img[src]').evaluateAll(images=>images.filter(i=>!i.naturalWidth).map(i=>i.src));assert.deepEqual(broken,[]);
-    await page.screenshot({path:`qa/screenshots/${route==='/'?'home':route.replaceAll('/','')}-${width}.png`,fullPage:true});
+    await page.screenshot({path:`qa/v2/screenshots/${route==='/'?'home':route.replaceAll('/','')}-${width}.png`,fullPage:true});
     const result=await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21aa','wcag22aa']).analyze();
     const names=await new AxeBuilder({page}).withRules(['label-content-name-mismatch']).analyze();
     result.violations.push(...names.violations);
@@ -73,7 +74,7 @@ try{
    }
   });
  }
- await writeFile('qa/axe-results.json',JSON.stringify(axe,null,2)+'\n');
+ await writeFile('qa/v2/axe-results.json',JSON.stringify(axe,null,2)+'\n');
  await test('Axe WCAG A/AA scans: all five pages desktop and mobile',()=>{assert.deepEqual(axe.filter(r=>r.violations.length),[]);});
  await test('Actual webfonts loaded',async()=>{
   await page.goto(base);await page.evaluate(()=>document.fonts.ready);
@@ -85,15 +86,20 @@ try{
   for(const [label,route] of [['Menu','/menu/'],['Our Story','/story/'],['Gallery','/gallery/'],['Visit','/visit/'],['Home','/']]){
    await page.getByRole('navigation',{name:'Primary navigation'}).getByRole('link',{name:label,exact:true}).click();assert.equal(new URL(page.url()).pathname,route);
   }
-  const links=await page.locator('a[href^="https:"]').evaluateAll(es=>es.map(e=>e.href));assert.ok(links.length>=3);assert.ok(links.every(x=>x==='https://ismailstudio.my/'));
+  for(const route of routes){
+   await page.goto(base+route);
+   const links=await page.locator('a[href^="https:"]').evaluateAll(es=>es.map(e=>e.href));
+   assert.ok(links.length>=3);assert.ok(links.every(x=>studioDestinations.includes(x)),`Unexpected destination on ${route}: ${links}`);
+   for(const destination of studioDestinations)assert.ok(links.includes(destination),`Missing conversion destination ${destination} on ${route}`);
+  }
  });
  await test('Mobile navigation keyboard, Escape, resize and route selection',async()=>{
   await page.setViewportSize({width:320,height:780});await page.goto(base);
   const button=page.locator('button[aria-controls="primary-nav"]');assert.equal(await button.getAttribute('aria-label'),'Open navigation');await button.focus();await page.keyboard.press('Enter');assert.equal(await button.getAttribute('aria-expanded'),'true');assert.equal(await button.getAttribute('aria-label'),'Close navigation');
   await page.keyboard.press('Tab');assert.equal(await page.locator(':focus').textContent(),'Home');
   await page.keyboard.press('Escape');assert.equal(await button.getAttribute('aria-expanded'),'false');assert.ok(await button.evaluate(e=>e===document.activeElement));
-  await button.click();await page.getByRole('navigation').getByRole('link',{name:'Menu',exact:true}).click();assert.equal(new URL(page.url()).pathname,'/menu/');
-  await page.setViewportSize({width:1440,height:900});assert.ok(await page.getByRole('navigation').isVisible());
+  await button.click();await page.getByRole('navigation',{name:'Primary navigation'}).getByRole('link',{name:'Menu',exact:true}).click();assert.equal(new URL(page.url()).pathname,'/menu/');
+  await page.setViewportSize({width:1440,height:900});assert.ok(await page.getByRole('navigation',{name:'Primary navigation'}).isVisible());
  });
  await test('Every menu filter, count, announcement, keyboard and deep link',async()=>{
   await page.goto(base+'/menu/');
@@ -135,7 +141,7 @@ try{
  });
  await test('No-JS all routes, navigation, 51 menu entries, image links, disabled demo',async()=>{
   const ctx=await browser.newContext({javaScriptEnabled:false,viewport:{width:320,height:800}});const p=await ctx.newPage();
-  for(const route of routes){await p.goto(base+route);assert.ok(await p.getByRole('navigation').isVisible());assert.ok(await p.locator('h1').isVisible());}
+  for(const route of routes){await p.goto(base+route);assert.ok(await p.getByRole('navigation',{name:'Primary navigation'}).isVisible());assert.ok(await p.locator('h1').isVisible());}
   await p.goto(base+'/menu/');assert.equal(await p.locator('[data-menu-item]:visible').count(),51);
   await p.goto(base+'/gallery/');const link=p.locator('[data-gallery-index="0"]');assert.match(await link.getAttribute('href'),/\.webp$/);
   await p.goto(base+'/visit/');assert.ok(await p.locator('#party').isDisabled());assert.ok(await p.getByRole('button',{name:'Preview reservation'}).isDisabled());await ctx.close();
@@ -155,6 +161,6 @@ try{
  record('Browser version',browser.version());
 }finally{
  if(browser)await browser.close();await new Promise(resolve=>server.close(resolve));
-  await writeFile('qa/results.json',JSON.stringify({date:new Date().toISOString(),environment:{platform:process.platform,node:process.version,transport:'direct local HTTP',timezone:'Asia/Kuala_Lumpur'},checks,failures,limitations},null,2)+'\n');
+  await writeFile('qa/v2/results.json',JSON.stringify({date:new Date().toISOString(),environment:{platform:process.platform,node:process.version,transport:'direct local HTTP',timezone:'Asia/Kuala_Lumpur'},checks,failures,limitations},null,2)+'\n');
 }
 console.log(`${checks.length} passed; ${failures.length} failed.`);if(failures.length)process.exitCode=1;

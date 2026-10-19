@@ -1,0 +1,443 @@
+{
+  "note": "Three unchanged sequential runs per route after initial five-route audit; identical Lighthouse default mobile simulated throttling, local HTTP. All runs retained without score filtering. Root avoids concurrent browser work.",
+  "results": [
+    {
+      "route": "/gallery/",
+      "run": 1,
+      "date": "2026-10-19T03:38:40.413Z",
+      "benchmarkIndex": 1329,
+      "scores": {
+        "performance": 98,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 925.924,
+        "largest-contentful-paint": 2425.924,
+        "total-blocking-time": 43,
+        "cumulative-layout-shift": 0,
+        "speed-index": 925.924
+      },
+      "mainThread": [
+        {
+          "group": "styleLayout",
+          "groupLabel": "Style & Layout",
+          "duration": 327.672
+        },
+        {
+          "group": "other",
+          "groupLabel": "Other",
+          "duration": 200.84800000000024
+        },
+        {
+          "group": "paintCompositeRender",
+          "groupLabel": "Rendering",
+          "duration": 73.56799999999998
+        },
+        {
+          "group": "scriptEvaluation",
+          "groupLabel": "Script Evaluation",
+          "duration": 37.756
+        },
+        {
+          "group": "parseHTML",
+          "groupLabel": "Parse HTML & CSS",
+          "duration": 17.656
+        },
+        {
+          "group": "scriptParseCompile",
+          "groupLabel": "Script Parsing & Compilation",
+          "duration": 3.228
+        }
+      ],
+      "longTasks": [
+        {
+          "url": "http://127.0.0.1:55173/gallery/",
+          "duration": 114,
+          "startTime": 824.962
+        },
+        {
+          "url": "http://127.0.0.1:55173/assets/js/main.js?v=2-20261019",
+          "duration": 108,
+          "startTime": 2288.886
+        },
+        {
+          "url": "http://127.0.0.1:55173/gallery/",
+          "duration": 64,
+          "startTime": 938.962
+        },
+        {
+          "url": "Unattributable",
+          "duration": 59,
+          "startTime": 764.962
+        }
+      ]
+    },
+    {
+      "route": "/gallery/",
+      "run": 2,
+      "date": "2026-10-19T03:38:59.716Z",
+      "benchmarkIndex": 1061.5,
+      "scores": {
+        "performance": 90,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 961.758,
+        "largest-contentful-paint": 2311.758,
+        "total-blocking-time": 355.12099999999987,
+        "cumulative-layout-shift": 0.001701860667924539,
+        "speed-index": 1049.6291690504954
+      },
+      "mainThread": [
+        {
+          "group": "styleLayout",
+          "groupLabel": "Style & Layout",
+          "duration": 1136.676
+        },
+        {
+          "group": "other",
+          "groupLabel": "Other",
+          "duration": 259.84800000000007
+        },
+        {
+          "group": "paintCompositeRender",
+          "groupLabel": "Rendering",
+          "duration": 157.08000000000007
+        },
+        {
+          "group": "scriptEvaluation",
+          "groupLabel": "Script Evaluation",
+          "duration": 34.931999999999995
+        },
+        {
+          "group": "parseHTML",
+          "groupLabel": "Parse HTML & CSS",
+          "duration": 16.144
+        },
+        {
+          "group": "scriptParseCompile",
+          "groupLabel": "Script Parsing & Compilation",
+          "duration": 2.9160000000000004
+        }
+      ],
+      "longTasks": [
+        {
+          "url": "http://127.0.0.1:55173/gallery/",
+          "duration": 296.9999999999999,
+          "startTime": 832.879
+        },
+        {
+          "url": "http://127.0.0.1:55173/gallery/",
+          "duration": 242,
+          "startTime": 1164.879
+        },
+        {
+          "url": "http://127.0.0.1:55173/assets/js/main.js?v=2-20261019",
+          "duration": 124,
+          "startTime": 2342.6369999999997
+        },
+        {
+          "url": "http://127.0.0.1:55173/gallery/",
+          "duration": 58,
+          "startTime": 1406.879
+        }
+      ]
+    },
+    {
+      "route": "/gallery/",
+      "run": 3,
+      "date": "2026-10-19T03:39:11.824Z",
+      "benchmarkIndex": 1348,
+      "scores": {
+        "performance": 89,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 942.2069999999999,
+        "largest-contentful-paint": 2292.207,
+        "total-blocking-time": 400.89650000000006,
+        "cumulative-layout-shift": 0,
+        "speed-index": 1162.0773440009295
+      },
+      "mainThread": [
+        {
+          "group": "other",
+          "groupLabel": "Other",
+          "duration": 668.2519999999971
+        },
+        {
+          "group": "styleLayout",
+          "groupLabel": "Style & Layout",
+          "duration": 462.77600000000007
+        },
+        {
+          "group": "paintCompositeRender",
+          "groupLabel": "Rendering",
+          "duration": 76.49599999999998
+        },
+        {
+          "group": "scriptEvaluation",
+          "groupLabel": "Script Evaluation",
+          "duration": 37.70799999999999
+        },
+        {
+          "group": "parseHTML",
+          "groupLabel": "Parse HTML & CSS",
+          "duration": 15.431999999999999
+        },
+        {
+          "group": "scriptParseCompile",
+          "groupLabel": "Script Parsing & Compilation",
+          "duration": 2.8760000000000003
+        }
+      ],
+      "longTasks": [
+        {
+          "url": "Unattributable",
+          "duration": 249,
+          "startTime": 774.1034999999999
+        },
+        {
+          "url": "Unattributable",
+          "duration": 222,
+          "startTime": 1023.1034999999999
+        },
+        {
+          "url": "http://127.0.0.1:55173/gallery/",
+          "duration": 176,
+          "startTime": 1246.1035
+        },
+        {
+          "url": "http://127.0.0.1:55173/assets/js/main.js?v=2-20261019",
+          "duration": 120,
+          "startTime": 2313.3105
+        },
+        {
+          "url": "http://127.0.0.1:55173/gallery/",
+          "duration": 87,
+          "startTime": 1422.1035
+        }
+      ]
+    },
+    {
+      "route": "/visit/",
+      "run": 1,
+      "date": "2026-10-19T03:39:22.941Z",
+      "benchmarkIndex": 1135,
+      "scores": {
+        "performance": 91,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 930.7929999999999,
+        "largest-contentful-paint": 1905.793,
+        "total-blocking-time": 382,
+        "cumulative-layout-shift": 0.03180214615430395,
+        "speed-index": 994.9005344956443
+      },
+      "mainThread": [
+        {
+          "group": "styleLayout",
+          "groupLabel": "Style & Layout",
+          "duration": 1005.0200000000002
+        },
+        {
+          "group": "other",
+          "groupLabel": "Other",
+          "duration": 258.83200000000016
+        },
+        {
+          "group": "scriptEvaluation",
+          "groupLabel": "Script Evaluation",
+          "duration": 113.49600000000001
+        },
+        {
+          "group": "paintCompositeRender",
+          "groupLabel": "Rendering",
+          "duration": 112.124
+        },
+        {
+          "group": "parseHTML",
+          "groupLabel": "Parse HTML & CSS",
+          "duration": 87.804
+        },
+        {
+          "group": "scriptParseCompile",
+          "groupLabel": "Script Parsing & Compilation",
+          "duration": 3.0240000000000005
+        }
+      ],
+      "longTasks": [
+        {
+          "url": "http://127.0.0.1:55173/assets/js/main.js?v=2-20261019",
+          "duration": 432,
+          "startTime": 1156.793
+        },
+        {
+          "url": "http://127.0.0.1:55173/visit/",
+          "duration": 121,
+          "startTime": 837.3965
+        },
+        {
+          "url": "Unattributable",
+          "duration": 73,
+          "startTime": 618.3965
+        },
+        {
+          "url": "http://127.0.0.1:55173/visit/",
+          "duration": 52,
+          "startTime": 785.3965
+        }
+      ]
+    },
+    {
+      "route": "/visit/",
+      "run": 2,
+      "date": "2026-10-19T03:39:31.482Z",
+      "benchmarkIndex": 1365,
+      "scores": {
+        "performance": 99,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 1370.971,
+        "largest-contentful-paint": 1913.971,
+        "total-blocking-time": 100,
+        "cumulative-layout-shift": 0.019799586545144836,
+        "speed-index": 1370.971
+      },
+      "mainThread": [
+        {
+          "group": "styleLayout",
+          "groupLabel": "Style & Layout",
+          "duration": 993.9039999999999
+        },
+        {
+          "group": "other",
+          "groupLabel": "Other",
+          "duration": 247.65600000000023
+        },
+        {
+          "group": "paintCompositeRender",
+          "groupLabel": "Rendering",
+          "duration": 100.93199999999997
+        },
+        {
+          "group": "scriptEvaluation",
+          "groupLabel": "Script Evaluation",
+          "duration": 38.29199999999999
+        },
+        {
+          "group": "parseHTML",
+          "groupLabel": "Parse HTML & CSS",
+          "duration": 22.463999999999995
+        },
+        {
+          "group": "scriptParseCompile",
+          "groupLabel": "Script Parsing & Compilation",
+          "duration": 4.9719999999999995
+        }
+      ],
+      "longTasks": [
+        {
+          "url": "http://127.0.0.1:55173/assets/js/main.js?v=2-20261019",
+          "duration": 356,
+          "startTime": 1164.971
+        },
+        {
+          "url": "http://127.0.0.1:55173/visit/",
+          "duration": 138,
+          "startTime": 755.4855
+        },
+        {
+          "url": "Unattributable",
+          "duration": 70,
+          "startTime": 625.4855
+        }
+      ]
+    },
+    {
+      "route": "/visit/",
+      "run": 3,
+      "date": "2026-10-19T03:39:40.916Z",
+      "benchmarkIndex": 1620.5,
+      "scores": {
+        "performance": 96,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 1982.67,
+        "largest-contentful-paint": 2132.67,
+        "total-blocking-time": 129.5,
+        "cumulative-layout-shift": 0,
+        "speed-index": 1982.67
+      },
+      "mainThread": [
+        {
+          "group": "styleLayout",
+          "groupLabel": "Style & Layout",
+          "duration": 2106.596
+        },
+        {
+          "group": "other",
+          "groupLabel": "Other",
+          "duration": 227.98800000000037
+        },
+        {
+          "group": "paintCompositeRender",
+          "groupLabel": "Rendering",
+          "duration": 113.43600000000002
+        },
+        {
+          "group": "scriptEvaluation",
+          "groupLabel": "Script Evaluation",
+          "duration": 28.591999999999985
+        },
+        {
+          "group": "parseHTML",
+          "groupLabel": "Parse HTML & CSS",
+          "duration": 26.524
+        },
+        {
+          "group": "scriptParseCompile",
+          "groupLabel": "Script Parsing & Compilation",
+          "duration": 2.8280000000000003
+        }
+      ],
+      "longTasks": [
+        {
+          "url": "http://127.0.0.1:55173/assets/js/main.js?v=2-20261019",
+          "duration": 920,
+          "startTime": 1271.67
+        },
+        {
+          "url": "http://127.0.0.1:55173/visit/",
+          "duration": 143,
+          "startTime": 804.835
+        },
+        {
+          "url": "Unattributable",
+          "duration": 59,
+          "startTime": 657.835
+        },
+        {
+          "url": "Unattributable",
+          "duration": 50,
+          "startTime": 716.835
+        }
+      ]
+    }
+  ]
+}
