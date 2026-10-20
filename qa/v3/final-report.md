@@ -4,11 +4,13 @@
 
 The approved Living Malaysian Table direction is implemented with semantic HTML, modular vanilla JavaScript, responsive concept artwork, self-hosted pinned GSAP/ScrollTrigger for the two bounded scroll scenes, native feedback, exact menu/gallery content, and explicit fictional-booking language. All 26 installed skill instructions were inspected and assigned a role or non-applicability reason in [skill-usage.md](skill-usage.md).
 
+Tested implementation source: `61f40e69eb5282d57d4a44b7107e1484954a909a`, pushed to [codex/makansedap-v3](https://github.com/ismailabs/makansedap/tree/codex/makansedap-v3). Receipt-only follow-up commits do not change that tested runtime. Main remains at the original base.
+
 ## Gate record
 
 | Gate | State | Evidence |
 | --- | --- | --- |
-| H01 Source integrity | Pending final commit receipt | Feature branch `codex/makansedap-v3`, base `19e44f6c12dc4f5d4676ab9e4a0c76f70d8ea80a`. Protected JSON/historical QA have no diff; unrelated handoff deletions, local skills/handoff and V2 receipts preserved. Exact source and staged secret scan will be recorded in release-identity.json. |
+| H01 Source integrity | PASS | Tested source 61f40e69eb5282d57d4a44b7107e1484954a909a; [release identity](release-identity.json). Feature branch, local HEAD/tracking ref and advertised remote agree. Protected data/history untouched; unrelated local work excluded; [Gitleaks staged scan and diff review](security-review.json) pass. |
 | H02 Routes/SEO | PASS local | [local/results.json](local/results.json): five routes, canonical/meta/social/sitemap/robots, actual 404, unique titles/descriptions. |
 | H03 Menu | PASS | Exact 51 category/name/price/description/order records and seven group/item identities, filtering, history/fragments, 51 visible with JS off. [scenes/results.json](scenes/results.json), core and extended receipts. Baselines untouched. |
 | H04 Gallery | PASS local | All 17 original metadata/link/alt/caption records; filters, wrap, keyboard, Escape, focus return, image-failure recovery and no-JS links. |
@@ -16,11 +18,11 @@ The approved Living Malaysian Table direction is implemented with semantic HTML,
 | H06 Studio | PASS | Exact named Studio destinations on all routes; [fresh Studio source check](studio-verification.json) confirms the enquiry link. No message sent. |
 | H07 Accessibility | PASS within tested scope | Zero axe WCAG 2/2.1/2.2 A/AA violations at 390/1440; separate keyboard, focus, modal/labels, seven computed focus-contrast checks, actual per-element 200% text, forced colors and reduced motion. |
 | H08 Responsive/no-JS | PASS local | Nine normal widths from 320 to 1920 on all five pages; seven widths at 200% text; all required no-JS tasks. Fifteen actual full-page captures at 390/768/1440. |
-| H09 Security | PASS local | Exact unchanged CSP and Worker/config/header files; no third-party runtime, data collection or unsafe script; security-smoke and Worker tests pass. Staged Gitleaks receipt required with H01. |
+| H09 Security | PASS local | Exact unchanged CSP and Worker/config/header files; no third-party runtime, data collection or unsafe script; security-smoke and Worker tests pass. Gitleaks 8.30.1 found no leaks in the reviewed staged diff. |
 | H10 Motion | PASS local | [14 V3 scene checks](scenes/results.json), browser RAF samples, actual screenshots and local traces: touch/desktop opening, reversible unpinned scroll, category staging, Studio dissolve, Story/Gallery/Visit, preference changes and failed imports. |
 | H11 Licensing | PASS | [17 new asset hashes/provenance](asset-provenance.json), [credits](../../ASSET-CREDITS.md), unchanged OFL fonts, GSAP 3.15.0 Standard No Charge website use and retained notices. AI concept art is not documentary imagery. |
 | H12 Reproducibility | PASS local commands; release qualification FAIL | Core **65/0**, extended **17/0**, V3 **14/0**, CSP, focus **7/0**, Worker tests; complete paired Lighthouse run and visual capture scripts. Performance fails below. Hosted source/asset verification is deferred under H13. |
-| H13 Release | BLOCKED / not attempted | No V3 deployment, main update, DNS or other infrastructure change. [Fresh production state](production-state-before.json) and [Cloudflare read](cloudflare-preflight.json) still identify V2. |
+| H13 Release | BLOCKED / not attempted | No V3 deployment, main update, DNS or other infrastructure change. [Fresh production state after candidate push](production-state-held.json) and [Cloudflare read](cloudflare-preflight.json) still identify V2. |
 | Visual transformation | PASS by pixel review | [Concrete review](visual-review.md), [20 labelled comparison boards](comparisons/receipt.json), [15 actual captures](visual-final/receipt.json). The two taste-inspector heuristic exceptions are retained and narrowly explained in [taste-review.json](taste-review.json). |
 | Performance | **FAIL — release veto** | [Complete comparison](performance-release-paired/results.json), [assessment and all-run metrics](performance-assessment.json). |
 

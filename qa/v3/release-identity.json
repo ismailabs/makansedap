@@ -1,0 +1,13 @@
+{
+  "at": "2026-10-20T13:19:36.508Z",
+  "state": "PARTIAL-BLOCKED",
+  "testedSourceCommit": "61f40e69eb5282d57d4a44b7107e1484954a909a",
+  "featureBranch": "codex/makansedap-v3",
+  "remoteBranchAtCandidatePush": "61f40e69eb5282d57d4a44b7107e1484954a909a",
+  "remoteMain": "19e44f6c12dc4f5d4676ab9e4a0c76f70d8ea80a",
+  "runtimeFilesVerifiedAgainstCommit": 112,
+  "rebuild": "PASS: all tested filesystem SHA256 values unchanged and all Git-filtered source blobs equal candidate commit",
+  "deployedSource": null,
+  "deploymentAttempted": false,
+  "documentation": "Subsequent receipt-only commit does not change the tested runtime source. Candidate source and production source remain distinct."
+}

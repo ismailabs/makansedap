@@ -1,0 +1,41 @@
+{
+  "checkedAt": "2026-10-20T13:19:36.566Z",
+  "state": "V2 retained after feature push",
+  "routes": [
+    {
+      "route": "/",
+      "status": 200,
+      "source": "695daaa31b57b6d3af261696644db2f80ef2e7ab"
+    },
+    {
+      "route": "/menu/",
+      "status": 200,
+      "source": "695daaa31b57b6d3af261696644db2f80ef2e7ab"
+    },
+    {
+      "route": "/story/",
+      "status": 200,
+      "source": "695daaa31b57b6d3af261696644db2f80ef2e7ab"
+    },
+    {
+      "route": "/gallery/",
+      "status": 200,
+      "source": "695daaa31b57b6d3af261696644db2f80ef2e7ab"
+    },
+    {
+      "route": "/visit/",
+      "status": 200,
+      "source": "695daaa31b57b6d3af261696644db2f80ef2e7ab"
+    }
+  ],
+  "cloudflare": {
+    "deployment": "759647e6-78d1-49ca-91ed-1ed7c0541f4a",
+    "versions": [
+      {
+        "version_id": "4866e79b-64af-45fa-bacc-6f2ea3c3e216",
+        "percentage": 100
+      }
+    ],
+    "scope": "Fresh authenticated GET after feature push; still V2. No deployment mutation performed."
+  }
+}

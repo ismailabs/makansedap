@@ -1,7 +1,7 @@
 # V3 checkpoint — 20 October 2026
 
 - State: PARTIAL-BLOCKED. Implementation complete; local functional gates pass; production remains V2.
-- Feature branch codex/makansedap-v3, base main 19e44f6c12dc4f5d4676ab9e4a0c76f70d8ea80a. Candidate source receipt will be written after the reviewed commit. No main update or deployment is authorized while the performance gate fails.
+- Feature branch codex/makansedap-v3, base main 19e44f6c12dc4f5d4676ab9e4a0c76f70d8ea80a. Candidate 61f40e69eb5282d57d4a44b7107e1484954a909a committed and independently verified on origin; release-identity.json binds every tested runtime file. No main update or deployment is authorized while the performance gate fails.
 - Local final checks: core 65/0, extended 17/0, V3 14/0, CSP, seven focus checks, Worker and Wrangler dry run PASS. Final 15 route captures and 20 V1/V2/V3 boards inspected. Firefox spawn UNKNOWN remains a documented environment limit.
 - Performance release veto: complete final interleaved 18-run comparison; median Home LCP 1.976s to 2.569s (+30.0%), Menu 2.270s to 2.727s (+20.1%), Gallery 1.982s to 1.899s (-4.2%). No tradeoff approved. See final-report.md and performance-assessment.json; do not repeat indefinite tuning loops or cherry-pick scores.
 - All 26 skills mapped; provenance and protected data confirmed. Gitleaks staged scan 8.30.1 and diff check pass. Only deliberate implementation/compact V3 evidence staged; user handoff deletions, skills, supplied handoff and historical V2 receipts preserved. Large diagnostic traces/captures remain local.
