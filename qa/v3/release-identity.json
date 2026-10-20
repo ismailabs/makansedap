@@ -1,13 +1,17 @@
 {
-  "at": "2026-10-20T13:19:36.508Z",
-  "state": "PARTIAL-BLOCKED",
-  "testedSourceCommit": "61f40e69eb5282d57d4a44b7107e1484954a909a",
+  "at": "2026-10-20T14:03:45.492Z",
+  "state": "IMPLEMENTED-NOT-DEPLOYED",
+  "testedImplementationCommit": "6bbb502bd8aca1040150ed8d7b3f59691050ec2e",
   "featureBranch": "codex/makansedap-v3",
-  "remoteBranchAtCandidatePush": "61f40e69eb5282d57d4a44b7107e1484954a909a",
+  "remoteAtImplementationPush": "6bbb502bd8aca1040150ed8d7b3f59691050ec2e",
   "remoteMain": "19e44f6c12dc4f5d4676ab9e4a0c76f70d8ea80a",
-  "runtimeFilesVerifiedAgainstCommit": 112,
-  "rebuild": "PASS: all tested filesystem SHA256 values unchanged and all Git-filtered source blobs equal candidate commit",
+  "runtimeFilesVerifiedAgainstCommit": 114,
+  "supportingFilesVerifiedAgainstCommit": 6,
+  "rebuild": "PASS: every tested filesystem SHA256 and Git-filtered blob matches the reviewed implementation commit.",
+  "previousRejectedCandidate": "61f40e69eb5282d57d4a44b7107e1484954a909a",
+  "performanceWaiverUsed": false,
   "deployedSource": null,
   "deploymentAttempted": false,
-  "documentation": "Subsequent receipt-only commit does not change the tested runtime source. Candidate source and production source remain distinct."
+  "releaseHold": "User declined the earlier performance tradeoff; revised release hold awaiting clarification.",
+  "documentation": "Receipt-only follow-up commits preserve all tested runtime blobs."
 }

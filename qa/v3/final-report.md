@@ -4,13 +4,13 @@
 
 The approved Living Malaysian Table direction retains semantic HTML, modular vanilla source, responsive concept artwork, pinned self-hosted GSAP/ScrollTrigger for bounded scroll scenes, native feedback, exact menu/gallery data, and fictional-booking privacy. The native modules compile to one 6.7KB raw low-priority runtime; the separate GSAP vendor stays lazy. All 26 skills are mapped in [skill-usage.md](skill-usage.md).
 
-Tested implementation source: PENDING reviewed commit binding in [release-identity.json](release-identity.json).
+Tested implementation source: `6bbb502bd8aca1040150ed8d7b3f59691050ec2e`, independently verified on [codex/makansedap-v3](https://github.com/ismailabs/makansedap/tree/codex/makansedap-v3). [Source receipt](release-identity.json) binds every tested runtime/supporting file. Receipt-only commits do not change the tested runtime.
 
 ## Gate record
 
 | Gate | State | Evidence |
 | --- | --- | --- |
-| H01 Source integrity | PENDING new commit binding | Revised runtime is locally qualified; exact source/remote identity and staged scan are bound in release-identity.json after commit. Protected menu and historical QA have no diff; unrelated work remains excluded. |
+| H01 Source integrity | PASS | Exact implementation source and remote verified in release-identity.json; deterministic rebuild and all Git-filtered blobs match. Staged Gitleaks/diff checks pass. Protected data/history and unrelated local work remain intact. |
 | H02 Routes/SEO | PASS local | [local/results.json](local/results.json): five routes, canonical/meta/social/sitemap/robots, actual 404, unique titles/descriptions. |
 | H03 Menu | PASS | Exact 51 category/name/price/description/order records and seven group/item identities, filtering, history/fragments, 51 visible with JS off. [scenes/results.json](scenes/results.json), core and extended receipts. Baselines untouched. |
 | H04 Gallery | PASS local | All 17 original metadata/link/alt/caption records; filters, wrap, keyboard, Escape, focus return, image-failure recovery and no-JS links. |
