@@ -1,0 +1,22 @@
+[
+ {
+  "RuleID": "generic-api-key",
+  "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations.",
+  "StartLine": 5,
+  "EndLine": 5,
+  "StartColumn": 5,
+  "EndColumn": 61,
+  "Match": "authenticatedAccount\": \"REDACTED\"",
+  "Secret": "REDACTED",
+  "File": "qa/v3/wrangler-release-preflight.json",
+  "SymlinkFile": "",
+  "Commit": "",
+  "Entropy": 3.6761086,
+  "Author": "",
+  "Email": "",
+  "Date": "0001-01-01T00:00:00Z",
+  "Message": "",
+  "Tags": [],
+  "Fingerprint": "qa/v3/wrangler-release-preflight.json:generic-api-key:5"
+ }
+]

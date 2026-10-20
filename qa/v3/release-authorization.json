@@ -1,0 +1,18 @@
+{
+  "at": "2026-10-20T14:14:15.640Z",
+  "source": "1c0eb6334fc23a52193ca4f3949163edb1be49df",
+  "result": "AUTHORIZED",
+  "directUserAnswer": "Deploy repaired source (Recommended)",
+  "scope": [
+    "Fast-forward publication to existing GitHub main",
+    "Deploy exact qualified source to existing makansedap Worker",
+    "Hosted verification and release receipts"
+  ],
+  "performanceWaiverUsed": false,
+  "supersedes": "Hold on failing 61f40e6; no waiver granted or used",
+  "deploymentTarget": {
+    "worker": "makansedap",
+    "account": "44214a829e2337ca50cf40e4cd827cba",
+    "domain": "makansedap.ismailstudio.my"
+  }
+}

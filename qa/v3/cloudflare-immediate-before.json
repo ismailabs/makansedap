@@ -1,0 +1,35 @@
+{
+  "at": "2026-10-20T14:14:34.544Z",
+  "result": "PASS",
+  "account": "44214a829e2337ca50cf40e4cd827cba",
+  "worker": "makansedap",
+  "deployment": "759647e6-78d1-49ca-91ed-1ed7c0541f4a",
+  "versions": [
+    {
+      "version_id": "4866e79b-64af-45fa-bacc-6f2ea3c3e216",
+      "percentage": 100
+    }
+  ],
+  "rollbackVersionReadable": true,
+  "bindings": [
+    {
+      "name": "ASSETS",
+      "type": "assets"
+    },
+    {
+      "name": "RELEASE_COMMIT",
+      "type": "plain_text",
+      "text": "695daaa31b57b6d3af261696644db2f80ef2e7ab"
+    }
+  ],
+  "workerBuildTriggers": [],
+  "sourceBefore": "695daaa31b57b6d3af261696644db2f80ef2e7ab",
+  "dryRun": {
+    "result": "PASS",
+    "cli": "4.151.1",
+    "source": "1c0eb6334fc23a52193ca4f3949163edb1be49df",
+    "workerBytesKiB": 1.12,
+    "workerGzipKiB": 0.56
+  },
+  "scope": "Existing Worker/account/domain; no DNS or unrelated infrastructure changes"
+}

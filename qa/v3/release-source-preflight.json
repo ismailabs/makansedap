@@ -1,0 +1,40 @@
+{
+  "at": "2026-10-20T14:14:15.619Z",
+  "result": "PASS",
+  "source": "1c0eb6334fc23a52193ca4f3949163edb1be49df",
+  "baseline": "19e44f6c12dc4f5d4676ab9e4a0c76f70d8ea80a",
+  "remote": {
+    "refs/heads/codex/makansedap-v3": "1c0eb6334fc23a52193ca4f3949163edb1be49df",
+    "refs/heads/main": "19e44f6c12dc4f5d4676ab9e4a0c76f70d8ea80a"
+  },
+  "runtimeHashes": 114,
+  "supportingHashes": 6,
+  "filteredGitBlobs": 120,
+  "protectedContractsUnchanged": true,
+  "productionBefore": "695daaa31b57b6d3af261696644db2f80ef2e7ab",
+  "preservedLocalPaths": [
+    " D MakanSedap-Codex-Handoff/00-START-HERE.md",
+    " D MakanSedap-Codex-Handoff/01-REQUIREMENTS.md",
+    " D MakanSedap-Codex-Handoff/02-REPOSITORY-AUDIT.md",
+    " D MakanSedap-Codex-Handoff/03-ART-DIRECTION.md",
+    " D MakanSedap-Codex-Handoff/04-IMPLEMENTATION.md",
+    " D MakanSedap-Codex-Handoff/05-GITHUB-CLOUDFLARE.md",
+    " D MakanSedap-Codex-Handoff/06-DEFINITION-OF-DONE.md",
+    " D MakanSedap-Codex-Handoff/07-PROVENANCE-AND-LIMITATIONS.md",
+    " D MakanSedap-Codex-Handoff/CODEX-GOAL-MODE.md",
+    " D MakanSedap-Codex-Handoff/assets/concept-board.png",
+    "?? .agents/",
+    "?? MakanSedap-V3-Codex-Handoff/",
+    "?? qa/v2/cloudflare-preflight.json",
+    "?? qa/v2/deploy-focus-output.txt",
+    "?? qa/v2/deploy-output.txt",
+    "?? qa/v2/extended-hosted/",
+    "?? qa/v2/gitleaks-focus-staged.json",
+    "?? qa/v2/independent-production-home-1440.png",
+    "?? qa/v2/independent-production-home-390.png",
+    "?? qa/v2/independent-production-smoke.mjs",
+    "?? qa/v2/independent-production.json",
+    "?? qa/v2/production/"
+  ],
+  "stagedFiles": 0
+}

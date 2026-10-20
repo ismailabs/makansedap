@@ -1,0 +1,8 @@
+{
+  "at": "2026-10-20T14:09:07.448Z",
+  "result": "PASS",
+  "version": "4.151.1",
+  "accountId": "44214a829e2337ca50cf40e4cd827cba",
+  "workersWriteScope": true,
+  "scope": "Existing authenticated local CLI; no credential reconfiguration"
+}

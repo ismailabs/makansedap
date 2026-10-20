@@ -1,6 +1,257 @@
 {
-  "at": "2026-10-20T13:14:52.442Z",
-  "result": "NOT_RUN",
-  "reason": "V3 release blocked by local performance gate; existing V2 production was not overwritten or incorrectly tested as V3.",
-  "currentProductionSource": "695daaa31b57b6d3af261696644db2f80ef2e7ab"
+  "checkedAt": "2026-10-20T14:15:52.838Z",
+  "base": "https://makansedap.ismailstudio.my",
+  "routes": [
+    {
+      "route": "/",
+      "status": 200,
+      "sha256": "a96cea09499e5059ee807b0848140f23781c17466d7f26d5c6c5d2856eb00cb7",
+      "headers": {
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "cache-control": "public, max-age=0, must-revalidate",
+        "cf-cache-status": "MISS",
+        "cf-ray": "a4d8a3309d71525a-MXP",
+        "connection": "keep-alive",
+        "content-encoding": "br",
+        "content-security-policy": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'none'; form-action 'none'; base-uri 'none'; frame-ancestors 'none'",
+        "content-type": "text/html",
+        "date": "Tue, 20 Oct 2026 14:15:56 GMT",
+        "etag": "W/\"9bb5ff6f2b3d645718499e47f45e1f81\"",
+        "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+        "permissions-policy": "camera=(), microphone=(), geolocation=(), payment=()",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=OVXXCXd9s1F4xOjdoaFigK7xgAUMKt8szlfhQg%2Fgzu1S0Ezt0UC8WBdDymFWweKXY6yoyXWc1uepPqaIRR2q8g8Dfy0tzYSXGCx4%2BelWYG6GMkC4wTdbSjTXIW7QzEKc0cay8N80QOXb5T1UKGDulXGR5RAlf9BftQ%3D%3D\"}]}",
+        "server": "cloudflare",
+        "transfer-encoding": "chunked",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY",
+        "x-release-commit": "1c0eb6334fc23a52193ca4f3949163edb1be49df"
+      },
+      "title": "MakanSedap | Good Food Brings Us Closer",
+      "sourceMatches": true
+    },
+    {
+      "route": "/menu/",
+      "status": 200,
+      "sha256": "c22f4818cbb9ad8673ba19bed54e47d35c19a3ba6fb42818e39a19560497a691",
+      "headers": {
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "cache-control": "public, max-age=0, must-revalidate",
+        "cf-cache-status": "MISS",
+        "cf-ray": "a4d8a334392c525a-MXP",
+        "connection": "keep-alive",
+        "content-encoding": "br",
+        "content-security-policy": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'none'; form-action 'none'; base-uri 'none'; frame-ancestors 'none'",
+        "content-type": "text/html",
+        "date": "Tue, 20 Oct 2026 14:15:57 GMT",
+        "etag": "W/\"3d883f8bceb3480e3f5e81c575ccb0cb\"",
+        "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+        "permissions-policy": "camera=(), microphone=(), geolocation=(), payment=()",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=EQlDFzjQgWiDvkCfnXGXPlVrArnqNzUgs%2BrhsIu9kGdOx%2F%2Fz%2BYqeMn3UjP7z0WpFlM0WNSSt4u2Q4viiUJUc8m7L5ajMa3oGEBwKQVMpJj9guSRHr%2BxBq3VSh3Y9u8RSoHd7BEwI2lZW6kbmg80YM%2B84hjiNWkaRPA%3D%3D\"}]}",
+        "server": "cloudflare",
+        "transfer-encoding": "chunked",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY",
+        "x-release-commit": "1c0eb6334fc23a52193ca4f3949163edb1be49df"
+      },
+      "title": "The Menu | MakanSedap",
+      "sourceMatches": true
+    },
+    {
+      "route": "/story/",
+      "status": 200,
+      "sha256": "e14951861f792188d253e84bc89d59cbf0ff0c3b9efe90d0fdcc33cca8c43083",
+      "headers": {
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "cache-control": "public, max-age=0, must-revalidate",
+        "cf-cache-status": "MISS",
+        "cf-ray": "a4d8a3376ca2525a-MXP",
+        "connection": "keep-alive",
+        "content-encoding": "br",
+        "content-security-policy": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'none'; form-action 'none'; base-uri 'none'; frame-ancestors 'none'",
+        "content-type": "text/html",
+        "date": "Tue, 20 Oct 2026 14:15:57 GMT",
+        "etag": "W/\"6998a4a69360d20b8676bfd88358a54b\"",
+        "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+        "permissions-policy": "camera=(), microphone=(), geolocation=(), payment=()",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=afE2c2Z20v1CbPoqexowfsh6p08Rqjtyjoeme8S%2FmS8Zsjuoku0S47Dyku4a2IiFQalVs8Yi%2F9EnluQpPxr1kJ%2BK19KSqLNCavktqlLUN2qQJg4IbJdt5HTEP6VV0tWDxBumgnef7zLze1tvIONOtOnk3erEgFv0Xg%3D%3D\"}]}",
+        "server": "cloudflare",
+        "transfer-encoding": "chunked",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY",
+        "x-release-commit": "1c0eb6334fc23a52193ca4f3949163edb1be49df"
+      },
+      "title": "Our Story | MakanSedap",
+      "sourceMatches": true
+    },
+    {
+      "route": "/gallery/",
+      "status": 200,
+      "sha256": "778260bf34ca8bf18d851133e5157a49c365929de6129670978097ab07228ad3",
+      "headers": {
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "cache-control": "public, max-age=0, must-revalidate",
+        "cf-cache-status": "MISS",
+        "cf-ray": "a4d8a33a2f3b525a-MXP",
+        "connection": "keep-alive",
+        "content-encoding": "br",
+        "content-security-policy": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'none'; form-action 'none'; base-uri 'none'; frame-ancestors 'none'",
+        "content-type": "text/html",
+        "date": "Tue, 20 Oct 2026 14:15:58 GMT",
+        "etag": "W/\"c2e0ea3b827abdb66f80adac3a36881d\"",
+        "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+        "permissions-policy": "camera=(), microphone=(), geolocation=(), payment=()",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=%2FjKKWWqQ9TJPp%2FLdWwyHbaZVyhq3hYSjezMM7d8iLame7MVs6rXgONn%2FEuw2T%2F0YZGHkvVHtiaoJXEHuERtjHzTtSne%2FvZe0flw%2FNQ8M%2B58Oy5XOSmsO1FwWBzRMwMPjDUMQu7d4sSzneZdGbT8vjjm6XWy48tUGzg%3D%3D\"}]}",
+        "server": "cloudflare",
+        "transfer-encoding": "chunked",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY",
+        "x-release-commit": "1c0eb6334fc23a52193ca4f3949163edb1be49df"
+      },
+      "title": "Gallery & Experience | MakanSedap",
+      "sourceMatches": true
+    },
+    {
+      "route": "/visit/",
+      "status": 200,
+      "sha256": "1cf3ef384dc0e29dea83ce842b82639375314df4946e9de5573f44a421b5331c",
+      "headers": {
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "cache-control": "public, max-age=0, must-revalidate",
+        "cf-cache-status": "MISS",
+        "cf-ray": "a4d8a33d3a89525a-MXP",
+        "connection": "keep-alive",
+        "content-encoding": "br",
+        "content-security-policy": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'none'; form-action 'none'; base-uri 'none'; frame-ancestors 'none'",
+        "content-type": "text/html",
+        "date": "Tue, 20 Oct 2026 14:15:58 GMT",
+        "etag": "W/\"d5b6f7e7e8d74fe14f837bcf2d1ffb97\"",
+        "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+        "permissions-policy": "camera=(), microphone=(), geolocation=(), payment=()",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=fiYh5lD%2FdCStwrAvkJ8ZT3dO7LKoaK1CdMjYz%2BhjNftfv%2FoL6XbwGqJ03T1DywWzkLSAdJ%2F3kMbjsOByLvJwkPITW1rhiGPkx66f5eM4pJD3RnJyAXJ%2BQnQg9ZW7f74G7IKN6cpZQCXb6B59%2FjjqwKLqgy%2FGHO8FkQ%3D%3D\"}]}",
+        "server": "cloudflare",
+        "transfer-encoding": "chunked",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY",
+        "x-release-commit": "1c0eb6334fc23a52193ca4f3949163edb1be49df"
+      },
+      "title": "Visit & Contact — Reservation Demo | MakanSedap",
+      "sourceMatches": true
+    }
+  ],
+  "browser": [
+    {
+      "route": "/",
+      "width": 390,
+      "axeViolations": 0,
+      "overflow": false
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "axeViolations": 0,
+      "overflow": false
+    },
+    {
+      "route": "/menu/",
+      "width": 390,
+      "axeViolations": 0,
+      "overflow": false
+    },
+    {
+      "route": "/menu/",
+      "width": 1440,
+      "axeViolations": 0,
+      "overflow": false
+    },
+    {
+      "route": "/story/",
+      "width": 390,
+      "axeViolations": 0,
+      "overflow": false
+    },
+    {
+      "route": "/story/",
+      "width": 1440,
+      "axeViolations": 0,
+      "overflow": false
+    },
+    {
+      "route": "/gallery/",
+      "width": 390,
+      "axeViolations": 0,
+      "overflow": false
+    },
+    {
+      "route": "/gallery/",
+      "width": 1440,
+      "axeViolations": 0,
+      "overflow": false
+    },
+    {
+      "route": "/visit/",
+      "width": 390,
+      "axeViolations": 0,
+      "overflow": false
+    },
+    {
+      "route": "/visit/",
+      "width": 1440,
+      "axeViolations": 0,
+      "overflow": false
+    }
+  ],
+  "redirects": [],
+  "result": "PASS",
+  "menuExact": 51,
+  "socialDeclarations": [
+    {
+      "route": "/",
+      "og": "https://makansedap.ismailstudio.my/assets/images/social-preview.png?v=3-20261020",
+      "twitter": "https://makansedap.ismailstudio.my/assets/images/social-preview.png?v=3-20261020"
+    },
+    {
+      "route": "/menu/",
+      "og": "https://makansedap.ismailstudio.my/assets/images/social-preview.png?v=3-20261020",
+      "twitter": "https://makansedap.ismailstudio.my/assets/images/social-preview.png?v=3-20261020"
+    },
+    {
+      "route": "/story/",
+      "og": "https://makansedap.ismailstudio.my/assets/images/social-preview.png?v=3-20261020",
+      "twitter": "https://makansedap.ismailstudio.my/assets/images/social-preview.png?v=3-20261020"
+    },
+    {
+      "route": "/gallery/",
+      "og": "https://makansedap.ismailstudio.my/assets/images/social-preview.png?v=3-20261020",
+      "twitter": "https://makansedap.ismailstudio.my/assets/images/social-preview.png?v=3-20261020"
+    },
+    {
+      "route": "/visit/",
+      "og": "https://makansedap.ismailstudio.my/assets/images/social-preview.png?v=3-20261020",
+      "twitter": "https://makansedap.ismailstudio.my/assets/images/social-preview.png?v=3-20261020"
+    }
+  ],
+  "socialAssets": [
+    {
+      "url": "https://makansedap.ismailstudio.my/assets/images/social-preview.png?v=3-20261020",
+      "status": 200,
+      "sha256": "a6755c438ed39aaddf9523c9cf72d3e2730650706696ba4b88f49c17d931d49d",
+      "sourceMatches": true
+    }
+  ],
+  "expectedCommit": "1c0eb6334fc23a52193ca4f3949163edb1be49df",
+  "securityHeaders": "exact configured CSP, nosniff, strict-origin-when-cross-origin, DENY, disabled sensitive permissions",
+  "conversionDestinations": [
+    "https://ismailstudio.my/",
+    "https://wa.me/601163265610"
+  ],
+  "notFound": 404,
+  "bookingRequests": [],
+  "errors": [],
+  "interactions": "menu filter, filtered gallery navigation and focus return, booking preview with zero submission/storage",
+  "noJavaScript": "five routes, navigation, 51 menu entries and disabled booking demo"
 }

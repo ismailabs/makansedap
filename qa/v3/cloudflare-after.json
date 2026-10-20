@@ -1,0 +1,16 @@
+{
+  "at": "2026-10-20T14:20:09.632Z",
+  "result": "PASS",
+  "deployment": "8146fe99-8489-40fc-a889-6be4b061e2e6",
+  "versions": [
+    {
+      "version_id": "4993b7d7-6cfd-4941-af35-9139f3fabc9c",
+      "percentage": 100
+    }
+  ],
+  "source": "1c0eb6334fc23a52193ca4f3949163edb1be49df",
+  "rollbackVersion": "4866e79b-64af-45fa-bacc-6f2ea3c3e216",
+  "rollbackReadable": true,
+  "rollbackSource": "695daaa31b57b6d3af261696644db2f80ef2e7ab",
+  "rollbackExecuted": false
+}

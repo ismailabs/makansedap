@@ -1,0 +1,61 @@
+{
+  "at": "2026-10-20T14:21:32.146Z",
+  "result": "PASS",
+  "state": "DONE-VERIFIED",
+  "source": "1c0eb6334fc23a52193ca4f3949163edb1be49df",
+  "runtimeFiles": 114,
+  "supportingFiles": 6,
+  "results": {
+    "core": {
+      "passed": 65,
+      "failed": 0,
+      "evidence": "local/results.json"
+    },
+    "extendedLocal": {
+      "passed": 17,
+      "failed": 0,
+      "evidence": "extended-local/results.json"
+    },
+    "scenesLocal": {
+      "passed": 14,
+      "failed": 0,
+      "evidence": "scenes/results.json"
+    },
+    "extendedHosted": {
+      "passed": 17,
+      "failed": 0,
+      "evidence": "extended-hosted/results.json"
+    },
+    "scenesHosted": {
+      "passed": 14,
+      "failed": 0,
+      "evidence": "scenes-hosted/results.json"
+    }
+  },
+  "production": {
+    "routes": 5,
+    "sourceHeaders": 5,
+    "axeViewports": 10,
+    "assetEndpoints": 113,
+    "menuRecords": 51,
+    "focusChecks": 7,
+    "consoleErrors": 0,
+    "bookingDataTransmitted": false,
+    "browserStorageOrCookies": false
+  },
+  "cloudflare": {
+    "deployment": "8146fe99-8489-40fc-a889-6be4b061e2e6",
+    "version": "4993b7d7-6cfd-4941-af35-9139f3fabc9c",
+    "traffic": 100
+  },
+  "protectedMenuAndHistoricalQaUnchanged": true,
+  "userWorkPreserved": "Ten pre-existing handoff deletions, untracked skills, supplied V3 handoff and pre-existing V2 evidence remain unstaged.",
+  "performance": "PASS local repeated controlled comparison; no field CWV claim",
+  "rollback": "Prior version/source read and procedure validated; rollback not executed",
+  "limits": [
+    "Firefox unavailable on this Windows host (spawn UNKNOWN)",
+    "No physical touch device, OS/browser zoom or assistive-technology speech-output validation",
+    "Inherited rasairon NXDOMAIN remains unchanged"
+  ],
+  "documentation": "Receipt-only final publication preserves all deployed runtime/supporting blobs."
+}

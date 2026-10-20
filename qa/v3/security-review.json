@@ -1,19 +1,32 @@
 {
-  "at": "2026-10-20T14:00:39.327Z",
+  "at": "2026-10-20T14:24:03.667Z",
   "result": "PASS",
   "scanner": "Gitleaks 8.30.1",
-  "scope": "Reviewed staged delivery-repaired V3 diff only; not a full-history or infrastructure audit.",
+  "scope": "Final V3 receipt-only staged diff; not a full-history or infrastructure audit.",
   "scanExitCode": 0,
   "findings": 0,
   "stagedDiffCheck": "PASS",
   "protectedPathsStaged": false,
   "protectedBaselineBlobsUnchanged": true,
   "historicalQaDiffEmpty": true,
-  "publicTextMachinePathSearch": "No Windows user paths or private author email patterns found.",
-  "reviewedFiles": 71,
+  "publicTextMachinePathSearch": "No Windows user paths or private author email patterns in staged public text.",
+  "reviewedFiles": 20,
   "previousCandidateScan": {
     "at": "2026-10-20T13:16:04.498Z",
     "result": "PASS",
     "findings": 0
-  }
+  },
+  "previousRepairScan": {
+    "at": "2026-10-20T14:00:39.327Z",
+    "scope": "Reviewed staged delivery-repaired V3 diff only; not a full-history or infrastructure audit.",
+    "findings": 0,
+    "reviewedFiles": 71
+  },
+  "initialReleaseScan": {
+    "findings": 1,
+    "classification": "False positive: public Cloudflare account ID matched an authentication-related JSON field label.",
+    "remedy": "Changed receipt label to accountId; no allowlist or scan exclusions. Redacted finding retained in gitleaks-release-initial.json.",
+    "rerunFindings": 0
+  },
+  "preservedLocalWorkMatchesPreflight": true
 }

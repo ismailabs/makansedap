@@ -1,0 +1,54 @@
+{
+  "at": "2026-10-20T14:15:51.871Z",
+  "result": "PASS",
+  "account": "44214a829e2337ca50cf40e4cd827cba",
+  "worker": "makansedap",
+  "deployment": "8146fe99-8489-40fc-a889-6be4b061e2e6",
+  "versions": [
+    {
+      "version_id": "4993b7d7-6cfd-4941-af35-9139f3fabc9c",
+      "percentage": 100
+    }
+  ],
+  "versionNumber": 5,
+  "bindings": [
+    {
+      "name": "ASSETS",
+      "type": "assets"
+    },
+    {
+      "name": "RELEASE_COMMIT",
+      "type": "plain_text",
+      "text": "1c0eb6334fc23a52193ca4f3949163edb1be49df"
+    }
+  ],
+  "source": "1c0eb6334fc23a52193ca4f3949163edb1be49df",
+  "previousVersion": "4866e79b-64af-45fa-bacc-6f2ea3c3e216",
+  "cli": {
+    "version": "4.151.1",
+    "dryRun": "PASS",
+    "deploymentExitCode": 0,
+    "assetsUploaded": 35,
+    "assetsReused": 78,
+    "startupMilliseconds": 1
+  },
+  "githubMainAtDeployment": "1c0eb6334fc23a52193ca4f3949163edb1be49df",
+  "productionURL": "https://makansedap.ismailstudio.my",
+  "rollback": {
+    "version": "4866e79b-64af-45fa-bacc-6f2ea3c3e216",
+    "readableBeforeDeploy": true,
+    "executed": false,
+    "procedure": "Re-query active deployment; if it still matches this V3 version, revalidate the prior version then use project-local Wrangler rollback with --name makansedap. Verify five V2 routes and source header afterward."
+  },
+  "changes": "Existing Worker code/assets/RELEASE_COMMIT only; preserved configuration, custom domain and DNS.",
+  "hostedVerification": "PASS",
+  "hostedVerifiedAt": "2026-10-20T14:21:32.146Z",
+  "hostedReceipts": [
+    "production-verification.json",
+    "production-assets.json",
+    "extended-hosted/results.json",
+    "scenes-hosted/results.json",
+    "focus-contrast-production.json",
+    "cloudflare-after.json"
+  ]
+}

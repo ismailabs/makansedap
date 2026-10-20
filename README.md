@@ -6,7 +6,7 @@ Public target: https://makansedap.ismailstudio.my/
 Repository: https://github.com/ismailabs/makansedap
 Website services: https://ismailstudio.my/
 
-V2 website enquiries: https://wa.me/601163265610 — verified on the live Studio homepage on 19 October 2026. This opens the Studio's existing WhatsApp contact; the restaurant demo collects no messages or personal information.
+Website enquiries: https://wa.me/601163265610 — reverified against the Studio homepage during V3 qualification on 20 October 2026. This opens the Studio's existing WhatsApp contact; the restaurant demo collects no messages or personal information.
 
 ## V3 — The Living Malaysian Table
 
@@ -32,9 +32,9 @@ The concept board in `MakanSedap-Codex-Handoff/assets/` supplies visual inspirat
 
 ## Hosting
 
-The existing old host uses Cloudflare Worker `rasairon`, not Pages. The new site uses Worker `makansedap` with static assets and security headers (`scripts/worker.mjs`, `wrangler.jsonc`). `site/_headers` also supports static hosting. Cloudflare custom domains manage DNS and TLS. A Cloudflare Single Redirect rule matches only `rasairon.ismailstudio.my` and preserves path and query. It was enabled after the new host passed verification. The old Worker and its DNS remain intact; `scripts/redirect-worker.mjs` is a tested fallback, not the deployed redirect.
+The site uses the existing Cloudflare Worker `makansedap` with static assets and security headers (`scripts/worker.mjs`, `wrangler.jsonc`). `site/_headers` also supports static hosting. The existing custom domain is `makansedap.ismailstudio.my`. V3 preserves its configuration and DNS. The older `rasairon.ismailstudio.my` host has an inherited NXDOMAIN exception; historical redirect configuration is not evidence of a functioning current redirect. `scripts/redirect-worker.mjs` remains a tested fallback.
 
-`node scripts/upload-assets.mjs` accepts a short-lived Cloudflare asset session over hidden stdin; it does not store credentials. Run `node scripts/asset-manifest.mjs` before the connector upload flow. `node scripts/verify-assets.mjs` checks every manifest endpoint against production. Normal CLI releases can use authenticated Wrangler; supply --var RELEASE_COMMIT:<full-source-SHA> for each release. Do not commit credentials or API session tokens. The connector-driven release uses the documented static-asset upload API because this host has no Wrangler login.
+V3 uses the authenticated project-local Wrangler 4.151.1 executable after source, account, version, binding and dry-run checks. Supply --var RELEASE_COMMIT:<full-source-SHA> for each release. `npm run verify:production` requires VERIFY_COMMIT with that full SHA; `npm run verify:assets` checks every manifest endpoint against production. Do not commit credentials or API session tokens. The older `scripts/upload-assets.mjs` connector flow accepts an asset session over hidden stdin and remains available as a fallback. Consult the current release receipt before using any rollback version.
 
 Indexability is deliberate in this approved rebrand: index/follow metadata, per-route canonical/OG URLs, sitemap and robots. No business schema, fabricated address, opening hours, certification, reviews or real bookings. Fictional disclosures are visible on every page.
 

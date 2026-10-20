@@ -1,74 +1,74 @@
 {
-  "checkedAt": "2026-10-20T14:03:45.505Z",
-  "result": "PASS_LOCAL",
-  "releaseState": "IMPLEMENTED-NOT-DEPLOYED",
-  "deploymentAllowed": false,
+  "checkedAt": "2026-10-20T14:21:32.146Z",
+  "result": "PASS",
+  "releaseState": "DONE-VERIFIED",
+  "deploymentAllowed": true,
   "sourceBase": "19e44f6c12dc4f5d4676ab9e4a0c76f70d8ea80a",
   "gates": [
     {
       "id": "H01",
       "status": "PASS",
-      "evidence": "release-identity.json; security-review.json"
+      "evidence": "release-source-preflight.json; release-identity.json; security-review.json"
     },
     {
       "id": "H02",
-      "status": "PASS_LOCAL",
-      "evidence": "local/results.json"
+      "status": "PASS",
+      "evidence": "production-verification.json"
     },
     {
       "id": "H03",
       "status": "PASS",
-      "evidence": "scenes/results.json"
+      "evidence": "local/results.json; extended-hosted/results.json; scenes-hosted/results.json"
     },
     {
       "id": "H04",
-      "status": "PASS_LOCAL",
-      "evidence": "extended-local/results.json"
+      "status": "PASS",
+      "evidence": "extended-hosted/results.json; scenes-hosted/results.json"
     },
     {
       "id": "H05",
-      "status": "PASS_LOCAL",
-      "evidence": "extended-local/results.json"
+      "status": "PASS",
+      "evidence": "production-verification.json; extended-hosted/results.json; scenes-hosted/results.json"
     },
     {
       "id": "H06",
       "status": "PASS",
-      "evidence": "studio-verification.json"
+      "evidence": "studio-verification.json; production-verification.json"
     },
     {
       "id": "H07",
       "status": "PASS_TESTED_SCOPE",
-      "evidence": "local/axe-results.json"
+      "evidence": "production-verification.json; extended-hosted/results.json; focus-contrast-production.json"
     },
     {
       "id": "H08",
-      "status": "PASS_LOCAL",
-      "evidence": "visual-final/receipt.json"
+      "status": "PASS",
+      "evidence": "local/results.json; production-verification.json; extended-hosted/results.json"
     },
     {
       "id": "H09",
-      "status": "PASS_LOCAL",
-      "evidence": "local/csp-smoke.json"
+      "status": "PASS",
+      "evidence": "local/csp-smoke.json; production-verification.json; security-review.json"
     },
     {
       "id": "H10",
-      "status": "PASS_LOCAL",
-      "evidence": "scenes/results.json"
+      "status": "PASS",
+      "evidence": "scenes/results.json; scenes-hosted/results.json"
     },
     {
       "id": "H11",
       "status": "PASS",
-      "evidence": "asset-provenance.json"
+      "evidence": "asset-provenance.json; production-assets.json"
     },
     {
       "id": "H12",
-      "status": "PASS_LOCAL_COMMANDS",
-      "evidence": "local/results.json"
+      "status": "PASS",
+      "evidence": "local/results.json; extended-hosted/results.json; scenes-hosted/results.json; production-assets.json"
     },
     {
       "id": "H13",
-      "status": "HELD_PENDING_USER_CLARIFICATION",
-      "evidence": "production-state-before.json"
+      "status": "PASS",
+      "evidence": "release-authorization.json; deployment-receipt.json; cloudflare-after.json"
     },
     {
       "id": "VISUAL",
@@ -77,10 +77,47 @@
     },
     {
       "id": "PERFORMANCE",
-      "status": "PASS_LOCAL",
+      "status": "PASS_LOCAL_QUALIFICATION",
       "evidence": "performance-assessment.json"
     }
   ],
   "performanceRun": "performance-delivery-paired/results.json",
-  "testedImplementationCommit": "6bbb502bd8aca1040150ed8d7b3f59691050ec2e"
+  "testedImplementationCommit": "6bbb502bd8aca1040150ed8d7b3f59691050ec2e",
+  "authorizedSource": "1c0eb6334fc23a52193ca4f3949163edb1be49df",
+  "deployedSource": "1c0eb6334fc23a52193ca4f3949163edb1be49df",
+  "verification": {
+    "core": {
+      "passed": 65,
+      "failed": 0,
+      "evidence": "local/results.json"
+    },
+    "extendedLocal": {
+      "passed": 17,
+      "failed": 0,
+      "evidence": "extended-local/results.json"
+    },
+    "scenesLocal": {
+      "passed": 14,
+      "failed": 0,
+      "evidence": "scenes/results.json"
+    },
+    "extendedHosted": {
+      "passed": 17,
+      "failed": 0,
+      "evidence": "extended-hosted/results.json"
+    },
+    "scenesHosted": {
+      "passed": 14,
+      "failed": 0,
+      "evidence": "scenes-hosted/results.json"
+    },
+    "focus": {
+      "passed": 7,
+      "failed": 0
+    },
+    "htmlSourceMatches": 5,
+    "assetEndpoints": 113,
+    "axeViewports": 10,
+    "consoleErrors": 0
+  }
 }
