@@ -59,7 +59,10 @@
       if (stage && stageLabel) {
         const source = groups.find(group => group.dataset.menuGroup === filter)?.querySelector('.category-feature img');
         if (source) { stage.src = source.src; stage.srcset = source.srcset; }
-        else { stage.src = '/assets/images/v3/floating-aromatics-480.webp'; stage.removeAttribute('srcset'); }
+        else {
+          stage.src = '/assets/images/v3/floating-aromatics-240.webp';
+          stage.srcset = '/assets/images/v3/floating-aromatics-240.webp 240w, /assets/images/v3/floating-aromatics-480.webp 480w, /assets/images/v3/floating-aromatics-768.webp 768w';
+        }
         stageLabel.textContent = filter === 'all' ? 'The whole table' : active.textContent.replace(/\d+/g, '').trim();
       }
       document.dispatchEvent(new CustomEvent('menu:change', { detail: { filter, label: active.textContent.replace(/\d+/g, '').trim() } }));

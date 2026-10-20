@@ -1,6 +1,6 @@
 {
-  "at": "2026-10-20T13:14:52.299Z",
-  "scope": "Tested filesystem bytes before candidate commit; Git filtered blob identities are bound separately after commit.",
+  "at": "2026-10-20T13:53:58.606Z",
+  "scope": "Final delivery-repaired filesystem bytes; Git-filtered blob identity will be bound after the reviewed candidate commit.",
   "files": [
     {
       "file": "site/_headers",
@@ -423,6 +423,11 @@
       "sha256": "9193db8c58907d2162a7986bd2cc5fbdb5e432932278ecfd7c29f3a51c047f42"
     },
     {
+      "file": "site/assets/images/v3/hero-prawns-320.webp",
+      "bytes": 16900,
+      "sha256": "678228bcff8fd7b44dd668db09f91f6c3e2c5cf4201364d4c6c35233ffbf179b"
+    },
+    {
       "file": "site/assets/images/v3/journal-aromatics-320.webp",
       "bytes": 18594,
       "sha256": "8342e695d8b0992df532d877666e6fe4ec009da7e65370eaafc2eb0e4caf6ad3"
@@ -464,8 +469,8 @@
     },
     {
       "file": "site/assets/js/main.js",
-      "bytes": 12292,
-      "sha256": "e0387cf50ebf182ac8a126e0e337dac6974ce5b7db55ba76b9395d6d4ebe6dd8"
+      "bytes": 12460,
+      "sha256": "2317a308f998d1f353a1938d3284b3c6600d38156ef37b46d218c75fb51d367c"
     },
     {
       "file": "site/assets/js/motion/gallery.js",
@@ -479,8 +484,8 @@
     },
     {
       "file": "site/assets/js/motion/index.js",
-      "bytes": 1823,
-      "sha256": "7292a223162c1912a822f5d2dca07ee6bb9bba29997a3a2158a1f416f371fafd"
+      "bytes": 1892,
+      "sha256": "936a6115ff3c46f183be5ca95d68a1038a5db48e917771541969365104d31e3f"
     },
     {
       "file": "site/assets/js/motion/menu.js",
@@ -491,6 +496,11 @@
       "file": "site/assets/js/motion/native.js",
       "bytes": 1392,
       "sha256": "644db1df82093a8ababd272c75893f9d23228451a6d86f82a3d29c81fcdf63a0"
+    },
+    {
+      "file": "site/assets/js/motion/runtime.js",
+      "bytes": 6703,
+      "sha256": "0d77e7a4b3ae53b0e9ab9a5b3a608ea21cfd69820e6c60bbaf6752e4af10ad4c"
     },
     {
       "file": "site/assets/js/motion/scroll.js",
@@ -529,18 +539,18 @@
     },
     {
       "file": "site/gallery/index.html",
-      "bytes": 23625,
-      "sha256": "052f10a7de056f44a6bccd02141d645bc94209b84a8081a9e2c6e07f2f8695fb"
+      "bytes": 23668,
+      "sha256": "778260bf34ca8bf18d851133e5157a49c365929de6129670978097ab07228ad3"
     },
     {
       "file": "site/index.html",
-      "bytes": 10537,
-      "sha256": "8da31b17da3556c924f51d1f9834ad299666f98e1c684e47aaa6368ada706a36"
+      "bytes": 10905,
+      "sha256": "a96cea09499e5059ee807b0848140f23781c17466d7f26d5c6c5d2856eb00cb7"
     },
     {
       "file": "site/menu/index.html",
-      "bytes": 29296,
-      "sha256": "22e4f33d8cc321ba783c54bbda907e3b2767faafbc61593d59d3131bfa9fdc47"
+      "bytes": 29917,
+      "sha256": "c22f4818cbb9ad8673ba19bed54e47d35c19a3ba6fb42818e39a19560497a691"
     },
     {
       "file": "site/robots.txt",
@@ -554,13 +564,45 @@
     },
     {
       "file": "site/story/index.html",
-      "bytes": 8556,
-      "sha256": "4f39ae15fedf2edd69a7e3b5fb0a74dff0a4179b6a3cb7b8ae1ea8e417794de2"
+      "bytes": 8599,
+      "sha256": "e14951861f792188d253e84bc89d59cbf0ff0c3b9efe90d0fdcc33cca8c43083"
     },
     {
       "file": "site/visit/index.html",
-      "bytes": 9898,
-      "sha256": "bfe07338b40d99de02b6b90006ce75e665b0dd73812d24c6cb3ac21787de4d59"
+      "bytes": 9941,
+      "sha256": "1cf3ef384dc0e29dea83ce842b82639375314df4946e9de5573f44a421b5331c"
+    }
+  ],
+  "supportingFiles": [
+    {
+      "file": "wrangler.jsonc",
+      "bytes": 502,
+      "sha256": "6d1ef395e3cb63a0466365f674d8daf33eccaebe3cc6bf9292f037d5059d7cff"
+    },
+    {
+      "file": "scripts/worker.mjs",
+      "bytes": 1042,
+      "sha256": "43289b13e6aa2f2210f868582c6eecf37b1ca1bc95c7d38eaf08ead6c65f2638"
+    },
+    {
+      "file": "package.json",
+      "bytes": 986,
+      "sha256": "697d50bdb41d1b2a37005b64172f0039e4d3fd8fce4447c4088d43c86dc1d0b7"
+    },
+    {
+      "file": "package-lock.json",
+      "bytes": 116382,
+      "sha256": "76283c64e16b2dd20c97ecae9e06f9d01009379907bc93435180bb0ef7f9aa51"
+    },
+    {
+      "file": "scripts/prepare-css.mjs",
+      "bytes": 634,
+      "sha256": "3640103d98a894d6761fd03139bf15aebc01b24899850522583640c184d792ea"
+    },
+    {
+      "file": "scripts/prepare-motion.mjs",
+      "bytes": 1463,
+      "sha256": "028461f77c5eecae9e06518b97d26c026993b0f8a6110eef0e329b727a186481"
     }
   ]
 }

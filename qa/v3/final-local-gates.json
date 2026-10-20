@@ -1,13 +1,13 @@
 {
-  "checkedAt": "2026-10-20T13:19:36.548Z",
-  "result": "FAIL",
-  "releaseState": "PARTIAL-BLOCKED",
+  "checkedAt": "2026-10-20T13:53:58.756Z",
+  "result": "PASS_LOCAL_PENDING_SOURCE_BINDING",
+  "releaseState": "IMPLEMENTED-NOT-DEPLOYED",
   "deploymentAllowed": false,
   "sourceBase": "19e44f6c12dc4f5d4676ab9e4a0c76f70d8ea80a",
   "gates": [
     {
       "id": "H01",
-      "status": "PASS",
+      "status": "PENDING_COMMIT",
       "evidence": "release-identity.json; security-review.json"
     },
     {
@@ -67,7 +67,7 @@
     },
     {
       "id": "H13",
-      "status": "BLOCKED_NOT_DEPLOYED",
+      "status": "HELD_PENDING_USER_CLARIFICATION",
       "evidence": "production-state-before.json"
     },
     {
@@ -77,9 +77,9 @@
     },
     {
       "id": "PERFORMANCE",
-      "status": "FAIL",
+      "status": "PASS_LOCAL",
       "evidence": "performance-assessment.json"
     }
   ],
-  "testedSourceCommit": "61f40e69eb5282d57d4a44b7107e1484954a909a"
+  "performanceRun": "performance-delivery-paired/results.json"
 }

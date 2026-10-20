@@ -1,83 +1,83 @@
 {
-  "at": "2026-10-20T13:10:40.019Z",
-  "base": "http://127.0.0.1:63349",
+  "at": "2026-10-20T13:43:59.309Z",
+  "base": "http://127.0.0.1:54264",
   "browser": "156.0.8078.4",
-  "gitHead": "19e44f6c12dc4f5d4676ab9e4a0c76f70d8ea80a",
+  "gitHead": "a67ff9122471554118815540b5e07c3451f29995",
   "sourceHashes": [
     {
       "route": "/",
       "width": 390,
-      "sha256": "8da31b17da3556c924f51d1f9834ad299666f98e1c684e47aaa6368ada706a36"
+      "sha256": "a96cea09499e5059ee807b0848140f23781c17466d7f26d5c6c5d2856eb00cb7"
     },
     {
       "route": "/menu/",
       "width": 390,
-      "sha256": "22e4f33d8cc321ba783c54bbda907e3b2767faafbc61593d59d3131bfa9fdc47"
+      "sha256": "c22f4818cbb9ad8673ba19bed54e47d35c19a3ba6fb42818e39a19560497a691"
     },
     {
       "route": "/story/",
       "width": 390,
-      "sha256": "4f39ae15fedf2edd69a7e3b5fb0a74dff0a4179b6a3cb7b8ae1ea8e417794de2"
+      "sha256": "e14951861f792188d253e84bc89d59cbf0ff0c3b9efe90d0fdcc33cca8c43083"
     },
     {
       "route": "/gallery/",
       "width": 390,
-      "sha256": "052f10a7de056f44a6bccd02141d645bc94209b84a8081a9e2c6e07f2f8695fb"
+      "sha256": "778260bf34ca8bf18d851133e5157a49c365929de6129670978097ab07228ad3"
     },
     {
       "route": "/visit/",
       "width": 390,
-      "sha256": "bfe07338b40d99de02b6b90006ce75e665b0dd73812d24c6cb3ac21787de4d59"
+      "sha256": "1cf3ef384dc0e29dea83ce842b82639375314df4946e9de5573f44a421b5331c"
     },
     {
       "route": "/",
       "width": 768,
-      "sha256": "8da31b17da3556c924f51d1f9834ad299666f98e1c684e47aaa6368ada706a36"
+      "sha256": "a96cea09499e5059ee807b0848140f23781c17466d7f26d5c6c5d2856eb00cb7"
     },
     {
       "route": "/menu/",
       "width": 768,
-      "sha256": "22e4f33d8cc321ba783c54bbda907e3b2767faafbc61593d59d3131bfa9fdc47"
+      "sha256": "c22f4818cbb9ad8673ba19bed54e47d35c19a3ba6fb42818e39a19560497a691"
     },
     {
       "route": "/story/",
       "width": 768,
-      "sha256": "4f39ae15fedf2edd69a7e3b5fb0a74dff0a4179b6a3cb7b8ae1ea8e417794de2"
+      "sha256": "e14951861f792188d253e84bc89d59cbf0ff0c3b9efe90d0fdcc33cca8c43083"
     },
     {
       "route": "/gallery/",
       "width": 768,
-      "sha256": "052f10a7de056f44a6bccd02141d645bc94209b84a8081a9e2c6e07f2f8695fb"
+      "sha256": "778260bf34ca8bf18d851133e5157a49c365929de6129670978097ab07228ad3"
     },
     {
       "route": "/visit/",
       "width": 768,
-      "sha256": "bfe07338b40d99de02b6b90006ce75e665b0dd73812d24c6cb3ac21787de4d59"
+      "sha256": "1cf3ef384dc0e29dea83ce842b82639375314df4946e9de5573f44a421b5331c"
     },
     {
       "route": "/",
       "width": 1440,
-      "sha256": "8da31b17da3556c924f51d1f9834ad299666f98e1c684e47aaa6368ada706a36"
+      "sha256": "a96cea09499e5059ee807b0848140f23781c17466d7f26d5c6c5d2856eb00cb7"
     },
     {
       "route": "/menu/",
       "width": 1440,
-      "sha256": "22e4f33d8cc321ba783c54bbda907e3b2767faafbc61593d59d3131bfa9fdc47"
+      "sha256": "c22f4818cbb9ad8673ba19bed54e47d35c19a3ba6fb42818e39a19560497a691"
     },
     {
       "route": "/story/",
       "width": 1440,
-      "sha256": "4f39ae15fedf2edd69a7e3b5fb0a74dff0a4179b6a3cb7b8ae1ea8e417794de2"
+      "sha256": "e14951861f792188d253e84bc89d59cbf0ff0c3b9efe90d0fdcc33cca8c43083"
     },
     {
       "route": "/gallery/",
       "width": 1440,
-      "sha256": "052f10a7de056f44a6bccd02141d645bc94209b84a8081a9e2c6e07f2f8695fb"
+      "sha256": "778260bf34ca8bf18d851133e5157a49c365929de6129670978097ab07228ad3"
     },
     {
       "route": "/visit/",
       "width": 1440,
-      "sha256": "bfe07338b40d99de02b6b90006ce75e665b0dd73812d24c6cb3ac21787de4d59"
+      "sha256": "1cf3ef384dc0e29dea83ce842b82639375314df4946e9de5573f44a421b5331c"
     }
   ],
   "captures": [

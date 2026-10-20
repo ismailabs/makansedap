@@ -1,11 +1,11 @@
 {
-  "checkedAt": "2026-10-20T13:11:31.440Z",
-  "result": "FAIL",
-  "decision": "Hold deployment: repeatable material LCP regression on Home and Menu. No performance tradeoff has been approved.",
+  "checkedAt": "2026-10-20T13:46:29.548Z",
+  "result": "PASS",
+  "decision": "The material Home/Menu LCP regression is mitigated. Every representative route improves paired median LCP and TBT; CLS is zero in all nine V3 runs. No waiver of the rejected candidate is used.",
   "method": "Interleaved V2/V3 on the same host/browser, identical gzip HTTP server, default Lighthouse simulated mobile throttling. Order alternates each run. No other browser QA runs concurrently.",
   "browser": "156.0.8078.4",
   "baseline": "19e44f6c12dc4f5d4676ab9e4a0c76f70d8ea80a",
-  "authoritativeRun": "qa/v3/performance-release-paired/results.json",
+  "authoritativeRun": "qa/v3/performance-delivery-paired/results.json",
   "routes": [
     {
       "route": "/",
@@ -15,66 +15,66 @@
             "run": 1,
             "route": "/",
             "variant": "before",
-            "fetchTime": "2026-10-20T13:05:16.567Z",
+            "fetchTime": "2026-10-20T13:34:11.370Z",
             "scores": {
-              "performance": 64,
+              "performance": 73,
               "accessibility": 100,
               "best-practices": 100,
               "seo": 100
             },
             "metrics": {
-              "first-contentful-paint": 888.2565,
-              "largest-contentful-paint": 2634.38475,
-              "total-blocking-time": 3210.0000000000005,
+              "first-contentful-paint": 828.9200000000001,
+              "largest-contentful-paint": 2928.92,
+              "total-blocking-time": 1035.54,
               "cumulative-layout-shift": 0,
-              "speed-index": 5099.727845596706
+              "speed-index": 1791.3774362518122
             }
           },
           {
             "run": 2,
             "route": "/",
             "variant": "before",
-            "fetchTime": "2026-10-20T13:07:12.832Z",
+            "fetchTime": "2026-10-20T13:35:23.794Z",
             "scores": {
-              "performance": 98,
+              "performance": 83,
               "accessibility": 100,
               "best-practices": 100,
               "seo": 100
             },
             "metrics": {
-              "first-contentful-paint": 776.0229999999999,
-              "largest-contentful-paint": 1976.023,
-              "total-blocking-time": 125,
+              "first-contentful-paint": 774.5,
+              "largest-contentful-paint": 2874.5,
+              "total-blocking-time": 503,
               "cumulative-layout-shift": 0,
-              "speed-index": 776.0229999999999
+              "speed-index": 955.7260748797796
             }
           },
           {
             "run": 3,
             "route": "/",
             "variant": "before",
-            "fetchTime": "2026-10-20T13:08:15.695Z",
+            "fetchTime": "2026-10-20T13:36:11.054Z",
             "scores": {
-              "performance": 93,
+              "performance": 92,
               "accessibility": 100,
               "best-practices": 100,
               "seo": 100
             },
             "metrics": {
-              "first-contentful-paint": 771.8119999999999,
-              "largest-contentful-paint": 1971.812,
-              "total-blocking-time": 288.09400000000005,
+              "first-contentful-paint": 763.7293999999999,
+              "largest-contentful-paint": 2413.7294,
+              "total-blocking-time": 275.13530000000003,
               "cumulative-layout-shift": 0,
-              "speed-index": 798.5005719989626
+              "speed-index": 763.7293999999999
             }
           }
         ],
         "median": {
-          "first-contentful-paint": 776.0229999999999,
-          "largest-contentful-paint": 1976.023,
-          "total-blocking-time": 288.09400000000005,
+          "first-contentful-paint": 774.5,
+          "largest-contentful-paint": 2874.5,
+          "total-blocking-time": 503,
           "cumulative-layout-shift": 0,
-          "speed-index": 798.5005719989626
+          "speed-index": 955.7260748797796
         }
       },
       "after": {
@@ -83,70 +83,70 @@
             "run": 1,
             "route": "/",
             "variant": "after",
-            "fetchTime": "2026-10-20T13:05:31.196Z",
+            "fetchTime": "2026-10-20T13:34:21.408Z",
             "scores": {
-              "performance": 77,
+              "performance": 94,
               "accessibility": 100,
               "best-practices": 100,
               "seo": 100
             },
             "metrics": {
-              "first-contentful-paint": 1405.48,
-              "largest-contentful-paint": 2831.9760000000006,
-              "total-blocking-time": 776.0079999999994,
+              "first-contentful-paint": 973.219,
+              "largest-contentful-paint": 2044.219,
+              "total-blocking-time": 250.39049999999997,
               "cumulative-layout-shift": 0,
-              "speed-index": 1772.9511656781096
+              "speed-index": 993.3413537877219
             }
           },
           {
             "run": 2,
             "route": "/",
             "variant": "after",
-            "fetchTime": "2026-10-20T13:06:58.119Z",
+            "fetchTime": "2026-10-20T13:35:09.576Z",
             "scores": {
-              "performance": 71,
+              "performance": 95,
               "accessibility": 100,
               "best-practices": 100,
               "seo": 100
             },
             "metrics": {
-              "first-contentful-paint": 1100.924,
-              "largest-contentful-paint": 2031.443,
-              "total-blocking-time": 1839.5,
+              "first-contentful-paint": 980.201,
+              "largest-contentful-paint": 2190.201,
+              "total-blocking-time": 234.3995,
               "cumulative-layout-shift": 0,
-              "speed-index": 2760.188609014609
+              "speed-index": 1002.7613025346022
             }
           },
           {
             "run": 3,
             "route": "/",
             "variant": "after",
-            "fetchTime": "2026-10-20T13:08:24.744Z",
+            "fetchTime": "2026-10-20T13:36:19.462Z",
             "scores": {
-              "performance": 96,
+              "performance": 90,
               "accessibility": 100,
               "best-practices": 100,
               "seo": 100
             },
             "metrics": {
-              "first-contentful-paint": 1016.652,
-              "largest-contentful-paint": 2568.652,
-              "total-blocking-time": 113.67399999999998,
+              "first-contentful-paint": 997.3340000000001,
+              "largest-contentful-paint": 2118.334,
+              "total-blocking-time": 368.9999999999999,
               "cumulative-layout-shift": 0,
-              "speed-index": 1016.652
+              "speed-index": 1119.9804271135663
             }
           }
         ],
         "median": {
-          "first-contentful-paint": 1100.924,
-          "largest-contentful-paint": 2568.652,
-          "total-blocking-time": 776.0079999999994,
+          "first-contentful-paint": 980.201,
+          "largest-contentful-paint": 2118.334,
+          "total-blocking-time": 250.39049999999997,
           "cumulative-layout-shift": 0,
-          "speed-index": 1772.9511656781096
+          "speed-index": 1002.7613025346022
         }
       },
-      "lcpDeltaMs": 592.6290000000001,
-      "lcpDeltaPercent": 29.99099706835397
+      "lcpDeltaMs": -756.1660000000002,
+      "lcpDeltaPercent": -26.306001043659773
     },
     {
       "route": "/menu/",
@@ -156,66 +156,66 @@
             "run": 1,
             "route": "/menu/",
             "variant": "before",
-            "fetchTime": "2026-10-20T13:05:42.606Z",
+            "fetchTime": "2026-10-20T13:34:30.927Z",
             "scores": {
-              "performance": 74,
+              "performance": 80,
               "accessibility": 100,
               "best-practices": 100,
               "seo": 100
             },
             "metrics": {
-              "first-contentful-paint": 797.6179999999999,
-              "largest-contentful-paint": 2087.7135,
-              "total-blocking-time": 1306.1910000000003,
+              "first-contentful-paint": 773.406,
+              "largest-contentful-paint": 2198.406,
+              "total-blocking-time": 812,
               "cumulative-layout-shift": 0,
-              "speed-index": 1820.931412149675
+              "speed-index": 1608.7026839974724
             }
           },
           {
             "run": 2,
             "route": "/menu/",
             "variant": "before",
-            "fetchTime": "2026-10-20T13:07:37.885Z",
+            "fetchTime": "2026-10-20T13:35:42.303Z",
             "scores": {
-              "performance": 82,
+              "performance": 95,
               "accessibility": 100,
               "best-practices": 100,
               "seo": 100
             },
             "metrics": {
-              "first-contentful-paint": 769.988,
-              "largest-contentful-paint": 2269.988,
-              "total-blocking-time": 666.006,
-              "cumulative-layout-shift": 0.03976363709207327,
-              "speed-index": 1204.4663995302103
+              "first-contentful-paint": 765.732,
+              "largest-contentful-paint": 2265.732,
+              "total-blocking-time": 217,
+              "cumulative-layout-shift": 0,
+              "speed-index": 765.732
             }
           },
           {
             "run": 3,
             "route": "/menu/",
             "variant": "before",
-            "fetchTime": "2026-10-20T13:08:50.036Z",
+            "fetchTime": "2026-10-20T13:36:35.454Z",
             "scores": {
-              "performance": 71,
+              "performance": 76,
               "accessibility": 100,
               "best-practices": 100,
               "seo": 100
             },
             "metrics": {
-              "first-contentful-paint": 779.248,
-              "largest-contentful-paint": 2279.248,
-              "total-blocking-time": 1726.3759999999995,
+              "first-contentful-paint": 779.2159999999999,
+              "largest-contentful-paint": 2279.216,
+              "total-blocking-time": 1005.8920000000003,
               "cumulative-layout-shift": 0,
-              "speed-index": 1731.5538281685222
+              "speed-index": 1563.502862407825
             }
           }
         ],
         "median": {
-          "first-contentful-paint": 779.248,
-          "largest-contentful-paint": 2269.988,
-          "total-blocking-time": 1306.1910000000003,
+          "first-contentful-paint": 773.406,
+          "largest-contentful-paint": 2265.732,
+          "total-blocking-time": 812,
           "cumulative-layout-shift": 0,
-          "speed-index": 1731.5538281685222
+          "speed-index": 1563.502862407825
         }
       },
       "after": {
@@ -224,70 +224,70 @@
             "run": 1,
             "route": "/menu/",
             "variant": "after",
-            "fetchTime": "2026-10-20T13:05:56.205Z",
+            "fetchTime": "2026-10-20T13:34:41.451Z",
             "scores": {
-              "performance": 76,
+              "performance": 98,
               "accessibility": 100,
               "best-practices": 100,
               "seo": 100
             },
             "metrics": {
-              "first-contentful-paint": 1005.9939999999999,
-              "largest-contentful-paint": 2726.9939999999997,
-              "total-blocking-time": 858.5029999999995,
+              "first-contentful-paint": 975.77,
+              "largest-contentful-paint": 1518.77,
+              "total-blocking-time": 165.615,
               "cumulative-layout-shift": 0,
-              "speed-index": 1574.9166618694426
+              "speed-index": 975.77
             }
           },
           {
             "run": 2,
             "route": "/menu/",
             "variant": "after",
-            "fetchTime": "2026-10-20T13:07:24.652Z",
+            "fetchTime": "2026-10-20T13:35:32.561Z",
             "scores": {
-              "performance": 79,
+              "performance": 99,
               "accessibility": 100,
               "best-practices": 100,
               "seo": 100
             },
             "metrics": {
-              "first-contentful-paint": 1542.042,
-              "largest-contentful-paint": 2724.0419999999995,
-              "total-blocking-time": 645.4894999999999,
+              "first-contentful-paint": 980.066,
+              "largest-contentful-paint": 1518.066,
+              "total-blocking-time": 140.9670000000001,
               "cumulative-layout-shift": 0,
-              "speed-index": 2066.4716302048046
+              "speed-index": 980.066
             }
           },
           {
             "run": 3,
             "route": "/menu/",
             "variant": "after",
-            "fetchTime": "2026-10-20T13:09:01.854Z",
+            "fetchTime": "2026-10-20T13:36:46.358Z",
             "scores": {
-              "performance": 71,
+              "performance": 100,
               "accessibility": 100,
               "best-practices": 100,
               "seo": 100
             },
             "metrics": {
-              "first-contentful-paint": 1078.626,
-              "largest-contentful-paint": 2741.626,
-              "total-blocking-time": 1390.1870000000001,
+              "first-contentful-paint": 986.3119999999999,
+              "largest-contentful-paint": 1748.312,
+              "total-blocking-time": 40.34400000000005,
               "cumulative-layout-shift": 0,
-              "speed-index": 2188.2163498169625
+              "speed-index": 986.3119999999999
             }
           }
         ],
         "median": {
-          "first-contentful-paint": 1078.626,
-          "largest-contentful-paint": 2726.9939999999997,
-          "total-blocking-time": 858.5029999999995,
+          "first-contentful-paint": 980.066,
+          "largest-contentful-paint": 1518.77,
+          "total-blocking-time": 140.9670000000001,
           "cumulative-layout-shift": 0,
-          "speed-index": 2066.4716302048046
+          "speed-index": 980.066
         }
       },
-      "lcpDeltaMs": 457.00599999999986,
-      "lcpDeltaPercent": 20.132529334956832
+      "lcpDeltaMs": -746.962,
+      "lcpDeltaPercent": -32.967800251750866
     },
     {
       "route": "/gallery/",
@@ -297,66 +297,66 @@
             "run": 1,
             "route": "/gallery/",
             "variant": "before",
-            "fetchTime": "2026-10-20T13:06:07.555Z",
+            "fetchTime": "2026-10-20T13:34:51.306Z",
             "scores": {
-              "performance": 95,
+              "performance": 98,
               "accessibility": 100,
               "best-practices": 100,
               "seo": 100
             },
             "metrics": {
-              "first-contentful-paint": 776.6189999999999,
-              "largest-contentful-paint": 1976.619,
-              "total-blocking-time": 223.9999999999999,
+              "first-contentful-paint": 778.8009999999999,
+              "largest-contentful-paint": 1978.801,
+              "total-blocking-time": 117.59950000000003,
               "cumulative-layout-shift": 0,
-              "speed-index": 811.2131919999599
+              "speed-index": 778.8009999999999
             }
           },
           {
             "run": 2,
             "route": "/gallery/",
             "variant": "before",
-            "fetchTime": "2026-10-20T13:08:05.429Z",
+            "fetchTime": "2026-10-20T13:36:01.908Z",
             "scores": {
-              "performance": 69,
+              "performance": 99,
               "accessibility": 100,
               "best-practices": 100,
               "seo": 100
             },
             "metrics": {
-              "first-contentful-paint": 791.9290000000001,
-              "largest-contentful-paint": 1991.929,
-              "total-blocking-time": 4784.0355,
-              "cumulative-layout-shift": 0.005540060284015081,
-              "speed-index": 1208.8888982623307
+              "first-contentful-paint": 769.0709999999999,
+              "largest-contentful-paint": 1969.071,
+              "total-blocking-time": 81,
+              "cumulative-layout-shift": 0,
+              "speed-index": 769.0709999999999
             }
           },
           {
             "run": 3,
             "route": "/gallery/",
             "variant": "before",
-            "fetchTime": "2026-10-20T13:09:13.918Z",
+            "fetchTime": "2026-10-20T13:36:56.574Z",
             "scores": {
-              "performance": 95,
+              "performance": 89,
               "accessibility": 100,
               "best-practices": 100,
               "seo": 100
             },
             "metrics": {
-              "first-contentful-paint": 782.297,
-              "largest-contentful-paint": 1982.297,
-              "total-blocking-time": 221.8515,
+              "first-contentful-paint": 771.4960000000001,
+              "largest-contentful-paint": 2796.496,
+              "total-blocking-time": 303.75199999999995,
               "cumulative-layout-shift": 0,
-              "speed-index": 782.297
+              "speed-index": 1298.2130800006507
             }
           }
         ],
         "median": {
-          "first-contentful-paint": 782.297,
-          "largest-contentful-paint": 1982.297,
-          "total-blocking-time": 223.9999999999999,
+          "first-contentful-paint": 771.4960000000001,
+          "largest-contentful-paint": 1978.801,
+          "total-blocking-time": 117.59950000000003,
           "cumulative-layout-shift": 0,
-          "speed-index": 811.2131919999599
+          "speed-index": 778.8009999999999
         }
       },
       "after": {
@@ -365,45 +365,26 @@
             "run": 1,
             "route": "/gallery/",
             "variant": "after",
-            "fetchTime": "2026-10-20T13:06:34.418Z",
+            "fetchTime": "2026-10-20T13:35:00.074Z",
             "scores": {
-              "performance": 80,
+              "performance": 100,
               "accessibility": 100,
               "best-practices": 100,
               "seo": 100
             },
             "metrics": {
-              "first-contentful-paint": 1085.227,
-              "largest-contentful-paint": 1899.2270000000003,
-              "total-blocking-time": 804.8865000000002,
+              "first-contentful-paint": 975.222,
+              "largest-contentful-paint": 1601.2220000000002,
+              "total-blocking-time": 9,
               "cumulative-layout-shift": 0,
-              "speed-index": 1678.0080744048328
+              "speed-index": 975.222
             }
           },
           {
             "run": 2,
             "route": "/gallery/",
             "variant": "after",
-            "fetchTime": "2026-10-20T13:07:52.216Z",
-            "scores": {
-              "performance": 79,
-              "accessibility": 100,
-              "best-practices": 100,
-              "seo": 100
-            },
-            "metrics": {
-              "first-contentful-paint": 1242.5124999999998,
-              "largest-contentful-paint": 2017.215,
-              "total-blocking-time": 876.7974999999997,
-              "cumulative-layout-shift": 0,
-              "speed-index": 1712.2810497415085
-            }
-          },
-          {
-            "run": 3,
-            "route": "/gallery/",
-            "variant": "after",
-            "fetchTime": "2026-10-20T13:09:25.294Z",
+            "fetchTime": "2026-10-20T13:35:52.344Z",
             "scores": {
               "performance": 99,
               "accessibility": 100,
@@ -411,152 +392,273 @@
               "seo": 100
             },
             "metrics": {
-              "first-contentful-paint": 1102.4650000000001,
-              "largest-contentful-paint": 1898.972,
-              "total-blocking-time": 72.50700000000006,
+              "first-contentful-paint": 987.633,
+              "largest-contentful-paint": 1823.6329999999998,
+              "total-blocking-time": 109.18349999999987,
               "cumulative-layout-shift": 0,
-              "speed-index": 1102.4650000000001
+              "speed-index": 987.633
+            }
+          },
+          {
+            "run": 3,
+            "route": "/gallery/",
+            "variant": "after",
+            "fetchTime": "2026-10-20T13:37:05.829Z",
+            "scores": {
+              "performance": 100,
+              "accessibility": 100,
+              "best-practices": 100,
+              "seo": 100
+            },
+            "metrics": {
+              "first-contentful-paint": 976.569,
+              "largest-contentful-paint": 1822.569,
+              "total-blocking-time": 49,
+              "cumulative-layout-shift": 0,
+              "speed-index": 976.569
             }
           }
         ],
         "median": {
-          "first-contentful-paint": 1102.4650000000001,
-          "largest-contentful-paint": 1899.2270000000003,
-          "total-blocking-time": 804.8865000000002,
+          "first-contentful-paint": 976.569,
+          "largest-contentful-paint": 1822.569,
+          "total-blocking-time": 49,
           "cumulative-layout-shift": 0,
-          "speed-index": 1678.0080744048328
+          "speed-index": 976.569
         }
       },
-      "lcpDeltaMs": -83.06999999999971,
-      "lcpDeltaPercent": -4.190593034242584
+      "lcpDeltaMs": -156.23199999999997,
+      "lcpDeltaPercent": -7.895286084856434
     }
   ],
+  "minorCost": "FCP is about 0.2s later than V2, with all representative final V3 runs still below 1.0s. This minor initial-paint cost is disclosed; LCP, median blocking time and layout stability qualify the repaired source. The earlier 20–30% LCP regression is absent.",
   "limitations": [
-    "Local Lighthouse 13.5 mobile simulation; not field Core Web Vitals, physical mobile hardware or measured field INP.",
-    "Large main-thread timing swings also occur on V2. All runs remain in the comparison; no slow run has been excluded."
+    "Local Lighthouse 13.5 default simulated mobile throttling; not field Core Web Vitals, physical mobile hardware or field INP.",
+    "Host timing variability affects V2 and V3. Every run is retained; no slow run has been excluded. Earlier diagnostic candidates are not pooled with this final paired run."
   ],
   "repairs": [
-    "Same gzip HTTP server for V2/V3, interleaved order alternates each run, original V2 HTML/CSS/JS validated against its Git blobs.",
-    "GSAP lazy-loaded only at Home/Story scroll scenes; all initial and interaction effects use short native animations.",
-    "No initial global animation enumeration or opening computed-style flush; two RAFs allow first paint.",
-    "Mobile focal plate stays static; smaller planes carry the entrance.",
-    "Primary Gallery image stays static; right-sized 320/480 WebP leads and corrected loading priorities.",
-    "Pinned esbuild compiles/minifies CSS; source fonts and CSP preserved."
+    "One 6.7KB raw native-motion bundle removes three opening module requests while keeping the 115KB GSAP vendor lazy.",
+    "High priority for functional core; low priority for cosmetic runtime and secondary imagery. Core priority avoids a transient mobile-navigation layout shift observed in the isolated experiment.",
+    "Matching responsive image preloads for Home/Menu LCP artwork.",
+    "320px Home secondary crop and accurate image sizes; responsive 240px menu-stage fallback.",
+    "Semantic source, protected records, static/no-JS behavior, all scene movements and CSP remain intact."
+  ],
+  "priorRejectedCandidate": {
+    "source": "61f40e69eb5282d57d4a44b7107e1484954a909a",
+    "report": "performance-assessment-61f40e6.json",
+    "decision": "Release remained blocked; user declined the quantified tradeoff. Current assessment concerns the repaired source, not approval of that candidate."
+  },
+  "primaryGuidance": [
+    "https://web.dev/articles/fetch-priority",
+    "https://web.dev/articles/preload-responsive-images"
   ],
   "rawReports": [
     {
-      "file": "qa/v3/performance-release-paired/lighthouse/home-before-1.json",
-      "sha256": "3b4c6c528a2ed3f50196e8d3ba9194fe5bc08ff1e5b495529f2b8917bdd424c1"
+      "file": "qa/v3/performance-delivery-paired/lighthouse/home-before-1.json",
+      "sha256": "163ecf1a9d98b6faa000a3287903c6b388e503b1154c14790203e088eda6dc14"
     },
     {
-      "file": "qa/v3/performance-release-paired/lighthouse/home-before-2.json",
-      "sha256": "36b2c684d59df6c57fb6f4ceb85d7efebf0b0386dbbeb9942065241101b40d2f"
+      "file": "qa/v3/performance-delivery-paired/lighthouse/home-before-2.json",
+      "sha256": "de4dd254a8a50ac79a6c101b4f9f2060dca1c4d10b1d08bb8faf62ce85515317"
     },
     {
-      "file": "qa/v3/performance-release-paired/lighthouse/home-before-3.json",
-      "sha256": "0ab2644251fe6ffa3558f39d186ee9aa666ff8e9e00435147cd94ff38ee18837"
+      "file": "qa/v3/performance-delivery-paired/lighthouse/home-before-3.json",
+      "sha256": "2d3aae3b9caf34c8919f3675a1a0d30277a8b06a31611154145015d266a22a1c"
     },
     {
-      "file": "qa/v3/performance-release-paired/lighthouse/home-after-1.json",
-      "sha256": "12f4d2f9eafc28c99fda3b7dfd668b54ee9d3824e78699112ae59903591e8c67"
+      "file": "qa/v3/performance-delivery-paired/lighthouse/home-after-1.json",
+      "sha256": "2b2765859de2bf38e832956e57df6ebde658a74688d1336d301d3d175d6114bb"
     },
     {
-      "file": "qa/v3/performance-release-paired/lighthouse/home-after-2.json",
-      "sha256": "f8eeb656e363de62704930e63f10ed794dd16e4ca8914eda03fe1f1dd38e7007"
+      "file": "qa/v3/performance-delivery-paired/lighthouse/home-after-2.json",
+      "sha256": "9d9a97e76b3c35df5cc8c0bdea784f0780283bc3acc0ee04fcde4af34887f09b"
     },
     {
-      "file": "qa/v3/performance-release-paired/lighthouse/home-after-3.json",
-      "sha256": "81fd35e9a3069443eb1a1e172a77adc5179e17b3ef632058c86c09039a5fb3ba"
+      "file": "qa/v3/performance-delivery-paired/lighthouse/home-after-3.json",
+      "sha256": "a5ab5cfd24edd15a64e667a816982d06b22a4fb29fd409d249e68feb23f977be"
     },
     {
-      "file": "qa/v3/performance-release-paired/lighthouse/menu-before-1.json",
-      "sha256": "20690920ec21973b2c0133dec96d5f32e8bcfe7b1c5748697d0c714460ad451b"
+      "file": "qa/v3/performance-delivery-paired/lighthouse/menu-before-1.json",
+      "sha256": "f3ff6b43bbc87e9a8ff8e1cf0af028970f86c9e33956df6fd862a6e5ef11acc8"
     },
     {
-      "file": "qa/v3/performance-release-paired/lighthouse/menu-before-2.json",
-      "sha256": "2aff8efa0c3742dbf391ca73a85c2154a3c3652c3df011dee6e4c76d083d6f5b"
+      "file": "qa/v3/performance-delivery-paired/lighthouse/menu-before-2.json",
+      "sha256": "1f9005f37018cd369681fde346f0e91fd2cd26cff93a476071a2cff1a7118c8f"
     },
     {
-      "file": "qa/v3/performance-release-paired/lighthouse/menu-before-3.json",
-      "sha256": "86965082618af939960e901d21e64e75447e61c89ef85bdfd17b1331e76a3e96"
+      "file": "qa/v3/performance-delivery-paired/lighthouse/menu-before-3.json",
+      "sha256": "a05bd9cc7b0826673d1b0ba84a82a0906aef1a6e05b2df0a86af6cb63b521e47"
     },
     {
-      "file": "qa/v3/performance-release-paired/lighthouse/menu-after-1.json",
-      "sha256": "9bc3fe1715123f16add5cdff956dd3c82447549ed52d92915f5a3f0a718651fc"
+      "file": "qa/v3/performance-delivery-paired/lighthouse/menu-after-1.json",
+      "sha256": "2836252e7d129a4ae24a8fb5ddb3be080011f917e4238b8105393aee8731dc8f"
     },
     {
-      "file": "qa/v3/performance-release-paired/lighthouse/menu-after-2.json",
-      "sha256": "a9d464f0b40de45b968ec2d61299cbbdf2d0375edb7c3273aa373637714117d9"
+      "file": "qa/v3/performance-delivery-paired/lighthouse/menu-after-2.json",
+      "sha256": "f35a416a8efbfb5ac9301b37d8e7d9c540d6a51ca229b96cba6c2cd4724c6365"
     },
     {
-      "file": "qa/v3/performance-release-paired/lighthouse/menu-after-3.json",
-      "sha256": "dea9d14395bf228bfe221e8acecad464f313fed1e617fe3059483a353be348eb"
+      "file": "qa/v3/performance-delivery-paired/lighthouse/menu-after-3.json",
+      "sha256": "6c93bdb087e92b8ed56c53f51dad3020cb5634f5181310b2187812a06467ca18"
     },
     {
-      "file": "qa/v3/performance-release-paired/lighthouse/gallery-before-1.json",
-      "sha256": "69051f88c57a04c7342a99b99ec02fcc753f120117feb1d25bfa85b6ebed56ed"
+      "file": "qa/v3/performance-delivery-paired/lighthouse/gallery-before-1.json",
+      "sha256": "8407d8aadae6486ae965e4edb72975ce48c018fe88a5d319a9f6e22a3b10ce89"
     },
     {
-      "file": "qa/v3/performance-release-paired/lighthouse/gallery-before-2.json",
-      "sha256": "e8f9425daefcedb24c416a95c68d7afc7b3be0cf92e4ae63b8568ff3f9935d7d"
+      "file": "qa/v3/performance-delivery-paired/lighthouse/gallery-before-2.json",
+      "sha256": "31bbd9c632163c1567065cf1d61fea8ab7c71417f3b33e9aa754324c04dd14ad"
     },
     {
-      "file": "qa/v3/performance-release-paired/lighthouse/gallery-before-3.json",
-      "sha256": "17c52f358c8a060ce0ff61cc373889f20ce07f16a9067f28450095a7220efc9b"
+      "file": "qa/v3/performance-delivery-paired/lighthouse/gallery-before-3.json",
+      "sha256": "2e1d85af93d95164caf548402411c626deb28ee05bdc490d78d869971e886864"
     },
     {
-      "file": "qa/v3/performance-release-paired/lighthouse/gallery-after-1.json",
-      "sha256": "e71356b2328e986a525959012ac68e65fd2e475c8259b26e0e014259c2a1ca5a"
+      "file": "qa/v3/performance-delivery-paired/lighthouse/gallery-after-1.json",
+      "sha256": "c6032d49e0f70be04e8bf88470d69352da187a5f82a06cddc60ea4a3e13e5503"
     },
     {
-      "file": "qa/v3/performance-release-paired/lighthouse/gallery-after-2.json",
-      "sha256": "3d9f76680b96679e671697ca843dd6bfc8c99ce6ad866fb3ee4d473fbdb0f638"
+      "file": "qa/v3/performance-delivery-paired/lighthouse/gallery-after-2.json",
+      "sha256": "00dee14b89152007b465673f42972843956102e2f66ae2a97b6cffe34afbca17"
     },
     {
-      "file": "qa/v3/performance-release-paired/lighthouse/gallery-after-3.json",
-      "sha256": "f27577e00bea8b549105c3e2a1e051691f02712823498e7d4e1114bcef3471c8"
+      "file": "qa/v3/performance-delivery-paired/lighthouse/gallery-after-3.json",
+      "sha256": "3545f41dc2d496a1581f0130d6c2700eeaacb25d7a76b89db3363a34bfe070f5"
     }
   ],
-  "earlierEvidence": [
+  "additionalRoutes": [
     {
-      "folder": "qa/v3/performance-after",
-      "role": "Earlier diagnostic candidate or transport comparison; retained locally, superseded by the complete final interleaved comparison. Do not pool unlike candidates or transports."
+      "route": "/story/",
+      "fetchTime": "2026-10-20T13:39:09.905Z",
+      "version": "13.5.0",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36",
+      "mode": "Lighthouse default mobile simulated throttling, local HTTP",
+      "scores": {
+        "performance": 86,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 1070.778,
+        "largest-contentful-paint": 1982.7779999999998,
+        "total-blocking-time": 523.6110000000001,
+        "cumulative-layout-shift": 0,
+        "speed-index": 1405.6426026732115
+      },
+      "failedAudits": [
+        {
+          "id": "first-contentful-paint",
+          "title": "First Contentful Paint",
+          "score": 0.99,
+          "displayValue": "1.1 s"
+        },
+        {
+          "id": "largest-contentful-paint",
+          "title": "Largest Contentful Paint",
+          "score": 0.97,
+          "displayValue": "2.0 s"
+        },
+        {
+          "id": "total-blocking-time",
+          "title": "Total Blocking Time",
+          "score": 0.56,
+          "displayValue": "520 ms"
+        },
+        {
+          "id": "max-potential-fid",
+          "title": "Max Potential First Input Delay",
+          "score": 0.43,
+          "displayValue": "270 ms"
+        },
+        {
+          "id": "interactive",
+          "title": "Time to Interactive",
+          "score": 0.99,
+          "displayValue": "2.0 s"
+        },
+        {
+          "id": "mainthread-work-breakdown",
+          "title": "Minimize main-thread work",
+          "score": 0,
+          "displayValue": "2.0 s"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "score": 0,
+          "displayValue": "Est savings of 73 KiB"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "score": 0
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "score": 0.5
+        }
+      ],
+      "run": 1
     },
     {
-      "folder": "qa/v3/performance-after-optimized",
-      "role": "Earlier diagnostic candidate or transport comparison; retained locally, superseded by the complete final interleaved comparison. Do not pool unlike candidates or transports."
-    },
-    {
-      "folder": "qa/v3/performance-before",
-      "role": "Earlier diagnostic candidate or transport comparison; retained locally, superseded by the complete final interleaved comparison. Do not pool unlike candidates or transports."
-    },
-    {
-      "folder": "qa/v3/performance-before-compressed",
-      "role": "Earlier diagnostic candidate or transport comparison; retained locally, superseded by the complete final interleaved comparison. Do not pool unlike candidates or transports."
-    },
-    {
-      "folder": "qa/v3/performance-candidate",
-      "role": "Earlier diagnostic candidate or transport comparison; retained locally, superseded by the complete final interleaved comparison. Do not pool unlike candidates or transports."
-    },
-    {
-      "folder": "qa/v3/performance-final",
-      "role": "Earlier diagnostic candidate or transport comparison; retained locally, superseded by the complete final interleaved comparison. Do not pool unlike candidates or transports."
-    },
-    {
-      "folder": "qa/v3/performance-mobile-adapted",
-      "role": "Earlier diagnostic candidate or transport comparison; retained locally, superseded by the complete final interleaved comparison. Do not pool unlike candidates or transports."
-    },
-    {
-      "folder": "qa/v3/performance-paired",
-      "role": "Earlier diagnostic candidate or transport comparison; retained locally, superseded by the complete final interleaved comparison. Do not pool unlike candidates or transports."
-    },
-    {
-      "folder": "qa/v3/performance-refined",
-      "role": "Earlier diagnostic candidate or transport comparison; retained locally, superseded by the complete final interleaved comparison. Do not pool unlike candidates or transports."
-    },
-    {
-      "folder": "qa/v3/performance-release",
-      "role": "Earlier diagnostic candidate or transport comparison; retained locally, superseded by the complete final interleaved comparison. Do not pool unlike candidates or transports."
+      "route": "/visit/",
+      "fetchTime": "2026-10-20T13:39:20.013Z",
+      "version": "13.5.0",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36",
+      "mode": "Lighthouse default mobile simulated throttling, local HTTP",
+      "scores": {
+        "performance": 99,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 1093.1767,
+        "largest-contentful-paint": 1441.1767,
+        "total-blocking-time": 110.91165000000001,
+        "cumulative-layout-shift": 0,
+        "speed-index": 1093.1767
+      },
+      "failedAudits": [
+        {
+          "id": "first-contentful-paint",
+          "title": "First Contentful Paint",
+          "score": 0.99,
+          "displayValue": "1.1 s"
+        },
+        {
+          "id": "total-blocking-time",
+          "title": "Total Blocking Time",
+          "score": 0.97,
+          "displayValue": "110 ms"
+        },
+        {
+          "id": "max-potential-fid",
+          "title": "Max Potential First Input Delay",
+          "score": 0.26,
+          "displayValue": "340 ms"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "score": 0.5,
+          "displayValue": "Est savings of 13 KiB"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "score": 0
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "score": 0,
+          "displayValue": "Est savings of 150 ms"
+        }
+      ],
+      "run": 1
     }
   ]
 }

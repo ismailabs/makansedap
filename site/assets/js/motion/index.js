@@ -1,5 +1,5 @@
 // Scene failures leave every task, heading and real link usable.
-const pages={'/':'home','/menu/':'menu','/story/':'story','/gallery/':'gallery','/visit/':'visit'};
+const pages={'/':()=>import('./home.js'),'/menu/':()=>import('./menu.js'),'/story/':()=>import('./story.js'),'/gallery/':()=>import('./gallery.js'),'/visit/':()=>import('./visit.js')};
 const page=pages[document.body.dataset.page];
 if(page){
   const reduce=matchMedia('(prefers-reduced-motion: reduce)');
@@ -11,7 +11,7 @@ if(page){
   const load=()=>{
     if(reduce.matches||disposed)return;
     if(scene){setup();return;}
-    Promise.all([import(`./${page}.js`),import('./native.js')]).then(([pageScene,nativeMotion])=>{
+    Promise.all([page(),import('./native.js')]).then(([pageScene,nativeMotion])=>{
       if(disposed)return;scene=pageScene;native=nativeMotion;setup();if(document.hidden)visibility();document.documentElement.dataset.motion='ready';
     }).catch(()=>{document.documentElement.dataset.motion='fallback';});
   };

@@ -4,7 +4,7 @@ V3 turns the imagined meal into a sequence: aromatics gather, fire transforms th
 
 ## Production system
 
-`site/assets/css/v3.css` is the authoritative authored token/component source. `npm run build` compiles its font definitions and CSS with pinned esbuild, and bundles the pinned local GSAP/ScrollTrigger vendor. Historical V2 CSS is preserved and does not participate in the production cascade.
+`site/assets/css/v3.css` is the authoritative authored token/component source. `npm run build` compiles its font definitions and CSS with pinned esbuild, bundles the project-authored native scene modules into the small `motion/runtime.js`, and separately bundles the pinned local GSAP/ScrollTrigger vendor. Historical V2 CSS is preserved and does not participate in the production cascade.
 
 | Role | Value / treatment |
 | --- | --- |
@@ -34,7 +34,7 @@ V3 turns the imagined meal into a sequence: aromatics gather, fire transforms th
 
 The functional `main.js` operates independently of motion imports. A page-specific initializer runs after the first paint. Native browser animation handles the short opening, category feedback, gallery feedback, imaginary-table response and Studio dissolve. On touch widths the main LCP plate stays still while smaller aromatic/food planes arrive. Opening endpoints use the authored CSS rotations without a synchronous layout read; no initial global animation enumeration forces a full-page layout.
 
-GSAP 3.15.0 and ScrollTrigger load only when Home's ingredient scene or Story's fire scene enters view. Those scenes use bounded, reversible native-scroll progress, no pinning or scroll interception. Breakpoints adjust travel, not the narrative. Hidden pages suspend animation; teardown cancels listeners/observers/contexts. Media-preference changes return to a complete static presentation. A failed script/import never hides content or essential links.
+The functional core has high fetch priority; the nonessential native-motion bundle has low priority. Responsive Home/Menu LCP image preloads match their image source sets. Decorative imagery has low priority, and sidebar/secondary-image sizes match their actual CSS slots rather than a generic full-width slot. This removes the opening module request chain and reduces competing image traffic without delaying controls. GSAP 3.15.0 and ScrollTrigger still load only when Home's ingredient scene or Story's fire scene enters view. Those scenes use bounded, reversible native-scroll progress, no pinning or scroll interception. Breakpoints adjust travel, not the narrative. Hidden pages suspend animation; teardown cancels listeners/observers/contexts. Media-preference changes return to a complete static presentation. A failed script/import never hides content or essential links.
 
 The static scene remains meaningful with images or animation unavailable. Forced colors retains control outlines and selected-state borders. Text enlargement is permitted and verified separately from browser/OS zoom. No physical-device or screen-reader certification is implied by emulation or automated checks.
 

@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-20T12:58:15.895Z",
+  "at": "2026-10-20T13:40:40.626Z",
   "assets": [
     {
       "file": "site/assets/images/v3/floating-aromatics-240.webp",
@@ -70,6 +70,18 @@
       "dimensions": {
         "width": 768,
         "height": 1024,
+        "format": "webp"
+      }
+    },
+    {
+      "file": "site/assets/images/v3/hero-prawns-320.webp",
+      "bytes": 16900,
+      "sha256": "678228bcff8fd7b44dd668db09f91f6c3e2c5cf4201364d4c6c35233ffbf179b",
+      "origin": "320px responsive encoding of existing repository grilled-prawns.webp AI concept imagery; original credit retained in ASSET-CREDITS.md",
+      "rights": "Existing project-original AI concept imagery, per retained ASSET-CREDITS.md; not documentary photography",
+      "dimensions": {
+        "width": 320,
+        "height": 213,
         "format": "webp"
       }
     },
@@ -162,6 +174,13 @@
       "sha256": "5a9ed7dde03a81dd4b96d9474d300e4f5dec375bd53c28b5d544d730259e4bcf",
       "origin": "Pinned gsap@3.15.0 core/ScrollTrigger, same-origin bundle; original copyright notices retained",
       "rights": "https://gsap.com/standard-license"
+    },
+    {
+      "file": "site/assets/js/motion/runtime.js",
+      "bytes": 6703,
+      "sha256": "0d77e7a4b3ae53b0e9ab9a5b3a608ea21cfd69820e6c60bbaf6752e4af10ad4c",
+      "origin": "Project-authored modular native motion compiled by pinned esbuild; the GSAP vendor remains an external lazy import.",
+      "rights": "Original project source; third-party vendor is separately credited above."
     },
     {
       "file": "site/assets/images/social-preview.png",

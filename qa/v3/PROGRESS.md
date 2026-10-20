@@ -1,9 +1,7 @@
 # V3 checkpoint — 20 October 2026
 
-- State: PARTIAL-BLOCKED. Implementation complete; local functional gates pass; production remains V2.
-- Feature branch codex/makansedap-v3, base main 19e44f6c12dc4f5d4676ab9e4a0c76f70d8ea80a. Candidate 61f40e69eb5282d57d4a44b7107e1484954a909a committed and independently verified on origin; release-identity.json binds every tested runtime file. No main update or deployment is authorized while the performance gate fails.
-- Local final checks: core 65/0, extended 17/0, V3 14/0, CSP, seven focus checks, Worker and Wrangler dry run PASS. Final 15 route captures and 20 V1/V2/V3 boards inspected. Firefox spawn UNKNOWN remains a documented environment limit.
-- Performance release veto: complete final interleaved 18-run comparison; median Home LCP 1.976s to 2.569s (+30.0%), Menu 2.270s to 2.727s (+20.1%), Gallery 1.982s to 1.899s (-4.2%). No tradeoff approved. See final-report.md and performance-assessment.json; do not repeat indefinite tuning loops or cherry-pick scores.
-- All 26 skills mapped; provenance and protected data confirmed. Gitleaks staged scan 8.30.1 and diff check pass. Only deliberate implementation/compact V3 evidence staged; user handoff deletions, skills, supplied handoff and historical V2 receipts preserved. Large diagnostic traces/captures remain local.
-- Current Cloudflare deployment 759647e6-78d1-49ca-91ed-1ed7c0541f4a, version 4866e79b-64af-45fa-bacc-6f2ea3c3e216 at 100%, source 695daaa31b57b6d3af261696644db2f80ef2e7ab, freshly read and source header verified. Re-query before any future deployment/rollback.
-- Next authorized work after mitigation or explicit tradeoff approval: affected validation, complete PASS local gates, current remote/Cloudflare preflight, exact-SHA scoped deploy, all hosted source/assets/headers/interaction verification. No hosted V3 receipt exists yet.
+- State: IMPLEMENTED-NOT-DEPLOYED. The rejected 61f40e6 candidate remains undeployed. Its LCP regression is mitigated in the revised runtime; user release-hold clarification is pending.
+- Final revised checks: core 65/0, extended 17/0, V3 14/0; CSP, seven focus checks, Worker tests pass. Current 15 captures and 20 comparison boards are retained; taste heuristics have the same narrowly documented exceptions.
+- Complete final performance-delivery-paired comparison: median Home 2.875s to 2.118s, Menu 2.266s to 1.519s, Gallery 1.979s to 1.823s; paired TBT medians improve; all nine V3 CLS values zero. Minor FCP cost about 0.2s is disclosed. No waiver is used.
+- New source binding and staged scan are the next steps; update release-identity.json after commit. Production still V2 source 695daaa31b57b6d3af261696644db2f80ef2e7ab. Main remains the original 19e44f6 base.
+- Existing Worker/account/domain and unrelated local work are preserved. Re-query active version/traffic/remote before any authorized deployment, then finish hosted verification and final reporting.
