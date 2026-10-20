@@ -57,3 +57,17 @@ No third-party icon pack is used. Controls use text/CSS and native HTML.
 `docs/reference/approved-concept.png` is the supplied generated conceptual reference discovered in the user's context (438 × 291 available pixels). It is not an implementation screenshot. Small text cannot reliably be resolved; the written brief governs content.
 
 `qa/screenshots/` contains actual Playwright captures from the implemented site over local HTTP. Concept imagery and real browser evidence are explicitly distinguished. Initial and final test receipts remain separate. The original failed local-preview screenshot is excluded from publication because its browser chrome includes a local user path.
+
+## V3 — The Living Malaysian Table (20 October 2026)
+
+The approved V3 handoff supplied `hero-plate.webp` and `floating-aromatics.webp`, crops of its original OpenAI-generated `cinematic-diptych.webp`. They depict imaginary food/aromatics, not a verified canonical menu dish or an operating restaurant. Production derivatives are `site/assets/images/v3/{hero-plate,floating-aromatics}-{240,480,768}.webp`; resize/encoding preserves the artwork. No documentary photography claim is made. Handoff provenance: `meta/09-PROVENANCE.md`. No new image generation was needed.
+
+The four SVG ornamental primitives under `site/assets/images/v3/vectors/` are original programmatic handoff artwork: banana-leaf frame, flame lines, spice orbit and brand stamp. Meaningful food art has descriptive AI concept alt text; ornamental vectors are decorative. Existing 17 gallery entries and alt/caption texts remain unchanged. No new real-person or restaurant-premises photography was introduced.
+
+`site/assets/images/social-preview.png` is the V3 1200×630 composition authored by `scripts/artwork-v3.mjs` using the supplied plate crop and real text. Responsive artwork and vendor files have dimensions/bytes/SHA256/provenance in `qa/v3/asset-provenance.json`.
+
+GSAP core and ScrollTrigger are pinned to npm `gsap@3.15.0`, bundled locally via pinned `esbuild@0.28.2` into `site/assets/js/vendor/gsap-3.15.0.js`. Original copyright/license notices are retained, with `GSAP-LICENSE.txt` linking to the package-declared Standard No Charge license at https://gsap.com/standard-license (verified 20 October 2026). This restaurant portfolio website is a permitted website use; it is not a visual animation builder. No CDN/runtime third-party request is used.
+
+DM Sans and Cormorant Garamond remain the existing self-hosted OFL font files and license notices. No new font files were added. Display uses oversized bold DM Sans with close tracking; Cormorant supplies restrained narrative contrast.
+
+Gallery lead derivatives `v3/journal-ribeye-{320,480}.webp` and `v3/journal-aromatics-{320,480}.webp` are responsive encodings of the existing repository `hero-ribeye.webp` and `fresh-ingredients.webp`, whose original AI-image credits above remain authoritative. They are not crops from the V3 handoff diptych. Original gallery links, captions, alt text and full-size assets remain intact.

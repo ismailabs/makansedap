@@ -1,0 +1,206 @@
+{
+  "at": "2026-10-20T13:11:39.032Z",
+  "scope": "Actual browser captures. V1 is historical evidence from source 656d42e (17 October 2026), V2 is the fresh pre-V3 capture, V3 is the current implementation. Reference mockup illustration boards are not used as production screenshots.",
+  "boards": [
+    {
+      "file": "qa/v3/comparisons/home-390-fold-V1-V2-V3.webp",
+      "width": 390,
+      "mode": "fold",
+      "sources": [
+        "qa/screenshots/home-390.png",
+        "qa/v3/baseline/local-home-390.png",
+        "qa/v3/visual-final/home-390.webp"
+      ]
+    },
+    {
+      "file": "qa/v3/comparisons/home-390-full-V1-V2-V3.webp",
+      "width": 390,
+      "mode": "full",
+      "sources": [
+        "qa/screenshots/home-390.png",
+        "qa/v3/baseline/local-home-390.png",
+        "qa/v3/visual-final/home-390.webp"
+      ]
+    },
+    {
+      "file": "qa/v3/comparisons/menu-390-fold-V1-V2-V3.webp",
+      "width": 390,
+      "mode": "fold",
+      "sources": [
+        "qa/screenshots/menu-390.png",
+        "qa/v3/baseline/local-menu-390.png",
+        "qa/v3/visual-final/menu-390.webp"
+      ]
+    },
+    {
+      "file": "qa/v3/comparisons/menu-390-full-V1-V2-V3.webp",
+      "width": 390,
+      "mode": "full",
+      "sources": [
+        "qa/screenshots/menu-390.png",
+        "qa/v3/baseline/local-menu-390.png",
+        "qa/v3/visual-final/menu-390.webp"
+      ]
+    },
+    {
+      "file": "qa/v3/comparisons/story-390-fold-V1-V2-V3.webp",
+      "width": 390,
+      "mode": "fold",
+      "sources": [
+        "qa/screenshots/story-390.png",
+        "qa/v3/baseline/local-story-390.png",
+        "qa/v3/visual-final/story-390.webp"
+      ]
+    },
+    {
+      "file": "qa/v3/comparisons/story-390-full-V1-V2-V3.webp",
+      "width": 390,
+      "mode": "full",
+      "sources": [
+        "qa/screenshots/story-390.png",
+        "qa/v3/baseline/local-story-390.png",
+        "qa/v3/visual-final/story-390.webp"
+      ]
+    },
+    {
+      "file": "qa/v3/comparisons/gallery-390-fold-V1-V2-V3.webp",
+      "width": 390,
+      "mode": "fold",
+      "sources": [
+        "qa/screenshots/gallery-390.png",
+        "qa/v3/baseline/local-gallery-390.png",
+        "qa/v3/visual-final/gallery-390.webp"
+      ]
+    },
+    {
+      "file": "qa/v3/comparisons/gallery-390-full-V1-V2-V3.webp",
+      "width": 390,
+      "mode": "full",
+      "sources": [
+        "qa/screenshots/gallery-390.png",
+        "qa/v3/baseline/local-gallery-390.png",
+        "qa/v3/visual-final/gallery-390.webp"
+      ]
+    },
+    {
+      "file": "qa/v3/comparisons/visit-390-fold-V1-V2-V3.webp",
+      "width": 390,
+      "mode": "fold",
+      "sources": [
+        "qa/screenshots/visit-390.png",
+        "qa/v3/baseline/local-visit-390.png",
+        "qa/v3/visual-final/visit-390.webp"
+      ]
+    },
+    {
+      "file": "qa/v3/comparisons/visit-390-full-V1-V2-V3.webp",
+      "width": 390,
+      "mode": "full",
+      "sources": [
+        "qa/screenshots/visit-390.png",
+        "qa/v3/baseline/local-visit-390.png",
+        "qa/v3/visual-final/visit-390.webp"
+      ]
+    },
+    {
+      "file": "qa/v3/comparisons/home-1440-fold-V1-V2-V3.webp",
+      "width": 1440,
+      "mode": "fold",
+      "sources": [
+        "qa/screenshots/home-1440.png",
+        "qa/v3/baseline/local-home-1440.png",
+        "qa/v3/visual-final/home-1440.webp"
+      ]
+    },
+    {
+      "file": "qa/v3/comparisons/home-1440-full-V1-V2-V3.webp",
+      "width": 1440,
+      "mode": "full",
+      "sources": [
+        "qa/screenshots/home-1440.png",
+        "qa/v3/baseline/local-home-1440.png",
+        "qa/v3/visual-final/home-1440.webp"
+      ]
+    },
+    {
+      "file": "qa/v3/comparisons/menu-1440-fold-V1-V2-V3.webp",
+      "width": 1440,
+      "mode": "fold",
+      "sources": [
+        "qa/screenshots/menu-1440.png",
+        "qa/v3/baseline/local-menu-1440.png",
+        "qa/v3/visual-final/menu-1440.webp"
+      ]
+    },
+    {
+      "file": "qa/v3/comparisons/menu-1440-full-V1-V2-V3.webp",
+      "width": 1440,
+      "mode": "full",
+      "sources": [
+        "qa/screenshots/menu-1440.png",
+        "qa/v3/baseline/local-menu-1440.png",
+        "qa/v3/visual-final/menu-1440.webp"
+      ]
+    },
+    {
+      "file": "qa/v3/comparisons/story-1440-fold-V1-V2-V3.webp",
+      "width": 1440,
+      "mode": "fold",
+      "sources": [
+        "qa/screenshots/story-1440.png",
+        "qa/v3/baseline/local-story-1440.png",
+        "qa/v3/visual-final/story-1440.webp"
+      ]
+    },
+    {
+      "file": "qa/v3/comparisons/story-1440-full-V1-V2-V3.webp",
+      "width": 1440,
+      "mode": "full",
+      "sources": [
+        "qa/screenshots/story-1440.png",
+        "qa/v3/baseline/local-story-1440.png",
+        "qa/v3/visual-final/story-1440.webp"
+      ]
+    },
+    {
+      "file": "qa/v3/comparisons/gallery-1440-fold-V1-V2-V3.webp",
+      "width": 1440,
+      "mode": "fold",
+      "sources": [
+        "qa/screenshots/gallery-1440.png",
+        "qa/v3/baseline/local-gallery-1440.png",
+        "qa/v3/visual-final/gallery-1440.webp"
+      ]
+    },
+    {
+      "file": "qa/v3/comparisons/gallery-1440-full-V1-V2-V3.webp",
+      "width": 1440,
+      "mode": "full",
+      "sources": [
+        "qa/screenshots/gallery-1440.png",
+        "qa/v3/baseline/local-gallery-1440.png",
+        "qa/v3/visual-final/gallery-1440.webp"
+      ]
+    },
+    {
+      "file": "qa/v3/comparisons/visit-1440-fold-V1-V2-V3.webp",
+      "width": 1440,
+      "mode": "fold",
+      "sources": [
+        "qa/screenshots/visit-1440.png",
+        "qa/v3/baseline/local-visit-1440.png",
+        "qa/v3/visual-final/visit-1440.webp"
+      ]
+    },
+    {
+      "file": "qa/v3/comparisons/visit-1440-full-V1-V2-V3.webp",
+      "width": 1440,
+      "mode": "full",
+      "sources": [
+        "qa/screenshots/visit-1440.png",
+        "qa/v3/baseline/local-visit-1440.png",
+        "qa/v3/visual-final/visit-1440.webp"
+      ]
+    }
+  ]
+}

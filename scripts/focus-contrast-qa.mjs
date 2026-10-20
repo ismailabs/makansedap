@@ -18,6 +18,6 @@ try{
   assert.ok(parseFloat(colors.outlineWidth)>=3);assert.ok(contrast>=3,`${route} ${selector}: ${contrast}`);
   checks.push({route,selector,...colors,contrast:Number(contrast.toFixed(2))});
  }
- await writeFile(`qa/v2/focus-contrast-${server?'local':'production'}.json`,JSON.stringify({checkedAt:new Date().toISOString(),base,result:'PASS',checks,scope:'Browser-computed focus outline against adjacent parent background for seven representative controls; complements keyboard tests, not full accessibility certification.'},null,2)+'\n');
+ await writeFile(`qa/v3/focus-contrast-${server?'local':'production'}.json`,JSON.stringify({checkedAt:new Date().toISOString(),base,result:'PASS',checks,scope:'Browser-computed focus outline against adjacent parent background for seven representative controls; complements keyboard tests, not full accessibility certification.'},null,2)+'\n');
  console.log(`${checks.length} focus contrast checks pass; all >= 3:1.`);
 }finally{await browser.close();if(server)await new Promise(r=>server.close(r));}

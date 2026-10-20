@@ -1,0 +1,1510 @@
+{
+  "at": "2026-10-20T12:59:30.115Z",
+  "base": "http://127.0.0.1:50603",
+  "browser": "156.0.8078.4",
+  "baseline": "19e44f6c12dc4f5d4676ab9e4a0c76f70d8ea80a",
+  "checks": [
+    {
+      "name": "Protected baselines, menu group/item identities and all 17 gallery entries equal pre-V3",
+      "detail": {
+        "groups": 7,
+        "items": 51,
+        "gallery": 17,
+        "lockedBaselineHashes": [
+          {
+            "file": "qa/menu-contract.json",
+            "sha256": "e5606a621faa00e0575fc2f1c5b85cc825deb6614581f35b768b0f5e62a44534"
+          },
+          {
+            "file": "qa/menu-descriptions-baseline.json",
+            "sha256": "0ba1ca4624818919e0fbeee06987a2a50e05fb2fe182aa019f463babb287e819"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Home real-time opening filmstrip at 390",
+      "detail": {
+        "requestedScreenshotOffsetsMs": [
+          0,
+          450,
+          1200
+        ],
+        "transforms": [
+          "matrix(0.936001, 0.351996, -0.351996, 0.936001, -5.26864, -7.02485)",
+          "matrix(0.906308, 0.422618, -0.422618, 0.906308, -4.68139e-08, -6.24186e-08)",
+          "matrix(0.906308, 0.422618, -0.422618, 0.906308, 0, 0)"
+        ],
+        "browserRafSamples": [
+          {
+            "elapsedMs": 0,
+            "element": ".hero-aromatics",
+            "transform": "matrix(0.965926, 0.258819, -0.258819, 0.965926, -12, -16)"
+          },
+          {
+            "elapsedMs": 12,
+            "element": ".hero-aromatics",
+            "transform": "matrix(0.965926, 0.258819, -0.258819, 0.965926, -12, -16)"
+          },
+          {
+            "elapsedMs": 33,
+            "element": ".hero-aromatics",
+            "transform": "matrix(0.960319, 0.278903, -0.278903, 0.960319, -10.5663, -14.0885)"
+          },
+          {
+            "elapsedMs": 47,
+            "element": ".hero-aromatics",
+            "transform": "matrix(0.954174, 0.299252, -0.299252, 0.954174, -9.10475, -12.1397)"
+          },
+          {
+            "elapsedMs": 62,
+            "element": ".hero-aromatics",
+            "transform": "matrix(0.947847, 0.318724, -0.318724, 0.947847, -7.69705, -10.2627)"
+          },
+          {
+            "elapsedMs": 83,
+            "element": ".hero-aromatics",
+            "transform": "matrix(0.941592, 0.336756, -0.336756, 0.941592, -6.38478, -8.51304)"
+          },
+          {
+            "elapsedMs": 96,
+            "element": ".hero-aromatics",
+            "transform": "matrix(0.936001, 0.351996, -0.351996, 0.936001, -5.26864, -7.02485)"
+          },
+          {
+            "elapsedMs": 113,
+            "element": ".hero-aromatics",
+            "transform": "matrix(0.931194, 0.364523, -0.364523, 0.931194, -4.34614, -5.79486)"
+          },
+          {
+            "elapsedMs": 129,
+            "element": ".hero-aromatics",
+            "transform": "matrix(0.927147, 0.374698, -0.374698, 0.927147, -3.59321, -4.79094)"
+          },
+          {
+            "elapsedMs": 146,
+            "element": ".hero-aromatics",
+            "transform": "matrix(0.923789, 0.382902, -0.382902, 0.923789, -2.98376, -3.97835)"
+          },
+          {
+            "elapsedMs": 163,
+            "element": ".hero-aromatics",
+            "transform": "matrix(0.921, 0.389562, -0.389562, 0.921, -2.48729, -3.31638)"
+          },
+          {
+            "elapsedMs": 179,
+            "element": ".hero-aromatics",
+            "transform": "matrix(0.918684, 0.394994, -0.394994, 0.918684, -2.08131, -2.77508)"
+          },
+          {
+            "elapsedMs": 196,
+            "element": ".hero-aromatics",
+            "transform": "matrix(0.916724, 0.39952, -0.39952, 0.916724, -1.74216, -2.32288)"
+          },
+          {
+            "elapsedMs": 214,
+            "element": ".hero-aromatics",
+            "transform": "matrix(0.915067, 0.403301, -0.403301, 0.915067, -1.45833, -1.94444)"
+          },
+          {
+            "elapsedMs": 229,
+            "element": ".hero-aromatics",
+            "transform": "matrix(0.913659, 0.406483, -0.406483, 0.913659, -1.21912, -1.62549)"
+          },
+          {
+            "elapsedMs": 460,
+            "element": ".hero-aromatics",
+            "transform": "matrix(0.90654, 0.42212, -0.42212, 0.90654, -0.037785, -0.05038)"
+          },
+          {
+            "elapsedMs": 467,
+            "element": ".hero-aromatics",
+            "transform": "matrix(0.906435, 0.422346, -0.422346, 0.906435, -0.0206287, -0.027505)"
+          },
+          {
+            "elapsedMs": 480,
+            "element": ".hero-aromatics",
+            "transform": "matrix(0.906362, 0.422501, -0.422501, 0.906362, -0.00887786, -0.0118371)"
+          },
+          {
+            "elapsedMs": 495,
+            "element": ".hero-aromatics",
+            "transform": "matrix(0.906321, 0.42259, -0.42259, 0.906321, -0.00214951, -0.00286601)"
+          },
+          {
+            "elapsedMs": 512,
+            "element": ".hero-aromatics",
+            "transform": "matrix(0.906308, 0.422618, -0.422618, 0.906308, -4.68139e-08, -6.24186e-08)"
+          },
+          {
+            "elapsedMs": 529,
+            "element": ".hero-aromatics",
+            "transform": "matrix(0.906308, 0.422618, -0.422618, 0.906308, 0, 0)"
+          },
+          {
+            "elapsedMs": 547,
+            "element": ".hero-aromatics",
+            "transform": "matrix(0.906308, 0.422618, -0.422618, 0.906308, 0, 0)"
+          },
+          {
+            "elapsedMs": 562,
+            "element": ".hero-aromatics",
+            "transform": "matrix(0.906308, 0.422618, -0.422618, 0.906308, 0, 0)"
+          },
+          {
+            "elapsedMs": 580,
+            "element": ".hero-aromatics",
+            "transform": "matrix(0.906308, 0.422618, -0.422618, 0.906308, 0, 0)"
+          },
+          {
+            "elapsedMs": 596,
+            "element": ".hero-aromatics",
+            "transform": "matrix(0.906308, 0.422618, -0.422618, 0.906308, 0, 0)"
+          },
+          {
+            "elapsedMs": 612,
+            "element": ".hero-aromatics",
+            "transform": "matrix(0.906308, 0.422618, -0.422618, 0.906308, 0, 0)"
+          },
+          {
+            "elapsedMs": 629,
+            "element": ".hero-aromatics",
+            "transform": "matrix(0.906308, 0.422618, -0.422618, 0.906308, 0, 0)"
+          },
+          {
+            "elapsedMs": 645,
+            "element": ".hero-aromatics",
+            "transform": "matrix(0.906308, 0.422618, -0.422618, 0.906308, 0, 0)"
+          },
+          {
+            "elapsedMs": 662,
+            "element": ".hero-aromatics",
+            "transform": "matrix(0.906308, 0.422618, -0.422618, 0.906308, 0, 0)"
+          },
+          {
+            "elapsedMs": 679,
+            "element": ".hero-aromatics",
+            "transform": "matrix(0.906308, 0.422618, -0.422618, 0.906308, 0, 0)"
+          },
+          {
+            "elapsedMs": 696,
+            "element": ".hero-aromatics",
+            "transform": "matrix(0.906308, 0.422618, -0.422618, 0.906308, 0, 0)"
+          },
+          {
+            "elapsedMs": 713,
+            "element": ".hero-aromatics",
+            "transform": "matrix(0.906308, 0.422618, -0.422618, 0.906308, 0, 0)"
+          },
+          {
+            "elapsedMs": 729,
+            "element": ".hero-aromatics",
+            "transform": "matrix(0.906308, 0.422618, -0.422618, 0.906308, 0, 0)"
+          },
+          {
+            "elapsedMs": 745,
+            "element": ".hero-aromatics",
+            "transform": "matrix(0.906308, 0.422618, -0.422618, 0.906308, 0, 0)"
+          },
+          {
+            "elapsedMs": 762,
+            "element": ".hero-aromatics",
+            "transform": "matrix(0.906308, 0.422618, -0.422618, 0.906308, 0, 0)"
+          },
+          {
+            "elapsedMs": 779,
+            "element": ".hero-aromatics",
+            "transform": "matrix(0.906308, 0.422618, -0.422618, 0.906308, 0, 0)"
+          },
+          {
+            "elapsedMs": 796,
+            "element": ".hero-aromatics",
+            "transform": "matrix(0.906308, 0.422618, -0.422618, 0.906308, 0, 0)"
+          },
+          {
+            "elapsedMs": 812,
+            "element": ".hero-aromatics",
+            "transform": "matrix(0.906308, 0.422618, -0.422618, 0.906308, 0, 0)"
+          },
+          {
+            "elapsedMs": 830,
+            "element": ".hero-aromatics",
+            "transform": "matrix(0.906308, 0.422618, -0.422618, 0.906308, 0, 0)"
+          },
+          {
+            "elapsedMs": 846,
+            "element": ".hero-aromatics",
+            "transform": "matrix(0.906308, 0.422618, -0.422618, 0.906308, 0, 0)"
+          },
+          {
+            "elapsedMs": 863,
+            "element": ".hero-aromatics",
+            "transform": "matrix(0.906308, 0.422618, -0.422618, 0.906308, 0, 0)"
+          },
+          {
+            "elapsedMs": 879,
+            "element": ".hero-aromatics",
+            "transform": "matrix(0.906308, 0.422618, -0.422618, 0.906308, 0, 0)"
+          },
+          {
+            "elapsedMs": 896,
+            "element": ".hero-aromatics",
+            "transform": "matrix(0.906308, 0.422618, -0.422618, 0.906308, 0, 0)"
+          },
+          {
+            "elapsedMs": 913,
+            "element": ".hero-aromatics",
+            "transform": "matrix(0.906308, 0.422618, -0.422618, 0.906308, 0, 0)"
+          },
+          {
+            "elapsedMs": 928,
+            "element": ".hero-aromatics",
+            "transform": "matrix(0.906308, 0.422618, -0.422618, 0.906308, 0, 0)"
+          },
+          {
+            "elapsedMs": 946,
+            "element": ".hero-aromatics",
+            "transform": "matrix(0.906308, 0.422618, -0.422618, 0.906308, 0, 0)"
+          },
+          {
+            "elapsedMs": 962,
+            "element": ".hero-aromatics",
+            "transform": "matrix(0.906308, 0.422618, -0.422618, 0.906308, 0, 0)"
+          },
+          {
+            "elapsedMs": 978,
+            "element": ".hero-aromatics",
+            "transform": "matrix(0.906308, 0.422618, -0.422618, 0.906308, 0, 0)"
+          },
+          {
+            "elapsedMs": 996,
+            "element": ".hero-aromatics",
+            "transform": "matrix(0.906308, 0.422618, -0.422618, 0.906308, 0, 0)"
+          },
+          {
+            "elapsedMs": 1012,
+            "element": ".hero-aromatics",
+            "transform": "matrix(0.906308, 0.422618, -0.422618, 0.906308, 0, 0)"
+          },
+          {
+            "elapsedMs": 1029,
+            "element": ".hero-aromatics",
+            "transform": "matrix(0.906308, 0.422618, -0.422618, 0.906308, 0, 0)"
+          },
+          {
+            "elapsedMs": 1046,
+            "element": ".hero-aromatics",
+            "transform": "matrix(0.906308, 0.422618, -0.422618, 0.906308, 0, 0)"
+          },
+          {
+            "elapsedMs": 1062,
+            "element": ".hero-aromatics",
+            "transform": "matrix(0.906308, 0.422618, -0.422618, 0.906308, 0, 0)"
+          },
+          {
+            "elapsedMs": 1079,
+            "element": ".hero-aromatics",
+            "transform": "matrix(0.906308, 0.422618, -0.422618, 0.906308, 0, 0)"
+          },
+          {
+            "elapsedMs": 1095,
+            "element": ".hero-aromatics",
+            "transform": "matrix(0.906308, 0.422618, -0.422618, 0.906308, 0, 0)"
+          },
+          {
+            "elapsedMs": 1112,
+            "element": ".hero-aromatics",
+            "transform": "matrix(0.906308, 0.422618, -0.422618, 0.906308, 0, 0)"
+          },
+          {
+            "elapsedMs": 1129,
+            "element": ".hero-aromatics",
+            "transform": "matrix(0.906308, 0.422618, -0.422618, 0.906308, 0, 0)"
+          },
+          {
+            "elapsedMs": 1145,
+            "element": ".hero-aromatics",
+            "transform": "matrix(0.906308, 0.422618, -0.422618, 0.906308, 0, 0)"
+          },
+          {
+            "elapsedMs": 1162,
+            "element": ".hero-aromatics",
+            "transform": "matrix(0.906308, 0.422618, -0.422618, 0.906308, 0, 0)"
+          },
+          {
+            "elapsedMs": 1179,
+            "element": ".hero-aromatics",
+            "transform": "matrix(0.906308, 0.422618, -0.422618, 0.906308, 0, 0)"
+          },
+          {
+            "elapsedMs": 1195,
+            "element": ".hero-aromatics",
+            "transform": "matrix(0.906308, 0.422618, -0.422618, 0.906308, 0, 0)"
+          },
+          {
+            "elapsedMs": 1212,
+            "element": ".hero-aromatics",
+            "transform": "matrix(0.906308, 0.422618, -0.422618, 0.906308, 0, 0)"
+          },
+          {
+            "elapsedMs": 1228,
+            "element": ".hero-aromatics",
+            "transform": "matrix(0.906308, 0.422618, -0.422618, 0.906308, 0, 0)"
+          },
+          {
+            "elapsedMs": 1246,
+            "element": ".hero-aromatics",
+            "transform": "matrix(0.906308, 0.422618, -0.422618, 0.906308, 0, 0)"
+          },
+          {
+            "elapsedMs": 1263,
+            "element": ".hero-aromatics",
+            "transform": "matrix(0.906308, 0.422618, -0.422618, 0.906308, 0, 0)"
+          },
+          {
+            "elapsedMs": 1278,
+            "element": ".hero-aromatics",
+            "transform": "matrix(0.906308, 0.422618, -0.422618, 0.906308, 0, 0)"
+          },
+          {
+            "elapsedMs": 1295,
+            "element": ".hero-aromatics",
+            "transform": "matrix(0.906308, 0.422618, -0.422618, 0.906308, 0, 0)"
+          },
+          {
+            "elapsedMs": 1313,
+            "element": ".hero-aromatics",
+            "transform": "matrix(0.906308, 0.422618, -0.422618, 0.906308, 0, 0)"
+          },
+          {
+            "elapsedMs": 1329,
+            "element": ".hero-aromatics",
+            "transform": "matrix(0.906308, 0.422618, -0.422618, 0.906308, 0, 0)"
+          },
+          {
+            "elapsedMs": 1345,
+            "element": ".hero-aromatics",
+            "transform": "matrix(0.906308, 0.422618, -0.422618, 0.906308, 0, 0)"
+          },
+          {
+            "elapsedMs": 1363,
+            "element": ".hero-aromatics",
+            "transform": "matrix(0.906308, 0.422618, -0.422618, 0.906308, 0, 0)"
+          },
+          {
+            "elapsedMs": 1379,
+            "element": ".hero-aromatics",
+            "transform": "matrix(0.906308, 0.422618, -0.422618, 0.906308, 0, 0)"
+          },
+          {
+            "elapsedMs": 1395,
+            "element": ".hero-aromatics",
+            "transform": "matrix(0.906308, 0.422618, -0.422618, 0.906308, 0, 0)"
+          },
+          {
+            "elapsedMs": 1412,
+            "element": ".hero-aromatics",
+            "transform": "matrix(0.906308, 0.422618, -0.422618, 0.906308, 0, 0)"
+          }
+        ],
+        "scope": "Transforms sampled inside the browser from the actual module-ready event; screenshot IPC can arrive later on a loaded host. Full Playwright trace includes real loading frames."
+      }
+    },
+    {
+      "name": "Home bounded reversible scroll scene + immediate CTA at 390",
+      "detail": {
+        "bounds": {
+          "start": 659,
+          "end": 1659,
+          "pins": 0
+        },
+        "transforms": [
+          "matrix(0.725046, 0.338095, -0.338095, 0.725046, 20, 70)",
+          "matrix(0.869333, 0.232937, -0.232937, 0.869333, 10, 35)",
+          "matrix(0.996195, 0.0871557, -0.0871557, 0.996195, 0, 0)"
+        ],
+        "finaleSamples": [
+          {
+            "elapsedMs": 0,
+            "opacity": 0
+          },
+          {
+            "elapsedMs": 16,
+            "opacity": 1
+          },
+          {
+            "elapsedMs": 36,
+            "opacity": 0.934099
+          },
+          {
+            "elapsedMs": 257,
+            "opacity": 0.287139
+          },
+          {
+            "elapsedMs": 264,
+            "opacity": 0.258973
+          },
+          {
+            "elapsedMs": 266,
+            "opacity": 0.234007
+          },
+          {
+            "elapsedMs": 282,
+            "opacity": 0.21155
+          },
+          {
+            "elapsedMs": 302,
+            "opacity": 0.191419
+          },
+          {
+            "elapsedMs": 318,
+            "opacity": 0.173319
+          },
+          {
+            "elapsedMs": 333,
+            "opacity": 0.15709
+          },
+          {
+            "elapsedMs": 349,
+            "opacity": 0.142326
+          },
+          {
+            "elapsedMs": 366,
+            "opacity": 0.12902
+          },
+          {
+            "elapsedMs": 382,
+            "opacity": 0.116789
+          },
+          {
+            "elapsedMs": 400,
+            "opacity": 0.10579
+          },
+          {
+            "elapsedMs": 417,
+            "opacity": 0.0956989
+          },
+          {
+            "elapsedMs": 436,
+            "opacity": 0.086539
+          },
+          {
+            "elapsedMs": 449,
+            "opacity": 0.0781617
+          },
+          {
+            "elapsedMs": 466,
+            "opacity": 0.0704486
+          },
+          {
+            "elapsedMs": 482,
+            "opacity": 0.0633864
+          },
+          {
+            "elapsedMs": 499,
+            "opacity": 0.0569541
+          },
+          {
+            "elapsedMs": 517,
+            "opacity": 0.0510234
+          },
+          {
+            "elapsedMs": 533,
+            "opacity": 0.0455892
+          },
+          {
+            "elapsedMs": 550,
+            "opacity": 0.0406113
+          },
+          {
+            "elapsedMs": 566,
+            "opacity": 0.0360798
+          },
+          {
+            "elapsedMs": 582,
+            "opacity": 0.0319082
+          },
+          {
+            "elapsedMs": 599,
+            "opacity": 0.0280959
+          },
+          {
+            "elapsedMs": 615,
+            "opacity": 0.0246172
+          },
+          {
+            "elapsedMs": 633,
+            "opacity": 0.0214664
+          },
+          {
+            "elapsedMs": 650,
+            "opacity": 0.0185846
+          },
+          {
+            "elapsedMs": 666,
+            "opacity": 0.0159722
+          },
+          {
+            "elapsedMs": 683,
+            "opacity": 0.0136251
+          },
+          {
+            "elapsedMs": 699,
+            "opacity": 0.011499
+          },
+          {
+            "elapsedMs": 717,
+            "opacity": 0.0096049
+          },
+          {
+            "elapsedMs": 732,
+            "opacity": 0.00790658
+          },
+          {
+            "elapsedMs": 749,
+            "opacity": 0.00640372
+          },
+          {
+            "elapsedMs": 766,
+            "opacity": 0.00509231
+          },
+          {
+            "elapsedMs": 782,
+            "opacity": 0.00394611
+          },
+          {
+            "elapsedMs": 799,
+            "opacity": 0.00296926
+          },
+          {
+            "elapsedMs": 816,
+            "opacity": 0.00214105
+          },
+          {
+            "elapsedMs": 832,
+            "opacity": 0.00145955
+          },
+          {
+            "elapsedMs": 849,
+            "opacity": 0.00091701
+          },
+          {
+            "elapsedMs": 866,
+            "opacity": 0.000508336
+          },
+          {
+            "elapsedMs": 882,
+            "opacity": 0.000221943
+          },
+          {
+            "elapsedMs": 899,
+            "opacity": 0.0000544404
+          },
+          {
+            "elapsedMs": 916,
+            "opacity": 0
+          },
+          {
+            "elapsedMs": 934,
+            "opacity": 0
+          },
+          {
+            "elapsedMs": 949,
+            "opacity": 0
+          },
+          {
+            "elapsedMs": 966,
+            "opacity": 0
+          },
+          {
+            "elapsedMs": 982,
+            "opacity": 0
+          },
+          {
+            "elapsedMs": 999,
+            "opacity": 0
+          },
+          {
+            "elapsedMs": 1016,
+            "opacity": 0
+          },
+          {
+            "elapsedMs": 1032,
+            "opacity": 0
+          },
+          {
+            "elapsedMs": 1050,
+            "opacity": 0
+          },
+          {
+            "elapsedMs": 1065,
+            "opacity": 0
+          },
+          {
+            "elapsedMs": 1082,
+            "opacity": 0
+          },
+          {
+            "elapsedMs": 1098,
+            "opacity": 0
+          },
+          {
+            "elapsedMs": 1116,
+            "opacity": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "Menu functional staging, cancellation and Back at 390",
+      "detail": "PASS"
+    },
+    {
+      "name": "Story roots/fire/table transition at 390",
+      "detail": "PASS"
+    },
+    {
+      "name": "Gallery filtered decode, failure recovery and focus at 390",
+      "detail": "PASS"
+    },
+    {
+      "name": "Visit stage visualization and privacy at 390",
+      "detail": {
+        "requests": []
+      }
+    },
+    {
+      "name": "Home real-time opening filmstrip at 1440",
+      "detail": {
+        "requestedScreenshotOffsetsMs": [
+          0,
+          450,
+          1200
+        ],
+        "transforms": [
+          "matrix(0.956305, 0.29237, -0.29237, 0.956305, 59.9991, 15.9998)",
+          "matrix(0.987425, 0.15809, -0.15809, 0.987425, 0.720505, 0.192135)",
+          "matrix(0.987688, 0.156434, -0.156434, 0.987688, 0, 0)"
+        ],
+        "browserRafSamples": [
+          {
+            "elapsedMs": 0,
+            "element": ".hero-plate",
+            "transform": "matrix(0.945519, 0.325568, -0.325568, 0.945519, 75, 20)"
+          },
+          {
+            "elapsedMs": 1,
+            "element": ".hero-plate",
+            "transform": "matrix(0.945519, 0.325568, -0.325568, 0.945519, 75, 20)"
+          },
+          {
+            "elapsedMs": 2,
+            "element": ".hero-plate",
+            "transform": "matrix(0.945519, 0.325568, -0.325568, 0.945519, 75, 20)"
+          },
+          {
+            "elapsedMs": 18,
+            "element": ".hero-plate",
+            "transform": "matrix(0.945519, 0.325568, -0.325568, 0.945519, 75, 20)"
+          },
+          {
+            "elapsedMs": 35,
+            "element": ".hero-plate",
+            "transform": "matrix(0.945519, 0.325568, -0.325568, 0.945519, 75, 20)"
+          },
+          {
+            "elapsedMs": 75,
+            "element": ".hero-plate",
+            "transform": "matrix(0.951015, 0.309144, -0.309144, 0.951015, 67.5575, 18.0153)"
+          },
+          {
+            "elapsedMs": 82,
+            "element": ".hero-plate",
+            "transform": "matrix(0.956305, 0.29237, -0.29237, 0.956305, 59.9991, 15.9998)"
+          },
+          {
+            "elapsedMs": 106,
+            "element": ".hero-plate",
+            "transform": "matrix(0.965789, 0.259328, -0.259328, 0.965789, 45.2265, 12.0604)"
+          },
+          {
+            "elapsedMs": 129,
+            "element": ".hero-plate",
+            "transform": "matrix(0.969625, 0.244596, -0.244596, 0.969625, 38.6847, 10.3159)"
+          },
+          {
+            "elapsedMs": 152,
+            "element": ".hero-plate",
+            "transform": "matrix(0.975402, 0.220435, -0.220435, 0.975402, 28.0093, 7.46915)"
+          },
+          {
+            "elapsedMs": 179,
+            "element": ".hero-plate",
+            "transform": "matrix(0.977462, 0.211109, -0.211109, 0.977462, 23.9053, 6.37474)"
+          },
+          {
+            "elapsedMs": 184,
+            "element": ".hero-plate",
+            "transform": "matrix(0.979131, 0.20323, -0.20323, 0.979131, 20.4443, 5.45182)"
+          },
+          {
+            "elapsedMs": 210,
+            "element": ".hero-plate",
+            "transform": "matrix(0.980477, 0.196636, -0.196636, 0.980477, 17.5524, 4.68063)"
+          },
+          {
+            "elapsedMs": 230,
+            "element": ".hero-plate",
+            "transform": "matrix(0.981586, 0.19102, -0.19102, 0.981586, 15.0926, 4.02468)"
+          },
+          {
+            "elapsedMs": 254,
+            "element": ".hero-plate",
+            "transform": "matrix(0.983272, 0.182141, -0.182141, 0.983272, 11.2088, 2.98902)"
+          },
+          {
+            "elapsedMs": 281,
+            "element": ".hero-plate",
+            "transform": "matrix(0.983916, 0.17863, -0.17863, 0.983916, 9.67463, 2.5799)"
+          },
+          {
+            "elapsedMs": 302,
+            "element": ".hero-plate",
+            "transform": "matrix(0.984936, 0.17292, -0.17292, 0.984936, 7.18248, 1.91533)"
+          },
+          {
+            "elapsedMs": 334,
+            "element": ".hero-plate",
+            "transform": "matrix(0.985691, 0.16856, -0.16856, 0.985691, 5.28089, 1.40824)"
+          },
+          {
+            "elapsedMs": 366,
+            "element": ".hero-plate",
+            "transform": "matrix(0.986256, 0.165222, -0.165222, 0.986256, 3.82591, 1.02024)"
+          },
+          {
+            "elapsedMs": 403,
+            "element": ".hero-plate",
+            "transform": "matrix(0.986684, 0.162652, -0.162652, 0.986684, 2.70632, 0.721685)"
+          },
+          {
+            "elapsedMs": 435,
+            "element": ".hero-plate",
+            "transform": "matrix(0.987007, 0.160677, -0.160677, 0.987007, 1.84654, 0.492411)"
+          },
+          {
+            "elapsedMs": 457,
+            "element": ".hero-plate",
+            "transform": "matrix(0.987137, 0.159877, -0.159877, 0.987137, 1.49823, 0.399527)"
+          },
+          {
+            "elapsedMs": 482,
+            "element": ".hero-plate",
+            "transform": "matrix(0.987248, 0.159189, -0.159189, 0.987248, 1.19866, 0.319643)"
+          },
+          {
+            "elapsedMs": 505,
+            "element": ".hero-plate",
+            "transform": "matrix(0.987425, 0.15809, -0.15809, 0.987425, 0.720505, 0.192135)"
+          },
+          {
+            "elapsedMs": 529,
+            "element": ".hero-plate",
+            "transform": "matrix(0.987493, 0.157664, -0.157664, 0.987493, 0.534974, 0.14266)"
+          },
+          {
+            "elapsedMs": 555,
+            "element": ".hero-plate",
+            "transform": "matrix(0.987594, 0.157027, -0.157027, 0.987594, 0.257925, 0.06878)"
+          },
+          {
+            "elapsedMs": 580,
+            "element": ".hero-plate",
+            "transform": "matrix(0.98763, 0.156803, -0.156803, 0.98763, 0.160467, 0.0427913)"
+          },
+          {
+            "elapsedMs": 585,
+            "element": ".hero-plate",
+            "transform": "matrix(0.987656, 0.156637, -0.156637, 0.987656, 0.0881379, 0.0235034)"
+          },
+          {
+            "elapsedMs": 618,
+            "element": ".hero-plate",
+            "transform": "matrix(0.987685, 0.156456, -0.156456, 0.987685, 0.00929056, 0.00247748)"
+          },
+          {
+            "elapsedMs": 650,
+            "element": ".hero-plate",
+            "transform": "matrix(0.987688, 0.156434, -0.156434, 0.987688, 0, 0)"
+          },
+          {
+            "elapsedMs": 682,
+            "element": ".hero-plate",
+            "transform": "matrix(0.987688, 0.156434, -0.156434, 0.987688, 0, 0)"
+          },
+          {
+            "elapsedMs": 704,
+            "element": ".hero-plate",
+            "transform": "matrix(0.987688, 0.156434, -0.156434, 0.987688, 0, 0)"
+          },
+          {
+            "elapsedMs": 730,
+            "element": ".hero-plate",
+            "transform": "matrix(0.987688, 0.156434, -0.156434, 0.987688, 0, 0)"
+          },
+          {
+            "elapsedMs": 749,
+            "element": ".hero-plate",
+            "transform": "matrix(0.987688, 0.156434, -0.156434, 0.987688, 0, 0)"
+          },
+          {
+            "elapsedMs": 768,
+            "element": ".hero-plate",
+            "transform": "matrix(0.987688, 0.156434, -0.156434, 0.987688, 0, 0)"
+          },
+          {
+            "elapsedMs": 797,
+            "element": ".hero-plate",
+            "transform": "matrix(0.987688, 0.156434, -0.156434, 0.987688, 0, 0)"
+          },
+          {
+            "elapsedMs": 818,
+            "element": ".hero-plate",
+            "transform": "matrix(0.987688, 0.156434, -0.156434, 0.987688, 0, 0)"
+          },
+          {
+            "elapsedMs": 848,
+            "element": ".hero-plate",
+            "transform": "matrix(0.987688, 0.156434, -0.156434, 0.987688, 0, 0)"
+          },
+          {
+            "elapsedMs": 868,
+            "element": ".hero-plate",
+            "transform": "matrix(0.987688, 0.156434, -0.156434, 0.987688, 0, 0)"
+          },
+          {
+            "elapsedMs": 889,
+            "element": ".hero-plate",
+            "transform": "matrix(0.987688, 0.156434, -0.156434, 0.987688, 0, 0)"
+          },
+          {
+            "elapsedMs": 910,
+            "element": ".hero-plate",
+            "transform": "matrix(0.987688, 0.156434, -0.156434, 0.987688, 0, 0)"
+          },
+          {
+            "elapsedMs": 917,
+            "element": ".hero-plate",
+            "transform": "matrix(0.987688, 0.156434, -0.156434, 0.987688, 0, 0)"
+          },
+          {
+            "elapsedMs": 936,
+            "element": ".hero-plate",
+            "transform": "matrix(0.987688, 0.156434, -0.156434, 0.987688, 0, 0)"
+          },
+          {
+            "elapsedMs": 952,
+            "element": ".hero-plate",
+            "transform": "matrix(0.987688, 0.156434, -0.156434, 0.987688, 0, 0)"
+          },
+          {
+            "elapsedMs": 967,
+            "element": ".hero-plate",
+            "transform": "matrix(0.987688, 0.156434, -0.156434, 0.987688, 0, 0)"
+          },
+          {
+            "elapsedMs": 985,
+            "element": ".hero-plate",
+            "transform": "matrix(0.987688, 0.156434, -0.156434, 0.987688, 0, 0)"
+          },
+          {
+            "elapsedMs": 1003,
+            "element": ".hero-plate",
+            "transform": "matrix(0.987688, 0.156434, -0.156434, 0.987688, 0, 0)"
+          },
+          {
+            "elapsedMs": 1018,
+            "element": ".hero-plate",
+            "transform": "matrix(0.987688, 0.156434, -0.156434, 0.987688, 0, 0)"
+          },
+          {
+            "elapsedMs": 1034,
+            "element": ".hero-plate",
+            "transform": "matrix(0.987688, 0.156434, -0.156434, 0.987688, 0, 0)"
+          },
+          {
+            "elapsedMs": 1050,
+            "element": ".hero-plate",
+            "transform": "matrix(0.987688, 0.156434, -0.156434, 0.987688, 0, 0)"
+          },
+          {
+            "elapsedMs": 1068,
+            "element": ".hero-plate",
+            "transform": "matrix(0.987688, 0.156434, -0.156434, 0.987688, 0, 0)"
+          },
+          {
+            "elapsedMs": 1083,
+            "element": ".hero-plate",
+            "transform": "matrix(0.987688, 0.156434, -0.156434, 0.987688, 0, 0)"
+          },
+          {
+            "elapsedMs": 1101,
+            "element": ".hero-plate",
+            "transform": "matrix(0.987688, 0.156434, -0.156434, 0.987688, 0, 0)"
+          },
+          {
+            "elapsedMs": 1118,
+            "element": ".hero-plate",
+            "transform": "matrix(0.987688, 0.156434, -0.156434, 0.987688, 0, 0)"
+          },
+          {
+            "elapsedMs": 1134,
+            "element": ".hero-plate",
+            "transform": "matrix(0.987688, 0.156434, -0.156434, 0.987688, 0, 0)"
+          },
+          {
+            "elapsedMs": 1151,
+            "element": ".hero-plate",
+            "transform": "matrix(0.987688, 0.156434, -0.156434, 0.987688, 0, 0)"
+          },
+          {
+            "elapsedMs": 1167,
+            "element": ".hero-plate",
+            "transform": "matrix(0.987688, 0.156434, -0.156434, 0.987688, 0, 0)"
+          },
+          {
+            "elapsedMs": 1184,
+            "element": ".hero-plate",
+            "transform": "matrix(0.987688, 0.156434, -0.156434, 0.987688, 0, 0)"
+          },
+          {
+            "elapsedMs": 1201,
+            "element": ".hero-plate",
+            "transform": "matrix(0.987688, 0.156434, -0.156434, 0.987688, 0, 0)"
+          },
+          {
+            "elapsedMs": 1217,
+            "element": ".hero-plate",
+            "transform": "matrix(0.987688, 0.156434, -0.156434, 0.987688, 0, 0)"
+          },
+          {
+            "elapsedMs": 1234,
+            "element": ".hero-plate",
+            "transform": "matrix(0.987688, 0.156434, -0.156434, 0.987688, 0, 0)"
+          },
+          {
+            "elapsedMs": 1251,
+            "element": ".hero-plate",
+            "transform": "matrix(0.987688, 0.156434, -0.156434, 0.987688, 0, 0)"
+          },
+          {
+            "elapsedMs": 1267,
+            "element": ".hero-plate",
+            "transform": "matrix(0.987688, 0.156434, -0.156434, 0.987688, 0, 0)"
+          },
+          {
+            "elapsedMs": 1284,
+            "element": ".hero-plate",
+            "transform": "matrix(0.987688, 0.156434, -0.156434, 0.987688, 0, 0)"
+          },
+          {
+            "elapsedMs": 1305,
+            "element": ".hero-plate",
+            "transform": "matrix(0.987688, 0.156434, -0.156434, 0.987688, 0, 0)"
+          },
+          {
+            "elapsedMs": 1317,
+            "element": ".hero-plate",
+            "transform": "matrix(0.987688, 0.156434, -0.156434, 0.987688, 0, 0)"
+          },
+          {
+            "elapsedMs": 1334,
+            "element": ".hero-plate",
+            "transform": "matrix(0.987688, 0.156434, -0.156434, 0.987688, 0, 0)"
+          },
+          {
+            "elapsedMs": 1350,
+            "element": ".hero-plate",
+            "transform": "matrix(0.987688, 0.156434, -0.156434, 0.987688, 0, 0)"
+          },
+          {
+            "elapsedMs": 1369,
+            "element": ".hero-plate",
+            "transform": "matrix(0.987688, 0.156434, -0.156434, 0.987688, 0, 0)"
+          },
+          {
+            "elapsedMs": 1383,
+            "element": ".hero-plate",
+            "transform": "matrix(0.987688, 0.156434, -0.156434, 0.987688, 0, 0)"
+          },
+          {
+            "elapsedMs": 1400,
+            "element": ".hero-plate",
+            "transform": "matrix(0.987688, 0.156434, -0.156434, 0.987688, 0, 0)"
+          }
+        ],
+        "scope": "Transforms sampled inside the browser from the actual module-ready event; screenshot IPC can arrive later on a loaded host. Full Playwright trace includes real loading frames."
+      }
+    },
+    {
+      "name": "Home bounded reversible scroll scene + immediate CTA at 1440",
+      "detail": {
+        "bounds": {
+          "start": 134,
+          "end": 1344,
+          "pins": 0
+        },
+        "transforms": [
+          "matrix(0.725046, 0.338095, -0.338095, 0.725046, 60, 70)",
+          "matrix(0.869333, 0.232937, -0.232937, 0.869333, 30, 35)",
+          "matrix(0.996195, 0.0871557, -0.0871557, 0.996195, 0, 0)"
+        ],
+        "finaleSamples": [
+          {
+            "elapsedMs": 0,
+            "opacity": 1
+          },
+          {
+            "elapsedMs": 34,
+            "opacity": 1
+          },
+          {
+            "elapsedMs": 47,
+            "opacity": 1
+          },
+          {
+            "elapsedMs": 70,
+            "opacity": 0.934553
+          },
+          {
+            "elapsedMs": 95,
+            "opacity": 0.867498
+          },
+          {
+            "elapsedMs": 120,
+            "opacity": 0.732299
+          },
+          {
+            "elapsedMs": 147,
+            "opacity": 0.603194
+          },
+          {
+            "elapsedMs": 178,
+            "opacity": 0.543568
+          },
+          {
+            "elapsedMs": 201,
+            "opacity": 0.438922
+          },
+          {
+            "elapsedMs": 232,
+            "opacity": 0.354245
+          },
+          {
+            "elapsedMs": 262,
+            "opacity": 0.318831
+          },
+          {
+            "elapsedMs": 284,
+            "opacity": 0.258995
+          },
+          {
+            "elapsedMs": 309,
+            "opacity": 0.233885
+          },
+          {
+            "elapsedMs": 332,
+            "opacity": 0.191435
+          },
+          {
+            "elapsedMs": 355,
+            "opacity": 0.173436
+          },
+          {
+            "elapsedMs": 377,
+            "opacity": 0.157103
+          },
+          {
+            "elapsedMs": 380,
+            "opacity": 0.142337
+          },
+          {
+            "elapsedMs": 407,
+            "opacity": 0.128955
+          },
+          {
+            "elapsedMs": 428,
+            "opacity": 0.116868
+          },
+          {
+            "elapsedMs": 451,
+            "opacity": 0.095707
+          },
+          {
+            "elapsedMs": 480,
+            "opacity": 0.0781202
+          },
+          {
+            "elapsedMs": 507,
+            "opacity": 0.0704547
+          },
+          {
+            "elapsedMs": 530,
+            "opacity": 0.0569222
+          },
+          {
+            "elapsedMs": 554,
+            "opacity": 0.0510281
+          },
+          {
+            "elapsedMs": 576,
+            "opacity": 0.0455935
+          },
+          {
+            "elapsedMs": 598,
+            "opacity": 0.0360834
+          },
+          {
+            "elapsedMs": 620,
+            "opacity": 0.0318876
+          },
+          {
+            "elapsedMs": 643,
+            "opacity": 0.028099
+          },
+          {
+            "elapsedMs": 665,
+            "opacity": 0.021469
+          },
+          {
+            "elapsedMs": 688,
+            "opacity": 0.0186033
+          },
+          {
+            "elapsedMs": 710,
+            "opacity": 0.0159891
+          },
+          {
+            "elapsedMs": 732,
+            "opacity": 0.0115127
+          },
+          {
+            "elapsedMs": 755,
+            "opacity": 0.00959563
+          },
+          {
+            "elapsedMs": 778,
+            "opacity": 0.00790792
+          },
+          {
+            "elapsedMs": 800,
+            "opacity": 0.00509335
+          },
+          {
+            "elapsedMs": 823,
+            "opacity": 0.003947
+          },
+          {
+            "elapsedMs": 845,
+            "opacity": 0.0029646
+          },
+          {
+            "elapsedMs": 865,
+            "opacity": 0.00146006
+          },
+          {
+            "elapsedMs": 886,
+            "opacity": 0.000917409
+          },
+          {
+            "elapsedMs": 908,
+            "opacity": 0.000506546
+          },
+          {
+            "elapsedMs": 930,
+            "opacity": 0.0000545327
+          },
+          {
+            "elapsedMs": 952,
+            "opacity": 1.11428e-9
+          },
+          {
+            "elapsedMs": 974,
+            "opacity": 0
+          },
+          {
+            "elapsedMs": 996,
+            "opacity": 0
+          },
+          {
+            "elapsedMs": 1014,
+            "opacity": 0
+          },
+          {
+            "elapsedMs": 1030,
+            "opacity": 0
+          },
+          {
+            "elapsedMs": 1047,
+            "opacity": 0
+          },
+          {
+            "elapsedMs": 1063,
+            "opacity": 0
+          },
+          {
+            "elapsedMs": 1080,
+            "opacity": 0
+          },
+          {
+            "elapsedMs": 1099,
+            "opacity": 0
+          },
+          {
+            "elapsedMs": 1114,
+            "opacity": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "Menu functional staging, cancellation and Back at 1440",
+      "detail": "PASS"
+    },
+    {
+      "name": "Story roots/fire/table transition at 1440",
+      "detail": "PASS"
+    },
+    {
+      "name": "Gallery filtered decode, failure recovery and focus at 1440",
+      "detail": "PASS"
+    },
+    {
+      "name": "Visit stage visualization and privacy at 1440",
+      "detail": {
+        "requests": []
+      }
+    },
+    {
+      "name": "Reduced motion, live preference change, forced colors and module failure retain every task",
+      "detail": "PASS"
+    }
+  ],
+  "failures": [],
+  "frames": [
+    {
+      "path": "qa/v3/scenes/home-opening-390-start.png",
+      "at": "2026-10-20T12:59:31.886Z",
+      "scrollY": 0
+    },
+    {
+      "path": "qa/v3/scenes/home-opening-390-mid.png",
+      "at": "2026-10-20T12:59:32.335Z",
+      "scrollY": 0
+    },
+    {
+      "path": "qa/v3/scenes/home-opening-390-end.png",
+      "at": "2026-10-20T12:59:32.995Z",
+      "scrollY": 0
+    },
+    {
+      "path": "qa/v3/scenes/home-gather-390-start.png",
+      "at": "2026-10-20T12:59:34.245Z",
+      "scrollY": 659
+    },
+    {
+      "path": "qa/v3/scenes/home-gather-390-mid.png",
+      "at": "2026-10-20T12:59:34.482Z",
+      "scrollY": 1159
+    },
+    {
+      "path": "qa/v3/scenes/home-gather-390-end.png",
+      "at": "2026-10-20T12:59:34.713Z",
+      "scrollY": 1659
+    },
+    {
+      "path": "qa/v3/scenes/studio-390-entry.png",
+      "at": "2026-10-20T12:59:35.163Z",
+      "scrollY": 3385
+    },
+    {
+      "path": "qa/v3/scenes/studio-390-mid.png",
+      "at": "2026-10-20T12:59:35.296Z",
+      "scrollY": 3485
+    },
+    {
+      "path": "qa/v3/scenes/studio-390-end.png",
+      "at": "2026-10-20T12:59:36.073Z",
+      "scrollY": 3748
+    },
+    {
+      "path": "qa/v3/scenes/menu-390-starters.png",
+      "at": "2026-10-20T12:59:37.131Z",
+      "scrollY": 0
+    },
+    {
+      "path": "qa/v3/scenes/menu-390-steaks.png",
+      "at": "2026-10-20T12:59:37.376Z",
+      "scrollY": 0
+    },
+    {
+      "path": "qa/v3/scenes/menu-390-drinks.png",
+      "at": "2026-10-20T12:59:37.679Z",
+      "scrollY": 0
+    },
+    {
+      "path": "qa/v3/scenes/story-390-roots.png",
+      "at": "2026-10-20T12:59:38.726Z",
+      "scrollY": 39
+    },
+    {
+      "path": "qa/v3/scenes/story-390-fire.png",
+      "at": "2026-10-20T12:59:39.009Z",
+      "scrollY": 1417
+    },
+    {
+      "path": "qa/v3/scenes/story-390-table.png",
+      "at": "2026-10-20T12:59:39.176Z",
+      "scrollY": 2066
+    },
+    {
+      "path": "qa/v3/scenes/gallery-390-filtered.png",
+      "at": "2026-10-20T12:59:40.210Z",
+      "scrollY": 524
+    },
+    {
+      "path": "qa/v3/scenes/gallery-390-open.png",
+      "at": "2026-10-20T12:59:40.454Z",
+      "scrollY": 576
+    },
+    {
+      "path": "qa/v3/scenes/gallery-390-next.png",
+      "at": "2026-10-20T12:59:40.643Z",
+      "scrollY": 576
+    },
+    {
+      "path": "qa/v3/scenes/visit-390-one-guest.png",
+      "at": "2026-10-20T12:59:41.966Z",
+      "scrollY": 0
+    },
+    {
+      "path": "qa/v3/scenes/visit-390-eight-guests.png",
+      "at": "2026-10-20T12:59:42.142Z",
+      "scrollY": 0
+    },
+    {
+      "path": "qa/v3/scenes/visit-390-preview.png",
+      "at": "2026-10-20T12:59:43.300Z",
+      "scrollY": 1251
+    },
+    {
+      "path": "qa/v3/scenes/home-opening-1440-start.png",
+      "at": "2026-10-20T12:59:46.512Z",
+      "scrollY": 0
+    },
+    {
+      "path": "qa/v3/scenes/home-opening-1440-mid.png",
+      "at": "2026-10-20T12:59:47.137Z",
+      "scrollY": 0
+    },
+    {
+      "path": "qa/v3/scenes/home-opening-1440-end.png",
+      "at": "2026-10-20T12:59:47.599Z",
+      "scrollY": 0
+    },
+    {
+      "path": "qa/v3/scenes/home-gather-1440-start.png",
+      "at": "2026-10-20T12:59:49.177Z",
+      "scrollY": 134
+    },
+    {
+      "path": "qa/v3/scenes/home-gather-1440-mid.png",
+      "at": "2026-10-20T12:59:49.581Z",
+      "scrollY": 739
+    },
+    {
+      "path": "qa/v3/scenes/home-gather-1440-end.png",
+      "at": "2026-10-20T12:59:49.800Z",
+      "scrollY": 1344
+    },
+    {
+      "path": "qa/v3/scenes/studio-1440-entry.png",
+      "at": "2026-10-20T12:59:50.242Z",
+      "scrollY": 2766
+    },
+    {
+      "path": "qa/v3/scenes/studio-1440-mid.png",
+      "at": "2026-10-20T12:59:50.487Z",
+      "scrollY": 2866
+    },
+    {
+      "path": "qa/v3/scenes/studio-1440-end.png",
+      "at": "2026-10-20T12:59:51.286Z",
+      "scrollY": 2909
+    },
+    {
+      "path": "qa/v3/scenes/menu-1440-starters.png",
+      "at": "2026-10-20T12:59:53.076Z",
+      "scrollY": 0
+    },
+    {
+      "path": "qa/v3/scenes/menu-1440-steaks.png",
+      "at": "2026-10-20T12:59:53.631Z",
+      "scrollY": 0
+    },
+    {
+      "path": "qa/v3/scenes/menu-1440-drinks.png",
+      "at": "2026-10-20T12:59:54.336Z",
+      "scrollY": 0
+    },
+    {
+      "path": "qa/v3/scenes/story-1440-roots.png",
+      "at": "2026-10-20T12:59:55.784Z",
+      "scrollY": 0
+    },
+    {
+      "path": "qa/v3/scenes/story-1440-fire.png",
+      "at": "2026-10-20T12:59:56.401Z",
+      "scrollY": 1288
+    },
+    {
+      "path": "qa/v3/scenes/story-1440-table.png",
+      "at": "2026-10-20T12:59:56.830Z",
+      "scrollY": 2047
+    },
+    {
+      "path": "qa/v3/scenes/gallery-1440-filtered.png",
+      "at": "2026-10-20T12:59:58.284Z",
+      "scrollY": 0
+    },
+    {
+      "path": "qa/v3/scenes/gallery-1440-open.png",
+      "at": "2026-10-20T12:59:58.812Z",
+      "scrollY": 690
+    },
+    {
+      "path": "qa/v3/scenes/gallery-1440-next.png",
+      "at": "2026-10-20T12:59:59.282Z",
+      "scrollY": 690
+    },
+    {
+      "path": "qa/v3/scenes/visit-1440-one-guest.png",
+      "at": "2026-10-20T13:00:01.213Z",
+      "scrollY": 0
+    },
+    {
+      "path": "qa/v3/scenes/visit-1440-eight-guests.png",
+      "at": "2026-10-20T13:00:01.649Z",
+      "scrollY": 0
+    },
+    {
+      "path": "qa/v3/scenes/visit-1440-preview.png",
+      "at": "2026-10-20T13:00:02.581Z",
+      "scrollY": 544
+    }
+  ],
+  "limitations": [
+    "Physical touch hardware and assistive-technology speech output are not available; touch/forced-colors/reduced-motion are browser emulations."
+  ],
+  "result": "PASS"
+}

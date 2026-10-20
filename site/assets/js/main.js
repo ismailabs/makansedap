@@ -54,6 +54,15 @@
         filterStatus.textContent = `Showing ${count} menu ${count === 1 ? 'item' : 'items'}${filter !== 'all' ? ' in ' + active.textContent.replace(/\d+/g, '').trim() : ' across all categories'}.`;
       }
       if (moveFocus) active.focus();
+      const stage = document.querySelector('.menu-stage img');
+      const stageLabel = document.getElementById('menu-stage-label');
+      if (stage && stageLabel) {
+        const source = groups.find(group => group.dataset.menuGroup === filter)?.querySelector('.category-feature img');
+        if (source) { stage.src = source.src; stage.srcset = source.srcset; }
+        else { stage.src = '/assets/images/v3/floating-aromatics-480.webp'; stage.removeAttribute('srcset'); }
+        stageLabel.textContent = filter === 'all' ? 'The whole table' : active.textContent.replace(/\d+/g, '').trim();
+      }
+      document.dispatchEvent(new CustomEvent('menu:change', { detail: { filter, label: active.textContent.replace(/\d+/g, '').trim() } }));
     };
     filters.forEach(button => button.addEventListener('click', () => {
       applyFilter(button.dataset.filter, { moveFocus: true });
@@ -93,6 +102,12 @@
     const prev = dialog.querySelector('.lightbox-prev');
     const next = dialog.querySelector('.lightbox-next');
     const closeButton = dialog.querySelector('.lightbox-close');
+    const imageStatus = document.createElement('p');
+    imageStatus.className = 'lightbox-caption';
+    imageStatus.setAttribute('role', 'status');
+    image.after(imageStatus);
+    image.addEventListener('error', () => { if (dialog.open) imageStatus.textContent = 'This image could not be loaded. Use Previous or Next to keep exploring, or close the image.'; });
+    image.addEventListener('load', () => { imageStatus.textContent = ''; });
     let index = 0;
     let opener = null;
     const update = number => {
@@ -100,6 +115,7 @@
       index = (number + entries.length) % entries.length;
       while (entries[index].hidden) index = (index + step + entries.length) % entries.length;
       const entry = entries[index];
+      imageStatus.textContent = '';
       image.src = entry.dataset.full;
       image.alt = entry.querySelector('img').alt;
       caption.textContent = entry.dataset.caption;
@@ -159,6 +175,22 @@
       date.max = localDay(latest);
     };
     refreshDates();
+    const updateProgress = () => {
+      const count = /^[1-8]$/.test(party.value) ? Number(party.value) : 0;
+      document.querySelectorAll('[data-seat]').forEach(seat => seat.classList.toggle('is-occupied', Number(seat.dataset.seat) <= count));
+      const tableCount = document.querySelector('.table-count');
+      if (tableCount) tableCount.textContent = count || '?';
+      const states = [count > 0, Boolean(date.value && date.value >= date.min && date.value <= date.max), ['17:30','18:00','18:30','19:00','19:30','20:00','20:30','21:00'].includes(time.value)];
+      const values = [count ? `${count} ${count === 1 ? 'guest' : 'guests'}` : 'Not chosen', states[1] ? date.value : 'Not chosen', states[2] ? time.selectedOptions[0].textContent : 'Not chosen'];
+      ['party','date','time'].forEach((name, index) => {
+        const step = document.querySelector(`[data-step="${name}"]`);
+        if (step) { step.dataset.complete = String(states[index]); step.querySelector('span').textContent = values[index]; }
+      });
+      const progress = document.getElementById('booking-progress-status');
+      if (progress) progress.textContent = `${states.filter(Boolean).length} of 3 illustrative choices ready. Nothing is booked, sent or saved.`;
+      document.dispatchEvent(new CustomEvent('booking:change'));
+    };
+    updateProgress();
     const fail = (message, field) => {
       result.hidden = true;
       error.textContent = message;
@@ -170,6 +202,7 @@
       result.hidden = true;
       field.removeAttribute('aria-invalid');
       field.removeAttribute('aria-describedby');
+      updateProgress();
     }));
     form.addEventListener('submit', event => {
       event.preventDefault();

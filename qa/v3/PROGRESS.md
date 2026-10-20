@@ -1,0 +1,9 @@
+# V3 checkpoint — 20 October 2026
+
+- State: PARTIAL-BLOCKED. Implementation complete; local functional gates pass; production remains V2.
+- Feature branch codex/makansedap-v3, base main 19e44f6c12dc4f5d4676ab9e4a0c76f70d8ea80a. Candidate source receipt will be written after the reviewed commit. No main update or deployment is authorized while the performance gate fails.
+- Local final checks: core 65/0, extended 17/0, V3 14/0, CSP, seven focus checks, Worker and Wrangler dry run PASS. Final 15 route captures and 20 V1/V2/V3 boards inspected. Firefox spawn UNKNOWN remains a documented environment limit.
+- Performance release veto: complete final interleaved 18-run comparison; median Home LCP 1.976s to 2.569s (+30.0%), Menu 2.270s to 2.727s (+20.1%), Gallery 1.982s to 1.899s (-4.2%). No tradeoff approved. See final-report.md and performance-assessment.json; do not repeat indefinite tuning loops or cherry-pick scores.
+- All 26 skills mapped; provenance and protected data confirmed. Gitleaks staged scan 8.30.1 and diff check pass. Only deliberate implementation/compact V3 evidence staged; user handoff deletions, skills, supplied handoff and historical V2 receipts preserved. Large diagnostic traces/captures remain local.
+- Current Cloudflare deployment 759647e6-78d1-49ca-91ed-1ed7c0541f4a, version 4866e79b-64af-45fa-bacc-6f2ea3c3e216 at 100%, source 695daaa31b57b6d3af261696644db2f80ef2e7ab, freshly read and source header verified. Re-query before any future deployment/rollback.
+- Next authorized work after mitigation or explicit tradeoff approval: affected validation, complete PASS local gates, current remote/Cloudflare preflight, exact-SHA scoped deploy, all hosted source/assets/headers/interaction verification. No hosted V3 receipt exists yet.

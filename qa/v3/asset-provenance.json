@@ -1,0 +1,181 @@
+{
+  "at": "2026-10-20T12:58:15.895Z",
+  "assets": [
+    {
+      "file": "site/assets/images/v3/floating-aromatics-240.webp",
+      "bytes": 23484,
+      "sha256": "bb0b2d03f8afede4a59f1f20461ed8f0e173fca31c862093487a024ebd6245d5",
+      "origin": "AI-generated concept composite supplied 2026-10-20; original crops resized to responsive WebP using Sharp",
+      "rights": "Supplied project-original concept work, per handoff meta/09-PROVENANCE.md; AI illustrations are not real restaurant/menu documentation",
+      "dimensions": {
+        "width": 240,
+        "height": 320,
+        "format": "webp"
+      }
+    },
+    {
+      "file": "site/assets/images/v3/floating-aromatics-480.webp",
+      "bytes": 73370,
+      "sha256": "60a2edb260b1e7c9ce4d32027d0bd0e5b175546fdfd0c0503070a90ced81ceba",
+      "origin": "AI-generated concept composite supplied 2026-10-20; original crops resized to responsive WebP using Sharp",
+      "rights": "Supplied project-original concept work, per handoff meta/09-PROVENANCE.md; AI illustrations are not real restaurant/menu documentation",
+      "dimensions": {
+        "width": 480,
+        "height": 640,
+        "format": "webp"
+      }
+    },
+    {
+      "file": "site/assets/images/v3/floating-aromatics-768.webp",
+      "bytes": 172440,
+      "sha256": "48b371780df265b8743e4dc3ae488f9652fe30abc038658619d6f08d179003da",
+      "origin": "AI-generated concept composite supplied 2026-10-20; original crops resized to responsive WebP using Sharp",
+      "rights": "Supplied project-original concept work, per handoff meta/09-PROVENANCE.md; AI illustrations are not real restaurant/menu documentation",
+      "dimensions": {
+        "width": 768,
+        "height": 1024,
+        "format": "webp"
+      }
+    },
+    {
+      "file": "site/assets/images/v3/hero-plate-240.webp",
+      "bytes": 17568,
+      "sha256": "aed716ba528c08831fd06039acea2a616b11c5896be42c67e1c2db7f2e759232",
+      "origin": "AI-generated concept composite supplied 2026-10-20; original crops resized to responsive WebP using Sharp",
+      "rights": "Supplied project-original concept work, per handoff meta/09-PROVENANCE.md; AI illustrations are not real restaurant/menu documentation",
+      "dimensions": {
+        "width": 240,
+        "height": 320,
+        "format": "webp"
+      }
+    },
+    {
+      "file": "site/assets/images/v3/hero-plate-480.webp",
+      "bytes": 52434,
+      "sha256": "c344ccd29bd26d8b7498b4de2cddfc38d165be702fe9cb7f6d098df89a196d1b",
+      "origin": "AI-generated concept composite supplied 2026-10-20; original crops resized to responsive WebP using Sharp",
+      "rights": "Supplied project-original concept work, per handoff meta/09-PROVENANCE.md; AI illustrations are not real restaurant/menu documentation",
+      "dimensions": {
+        "width": 480,
+        "height": 640,
+        "format": "webp"
+      }
+    },
+    {
+      "file": "site/assets/images/v3/hero-plate-768.webp",
+      "bytes": 108102,
+      "sha256": "9193db8c58907d2162a7986bd2cc5fbdb5e432932278ecfd7c29f3a51c047f42",
+      "origin": "AI-generated concept composite supplied 2026-10-20; original crops resized to responsive WebP using Sharp",
+      "rights": "Supplied project-original concept work, per handoff meta/09-PROVENANCE.md; AI illustrations are not real restaurant/menu documentation",
+      "dimensions": {
+        "width": 768,
+        "height": 1024,
+        "format": "webp"
+      }
+    },
+    {
+      "file": "site/assets/images/v3/journal-aromatics-320.webp",
+      "bytes": 18594,
+      "sha256": "8342e695d8b0992df532d877666e6fe4ec009da7e65370eaafc2eb0e4caf6ad3",
+      "origin": "Responsive encoding of existing repository AI concept imagery: hero-ribeye.webp or fresh-ingredients.webp; source credits retained in ASSET-CREDITS.md",
+      "rights": "Existing project-original AI concept imagery, per retained ASSET-CREDITS.md; not documentary photography",
+      "dimensions": {
+        "width": 320,
+        "height": 213,
+        "format": "webp"
+      }
+    },
+    {
+      "file": "site/assets/images/v3/journal-aromatics-480.webp",
+      "bytes": 35850,
+      "sha256": "9aece4776a51db8b8db371225e34cb60b3a278b570a5c36b88b8983e73d465cf",
+      "origin": "Responsive encoding of existing repository AI concept imagery: hero-ribeye.webp or fresh-ingredients.webp; source credits retained in ASSET-CREDITS.md",
+      "rights": "Existing project-original AI concept imagery, per retained ASSET-CREDITS.md; not documentary photography",
+      "dimensions": {
+        "width": 480,
+        "height": 320,
+        "format": "webp"
+      }
+    },
+    {
+      "file": "site/assets/images/v3/journal-ribeye-320.webp",
+      "bytes": 14640,
+      "sha256": "b8c67ce25d0b1e3e736f8ed2e82f608bac49f3b64b31ad936f11593647d5f5a7",
+      "origin": "Responsive encoding of existing repository AI concept imagery: hero-ribeye.webp or fresh-ingredients.webp; source credits retained in ASSET-CREDITS.md",
+      "rights": "Existing project-original AI concept imagery, per retained ASSET-CREDITS.md; not documentary photography",
+      "dimensions": {
+        "width": 320,
+        "height": 213,
+        "format": "webp"
+      }
+    },
+    {
+      "file": "site/assets/images/v3/journal-ribeye-480.webp",
+      "bytes": 29980,
+      "sha256": "b1ef4322f3a805a5dabac610f766452ccd7b642496c938f819242500ce3c0d64",
+      "origin": "Responsive encoding of existing repository AI concept imagery: hero-ribeye.webp or fresh-ingredients.webp; source credits retained in ASSET-CREDITS.md",
+      "rights": "Existing project-original AI concept imagery, per retained ASSET-CREDITS.md; not documentary photography",
+      "dimensions": {
+        "width": 480,
+        "height": 320,
+        "format": "webp"
+      }
+    },
+    {
+      "file": "site/assets/images/v3/vectors\\banana-leaf-frame.svg",
+      "bytes": 487,
+      "sha256": "1fb4f0a1716df3bb951b287be242116a63ee35887a98b0bbdab9e073a9ec1b5f",
+      "origin": "Original programmatic vector supplied in approved handoff",
+      "rights": "Supplied project-original concept work, per handoff meta/09-PROVENANCE.md; AI illustrations are not real restaurant/menu documentation"
+    },
+    {
+      "file": "site/assets/images/v3/vectors\\brand-stamp.svg",
+      "bytes": 400,
+      "sha256": "6446bf723c7fdbba36828f6453bd73ae581fdb5451d3c8c96ce6bdd2a1d459ba",
+      "origin": "Original programmatic vector supplied in approved handoff",
+      "rights": "Supplied project-original concept work, per handoff meta/09-PROVENANCE.md; AI illustrations are not real restaurant/menu documentation"
+    },
+    {
+      "file": "site/assets/images/v3/vectors\\flame-lines.svg",
+      "bytes": 451,
+      "sha256": "e398365d840e05f338377c18068f833ac11d0f1abde132a4b917e1797c76dd27",
+      "origin": "Original programmatic vector supplied in approved handoff",
+      "rights": "Supplied project-original concept work, per handoff meta/09-PROVENANCE.md; AI illustrations are not real restaurant/menu documentation"
+    },
+    {
+      "file": "site/assets/images/v3/vectors\\spice-orbit.svg",
+      "bytes": 681,
+      "sha256": "401e886ef895f4a44d6397bed1d57b8d10a7c49b4095192fdcd1bb7585139178",
+      "origin": "Original programmatic vector supplied in approved handoff",
+      "rights": "Supplied project-original concept work, per handoff meta/09-PROVENANCE.md; AI illustrations are not real restaurant/menu documentation"
+    },
+    {
+      "file": "site/assets/js/vendor/gsap-3.15.0.js",
+      "bytes": 115026,
+      "sha256": "825f21351ecce50f68935e4b0466640eaeb47d364765a2ab78b3c50bf28a761e",
+      "origin": "Pinned gsap@3.15.0 core/ScrollTrigger, same-origin bundle; original copyright notices retained",
+      "rights": "https://gsap.com/standard-license"
+    },
+    {
+      "file": "site/assets/js/vendor/GSAP-LICENSE.txt",
+      "bytes": 447,
+      "sha256": "5a9ed7dde03a81dd4b96d9474d300e4f5dec375bd53c28b5d544d730259e4bcf",
+      "origin": "Pinned gsap@3.15.0 core/ScrollTrigger, same-origin bundle; original copyright notices retained",
+      "rights": "https://gsap.com/standard-license"
+    },
+    {
+      "file": "site/assets/images/social-preview.png",
+      "bytes": 447193,
+      "sha256": "a6755c438ed39aaddf9523c9cf72d3e2730650706696ba4b88f49c17d931d49d",
+      "origin": "Original code-authored V3 social composition using credited supplied AI concept plate; scripts/artwork-v3.mjs",
+      "rights": "Project-original composition and supplied concept work; not documentary photography",
+      "dimensions": {
+        "width": 1200,
+        "height": 630,
+        "format": "png"
+      }
+    }
+  ],
+  "fonts": "Existing DM Sans and Cormorant Garamond OFL files and licenses unchanged; no new fonts.",
+  "social": "site/assets/images/social-preview.png composed by scripts/artwork-v3.mjs using the credited V3 plate and real text. Fonts are rasterized by local SVG renderer, no font redistributed."
+}

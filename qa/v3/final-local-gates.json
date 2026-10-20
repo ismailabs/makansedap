@@ -1,0 +1,84 @@
+{
+  "checkedAt": "2026-10-20T13:14:52.244Z",
+  "result": "FAIL",
+  "releaseState": "PARTIAL-BLOCKED",
+  "deploymentAllowed": false,
+  "sourceBase": "19e44f6c12dc4f5d4676ab9e4a0c76f70d8ea80a",
+  "gates": [
+    {
+      "id": "H01",
+      "status": "PENDING_COMMIT",
+      "evidence": "release-identity.json"
+    },
+    {
+      "id": "H02",
+      "status": "PASS_LOCAL",
+      "evidence": "local/results.json"
+    },
+    {
+      "id": "H03",
+      "status": "PASS",
+      "evidence": "scenes/results.json"
+    },
+    {
+      "id": "H04",
+      "status": "PASS_LOCAL",
+      "evidence": "extended-local/results.json"
+    },
+    {
+      "id": "H05",
+      "status": "PASS_LOCAL",
+      "evidence": "extended-local/results.json"
+    },
+    {
+      "id": "H06",
+      "status": "PASS",
+      "evidence": "studio-verification.json"
+    },
+    {
+      "id": "H07",
+      "status": "PASS_TESTED_SCOPE",
+      "evidence": "local/axe-results.json"
+    },
+    {
+      "id": "H08",
+      "status": "PASS_LOCAL",
+      "evidence": "visual-final/receipt.json"
+    },
+    {
+      "id": "H09",
+      "status": "PASS_LOCAL",
+      "evidence": "local/csp-smoke.json"
+    },
+    {
+      "id": "H10",
+      "status": "PASS_LOCAL",
+      "evidence": "scenes/results.json"
+    },
+    {
+      "id": "H11",
+      "status": "PASS",
+      "evidence": "asset-provenance.json"
+    },
+    {
+      "id": "H12",
+      "status": "PASS_LOCAL_COMMANDS",
+      "evidence": "local/results.json"
+    },
+    {
+      "id": "H13",
+      "status": "BLOCKED_NOT_DEPLOYED",
+      "evidence": "production-state-before.json"
+    },
+    {
+      "id": "VISUAL",
+      "status": "PASS_REVIEWED",
+      "evidence": "visual-review.md"
+    },
+    {
+      "id": "PERFORMANCE",
+      "status": "FAIL",
+      "evidence": "performance-assessment.json"
+    }
+  ]
+}

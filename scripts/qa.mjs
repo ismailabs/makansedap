@@ -1,3 +1,4 @@
+const evidenceRoot=process.env.QA_ROOT||'qa/v3/local';
 import {chromium,firefox,webkit} from 'playwright';
 import AxeBuilder from '@axe-core/playwright';
 import {readFile,writeFile,mkdir,access} from 'node:fs/promises';
@@ -11,7 +12,7 @@ const widths=[320,375,390,568,768,860,1024,1440,1920];
 const checks=[],failures=[],limitations=[],consoleErrors=[],networkFailures=[];
 const record=(name,detail)=>checks.push({name,detail});
 const root=path.resolve('site');
-await mkdir('qa/v2/screenshots',{recursive:true});
+await mkdir(`${evidenceRoot}/screenshots`,{recursive:true});
 const server=await startServer(0);
 const base=`http://127.0.0.1:${server.address().port}`;
 let browser;
@@ -66,7 +67,7 @@ try{
    if(width===390||width===1440){
     await page.evaluate(async()=>{for(const img of document.images){if(img.loading==='lazy')img.loading='eager';}await Promise.all([...document.images].filter(i=>i.src).map(i=>i.decode().catch(()=>{})));});
     const broken=await page.locator('img[src]').evaluateAll(images=>images.filter(i=>!i.naturalWidth).map(i=>i.src));assert.deepEqual(broken,[]);
-    await page.screenshot({path:`qa/v2/screenshots/${route==='/'?'home':route.replaceAll('/','')}-${width}.png`,fullPage:true});
+    await page.screenshot({path:`${evidenceRoot}/screenshots/${route==='/'?'home':route.replaceAll('/','')}-${width}.png`,fullPage:true});
     const result=await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21aa','wcag22aa']).analyze();
     const names=await new AxeBuilder({page}).withRules(['label-content-name-mismatch']).analyze();
     result.violations.push(...names.violations);
@@ -74,7 +75,7 @@ try{
    }
   });
  }
- await writeFile('qa/v2/axe-results.json',JSON.stringify(axe,null,2)+'\n');
+ await writeFile(`${evidenceRoot}/axe-results.json`,JSON.stringify(axe,null,2)+'\n');
  await test('Axe WCAG A/AA scans: all five pages desktop and mobile',()=>{assert.deepEqual(axe.filter(r=>r.violations.length),[]);});
  await test('Actual webfonts loaded',async()=>{
   await page.goto(base);await page.evaluate(()=>document.fonts.ready);
@@ -129,7 +130,7 @@ try{
   await opener.click();await page.getByRole('button',{name:'Close gallery'}).click();assert.ok(!await dialog.isVisible());
  });
  await test('Reservation errors, future date, simulation and zero submission/storage',async()=>{
-  await page.goto(base+'/visit/');const requests=[];const listen=r=>requests.push(r.url());page.on('request',listen);
+  await page.goto(base+'/visit/');const requests=[];const listen=r=>requests.push({url:r.url(),method:r.method(),body:r.postData()});page.on('request',listen);
   await page.getByRole('button',{name:'Preview reservation'}).click();assert.match(await page.locator('#reservation-error').textContent(),/party size/);
   await page.locator('#party').selectOption('2');await page.getByRole('button',{name:'Preview reservation'}).click();assert.match(await page.locator('#reservation-error').textContent(),/future date/);
   await page.locator('#date').fill('2020-01-01');await page.getByRole('button',{name:'Preview reservation'}).click();assert.match(await page.locator('#reservation-error').textContent(),/tomorrow/);
@@ -137,7 +138,7 @@ try{
   await page.locator('#time').selectOption('19:00');await page.getByRole('button',{name:'Preview reservation'}).click();assert.match(await page.locator('#reservation-result').textContent(),/This is a portfolio demonstration\. No reservation has been created\./);
   assert.ok(await page.locator('#reservation-result').evaluate(e=>e===document.activeElement));
   assert.equal(await page.evaluate(()=>localStorage.length+sessionStorage.length),0);assert.equal((await context.cookies()).length,0);
-  assert.ok(requests.every(url=>/\.(webp|woff2)$/.test(new URL(url).pathname)),`Unexpected request ${requests}`);page.off('request',listen);
+  assert.ok(requests.every(request=>{const url=new URL(request.url);return request.method==='GET'&&request.body===null&&url.origin===base&&/^\/assets\/(images|fonts|js|css)\/.+\.(webp|woff2|js|css|svg)$/.test(url.pathname)&&(!url.search||url.search==='?v=3-20261020');}),`Unexpected request ${JSON.stringify(requests)}`);page.off('request',listen);
  });
  await test('No-JS all routes, navigation, 51 menu entries, image links, disabled demo',async()=>{
   const ctx=await browser.newContext({javaScriptEnabled:false,viewport:{width:320,height:800}});const p=await ctx.newPage();
@@ -161,6 +162,6 @@ try{
  record('Browser version',browser.version());
 }finally{
  if(browser)await browser.close();await new Promise(resolve=>server.close(resolve));
-  await writeFile('qa/v2/results.json',JSON.stringify({date:new Date().toISOString(),environment:{platform:process.platform,node:process.version,transport:'direct local HTTP',timezone:'Asia/Kuala_Lumpur'},checks,failures,limitations},null,2)+'\n');
+  await writeFile(`${evidenceRoot}/results.json`,JSON.stringify({date:new Date().toISOString(),environment:{platform:process.platform,node:process.version,transport:'direct local HTTP',timezone:'Asia/Kuala_Lumpur'},checks,failures,limitations},null,2)+'\n');
 }
 console.log(`${checks.length} passed; ${failures.length} failed.`);if(failures.length)process.exitCode=1;

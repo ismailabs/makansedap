@@ -8,23 +8,21 @@ Website services: https://ismailstudio.my/
 
 V2 website enquiries: https://wa.me/601163265610 — verified on the live Studio homepage on 19 October 2026. This opens the Studio's existing WhatsApp contact; the restaurant demo collects no messages or personal information.
 
-## V2 editorial redesign
+## V3 — The Living Malaysian Table
 
-The current five-route design uses pandan, aubergine and lilac, with distinct page compositions and paired Studio/enquiry actions. See `docs/V2-DESIGN.md`, `docs/V2-SKILL-AUDIT.md`, `docs/V2-VISUAL-REVIEW.md` and `docs/V2-RELEASE-REPORT.md`. V2 evidence is saved separately in `qa/v2/`; prior release receipts and locked menu baselines are preserved. `node scripts/v2-extended-qa.mjs` checks category history, filtered gallery wrap/focus, booking privacy and actual 200% text at seven widths.
+The five routes now share a cinematic culinary direction: dark food/ingredient Home opening, bounded reversible scroll transformation, immediate category staging around the exact menu, Roots/Fire/Table essay, mixed-scale visual journal, imaginary-table progress and a Studio finale. Native scrolling and all content work without the motion module. Reduced motion has a complete static fallback.
 
-Author V2 styles in `site/assets/css/v2.css`, then run `node scripts/prepare-css.mjs`. The compile includes the existing font definitions and V2 styles only. `node scripts/artwork-v2.mjs` regenerates the social card from existing licensed/project imagery.
+Author styles in `site/assets/css/v3.css`; `npm run build` compiles fonts + V3 only and bundles pinned same-origin GSAP/ScrollTrigger. Historical V2 authored CSS and evidence are preserved. `npm test`, `npm run test:extended`, `npm run test:v3`, `npm run test:security`, `npm run test:worker` and `npm run test:focus` cover the functional, motion, privacy and security contracts. `npm run audit` accepts QA_ROOT, AUDIT_RUNS and AUDIT_ROUTES; SITE_ROOT can point to a preserved baseline copy for controlled comparison. New receipts live under `qa/v3/`.
 
-`node scripts/focus-contrast-qa.mjs` supplements axe with browser-computed focus-indicator contrast on representative light/dark controls. Set `FOCUS_BASE` to the production origin for the hosted check.
+See `qa/v3/final-report.md` for actual gate/release status, deployed source identity, rollback authority and evidence limits. No deployment success should be inferred merely from this README. `qa/v3/skill-usage.md`, `design-implementation-plan.md` and `asset-provenance.json` document design, skill decisions and rights.
 
-Release only the tested Git commit: use authenticated Wrangler with `deploy --var RELEASE_COMMIT:<full-source-SHA>`, then run `verify-production.mjs` with `VERIFY_COMMIT` set to that SHA, plus `asset-manifest.mjs` and `verify-assets.mjs`. The release binding is deliberately supplied at deployment rather than retaining an obsolete SHA in configuration. Capture the active deployment before a release and use an explicit prior version for rollback. `qa/v2/cloudflare-version-before.json` preserves the V2 rollback version and settings. The release report records actual source/deployment identities and results.
-
-Inherited exception: the old `rasairon.ismailstudio.my` hostname returned authoritative NXDOMAIN before V2. This release does not alter old DNS, redirects or Workers. Legacy redirect tests remain opt-in using `CHECK_REDIRECT=1`; primary production tests do not misreport that inherited DNS failure as a V2 regression.
+Inherited exception: `rasairon.ismailstudio.my` returned authoritative NXDOMAIN before V2. This release does not alter old DNS, redirects or Workers. Legacy redirect tests remain opt-in using CHECK_REDIRECT=1; historical redirect receipts are not current proof.
 
 ## Develop and verify
 
 Use Node.js 24 and npm. Run `npm ci`, `npm run preview` (http://127.0.0.1:8000), `npm test`, `npm run audit` and `node scripts/security-smoke.mjs`. Playwright browsers must be available. Firefox currently fails to launch on this Windows host; the report records that as unavailable. The audit measures local mobile simulation, not field Core Web Vitals.
 
-Edit authored CSS in `site/assets/css/` and run `node scripts/prepare-css.mjs` to compile the shipped stylesheet. `site/` is the complete static output. Five routes: `/`, `/menu/`, `/story/`, `/gallery/`, `/visit/`. No framework, backend, cookies, personal-data collection, analytics or actual booking. The reservation preview validates illustrative choices entirely in the browser.
+Edit authored V3 CSS in `site/assets/css/v3.css` and run `npm run build` to compile the shipped stylesheet. `site/` is the complete static output. Five routes: `/`, `/menu/`, `/story/`, `/gallery/`, `/visit/`. No framework, backend, cookies, personal-data collection, analytics or actual booking. The reservation preview validates illustrative choices entirely in the browser.
 
 ## Content and assets
 

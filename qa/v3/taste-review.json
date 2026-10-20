@@ -1,0 +1,67 @@
+{
+  "at": "2026-10-20T13:11:31.564Z",
+  "result": "PASS_WITH_SCOPED_CONTRACT_EXCEPTIONS",
+  "widths": [
+    1440,
+    768,
+    390
+  ],
+  "findings": [
+    {
+      "level": "WARN",
+      "id": "palette-cream",
+      "width": 1440,
+      "message": "Yellow-cream background (page background #f6edda, text #f6edda).",
+      "fix": "Use the drawn palette. If you want warmth, take a low-chroma stone or bone, not a yellow cream.",
+      "alsoAt": [
+        768,
+        390
+      ]
+    },
+    {
+      "level": "WARN",
+      "id": "size-count",
+      "width": 1440,
+      "message": "13 different font sizes (13, 14, 15, 16, 18, 26, 32, 40, 43, 58, 94, 121, 177).",
+      "fix": "A page needs about five: display, heading, lead, body, small.",
+      "alsoAt": [
+        768,
+        390
+      ]
+    },
+    {
+      "level": "WARN",
+      "id": "no-footage",
+      "width": 1440,
+      "message": "No video anywhere on the page.",
+      "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+    }
+  ],
+  "rawUnallowedFailures": [
+    {
+      "level": "FAIL",
+      "id": "covered-text",
+      "width": 1440,
+      "message": "Large text lies under another element at some scroll position: \"ISMAIL Studio\" (screen 5, 100% hidden)",
+      "fix": "Nothing may sit on top of a headline or statement. Move the picture, shorten the pinned run, or raise the text above it (z-index) and give it a ground."
+    },
+    {
+      "level": "FAIL",
+      "id": "still-page",
+      "width": 1440,
+      "message": "Only 3 element(s) moved while the page loaded and scrolled.",
+      "fix": "Build the motion layer (SKILL.md step 9, references/motion.md): the signature move, an entrance for the parts of every section, feedback on every control, and one moving picture. Transform and opacity only, with a reduced-motion fallback."
+    }
+  ],
+  "exceptions": [
+    {
+      "id": "covered-text",
+      "scope": "Only the aria-hidden decorative Studio circle text temporarily covered by its plate during the required 900ms dissolve. Real headings and both links remain uncovered. Scene tests sample opacity 1 to 0 and settled logo visibility."
+    },
+    {
+      "id": "still-page",
+      "scope": "Fast generic scroll sampler observes three moving elements. Independent browser RAF/ScrollTrigger evidence verifies the opening, three-plane bounded scene and three-part finale at mobile/desktop. No extra gratuitous motion added to satisfy an element-count heuristic."
+    }
+  ],
+  "source": "Raw local reports preserved in taste-release/ and taste-release-reviewed/. Absolute workstation paths omitted from this public summary."
+}

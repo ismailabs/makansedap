@@ -1,0 +1,14 @@
+{
+  "at": "2026-10-20T13:16:04.498Z",
+  "result": "PASS",
+  "scanner": "Gitleaks 8.30.1",
+  "scope": "Reviewed staged V3 diff only, using built-in rules; not a full-history or infrastructure audit.",
+  "scanExitCode": 0,
+  "findings": 0,
+  "stagedDiffCheck": "PASS",
+  "protectedPathsStaged": false,
+  "protectedBaselineBlobsUnchanged": true,
+  "historicalQaDiffEmpty": true,
+  "publicTextMachinePathSearch": "No matches for Windows user paths, OneDrive paths or private author email pattern in staged V3 evidence/scripts/docs.",
+  "reviewedFiles": 158
+}

@@ -1,0 +1,202 @@
+{
+  "at": "2026-10-20T13:10:40.019Z",
+  "base": "http://127.0.0.1:63349",
+  "browser": "156.0.8078.4",
+  "gitHead": "19e44f6c12dc4f5d4676ab9e4a0c76f70d8ea80a",
+  "sourceHashes": [
+    {
+      "route": "/",
+      "width": 390,
+      "sha256": "8da31b17da3556c924f51d1f9834ad299666f98e1c684e47aaa6368ada706a36"
+    },
+    {
+      "route": "/menu/",
+      "width": 390,
+      "sha256": "22e4f33d8cc321ba783c54bbda907e3b2767faafbc61593d59d3131bfa9fdc47"
+    },
+    {
+      "route": "/story/",
+      "width": 390,
+      "sha256": "4f39ae15fedf2edd69a7e3b5fb0a74dff0a4179b6a3cb7b8ae1ea8e417794de2"
+    },
+    {
+      "route": "/gallery/",
+      "width": 390,
+      "sha256": "052f10a7de056f44a6bccd02141d645bc94209b84a8081a9e2c6e07f2f8695fb"
+    },
+    {
+      "route": "/visit/",
+      "width": 390,
+      "sha256": "bfe07338b40d99de02b6b90006ce75e665b0dd73812d24c6cb3ac21787de4d59"
+    },
+    {
+      "route": "/",
+      "width": 768,
+      "sha256": "8da31b17da3556c924f51d1f9834ad299666f98e1c684e47aaa6368ada706a36"
+    },
+    {
+      "route": "/menu/",
+      "width": 768,
+      "sha256": "22e4f33d8cc321ba783c54bbda907e3b2767faafbc61593d59d3131bfa9fdc47"
+    },
+    {
+      "route": "/story/",
+      "width": 768,
+      "sha256": "4f39ae15fedf2edd69a7e3b5fb0a74dff0a4179b6a3cb7b8ae1ea8e417794de2"
+    },
+    {
+      "route": "/gallery/",
+      "width": 768,
+      "sha256": "052f10a7de056f44a6bccd02141d645bc94209b84a8081a9e2c6e07f2f8695fb"
+    },
+    {
+      "route": "/visit/",
+      "width": 768,
+      "sha256": "bfe07338b40d99de02b6b90006ce75e665b0dd73812d24c6cb3ac21787de4d59"
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "sha256": "8da31b17da3556c924f51d1f9834ad299666f98e1c684e47aaa6368ada706a36"
+    },
+    {
+      "route": "/menu/",
+      "width": 1440,
+      "sha256": "22e4f33d8cc321ba783c54bbda907e3b2767faafbc61593d59d3131bfa9fdc47"
+    },
+    {
+      "route": "/story/",
+      "width": 1440,
+      "sha256": "4f39ae15fedf2edd69a7e3b5fb0a74dff0a4179b6a3cb7b8ae1ea8e417794de2"
+    },
+    {
+      "route": "/gallery/",
+      "width": 1440,
+      "sha256": "052f10a7de056f44a6bccd02141d645bc94209b84a8081a9e2c6e07f2f8695fb"
+    },
+    {
+      "route": "/visit/",
+      "width": 1440,
+      "sha256": "bfe07338b40d99de02b6b90006ce75e665b0dd73812d24c6cb3ac21787de4d59"
+    }
+  ],
+  "captures": [
+    {
+      "route": "/",
+      "width": 390,
+      "height": 4648,
+      "full": "qa/v3/visual-final/home-390.webp",
+      "fold": "qa/v3/visual-final/home-390-fold.webp"
+    },
+    {
+      "route": "/menu/",
+      "width": 390,
+      "height": 9792,
+      "full": "qa/v3/visual-final/menu-390.webp",
+      "fold": "qa/v3/visual-final/menu-390-fold.webp"
+    },
+    {
+      "route": "/story/",
+      "width": 390,
+      "height": 4279,
+      "full": "qa/v3/visual-final/story-390.webp",
+      "fold": "qa/v3/visual-final/story-390-fold.webp"
+    },
+    {
+      "route": "/gallery/",
+      "width": 390,
+      "height": 10038,
+      "full": "qa/v3/visual-final/gallery-390.webp",
+      "fold": "qa/v3/visual-final/gallery-390-fold.webp"
+    },
+    {
+      "route": "/visit/",
+      "width": 390,
+      "height": 3836,
+      "full": "qa/v3/visual-final/visit-390.webp",
+      "fold": "qa/v3/visual-final/visit-390-fold.webp"
+    },
+    {
+      "route": "/",
+      "width": 768,
+      "height": 3250,
+      "full": "qa/v3/visual-final/home-768.webp",
+      "fold": "qa/v3/visual-final/home-768-fold.webp"
+    },
+    {
+      "route": "/menu/",
+      "width": 768,
+      "height": 7057,
+      "full": "qa/v3/visual-final/menu-768.webp",
+      "fold": "qa/v3/visual-final/menu-768-fold.webp"
+    },
+    {
+      "route": "/story/",
+      "width": 768,
+      "height": 4160,
+      "full": "qa/v3/visual-final/story-768.webp",
+      "fold": "qa/v3/visual-final/story-768-fold.webp"
+    },
+    {
+      "route": "/gallery/",
+      "width": 768,
+      "height": 6748,
+      "full": "qa/v3/visual-final/gallery-768.webp",
+      "fold": "qa/v3/visual-final/gallery-768-fold.webp"
+    },
+    {
+      "route": "/visit/",
+      "width": 768,
+      "height": 2737,
+      "full": "qa/v3/visual-final/visit-768.webp",
+      "fold": "qa/v3/visual-final/visit-768-fold.webp"
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "height": 3809,
+      "full": "qa/v3/visual-final/home-1440.webp",
+      "fold": "qa/v3/visual-final/home-1440-fold.webp"
+    },
+    {
+      "route": "/menu/",
+      "width": 1440,
+      "height": 6775,
+      "full": "qa/v3/visual-final/menu-1440.webp",
+      "fold": "qa/v3/visual-final/menu-1440-fold.webp"
+    },
+    {
+      "route": "/story/",
+      "width": 1440,
+      "height": 3935,
+      "full": "qa/v3/visual-final/story-1440.webp",
+      "fold": "qa/v3/visual-final/story-1440-fold.webp"
+    },
+    {
+      "route": "/gallery/",
+      "width": 1440,
+      "height": 9491,
+      "full": "qa/v3/visual-final/gallery-1440.webp",
+      "fold": "qa/v3/visual-final/gallery-1440-fold.webp"
+    },
+    {
+      "route": "/visit/",
+      "width": 1440,
+      "height": 2925,
+      "full": "qa/v3/visual-final/visit-1440.webp",
+      "fold": "qa/v3/visual-final/visit-1440-fold.webp"
+    }
+  ],
+  "boards": [
+    "qa/v3/visual-final/home-390-V2-before-V3-after.webp",
+    "qa/v3/visual-final/menu-390-V2-before-V3-after.webp",
+    "qa/v3/visual-final/story-390-V2-before-V3-after.webp",
+    "qa/v3/visual-final/gallery-390-V2-before-V3-after.webp",
+    "qa/v3/visual-final/visit-390-V2-before-V3-after.webp",
+    "qa/v3/visual-final/home-1440-V2-before-V3-after.webp",
+    "qa/v3/visual-final/menu-1440-V2-before-V3-after.webp",
+    "qa/v3/visual-final/story-1440-V2-before-V3-after.webp",
+    "qa/v3/visual-final/gallery-1440-V2-before-V3-after.webp",
+    "qa/v3/visual-final/visit-1440-V2-before-V3-after.webp"
+  ]
+}

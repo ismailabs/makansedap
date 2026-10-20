@@ -1,0 +1,52 @@
+[
+  {
+    "route": "/",
+    "width": 390,
+    "violations": []
+  },
+  {
+    "route": "/",
+    "width": 1440,
+    "violations": []
+  },
+  {
+    "route": "/menu/",
+    "width": 390,
+    "violations": []
+  },
+  {
+    "route": "/menu/",
+    "width": 1440,
+    "violations": []
+  },
+  {
+    "route": "/story/",
+    "width": 390,
+    "violations": []
+  },
+  {
+    "route": "/story/",
+    "width": 1440,
+    "violations": []
+  },
+  {
+    "route": "/gallery/",
+    "width": 390,
+    "violations": []
+  },
+  {
+    "route": "/gallery/",
+    "width": 1440,
+    "violations": []
+  },
+  {
+    "route": "/visit/",
+    "width": 390,
+    "violations": []
+  },
+  {
+    "route": "/visit/",
+    "width": 1440,
+    "violations": []
+  }
+]

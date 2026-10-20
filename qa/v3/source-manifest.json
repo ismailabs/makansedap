@@ -1,0 +1,566 @@
+{
+  "at": "2026-10-20T13:14:52.299Z",
+  "scope": "Tested filesystem bytes before candidate commit; Git filtered blob identities are bound separately after commit.",
+  "files": [
+    {
+      "file": "site/_headers",
+      "bytes": 435,
+      "sha256": "2c3591c467f12e089a6a19feba058044332aa8cae28569cc9207ad491f6e9764"
+    },
+    {
+      "file": "site/apple-touch-icon.png",
+      "bytes": 5193,
+      "sha256": "f42236e19f4e26cd91251199db476a16d51ea779a615da6745d9e253ce292819"
+    },
+    {
+      "file": "site/assets/css/editorial.css",
+      "bytes": 15713,
+      "sha256": "ef57334aad08aa853b02b089c59f06b7b7d5e3b295e687c8cbe32a0b6e78a0e7"
+    },
+    {
+      "file": "site/assets/css/fonts.css",
+      "bytes": 1097,
+      "sha256": "e0c8575a44af9f3ea078d5effaa7130baecac445a8b81672617442ba3ab7b729"
+    },
+    {
+      "file": "site/assets/css/makansedap.css",
+      "bytes": 9019,
+      "sha256": "289958a580bc9e0b1106d7d9ea89d26648b74b73a5ff073c3f86b9c993528019"
+    },
+    {
+      "file": "site/assets/css/site.css",
+      "bytes": 35565,
+      "sha256": "83f6dc93854ce339fed3c2fbae6b23be4c10568b6a29b8aa1cf314cf2c13d9c5"
+    },
+    {
+      "file": "site/assets/css/styles.css",
+      "bytes": 27975,
+      "sha256": "e747ce87de70511e9c49e7d7328bb1c12c40a07102fece8ce16fabf4663d4b1f"
+    },
+    {
+      "file": "site/assets/css/v2.css",
+      "bytes": 27643,
+      "sha256": "7d4a5fc7a81506b33a304669568065cf33e37e4bd547a1020414c2136762da0a"
+    },
+    {
+      "file": "site/assets/css/v3.css",
+      "bytes": 35358,
+      "sha256": "a167f1cacb99fbfd99f0f3aba55147197ee35576e278baccb15fcfdabb0258c4"
+    },
+    {
+      "file": "site/assets/fonts/Cormorant-Garamond-OFL.txt",
+      "bytes": 4386,
+      "sha256": "6f5a41d57400577a50aae88475b11f292f3d7de78ee7d5113c69577331d8ad31"
+    },
+    {
+      "file": "site/assets/fonts/DM-Sans-OFL.txt",
+      "bytes": 4481,
+      "sha256": "be5f632588774077cbb19a8d3fd788fbc7861af041f4e7165eae5822b11392b3"
+    },
+    {
+      "file": "site/assets/fonts/cormorant-italic.woff2",
+      "bytes": 39260,
+      "sha256": "6f2f5c3b1abc3d0bb035a927f66a90ca873f94fc31c4966c8d024142c2036e55"
+    },
+    {
+      "file": "site/assets/fonts/cormorant-normal.woff2",
+      "bytes": 37640,
+      "sha256": "d80df8ff5aecd299a61549f9e29ab1ed0b9b05f4ea71d50fe978e07d5240b235"
+    },
+    {
+      "file": "site/assets/fonts/dm-sans-normal.woff2",
+      "bytes": 36932,
+      "sha256": "9fea608a947e67020c33cad9a6fe3d60c54119dfb8cff87768a8117a15ed7543"
+    },
+    {
+      "file": "site/assets/icons/desserts.svg",
+      "bytes": 210,
+      "sha256": "ad457f14e97bff824718f50adef003fe08c9423be93f42577c78d9946e3e924b"
+    },
+    {
+      "file": "site/assets/icons/drinks.svg",
+      "bytes": 224,
+      "sha256": "8a31d8f3532c5deffea7c3b23f876499a05af005d8da03f327ba6f52da5668cb"
+    },
+    {
+      "file": "site/assets/icons/grill.svg",
+      "bytes": 227,
+      "sha256": "910e88177f939eb8ab340ff01745518db71ed5de208df91365a7bab1df3c813e"
+    },
+    {
+      "file": "site/assets/icons/logo.svg",
+      "bytes": 510,
+      "sha256": "05a0d4f23c68944c362f39c7cbce50628c3a8501baad3e11311096b5cb3e4aa4"
+    },
+    {
+      "file": "site/assets/icons/malaysian.svg",
+      "bytes": 220,
+      "sha256": "67591a15233e1825841d0cb6293bbd121268c8452762010e4f95963aff6b3a06"
+    },
+    {
+      "file": "site/assets/icons/monogram.svg",
+      "bytes": 388,
+      "sha256": "d79ee9e2952f5c76d73c31d5452aa35df0413d75473df692855e2437d153203e"
+    },
+    {
+      "file": "site/assets/icons/sides.svg",
+      "bytes": 225,
+      "sha256": "7da1dedc5826f2fd5978c8bfc4d4ab0f5983ac9bd26889495a95f2a8599ba920"
+    },
+    {
+      "file": "site/assets/icons/starters.svg",
+      "bytes": 213,
+      "sha256": "ceef2d9e5adc4a62c971e25b986e9c774d9d5815c5f256801245f78fefb46d80"
+    },
+    {
+      "file": "site/assets/icons/steaks.svg",
+      "bytes": 232,
+      "sha256": "bde89d58a8dae47a82d24535c25ba104f6eec1ba0f2890ae2e399ff1db71febe"
+    },
+    {
+      "file": "site/assets/images/bandung-lychee-640.webp",
+      "bytes": 23460,
+      "sha256": "84c8c542f495844fd3e014d2f16d0d9ac73a7ceee298b8844c1c6306ef324b14"
+    },
+    {
+      "file": "site/assets/images/bandung-lychee-960.webp",
+      "bytes": 43814,
+      "sha256": "1cdcdc8a6991ed2096bb41e3e9810216ff25fa3e3f50be1abe003a8fcd8f496e"
+    },
+    {
+      "file": "site/assets/images/bandung-lychee.webp",
+      "bytes": 112650,
+      "sha256": "0ad576ab930f22b925ed6c0016e558be6c41943c1bcdc61ba5fa00c77bda4a04"
+    },
+    {
+      "file": "site/assets/images/beef-rendang-640.webp",
+      "bytes": 43470,
+      "sha256": "d8ab9b3b6aaa9c285a9dc368356b56f1e0773186880ddb0a84b56dfe82addcdd"
+    },
+    {
+      "file": "site/assets/images/beef-rendang-960.webp",
+      "bytes": 83860,
+      "sha256": "27dee3549f11c8e5ad916cf6bf99c099f90b1f6765fecd66d3def6fbafe9b37f"
+    },
+    {
+      "file": "site/assets/images/beef-rendang.webp",
+      "bytes": 212498,
+      "sha256": "fe9f68bae5eaac4a79b840598f3280a5f55725bb346f01418599b46b2c62874d"
+    },
+    {
+      "file": "site/assets/images/burnt-cheesecake-640.webp",
+      "bytes": 26916,
+      "sha256": "16eff1ee03b31a5f66950c5bfb68a6f07fedef43b0a03ed25b7d2129f084cc64"
+    },
+    {
+      "file": "site/assets/images/burnt-cheesecake-960.webp",
+      "bytes": 52314,
+      "sha256": "fdea5d9057b9a99b1eee0169d9b9e78017775602adbbd754f8815e662351d9c4"
+    },
+    {
+      "file": "site/assets/images/burnt-cheesecake.webp",
+      "bytes": 135582,
+      "sha256": "21fad17293941d6bbecb3f0694908ce4d949a79bce7c44e87d431307e48047e1"
+    },
+    {
+      "file": "site/assets/images/charcoal-lamb-640.webp",
+      "bytes": 40426,
+      "sha256": "be1548d1ec38b2ca7713e5e969bce4f6d16ec0d311a7a20cbd4ac4ae86f006d2"
+    },
+    {
+      "file": "site/assets/images/charcoal-lamb-960.webp",
+      "bytes": 76800,
+      "sha256": "1e9742983efc72547a174e78b35022db88e24314e17f5a3711ad1206fde6e710"
+    },
+    {
+      "file": "site/assets/images/charcoal-lamb.webp",
+      "bytes": 193906,
+      "sha256": "cf941b496b32755ef70b2abddaf465dbc9f5c86bf7a5f6bde65bed309031e617"
+    },
+    {
+      "file": "site/assets/images/dessert-brulee-640.webp",
+      "bytes": 38000,
+      "sha256": "73596a9f1949c3e177f8c105111c015a67a904a4231c19518d8d7807b76a1fa5"
+    },
+    {
+      "file": "site/assets/images/dessert-brulee-960.webp",
+      "bytes": 72698,
+      "sha256": "5d88d191999af4f73d0bf357305eebcc991567204f88ec289cc6c7c900d4921f"
+    },
+    {
+      "file": "site/assets/images/dessert-brulee.webp",
+      "bytes": 181698,
+      "sha256": "a04afe55f312c83a7e8e119d600ffcc0d588907f6fcbbb503b6c4badee1a9ace"
+    },
+    {
+      "file": "site/assets/images/dining-room-640.webp",
+      "bytes": 36468,
+      "sha256": "0f4952b4f068eafdf7153733f5790434e1e66baaf8f84e5e8435c13c57d19296"
+    },
+    {
+      "file": "site/assets/images/dining-room-960.webp",
+      "bytes": 75704,
+      "sha256": "ebb6e188ce322027c35d6b28a3adf2394d819e77806d47d573b016fdadeaba98"
+    },
+    {
+      "file": "site/assets/images/dining-room.webp",
+      "bytes": 209356,
+      "sha256": "a8f3b5c0582596f52d7da783d784ae9bfee6a9613f2b51a45cca9bd69bea872e"
+    },
+    {
+      "file": "site/assets/images/evening-tables-640.webp",
+      "bytes": 30218,
+      "sha256": "65f39d8609d881f67471fd6e78ceb41f4e1eea61c33c0178e5a67c0bba254d11"
+    },
+    {
+      "file": "site/assets/images/evening-tables-960.webp",
+      "bytes": 53716,
+      "sha256": "8a2829322616eee5c38e8d084fd403c4e6532f4f230ad4fc7cceaffe02535cdb"
+    },
+    {
+      "file": "site/assets/images/evening-tables.webp",
+      "bytes": 129094,
+      "sha256": "42f941f265225d72554eeca4f0dd1694e3859466179394658c7f825db3033782"
+    },
+    {
+      "file": "site/assets/images/fresh-ingredients-640.webp",
+      "bytes": 46922,
+      "sha256": "efca6cfa4b4da9d6e821f01115ef1cccd95a2f76e0b45a18f9e5c0e8e7f3c69f"
+    },
+    {
+      "file": "site/assets/images/fresh-ingredients-960.webp",
+      "bytes": 91160,
+      "sha256": "a08b18b9c5398ab8930b5ee57064853be1d3adfa197e89ddbaf487c9db242bdf"
+    },
+    {
+      "file": "site/assets/images/fresh-ingredients.webp",
+      "bytes": 247454,
+      "sha256": "19449d41a315e5da5a68263b85c5f36138bffcec7ced4c9487bd2b3ae2d917ff"
+    },
+    {
+      "file": "site/assets/images/grill-fire-640.webp",
+      "bytes": 49150,
+      "sha256": "a15c2380e37eba070eb00f648c601c357ea786f3bd23fb52893d90998a762654"
+    },
+    {
+      "file": "site/assets/images/grill-fire-960.webp",
+      "bytes": 91080,
+      "sha256": "07e14ae039eede769742c0b0479f306234f5de4d0cf3e4bfc939cd85ba4d6b99"
+    },
+    {
+      "file": "site/assets/images/grill-fire.webp",
+      "bytes": 217382,
+      "sha256": "3464a04dd0a69d224f2f53c466bd92b0935bf237b2da409d2534aeb4f1b854f3"
+    },
+    {
+      "file": "site/assets/images/grilled-prawns-640.webp",
+      "bytes": 39634,
+      "sha256": "b5ed9ca983f5d3ce2e32bf23eebfa611113874ed8dee42d698ce3d6abcca5eba"
+    },
+    {
+      "file": "site/assets/images/grilled-prawns-960.webp",
+      "bytes": 76794,
+      "sha256": "2bfafcb012e752126ca84e9a8600a199236b6e2f00ef5a34358f13d7b2f8a979"
+    },
+    {
+      "file": "site/assets/images/grilled-prawns.webp",
+      "bytes": 194616,
+      "sha256": "5c7b804f9e9cf8a55b25b14fe42ed8158a5067dc371fcb71ec73a60cfcba02fe"
+    },
+    {
+      "file": "site/assets/images/hero-ribeye-640.webp",
+      "bytes": 40770,
+      "sha256": "105f4bc7d38eeb08ec08df335cff3a6f4dcba2c8bf7a5ea30dd722b497f6f661"
+    },
+    {
+      "file": "site/assets/images/hero-ribeye-960.webp",
+      "bytes": 81210,
+      "sha256": "94626f025118e79a914fdeffe574bf7838894b93fcc4bb20e34469f0db5db04a"
+    },
+    {
+      "file": "site/assets/images/hero-ribeye.webp",
+      "bytes": 207706,
+      "sha256": "5cc49561c1e619e4a91be735adce932ef4e30f930377b60c56efc6380dd10afe"
+    },
+    {
+      "file": "site/assets/images/kopi-gula-melaka-640.webp",
+      "bytes": 26042,
+      "sha256": "53fb798460c9ebef5acd7db038318ed10e35a9bd34da835427480487c0a017bd"
+    },
+    {
+      "file": "site/assets/images/kopi-gula-melaka-960.webp",
+      "bytes": 49032,
+      "sha256": "8407db9ee183211944bda02d87fa7812feeffdeb0970e0cae92f7549714c1a94"
+    },
+    {
+      "file": "site/assets/images/kopi-gula-melaka.webp",
+      "bytes": 126852,
+      "sha256": "8717b355f0e2ea10c0afef92b85f4c132cbe6ed0040f546cc50be3f205528ebf"
+    },
+    {
+      "file": "site/assets/images/mushroom-soup-640.webp",
+      "bytes": 39386,
+      "sha256": "f7c5ddab75b95e774fe93c894f9bd7e158d894725f47594bef9e299a3f7974c0"
+    },
+    {
+      "file": "site/assets/images/mushroom-soup-960.webp",
+      "bytes": 75928,
+      "sha256": "42e6964b0d4d0f2d04b10af6a7df597f17a0426701f18ad5620d8da6329f5c6a"
+    },
+    {
+      "file": "site/assets/images/mushroom-soup.webp",
+      "bytes": 188614,
+      "sha256": "ee6f61b5a0761d1a3841dcfd6ccff03712853f76f095d63056a573cbc59e86e1"
+    },
+    {
+      "file": "site/assets/images/nasi-lemak-640.webp",
+      "bytes": 40230,
+      "sha256": "4a1d4f055daa8845563c0f2f57ed86afe007cc28b06f5bc3c257c4bc513be642"
+    },
+    {
+      "file": "site/assets/images/nasi-lemak-960.webp",
+      "bytes": 73674,
+      "sha256": "33855bd4bdd08f91254820724090c9e12b4c79de337af9e1e40235b6b2398429"
+    },
+    {
+      "file": "site/assets/images/nasi-lemak.webp",
+      "bytes": 173524,
+      "sha256": "2edd5e0ef16e21be99a0debd1f2bd8415813e85d1a5585fd5cb13bc3fc6392dc"
+    },
+    {
+      "file": "site/assets/images/pandan-dessert-640.webp",
+      "bytes": 26572,
+      "sha256": "b9188a0682ba91c4d73c5d68aafa40eff418d2903cf51f8619375cafedd14093"
+    },
+    {
+      "file": "site/assets/images/pandan-dessert-960.webp",
+      "bytes": 48644,
+      "sha256": "86dc174e53523de1f3afac7156fff88443219d05fd52a1974af0ef8105a95c89"
+    },
+    {
+      "file": "site/assets/images/pandan-dessert.webp",
+      "bytes": 124772,
+      "sha256": "671033f056288b49c14217296c18ac232583f438fbac5953b5fc4cfc4de51362"
+    },
+    {
+      "file": "site/assets/images/pepper-sirloin-640.webp",
+      "bytes": 40414,
+      "sha256": "200576d39a5a9a2872605b6674efb79c559a4031ce7418a6340f532b117611c1"
+    },
+    {
+      "file": "site/assets/images/pepper-sirloin-960.webp",
+      "bytes": 77748,
+      "sha256": "9dc07fdc9b7baf07da65ef98adf939f0aa202f6cbc9a1758fb254f8545ccf5c0"
+    },
+    {
+      "file": "site/assets/images/pepper-sirloin.webp",
+      "bytes": 197464,
+      "sha256": "d3ead8df28e8a3ab22ec3bea67b0e9c393f996c44d55759cfa7ffbf73e8b4c23"
+    },
+    {
+      "file": "site/assets/images/percik-chicken-640.webp",
+      "bytes": 36700,
+      "sha256": "ba3acae04b1d9075201961c6feac271664d7edd00cef546430cb56092846ec6f"
+    },
+    {
+      "file": "site/assets/images/percik-chicken-960.webp",
+      "bytes": 69974,
+      "sha256": "6281446a045be02a7f70f76ba77b9f7188c46ca55373ec69c3c24095279411e6"
+    },
+    {
+      "file": "site/assets/images/percik-chicken.webp",
+      "bytes": 173754,
+      "sha256": "e864c5d020575a4bac0f79358a7b8662b9ee2dbaed537a8656f0f43612be4aeb"
+    },
+    {
+      "file": "site/assets/images/signature-ribeye-640.webp",
+      "bytes": 38582,
+      "sha256": "039bff142cb5fa6f60c28d78797e3d1739254f3e774e425c99eadb9cce956fe7"
+    },
+    {
+      "file": "site/assets/images/signature-ribeye-960.webp",
+      "bytes": 74288,
+      "sha256": "4a14d09771278a7a56c72ee06646e23a0c2c36299695eb6e983af4477f5b75ad"
+    },
+    {
+      "file": "site/assets/images/signature-ribeye.webp",
+      "bytes": 191202,
+      "sha256": "795ee5b558743007f6c938619cfefec31adc07aed3a3a3eca0ebc8103d85ae16"
+    },
+    {
+      "file": "site/assets/images/social-preview.png",
+      "bytes": 447193,
+      "sha256": "a6755c438ed39aaddf9523c9cf72d3e2730650706696ba4b88f49c17d931d49d"
+    },
+    {
+      "file": "site/assets/images/v3/floating-aromatics-240.webp",
+      "bytes": 23484,
+      "sha256": "bb0b2d03f8afede4a59f1f20461ed8f0e173fca31c862093487a024ebd6245d5"
+    },
+    {
+      "file": "site/assets/images/v3/floating-aromatics-480.webp",
+      "bytes": 73370,
+      "sha256": "60a2edb260b1e7c9ce4d32027d0bd0e5b175546fdfd0c0503070a90ced81ceba"
+    },
+    {
+      "file": "site/assets/images/v3/floating-aromatics-768.webp",
+      "bytes": 172440,
+      "sha256": "48b371780df265b8743e4dc3ae488f9652fe30abc038658619d6f08d179003da"
+    },
+    {
+      "file": "site/assets/images/v3/hero-plate-240.webp",
+      "bytes": 17568,
+      "sha256": "aed716ba528c08831fd06039acea2a616b11c5896be42c67e1c2db7f2e759232"
+    },
+    {
+      "file": "site/assets/images/v3/hero-plate-480.webp",
+      "bytes": 52434,
+      "sha256": "c344ccd29bd26d8b7498b4de2cddfc38d165be702fe9cb7f6d098df89a196d1b"
+    },
+    {
+      "file": "site/assets/images/v3/hero-plate-768.webp",
+      "bytes": 108102,
+      "sha256": "9193db8c58907d2162a7986bd2cc5fbdb5e432932278ecfd7c29f3a51c047f42"
+    },
+    {
+      "file": "site/assets/images/v3/journal-aromatics-320.webp",
+      "bytes": 18594,
+      "sha256": "8342e695d8b0992df532d877666e6fe4ec009da7e65370eaafc2eb0e4caf6ad3"
+    },
+    {
+      "file": "site/assets/images/v3/journal-aromatics-480.webp",
+      "bytes": 35850,
+      "sha256": "9aece4776a51db8b8db371225e34cb60b3a278b570a5c36b88b8983e73d465cf"
+    },
+    {
+      "file": "site/assets/images/v3/journal-ribeye-320.webp",
+      "bytes": 14640,
+      "sha256": "b8c67ce25d0b1e3e736f8ed2e82f608bac49f3b64b31ad936f11593647d5f5a7"
+    },
+    {
+      "file": "site/assets/images/v3/journal-ribeye-480.webp",
+      "bytes": 29980,
+      "sha256": "b1ef4322f3a805a5dabac610f766452ccd7b642496c938f819242500ce3c0d64"
+    },
+    {
+      "file": "site/assets/images/v3/vectors/banana-leaf-frame.svg",
+      "bytes": 487,
+      "sha256": "1fb4f0a1716df3bb951b287be242116a63ee35887a98b0bbdab9e073a9ec1b5f"
+    },
+    {
+      "file": "site/assets/images/v3/vectors/brand-stamp.svg",
+      "bytes": 400,
+      "sha256": "6446bf723c7fdbba36828f6453bd73ae581fdb5451d3c8c96ce6bdd2a1d459ba"
+    },
+    {
+      "file": "site/assets/images/v3/vectors/flame-lines.svg",
+      "bytes": 451,
+      "sha256": "e398365d840e05f338377c18068f833ac11d0f1abde132a4b917e1797c76dd27"
+    },
+    {
+      "file": "site/assets/images/v3/vectors/spice-orbit.svg",
+      "bytes": 681,
+      "sha256": "401e886ef895f4a44d6397bed1d57b8d10a7c49b4095192fdcd1bb7585139178"
+    },
+    {
+      "file": "site/assets/js/main.js",
+      "bytes": 12292,
+      "sha256": "e0387cf50ebf182ac8a126e0e337dac6974ce5b7db55ba76b9395d6d4ebe6dd8"
+    },
+    {
+      "file": "site/assets/js/motion/gallery.js",
+      "bytes": 860,
+      "sha256": "6dba0dedb7f3d1257c2f63ca827062cb286ddf10007d11a5ed7dd2c6c3efee35"
+    },
+    {
+      "file": "site/assets/js/motion/home.js",
+      "bytes": 1837,
+      "sha256": "22eb75fe52a6705122ad1089cf452199451098e934273d11765c75e14ec439bb"
+    },
+    {
+      "file": "site/assets/js/motion/index.js",
+      "bytes": 1823,
+      "sha256": "7292a223162c1912a822f5d2dca07ee6bb9bba29997a3a2158a1f416f371fafd"
+    },
+    {
+      "file": "site/assets/js/motion/menu.js",
+      "bytes": 558,
+      "sha256": "82001f4f44f92e5e99148f357e5974dc6444e79f58a0013ae7ced399d311c020"
+    },
+    {
+      "file": "site/assets/js/motion/native.js",
+      "bytes": 1392,
+      "sha256": "644db1df82093a8ababd272c75893f9d23228451a6d86f82a3d29c81fcdf63a0"
+    },
+    {
+      "file": "site/assets/js/motion/scroll.js",
+      "bytes": 1609,
+      "sha256": "b9c23ac52b72dac9d320b87b21401f88cf708ebc4331aea01f499d66da5d7071"
+    },
+    {
+      "file": "site/assets/js/motion/story.js",
+      "bytes": 783,
+      "sha256": "1478be3fb3bc207fd1d10aaf449942bab630cd09d162030b69bc7796632e5e5b"
+    },
+    {
+      "file": "site/assets/js/motion/visit.js",
+      "bytes": 431,
+      "sha256": "43ef95a179f168ce01d1c8a15f3459940b501cc8c312e5d2ec363df418ea7b97"
+    },
+    {
+      "file": "site/assets/js/vendor/GSAP-LICENSE.txt",
+      "bytes": 447,
+      "sha256": "5a9ed7dde03a81dd4b96d9474d300e4f5dec375bd53c28b5d544d730259e4bcf"
+    },
+    {
+      "file": "site/assets/js/vendor/gsap-3.15.0.js",
+      "bytes": 115026,
+      "sha256": "825f21351ecce50f68935e4b0466640eaeb47d364765a2ab78b3c50bf28a761e"
+    },
+    {
+      "file": "site/favicon-32.png",
+      "bytes": 765,
+      "sha256": "b1d155abc7f9f71af9ea1bbd0bdedcfb8872805808ecf6b3345021ea5014eb85"
+    },
+    {
+      "file": "site/favicon.svg",
+      "bytes": 388,
+      "sha256": "d79ee9e2952f5c76d73c31d5452aa35df0413d75473df692855e2437d153203e"
+    },
+    {
+      "file": "site/gallery/index.html",
+      "bytes": 23625,
+      "sha256": "052f10a7de056f44a6bccd02141d645bc94209b84a8081a9e2c6e07f2f8695fb"
+    },
+    {
+      "file": "site/index.html",
+      "bytes": 10537,
+      "sha256": "8da31b17da3556c924f51d1f9834ad299666f98e1c684e47aaa6368ada706a36"
+    },
+    {
+      "file": "site/menu/index.html",
+      "bytes": 29296,
+      "sha256": "22e4f33d8cc321ba783c54bbda907e3b2767faafbc61593d59d3131bfa9fdc47"
+    },
+    {
+      "file": "site/robots.txt",
+      "bytes": 79,
+      "sha256": "0a72aa5013fa54f2a0ccc5d3cff75b5a82ef6f2697fec1e15e95089fdcba230b"
+    },
+    {
+      "file": "site/sitemap.xml",
+      "bytes": 419,
+      "sha256": "8057b359e3b61eb65f824b54f0fe139536e3deb852e2e2c5196e74562358b6b3"
+    },
+    {
+      "file": "site/story/index.html",
+      "bytes": 8556,
+      "sha256": "4f39ae15fedf2edd69a7e3b5fb0a74dff0a4179b6a3cb7b8ae1ea8e417794de2"
+    },
+    {
+      "file": "site/visit/index.html",
+      "bytes": 9898,
+      "sha256": "bfe07338b40d99de02b6b90006ce75e665b0dd73812d24c6cb3ac21787de4d59"
+    }
+  ]
+}

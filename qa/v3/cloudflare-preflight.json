@@ -1,0 +1,33 @@
+{
+  "checkedAt": "2026-10-20T13:07:25.656Z",
+  "account": "44214a829e2337ca50cf40e4cd827cba",
+  "worker": "makansedap",
+  "deployment": "759647e6-78d1-49ca-91ed-1ed7c0541f4a",
+  "versions": [
+    {
+      "version_id": "4866e79b-64af-45fa-bacc-6f2ea3c3e216",
+      "percentage": 100
+    }
+  ],
+  "createdOn": "2026-10-19T03:55:25.264328Z",
+  "rollbackVersionRead": {
+    "success": true,
+    "id": "4866e79b-64af-45fa-bacc-6f2ea3c3e216",
+    "number": 4,
+    "created_on": "2026-10-19T03:55:24.236551Z",
+    "releaseBinding": [
+      {
+        "name": "RELEASE_COMMIT",
+        "text": "695daaa31b57b6d3af261696644db2f80ef2e7ab",
+        "type": "plain_text"
+      }
+    ]
+  },
+  "workerBuildTriggers": {
+    "checkedAt": "2026-10-20T13:17:32.401Z",
+    "workerTag": "11d37e0eeb4b46aca574b5239b7e15f1",
+    "status": 200,
+    "triggers": [],
+    "scope": "No Worker Builds triggers configured. No tracked GitHub workflow exists. Feature-branch push does not publish this candidate."
+  }
+}

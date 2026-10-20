@@ -9,7 +9,7 @@ const destinations=['https://ismailstudio.my/','https://wa.me/601163265610'];
 const server=process.env.EXTENDED_BASE?null:await startServer(0);
 const base=(process.env.EXTENDED_BASE||`http://127.0.0.1:${server.address().port}`).replace(/\/$/,'');
 const mode=process.env.EXTENDED_BASE?'hosted':'local';
-const evidenceRoot=`qa/v2/extended-${mode}`;
+const evidenceRoot=process.env.QA_ROOT||`qa/v3/extended-${mode}`;
 await mkdir(evidenceRoot,{recursive:true});
 const evidence={date:new Date().toISOString(),base,mode,checks:[],failures:[],screenshots:[],scope:'Automated browser checks; 200% text is CSS text enlargement, not a claim of OS/browser zoom or full accessibility compliance.'};
 const browser=await chromium.launch();
@@ -32,7 +32,7 @@ try{
    for(const destination of destinations)assert.ok(links.some(link=>link.href===destination&&link.name.length>0),`Missing named conversion link ${destination} on ${route}`);
    for(const link of links.filter(link=>link.target==='_blank'))assert.match(link.rel,/\bnoopener\b/,`Unsafe new-tab link ${link.href}`);
   }
-  return {destinations,sourceEvidence:'qa/v2/before/studio-source.html; exact WhatsApp link appears on the verified Studio site'};
+  return {destinations,scope:'Checks the local or hosted route link structure. Fresh external Studio-source verification is recorded separately in qa/v3/studio-verification.json.'};
  });
  await test('Mobile navigation and keyboard skip link remain usable',async()=>{
   await page.setViewportSize({width:320,height:780});await page.goto(base+'/');
@@ -143,7 +143,7 @@ try{
  evidence.browser=browser.version();
 }finally{
  await browser.close();if(server)await new Promise(resolve=>server.close(resolve));
- await writeFile(`qa/v2/extended-${mode}-results.json`,JSON.stringify(evidence,null,2)+'\n');
+ await writeFile(`${evidenceRoot}/results.json`,JSON.stringify(evidence,null,2)+'\n');
 }
 console.log(`${evidence.checks.length} extended checks passed; ${evidence.failures.length} failed.`);
 if(evidence.failures.length)process.exitCode=1;

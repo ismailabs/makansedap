@@ -1,0 +1,132 @@
+[
+  {
+    "name": "accessibility-scan",
+    "scope": "project",
+    "sha256": "de3d06b044ea52b6cf325da7a701fd06bd1ee2a7e1e1f6e19b4a30eb2d3e6f0e"
+  },
+  {
+    "name": "banner-design",
+    "scope": "project",
+    "sha256": "913d9c4b2a3b405d638d50131e0dd3fe2787c839423d79287b7858ac29255acc"
+  },
+  {
+    "name": "brand",
+    "scope": "project",
+    "sha256": "6a450ee1a83a403d47cec2ede9030feb60a67a81fc425d2406e975339313bd44"
+  },
+  {
+    "name": "design",
+    "scope": "project",
+    "sha256": "413f4ab913d07f7fd92acbadc25d71aad63443be0c40d11234944aea688603b6"
+  },
+  {
+    "name": "design-system",
+    "scope": "project",
+    "sha256": "655468bb723a6bc9d17fcb09a6a005e10e313d63b879f4d74fb2abdc3041ae3f"
+  },
+  {
+    "name": "design-taste-frontend",
+    "scope": "project",
+    "sha256": "3b3b99bfa39a3c8872ac397be7944cfd8d2a7b80d752bfded6c96bb25d41cf5e"
+  },
+  {
+    "name": "gsap-core",
+    "scope": "project",
+    "sha256": "de938eefd9a5bc6335216a17783788cd21408923ead290cda5871b7d61db66b8"
+  },
+  {
+    "name": "gsap-performance",
+    "scope": "project",
+    "sha256": "2dd51f19a7fcabe1c06caee9e61554485696d05003396c528237aba970a959ce"
+  },
+  {
+    "name": "gsap-scrolltrigger",
+    "scope": "project",
+    "sha256": "e6612777bcce1617d3b9e061b2f671fb0f36379684d0c61f7a1baa06d7f7a989"
+  },
+  {
+    "name": "gsap-timeline",
+    "scope": "project",
+    "sha256": "fbe7a2b9e66e66d2c956f650583d48385498b677ba1292f1dce9d1ffb1a77ea0"
+  },
+  {
+    "name": "playwright",
+    "scope": "project",
+    "sha256": "c52cc95125b720cdc3c9829b0294c2752d4ae9b85a5282aa153da8bba929af87"
+  },
+  {
+    "name": "slides",
+    "scope": "project",
+    "sha256": "2b90bdaf63f231919a01f4962f374ecd84af101a7e7545f8d9c68e049025accb"
+  },
+  {
+    "name": "ui-styling",
+    "scope": "project",
+    "sha256": "f8b6c3832d2af51f67b3932e3c4a79bcd8a8596cc61ce1547a686fc951e5c62d"
+  },
+  {
+    "name": "ui-ux-pro-max",
+    "scope": "project",
+    "sha256": "e5baf9400d4347e5ed3eb1f6b99cd0b9ba545b8b0e507aabb2b87397bbf73ea1"
+  },
+  {
+    "name": "web-design-guidelines",
+    "scope": "project",
+    "sha256": "17e48da905f83a19c174079b50760a98c069527ba50079239b3c187236627c29"
+  },
+  {
+    "name": "web-perf",
+    "scope": "project",
+    "sha256": "da4e967ba1544477ba2ce2bc9e6eb86f5eec48997c7773023154a9eaf189965e"
+  },
+  {
+    "name": "wrangler",
+    "scope": "project",
+    "sha256": "89684e5c984c41c9b370999aa1d4030a638585c988a766351c7566ff8784ef9a"
+  },
+  {
+    "name": "find-skills",
+    "scope": "user",
+    "sha256": "c00eeea0e13e74fe4a9d84ba0a8542205a1b736d65f13134fe1a6647eb14976f"
+  },
+  {
+    "name": "frontend-design",
+    "scope": "user",
+    "sha256": "b8009ae690dfa69edc7f08bb8715f32db8817112cfa4388741dbaf876c237df8"
+  },
+  {
+    "name": "redesign-existing-projects",
+    "scope": "user",
+    "sha256": "089b2735a58eaf4c2dd760dbe89d2ad6bb87d90e7b2ea4dd4cdd900f213c98d9"
+  },
+  {
+    "name": "imagegen",
+    "scope": "codex",
+    "sha256": "706d4d96e1d5c9e6023fe3ccabba1bb34b364024d344fd25b8515ec7d28fe3c4"
+  },
+  {
+    "name": "openai-docs",
+    "scope": "codex",
+    "sha256": "8ce8021101bcea594ff92ee6cfd8ca7641a49ee66d7bc6070555f1a33fc239d9"
+  },
+  {
+    "name": "review-agent",
+    "scope": "codex",
+    "sha256": "bb46315f6bc4b7051c05f807d19b1689b20418ac6c42590406d805c10fa2fd1a"
+  },
+  {
+    "name": "skill-creator",
+    "scope": "codex",
+    "sha256": "cccd291077ec57c6f50ca6529f0f3fb93212da09473effb2fcec808e81b21288"
+  },
+  {
+    "name": "skill-installer",
+    "scope": "codex",
+    "sha256": "2892d8b2fb11631132118f340aed80ae17e59d5a571fc2c4f4a4a7e73f139d52"
+  },
+  {
+    "name": "hatch-pet",
+    "scope": "codex",
+    "sha256": "ac22ec3cbabc95ba03ee3d7cf43a1209fcd139d56c69d35b10c57b9b5f794da0"
+  }
+]

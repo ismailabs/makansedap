@@ -1,0 +1,6 @@
+{
+  "at": "2026-10-20T13:14:52.442Z",
+  "result": "NOT_RUN",
+  "reason": "V3 release blocked by local performance gate; existing V2 production was not overwritten or incorrectly tested as V3.",
+  "currentProductionSource": "695daaa31b57b6d3af261696644db2f80ef2e7ab"
+}

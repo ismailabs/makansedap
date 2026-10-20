@@ -1,0 +1,441 @@
+{
+  "at": "2026-10-20T10:44:50.281Z",
+  "sha": "19e44f6c12dc4f5d4676ab9e4a0c76f70d8ea80a",
+  "browser": "156.0.8078.4",
+  "pages": [
+    {
+      "mode": "local",
+      "route": "/",
+      "width": 390,
+      "url": "http://127.0.0.1:54770/",
+      "status": 200,
+      "headers": {
+        "cache-control": "no-cache",
+        "connection": "keep-alive",
+        "content-type": "text/html; charset=utf-8",
+        "date": "Tue, 20 Oct 2026 10:44:52 GMT",
+        "keep-alive": "timeout=5",
+        "transfer-encoding": "chunked",
+        "x-content-type-options": "nosniff",
+        "x-robots-tag": "index, follow"
+      }
+    },
+    {
+      "mode": "local",
+      "route": "/menu/",
+      "width": 390,
+      "url": "http://127.0.0.1:54770/menu/",
+      "status": 200,
+      "headers": {
+        "cache-control": "no-cache",
+        "connection": "keep-alive",
+        "content-type": "text/html; charset=utf-8",
+        "date": "Tue, 20 Oct 2026 10:44:55 GMT",
+        "keep-alive": "timeout=5",
+        "transfer-encoding": "chunked",
+        "x-content-type-options": "nosniff",
+        "x-robots-tag": "index, follow"
+      }
+    },
+    {
+      "mode": "local",
+      "route": "/story/",
+      "width": 390,
+      "url": "http://127.0.0.1:54770/story/",
+      "status": 200,
+      "headers": {
+        "cache-control": "no-cache",
+        "connection": "keep-alive",
+        "content-type": "text/html; charset=utf-8",
+        "date": "Tue, 20 Oct 2026 10:44:58 GMT",
+        "keep-alive": "timeout=5",
+        "transfer-encoding": "chunked",
+        "x-content-type-options": "nosniff",
+        "x-robots-tag": "index, follow"
+      }
+    },
+    {
+      "mode": "local",
+      "route": "/gallery/",
+      "width": 390,
+      "url": "http://127.0.0.1:54770/gallery/",
+      "status": 200,
+      "headers": {
+        "cache-control": "no-cache",
+        "connection": "keep-alive",
+        "content-type": "text/html; charset=utf-8",
+        "date": "Tue, 20 Oct 2026 10:45:00 GMT",
+        "keep-alive": "timeout=5",
+        "transfer-encoding": "chunked",
+        "x-content-type-options": "nosniff",
+        "x-robots-tag": "index, follow"
+      }
+    },
+    {
+      "mode": "local",
+      "route": "/visit/",
+      "width": 390,
+      "url": "http://127.0.0.1:54770/visit/",
+      "status": 200,
+      "headers": {
+        "cache-control": "no-cache",
+        "connection": "keep-alive",
+        "content-type": "text/html; charset=utf-8",
+        "date": "Tue, 20 Oct 2026 10:45:03 GMT",
+        "keep-alive": "timeout=5",
+        "transfer-encoding": "chunked",
+        "x-content-type-options": "nosniff",
+        "x-robots-tag": "index, follow"
+      }
+    },
+    {
+      "mode": "local",
+      "route": "/",
+      "width": 1440,
+      "url": "http://127.0.0.1:54770/",
+      "status": 200,
+      "headers": {
+        "cache-control": "no-cache",
+        "connection": "keep-alive",
+        "content-type": "text/html; charset=utf-8",
+        "date": "Tue, 20 Oct 2026 10:45:05 GMT",
+        "keep-alive": "timeout=5",
+        "transfer-encoding": "chunked",
+        "x-content-type-options": "nosniff",
+        "x-robots-tag": "index, follow"
+      }
+    },
+    {
+      "mode": "local",
+      "route": "/menu/",
+      "width": 1440,
+      "url": "http://127.0.0.1:54770/menu/",
+      "status": 200,
+      "headers": {
+        "cache-control": "no-cache",
+        "connection": "keep-alive",
+        "content-type": "text/html; charset=utf-8",
+        "date": "Tue, 20 Oct 2026 10:45:09 GMT",
+        "keep-alive": "timeout=5",
+        "transfer-encoding": "chunked",
+        "x-content-type-options": "nosniff",
+        "x-robots-tag": "index, follow"
+      }
+    },
+    {
+      "mode": "local",
+      "route": "/story/",
+      "width": 1440,
+      "url": "http://127.0.0.1:54770/story/",
+      "status": 200,
+      "headers": {
+        "cache-control": "no-cache",
+        "connection": "keep-alive",
+        "content-type": "text/html; charset=utf-8",
+        "date": "Tue, 20 Oct 2026 10:45:12 GMT",
+        "keep-alive": "timeout=5",
+        "transfer-encoding": "chunked",
+        "x-content-type-options": "nosniff",
+        "x-robots-tag": "index, follow"
+      }
+    },
+    {
+      "mode": "local",
+      "route": "/gallery/",
+      "width": 1440,
+      "url": "http://127.0.0.1:54770/gallery/",
+      "status": 200,
+      "headers": {
+        "cache-control": "no-cache",
+        "connection": "keep-alive",
+        "content-type": "text/html; charset=utf-8",
+        "date": "Tue, 20 Oct 2026 10:45:14 GMT",
+        "keep-alive": "timeout=5",
+        "transfer-encoding": "chunked",
+        "x-content-type-options": "nosniff",
+        "x-robots-tag": "index, follow"
+      }
+    },
+    {
+      "mode": "local",
+      "route": "/visit/",
+      "width": 1440,
+      "url": "http://127.0.0.1:54770/visit/",
+      "status": 200,
+      "headers": {
+        "cache-control": "no-cache",
+        "connection": "keep-alive",
+        "content-type": "text/html; charset=utf-8",
+        "date": "Tue, 20 Oct 2026 10:45:18 GMT",
+        "keep-alive": "timeout=5",
+        "transfer-encoding": "chunked",
+        "x-content-type-options": "nosniff",
+        "x-robots-tag": "index, follow"
+      }
+    },
+    {
+      "mode": "production",
+      "route": "/",
+      "width": 390,
+      "url": "https://makansedap.ismailstudio.my/",
+      "status": 200,
+      "headers": {
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "cache-control": "public, max-age=0, must-revalidate",
+        "cf-cache-status": "HIT",
+        "cf-ray": "a4d76ed49edd84b7-HKG",
+        "content-encoding": "zstd",
+        "content-security-policy": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'none'; form-action 'none'; base-uri 'none'; frame-ancestors 'none'",
+        "content-type": "text/html",
+        "date": "Tue, 20 Oct 2026 10:45:26 GMT",
+        "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+        "permissions-policy": "camera=(), microphone=(), geolocation=(), payment=()",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=h74l4WpS59CnQvPLs%2FleQEf6qkhEj8iejXoJ7jKFSGlbt%2Fd0cY7TS%2BoppfYWjSOk4XNG7x7ZXaWsTHhxMWRBZiRriK5R4xAmMrfXaSq00pN9N37r6%2FHP%2FlPpvRiUwTSxHHluSIixadQHuNlv2HtIaJJmsN5Zj90Hgg%3D%3D\"}]}",
+        "server": "cloudflare",
+        "server-timing": "cfCacheStatus;desc=\"HIT\"\ncfEdge;dur=123,cfOrigin;dur=0,cfWorker;dur=40",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY",
+        "x-release-commit": "695daaa31b57b6d3af261696644db2f80ef2e7ab"
+      }
+    },
+    {
+      "mode": "production",
+      "route": "/menu/",
+      "width": 390,
+      "url": "https://makansedap.ismailstudio.my/menu/",
+      "status": 200,
+      "headers": {
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "cache-control": "public, max-age=0, must-revalidate",
+        "cf-cache-status": "HIT",
+        "cf-ray": "a4d76ee91cdbdbcf-HKG",
+        "content-encoding": "zstd",
+        "content-security-policy": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'none'; form-action 'none'; base-uri 'none'; frame-ancestors 'none'",
+        "content-type": "text/html",
+        "date": "Tue, 20 Oct 2026 10:45:29 GMT",
+        "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+        "permissions-policy": "camera=(), microphone=(), geolocation=(), payment=()",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=TM8q1%2B2Fmc8AYax5DBs4TKdlSfvPG0%2BPq8nTFpe8VbSS41m0ubPJgVZJ6NHEA%2BV4xw0568SQn08hcEKoNyg9drbKVm2fZAwuyFdV2PGs4jGlYFylCI304rbo8dGzvRb7dACsMhl8EUuwaqDnG5HAf4w4LhG59awkNA%3D%3D\"}]}",
+        "server": "cloudflare",
+        "server-timing": "cfCacheStatus;desc=\"HIT\"\ncfEdge;dur=46,cfOrigin;dur=0,cfWorker;dur=26",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY",
+        "x-release-commit": "695daaa31b57b6d3af261696644db2f80ef2e7ab"
+      }
+    },
+    {
+      "mode": "production",
+      "route": "/story/",
+      "width": 390,
+      "url": "https://makansedap.ismailstudio.my/story/",
+      "status": 200,
+      "headers": {
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "cache-control": "public, max-age=0, must-revalidate",
+        "cf-cache-status": "HIT",
+        "cf-ray": "a4d76eff0bc403f2-HKG",
+        "content-encoding": "zstd",
+        "content-security-policy": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'none'; form-action 'none'; base-uri 'none'; frame-ancestors 'none'",
+        "content-type": "text/html",
+        "date": "Tue, 20 Oct 2026 10:45:32 GMT",
+        "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+        "permissions-policy": "camera=(), microphone=(), geolocation=(), payment=()",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=3CFekB4ELLHIV63XQwQ40A6zwqRGHdldfWne4yoIrZodBqNZLSHOxoFedDwVgEzP1viKmoHgmJBrexPjSTAJIeydSDQUUnTWPHHtv4JutNNBZdsGkfhXATa7WulzJ%2FjxOnQ%2BCTfOChD4Pj39jasVMg2IKx1ViSfr6g%3D%3D\"}]}",
+        "server": "cloudflare",
+        "server-timing": "cfCacheStatus;desc=\"HIT\"\ncfEdge;dur=33,cfOrigin;dur=0,cfWorker;dur=20",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY",
+        "x-release-commit": "695daaa31b57b6d3af261696644db2f80ef2e7ab"
+      }
+    },
+    {
+      "mode": "production",
+      "route": "/gallery/",
+      "width": 390,
+      "url": "https://makansedap.ismailstudio.my/gallery/",
+      "status": 200,
+      "headers": {
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "cache-control": "public, max-age=0, must-revalidate",
+        "cf-cache-status": "HIT",
+        "cf-ray": "a4d76f0dfdbe509a-HKG",
+        "content-encoding": "zstd",
+        "content-security-policy": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'none'; form-action 'none'; base-uri 'none'; frame-ancestors 'none'",
+        "content-type": "text/html",
+        "date": "Tue, 20 Oct 2026 10:45:35 GMT",
+        "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+        "permissions-policy": "camera=(), microphone=(), geolocation=(), payment=()",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=4N53PDM2Ou9zFW792ukTrWavIw49X9qGGXOytcGyH8nmb3DAX2M18yXCNQ46KW6vXFX9BY2I4wTFfD7fwzF1c7X5MaB%2FLRNn8aE7%2BVRmlwxYEnivLUfL2xwOWecYQo6wkwcUy580u%2Byl2DpNXc35Iyu0b5FDiRBJbA%3D%3D\"}]}",
+        "server": "cloudflare",
+        "server-timing": "cfCacheStatus;desc=\"HIT\"\ncfEdge;dur=63,cfOrigin;dur=0,cfWorker;dur=23",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY",
+        "x-release-commit": "695daaa31b57b6d3af261696644db2f80ef2e7ab"
+      }
+    },
+    {
+      "mode": "production",
+      "route": "/visit/",
+      "width": 390,
+      "url": "https://makansedap.ismailstudio.my/visit/",
+      "status": 200,
+      "headers": {
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "cache-control": "public, max-age=0, must-revalidate",
+        "cf-cache-status": "HIT",
+        "cf-ray": "a4d76f2d1c39515e-HKG",
+        "content-encoding": "zstd",
+        "content-security-policy": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'none'; form-action 'none'; base-uri 'none'; frame-ancestors 'none'",
+        "content-type": "text/html",
+        "date": "Tue, 20 Oct 2026 10:45:40 GMT",
+        "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+        "permissions-policy": "camera=(), microphone=(), geolocation=(), payment=()",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=WIJcNGpyESUnNkeGF13AGFtxwUbZetxFDkvUPkvBpe5jmCZkxnxLXIBYzPXXhi1KUFMds3Ykr8IAEf8oY7gSv5SL7x3JvkVkG9f6qbAdzWAM7GXq1kk4ymPZm8Y8j7adCmSWPFXOIe9dXdRtzJ4cy5TSaERYk%2B%2FDuQ%3D%3D\"}]}",
+        "server": "cloudflare",
+        "server-timing": "cfCacheStatus;desc=\"HIT\"\ncfEdge;dur=47,cfOrigin;dur=0,cfWorker;dur=22",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY",
+        "x-release-commit": "695daaa31b57b6d3af261696644db2f80ef2e7ab"
+      }
+    },
+    {
+      "mode": "production",
+      "route": "/",
+      "width": 1440,
+      "url": "https://makansedap.ismailstudio.my/",
+      "status": 200,
+      "headers": {
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "cache-control": "public, max-age=0, must-revalidate",
+        "cf-cache-status": "HIT",
+        "cf-ray": "a4d76f3a1d787be7-HKG",
+        "content-encoding": "zstd",
+        "content-security-policy": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'none'; form-action 'none'; base-uri 'none'; frame-ancestors 'none'",
+        "content-type": "text/html",
+        "date": "Tue, 20 Oct 2026 10:45:42 GMT",
+        "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+        "permissions-policy": "camera=(), microphone=(), geolocation=(), payment=()",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=bm8RTVSvkqeyTmLAjGv4hVgy7XFrWzE921MJPBNaZSHlSqTRn%2F3gs4fdMbFAp4c8O9HJeKLP3h4PtAUMwl04X4qfb2PQnjc7Fi5agCwSA8sZv3E8mG8t3RIhBXJ3bjZLZkXBfkJl64DDmfp8BeTOAh7Y8QHEe0G10g%3D%3D\"}]}",
+        "server": "cloudflare",
+        "server-timing": "cfCacheStatus;desc=\"HIT\"\ncfEdge;dur=48,cfOrigin;dur=0,cfWorker;dur=10",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY",
+        "x-release-commit": "695daaa31b57b6d3af261696644db2f80ef2e7ab"
+      }
+    },
+    {
+      "mode": "production",
+      "route": "/menu/",
+      "width": 1440,
+      "url": "https://makansedap.ismailstudio.my/menu/",
+      "status": 200,
+      "headers": {
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "cache-control": "public, max-age=0, must-revalidate",
+        "cf-cache-status": "HIT",
+        "cf-ray": "a4d76f5ac8a2e88a-HKG",
+        "content-encoding": "zstd",
+        "content-security-policy": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'none'; form-action 'none'; base-uri 'none'; frame-ancestors 'none'",
+        "content-type": "text/html",
+        "date": "Tue, 20 Oct 2026 10:45:47 GMT",
+        "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+        "permissions-policy": "camera=(), microphone=(), geolocation=(), payment=()",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=6nQBgzEDZ2KoPXXGfoZIj31fucRCWjMd8tCc9AAZwwPJxcqkgRWpd6cLSf7FeWEVIxCDDhqaxosVX9oOeBEEbu5gTCpNwdh8aDvolUNHsU0RwjzDJ0WduFrkkbFrG0icmLLDBMqmoHEq%2BRPgIIfD0RUCA9bUfVgZ4g%3D%3D\"}]}",
+        "server": "cloudflare",
+        "server-timing": "cfCacheStatus;desc=\"HIT\"\ncfEdge;dur=76,cfOrigin;dur=0,cfWorker;dur=15",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY",
+        "x-release-commit": "695daaa31b57b6d3af261696644db2f80ef2e7ab"
+      }
+    },
+    {
+      "mode": "production",
+      "route": "/story/",
+      "width": 1440,
+      "url": "https://makansedap.ismailstudio.my/story/",
+      "status": 200,
+      "headers": {
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "cache-control": "public, max-age=0, must-revalidate",
+        "cf-cache-status": "HIT",
+        "cf-ray": "a4d76f718a8a84ca-HKG",
+        "content-encoding": "zstd",
+        "content-security-policy": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'none'; form-action 'none'; base-uri 'none'; frame-ancestors 'none'",
+        "content-type": "text/html",
+        "date": "Tue, 20 Oct 2026 10:45:51 GMT",
+        "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+        "permissions-policy": "camera=(), microphone=(), geolocation=(), payment=()",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=BnWXcyc1%2FyqyPE2XY24%2BFLZyP34%2B9NaaJ9XKvOPbDV%2FFWUVTrjgUc37kLctZpS2vPfMWDo8b6id%2FYxHkYApWehdxGDdeeoPnIsjnlkJRYIpO6F2Y31eofyJrqWyNriMfQMbJ0k2Rxs4tjGl3AqV8O6zmx4k8ogaUBw%3D%3D\"}]}",
+        "server": "cloudflare",
+        "server-timing": "cfCacheStatus;desc=\"HIT\"\ncfEdge;dur=39,cfOrigin;dur=0,cfWorker;dur=15",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY",
+        "x-release-commit": "695daaa31b57b6d3af261696644db2f80ef2e7ab"
+      }
+    },
+    {
+      "mode": "production",
+      "route": "/gallery/",
+      "width": 1440,
+      "url": "https://makansedap.ismailstudio.my/gallery/",
+      "status": 200,
+      "headers": {
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "cache-control": "public, max-age=0, must-revalidate",
+        "cf-cache-status": "HIT",
+        "cf-ray": "a4d76f867d040725-HKG",
+        "content-encoding": "zstd",
+        "content-security-policy": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'none'; form-action 'none'; base-uri 'none'; frame-ancestors 'none'",
+        "content-type": "text/html",
+        "date": "Tue, 20 Oct 2026 10:45:54 GMT",
+        "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+        "permissions-policy": "camera=(), microphone=(), geolocation=(), payment=()",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=zBB72YQDdsXRTioHZ4xtQVr3CLga2kUUCDvUyrtlbuFMyszwhdmEXIIbRyl2Puuw5%2B9EclwnLDULVUmcUtvbCpRQb1PSdNCINIsS7oIsmSAtalNhnM6yFIOTC4hIblic7%2F3edM3mIa6pyV8xF7nSmmzUKTL4gZR9cw%3D%3D\"}]}",
+        "server": "cloudflare",
+        "server-timing": "cfCacheStatus;desc=\"HIT\"\ncfEdge;dur=31,cfOrigin;dur=0,cfWorker;dur=8",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY",
+        "x-release-commit": "695daaa31b57b6d3af261696644db2f80ef2e7ab"
+      }
+    },
+    {
+      "mode": "production",
+      "route": "/visit/",
+      "width": 1440,
+      "url": "https://makansedap.ismailstudio.my/visit/",
+      "status": 200,
+      "headers": {
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "cache-control": "public, max-age=0, must-revalidate",
+        "cf-cache-status": "HIT",
+        "cf-ray": "a4d76faf9e49e34d-HKG",
+        "content-encoding": "zstd",
+        "content-security-policy": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'none'; form-action 'none'; base-uri 'none'; frame-ancestors 'none'",
+        "content-type": "text/html",
+        "date": "Tue, 20 Oct 2026 10:46:00 GMT",
+        "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+        "permissions-policy": "camera=(), microphone=(), geolocation=(), payment=()",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=s3w%2BxOq2n7j7r3l2s%2FQjm9oSjUNhD9X0Ri8atdyH3Yp7OE6hwQOHc3rjk%2FYnDD29k8JiKG6Ga%2BmtxQSCgXjVIcGilGU%2FyhYqdsa4ncU2tovGzm1LyCjRniKfY0OulSkPt8EWo14AeWZ0WztTXDTuGEwclVJq%2FPpekg%3D%3D\"}]}",
+        "server": "cloudflare",
+        "server-timing": "cfCacheStatus;desc=\"HIT\"\ncfEdge;dur=27,cfOrigin;dur=0,cfWorker;dur=11",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY",
+        "x-release-commit": "695daaa31b57b6d3af261696644db2f80ef2e7ab"
+      }
+    }
+  ],
+  "studio": {
+    "status": 200,
+    "hasExactEnquiry": true
+  }
+}
